@@ -1,0 +1,75 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "core",
+  "dataset_name": "prompt-injection-dataset",
+  "dataset_size": 1484759,
+  "description": "",
+  "download_size": 574544,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "int32",
+      "_type": "Value"
+    },
+    "category": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "severity": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "group_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "augmented": {
+      "dtype": "bool",
+      "_type": "Value"
+    },
+    "tags": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 2059303,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1034439,
+      "num_examples": 4391,
+      "dataset_name": "prompt-injection-dataset"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 224426,
+      "num_examples": 941,
+      "dataset_name": "prompt-injection-dataset"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 225894,
+      "num_examples": 942,
+      "dataset_name": "prompt-injection-dataset"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

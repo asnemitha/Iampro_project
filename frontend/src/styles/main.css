@@ -1,0 +1,116 @@
+body{
+    margin:0;
+    font-family:Segoe UI,Arial,sans-serif;
+    background:#edf2f7;
+}
+
+.navbar{
+    background:#0f172a;
+    color:white;
+    padding:20px 40px;
+    box-shadow:0 3px 8px rgba(0,0,0,.2);
+}
+
+.navbar h1{
+    margin:0;
+    font-size:34px;
+}
+
+.navbar p{
+    margin-top:5px;
+    color:#cbd5e1;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:38% 62%;
+    gap:25px;
+    padding:30px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:20px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    margin-bottom:20px;
+}
+
+textarea{
+    width:100%;
+    border:1px solid #d1d5db;
+    border-radius:8px;
+    padding:12px;
+    font-size:15px;
+    resize:vertical;
+}
+
+button{
+    margin-top:15px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 24px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+button:disabled{
+    opacity:.6;
+}
+
+.green{
+    color:#16a34a;
+}
+
+.orange{
+    color:#ea580c;
+}
+
+.red{
+    color:#dc2626;
+}
+
+pre{
+    white-space:pre-wrap;
+    word-wrap:break-word;
+    background:#f8fafc;
+    padding:15px;
+    border-radius:8px;
+}
+
+.citation-card{
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:15px;
+    margin-top:20px;
+    background:#fafafa;
+}
+
+.good{
+    color:#16a34a;
+    font-weight:bold;
+}
+
+.medium{
+    color:#ea580c;
+    font-weight:bold;
+}
+
+.bad{
+    color:#dc2626;
+    font-weight:bold;
+}
+
+ul{
+    margin-left:20px;
+}
+
+hr{
+    margin:15px 0;
+}
