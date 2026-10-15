@@ -4,6 +4,8 @@ from app.services.candidate_ranker import rank_candidates
 from app.services.citation_extractor import extract_citations
 from app.services.citation_parser import parse_citation
 from app.services.citation_formatter import format_ieee
+from app.services.prompt_consistency_service import check_prompt_consistency
+from app.services.metadata_normalizer import canonicalize_verified_metadata
 
 from app.services.crossref_service import (
     verify_doi,
@@ -13,11 +15,21 @@ from app.services.similarity_service import (
     compare_titles,
     compare_authors,
     compare_year,
+    compare_venues,
+    compare_dois,
     hallucination_score,
 )
 
+def _safe_print(text):
+    try:
+        print(text)
+    except UnicodeEncodeError:
+        try:
+            print(str(text).encode("ascii", "replace").decode())
+        except Exception:
+            pass
 
-def verify_response(llm_response: str):
+def verify_response(llm_response: str, use_author_fix: bool = False, use_venue_fix: bool = False, user_prompt: str = None, venue_threshold: float = 70.0):
     """
     Main citation verification pipeline.
 
@@ -55,41 +67,42 @@ def verify_response(llm_response: str):
         print("=" * 80)
         print(f"CITATION {index}")
         print("=" * 80)
-        print(citation)
+        _safe_print(citation)
 
         parsed = parse_citation(citation)
 
         print("\nPARSED METADATA")
-        print(parsed)
+        _safe_print(parsed)
 
         paper = None
         ranking_details = None
 
-                # =====================================================
+        # =====================================================
         # STEP 1
         # Verify DOI
         # =====================================================
 
+        doi_paper = None
         if parsed["doi"]:
 
             print("\nSearching by DOI...")
             print(parsed["doi"])
 
-            paper = verify_doi(parsed["doi"])
+            doi_paper = verify_doi(parsed["doi"])
 
-            if paper:
+            if doi_paper:
 
                 print("\nDOI Candidate")
                 print("-----------------------------")
-                print("Title :", paper["title"])
-                print("Source: Crossref")
+                _safe_print(f"Title : {doi_paper.get('title')}")
+                print("Source:", doi_paper.get("source", "Crossref"))
 
-                # Reject incorrect DOI if title does not match
+                # Check if DOI candidate matches title or is corroborated by authors and metadata
                 if parsed["title"]:
 
                     title_similarity = compare_titles(
                         parsed["title"],
-                        paper["title"]
+                        doi_paper["title"]
                     )["score"]
 
                     print(
@@ -97,13 +110,38 @@ def verify_response(llm_response: str):
                         round(title_similarity, 2)
                     )
 
-                    if title_similarity < 90:
+                    author_sim = compare_authors(
+                        parsed.get("authors"),
+                        doi_paper.get("authors")
+                    ) if (parsed.get("authors") and doi_paper.get("authors")) else 0.0
 
+                    year_sim = compare_year(
+                        parsed.get("year"),
+                        doi_paper.get("year"),
+                        doi_paper.get("alternate_years")
+                    ) if parsed.get("year") else True
+
+                    venue_match, _ = compare_venues(
+                        parsed.get("venue"),
+                        doi_paper.get("venue"),
+                        use_venue_fix=use_venue_fix,
+                        threshold=venue_threshold,
+                    ) if parsed.get("venue") else (True, 100.0)
+
+                    if title_similarity >= 75:
+                        paper = doi_paper
+                    elif author_sim >= 70 and (year_sim or venue_match) and title_similarity >= 40:
+                        print(
+                            "DOI corroborated by authors, metadata, and partial title match."
+                        )
+                        paper = doi_paper
+                    else:
                         print(
                             "DOI belongs to another paper."
                         )
-
                         paper = None
+                else:
+                    paper = doi_paper
 
         # =====================================================
         # STEP 2
@@ -115,8 +153,15 @@ def verify_response(llm_response: str):
             print("\nSearching Multiple Sources...")
 
             candidates = retrieve_candidates(
-                parsed["title"]
+                parsed["title"],
+                authors=parsed.get("authors"),
+                year=parsed.get("year"),
+                doi=parsed.get("doi"),
             )
+
+            # Include doi_paper in candidates pool if verified and not already present
+            if doi_paper and not any(compare_dois(c.get("doi"), doi_paper.get("doi")) for c in candidates):
+                candidates.append(doi_paper)
 
             print(
                 "Retrieved Candidates:",
@@ -124,62 +169,83 @@ def verify_response(llm_response: str):
             )
 
             for candidate in candidates[:5]:
-
                 print("----------------------------")
-
-                print(
-                    candidate.get("title")
-                )
-
+                _safe_print(candidate.get("title"))
                 print(
                     "Source:",
-                    candidate.get(
-                        "source",
-                        "Unknown"
-                    )
+                    candidate.get("source", "Unknown")
+                )
+
+            import re
+            prefers_original = False
+            if user_prompt:
+                prefers_original = bool(
+                    re.search(r"\boriginal\s+(?:paper|publication|work|version|article)\b", user_prompt, re.IGNORECASE)
                 )
 
             ranked = rank_candidates(
                 parsed,
-                candidates
+                candidates,
+                use_venue_fix=use_venue_fix,
+                prefers_original=prefers_original,
+                venue_threshold=venue_threshold,
             )
 
             if ranked:
+                cand_title_score = ranked[0]["title_score"]
+                cand_author_score = ranked[0]["author_score"]
+                cand_year_match = ranked[0]["year_score"] == 100
+                cand_venue_match = ranked[0]["venue_score"] >= 80
+                cand_doi_match = ranked[0]["doi_score"] == 100
+                top_cand = ranked[0]["paper"]
+                cand_has_authors = bool(top_cand.get("authors") and len(top_cand["authors"]) > 0)
+                parsed_has_authors = bool(parsed.get("authors") and len(parsed["authors"]) > 0)
 
-                ranking_details = ranked[0]
-
-                paper = ranking_details["paper"]
-
-                print("\nBEST MATCH")
-                print("----------------------------")
-                print(
-                    paper["title"]
+                is_candidate_viable = (
+                    (cand_title_score >= 80 and (not parsed_has_authors or cand_has_authors or cand_doi_match))
+                    or (cand_title_score >= 70 and cand_author_score >= 60 and (cand_year_match or cand_venue_match))
+                    or (cand_author_score >= 60 and cand_doi_match)
+                    or (cand_doi_match and (cand_year_match or cand_venue_match))
                 )
-
-                print(
-                    "Source:",
-                    paper.get(
-                        "source",
-                        "Unknown"
+                if is_candidate_viable:
+                    ranking_details = ranked[0]
+                    paper = ranking_details["paper"]
+                    print("\nBEST MATCH")
+                    print("----------------------------")
+                    _safe_print(paper.get("title"))
+                    print(
+                        "Source:",
+                        paper.get(
+                            "source",
+                            "Unknown"
+                        )
                     )
-                )
-
-                print(
-                    "Ranking Score:",
-                    ranking_details[
-                        "final_score"
-                    ]
-                )
-
+                    print(
+                        "Ranking Score:",
+                        ranking_details[
+                            "final_score"
+                        ]
+                    )
+                else:
+                    paper = None
+                    ranking_details = None
+                    print(
+                        "\nCandidate does not meet existence criteria."
+                    )
             else:
-
                 paper = None
-
+                ranking_details = None
                 print(
                     "\nNo suitable paper found."
                 )
 
-                    # =====================================================
+        # Fallback to verified DOI paper if multi-source retrieval did not find a paper
+        # (DOI-first verification: DOI resolved to an authoritative scholarly paper, but title was hallucinated/mismatched)
+        if paper is None and doi_paper is not None:
+            paper = doi_paper
+            print("\nRetained verified paper from authoritative DOI lookup.")
+
+        # =====================================================
         # STEP 3
         # No Paper Found
         # =====================================================
@@ -188,6 +254,12 @@ def verify_response(llm_response: str):
 
             print("\nNO MATCH FOUND")
             print("=" * 80)
+
+            prompt_consistency = (
+                check_prompt_consistency(user_prompt, parsed, matched_paper=None)
+                if user_prompt
+                else None
+            )
 
             results.append({
 
@@ -227,9 +299,13 @@ def verify_response(llm_response: str):
 
                 "hallucination_score": 100,
 
-                "confidence": "Citation Not Verified",
+                "confidence": "High Risk of Hallucination",
 
                 "corrected_citation": None,
+
+                "reason": ["Paper could not be verified in scholarly databases."],
+
+                "prompt_consistency": prompt_consistency,
 
             })
 
@@ -240,99 +316,43 @@ def verify_response(llm_response: str):
         # Similarity Calculation
         # =====================================================
 
+        title = compare_titles(
+            parsed["title"],
+            paper.get("title")
+        )
+
+        author_score = compare_authors(
+            parsed.get("authors"),
+            paper.get("authors")
+        )
+
+        year_match = compare_year(
+            parsed.get("year"),
+            paper.get("year"),
+            paper.get("alternate_years")
+        )
+
+        venue_match, venue_sim = compare_venues(
+            parsed.get("venue"),
+            paper.get("venue"),
+            use_venue_fix=use_venue_fix,
+            threshold=venue_threshold,
+        )
+
+        doi_match = compare_dois(
+            parsed.get("doi"),
+            paper.get("doi")
+        )
+
         if ranking_details:
-
-            title = {
-
-                "score": ranking_details["title_score"]
-
-            }
-
-            author_score = ranking_details["author_score"]
-
-            year_match = (
-
-                ranking_details["year_score"] == 100
-
-            )
-
-            venue_match = (
-
-                ranking_details["venue_score"] >= 80
-
-            )
-
             overall_score = ranking_details["final_score"]
-
         else:
-
-            title = compare_titles(
-
-                parsed["title"],
-
-                paper["title"]
-
-            )
-
-            author_score = compare_authors(
-
-                parsed["authors"],
-
-                paper["authors"]
-
-            )
-
-            year_match = compare_year(
-
-                parsed["year"],
-
-                paper["year"]
-
-            )
-
-            venue_match = False
-
-            if parsed["venue"] and paper["venue"]:
-
-                venue_match = (
-
-                    parsed["venue"].strip().lower()
-
-                    ==
-
-                    paper["venue"].strip().lower()
-
-                )
-
             overall_score = (
-
                 title["score"] * 0.40 +
-
-                author_score * 0.20 +
-
-                (100 if year_match else 0) * 0.10 +
-
-                (100 if venue_match else 0) * 0.10
-
-            )
-
-        # =====================================================
-        # STEP 5
-        # DOI Match
-        # =====================================================
-
-        doi_match = False
-
-        if parsed["doi"] and paper["doi"]:
-
-            doi_match = (
-
-                parsed["doi"].strip().lower()
-
-                ==
-
-                paper["doi"].strip().lower()
-
+                author_score * 0.25 +
+                (100 if year_match else 0) * 0.15 +
+                (venue_sim if venue_match else 0) * 0.10 +
+                (100 if doi_match else 0) * 0.10
             )
 
         print("\nVERIFICATION")
@@ -368,17 +388,15 @@ def verify_response(llm_response: str):
             round(overall_score, 2)
         )
 
-                # =====================================================
+        # =====================================================
         # STEP 6
         # Paper Existence
         # =====================================================
 
         paper_exists = (
             title["score"] >= 80
-            or
-            (title["score"] >= 70 and author_score >= 40)
-            or
-            doi_match
+            or (title["score"] >= 70 and author_score >= 60 and (year_match or venue_match))
+            or doi_match
         )
 
         # =====================================================
@@ -386,14 +404,38 @@ def verify_response(llm_response: str):
         # Citation Accuracy
         # =====================================================
 
+        title_check = title["score"] >= 80
+        if use_author_fix:
+            author_check = (author_score >= 70) if (parsed.get("authors") and len(parsed["authors"]) > 0) else True
+        else:
+            author_check = True
+        year_check = year_match if parsed.get("year") else True
+        venue_check = venue_match if parsed.get("venue") else True
+
+        if parsed.get("doi"):
+            if doi_match:
+                doi_check = True
+            elif str(parsed["doi"]).strip().lower().replace("https://doi.org/", "").replace("http://doi.org/", "").replace("doi:", "").startswith("10.5555/"):
+                target_venue = str(paper.get("venue") or parsed.get("venue") or "").lower()
+                doi_check = any(v in target_venue for v in ["nips", "neurips", "acm"])
+            elif not paper.get("doi"):
+                # If the supplied DOI actually resolved to a completely different paper in Crossref, it is a DOI mismatch
+                if doi_paper and compare_titles(parsed.get("title"), doi_paper.get("title"))["score"] < 70 and compare_authors(parsed.get("authors"), doi_paper.get("authors")) < 60:
+                    doi_check = False
+                else:
+                    doi_check = True
+            else:
+                doi_check = False
+        else:
+            doi_check = True
+
         citation_accurate = (
             paper_exists
-            and
-            (doi_match if parsed["doi"] else True)
-            and
-            year_match
-            and
-            venue_match
+            and title_check
+            and author_check
+            and year_check
+            and venue_check
+            and doi_check
         )
 
         # =====================================================
@@ -403,37 +445,20 @@ def verify_response(llm_response: str):
 
         metadata_errors = []
 
-        if title["score"] < 92:
+        if parsed.get("title") and not title_check:
+            metadata_errors.append("Paper title mismatch")
 
-            metadata_errors.append(
-                "Paper title mismatch"
-            )
+        if parsed.get("authors") and author_score < 70:
+            metadata_errors.append("Author mismatch")
 
-        if author_score < 70:
+        if parsed.get("year") and not year_check:
+            metadata_errors.append("Publication year mismatch")
 
-            metadata_errors.append(
-                "Author mismatch"
-            )
+        if parsed.get("venue") and not venue_check:
+            metadata_errors.append("Venue mismatch")
 
-        if not year_match:
-
-            metadata_errors.append(
-                "Publication year mismatch"
-            )
-
-        if not venue_match:
-
-            metadata_errors.append(
-                "Venue mismatch"
-            )
-
-        if parsed["doi"]:
-
-            if not doi_match:
-
-                metadata_errors.append(
-                    "DOI mismatch"
-                )
+        if parsed.get("doi") and not doi_check:
+            metadata_errors.append("DOI mismatch")
 
         # =====================================================
         # STEP 9
@@ -441,41 +466,33 @@ def verify_response(llm_response: str):
         # =====================================================
 
         if not paper_exists:
-
-            hallucination_type = (
-                "Fabricated Citation"
-            )
-
+            hallucination_type = "Fabricated Citation"
         elif citation_accurate:
-
-            hallucination_type = (
-                "Verified Citation"
-            )
-
+            hallucination_type = "Valid Citation"
         else:
-
-            hallucination_type = (
-                "Metadata Hallucination"
-            )
+            hallucination_type = "Metadata Hallucination"
 
         # =====================================================
         # STEP 10
         # Hallucination Score
         # =====================================================
 
-        score = hallucination_score(
-
-            title_score=title["score"],
-
-            author_score=author_score,
-
-            year_match=year_match,
-
-            doi_match=doi_match,
-
-            venue_match=venue_match,
-
-        )
+        if citation_accurate:
+            score = 0
+        elif not paper_exists:
+            score = 100
+        else:
+            score = hallucination_score(
+                title_score=title["score"],
+                author_score=author_score,
+                year_match=year_match,
+                doi_match=doi_check,
+                venue_match=venue_match,
+                doi_provided=bool(parsed.get("doi")),
+                venue_provided=bool(parsed.get("venue")),
+                year_provided=bool(parsed.get("year")),
+                citation_accurate=citation_accurate,
+            )
 
         # =====================================================
         # STEP 11
@@ -483,22 +500,11 @@ def verify_response(llm_response: str):
         # =====================================================
 
         if citation_accurate:
-
-            confidence = (
-                "Verified Citation"
-            )
-
+            confidence = "Verified Citation"
         elif paper_exists:
-
-            confidence = (
-                "Paper Exists but Citation Contains Errors"
-            )
-
+            confidence = "Paper Exists but Citation Contains Errors"
         else:
-
-            confidence = (
-                "High Risk of Hallucination"
-            )
+            confidence = "High Risk of Hallucination"
 
         print("\nFINAL RESULT")
         print("----------------------------")
@@ -530,97 +536,68 @@ def verify_response(llm_response: str):
 
         print("=" * 80)
 
-                # =====================================================
+        # =====================================================
         # STEP 12
         # Generate Corrected Citation
+        # (ONLY for inaccurate citations where paper exists)
         # =====================================================
 
+        canonical_meta = canonicalize_verified_metadata(paper, parsed_citation=parsed)
         corrected = None
 
         if not citation_accurate and paper_exists:
-
-            corrected = format_ieee(paper)
+            corrected = format_ieee(canonical_meta)
 
         # =====================================================
         # STEP 13
-        # Build Human Readable Reasons
+        # Build Human Readable Reasons & Prompt Consistency
         # =====================================================
+
+        prompt_consistency = (
+            check_prompt_consistency(user_prompt, parsed, matched_paper=paper)
+            if user_prompt
+            else None
+        )
 
         reasons = []
 
         if paper_exists:
-
-            reasons.append(
-                "Paper found in scholarly databases."
-            )
-
+            reasons.append("Paper found in scholarly databases.")
         else:
+            reasons.append("Paper could not be verified.")
 
-            reasons.append(
-                "Paper could not be verified."
-            )
-
-        if title["score"] >= 92:
-
-            reasons.append(
-                "Paper title matches."
-            )
-
-        else:
-
-            reasons.append(
-                "Paper title differs."
-            )
-
-        if author_score >= 70:
-
-            reasons.append(
-                "Authors match."
-            )
-
-        else:
-
-            reasons.append(
-                "Authors differ."
-            )
-
-        if year_match:
-
-            reasons.append(
-                "Publication year matches."
-            )
-
-        else:
-
-            reasons.append(
-                "Publication year differs."
-            )
-
-        if parsed["doi"]:
-
-            if doi_match:
-
-                reasons.append(
-                    "DOI verified."
-                )
-
+        if parsed.get("title"):
+            if title_check:
+                reasons.append("Paper title matches.")
             else:
+                reasons.append("Paper title differs.")
 
-                reasons.append(
-                    "DOI differs."
-                )
+        if parsed.get("authors"):
+            if author_score >= 70:
+                if prompt_consistency and not prompt_consistency.get("matches", True) and "authors" in prompt_consistency.get("mismatched_fields", []):
+                    reasons.append("Authors match scholarly database record (note: differs from authors requested in prompt).")
+                else:
+                    reasons.append("Authors match.")
+            else:
+                reasons.append("Authors differ.")
 
-        if venue_match:
+        if parsed.get("year"):
+            if year_check:
+                reasons.append("Publication year matches.")
+            else:
+                reasons.append("Publication year differs.")
 
-            reasons.append(
-                "Venue matches."
-            )
+        if parsed.get("doi"):
+            if doi_check:
+                reasons.append("DOI verified.")
+            else:
+                reasons.append("DOI differs.")
 
-        else:
-
-            reasons.append(
-                "Venue differs."
-            )
+        if parsed.get("venue"):
+            if venue_check:
+                reasons.append("Venue matches.")
+            else:
+                reasons.append("Venue differs.")
 
         # =====================================================
         # STEP 14
@@ -643,15 +620,15 @@ def verify_response(llm_response: str):
 
             "metadata_errors": metadata_errors,
 
-            "matched_title": paper.get("title"),
+            "matched_title": canonical_meta.get("title") or paper.get("title"),
 
-            "matched_authors": paper.get("authors"),
+            "matched_authors": canonical_meta.get("authors") or paper.get("authors"),
 
-            "matched_year": paper.get("year"),
+            "matched_year": canonical_meta.get("year") or paper.get("year"),
 
-            "matched_venue": paper.get("venue"),
+            "matched_venue": canonical_meta.get("venue") or paper.get("venue"),
 
-            "matched_doi": paper.get("doi"),
+            "matched_doi": canonical_meta.get("doi") or paper.get("doi"),
 
             "candidate_score": round(
                 overall_score,
@@ -677,6 +654,8 @@ def verify_response(llm_response: str):
             "hallucination_score": score,
 
             "corrected_citation": corrected,
+
+            "prompt_consistency": prompt_consistency,
 
         })
 
