@@ -1,0 +1,424 @@
+{
+  "summary": {
+    "baseline": {
+      "accuracy": 57.49999999999999,
+      "far": 85.0,
+      "frr": 0.0,
+      "tp": 20,
+      "tn": 3,
+      "fp": 17,
+      "fn": 0
+    },
+    "venue_fix": {
+      "accuracy": 95.0,
+      "far": 5.0,
+      "frr": 5.0,
+      "tp": 19,
+      "tn": 19,
+      "fp": 1,
+      "fn": 1
+    }
+  },
+  "detailed_pairs": [
+    {
+      "v1": "NeurIPS",
+      "v2": "Advances in Neural Information Processing Systems",
+      "target_match": true,
+      "category": "acronym_expansion",
+      "base_match": true,
+      "base_score": 100.0,
+      "fix_match": true,
+      "fix_score": 100.0
+    },
+    {
+      "v1": "ICML",
+      "v2": "International Conference on Machine Learning",
+      "target_match": true,
+      "category": "acronym_expansion",
+      "base_match": true,
+      "base_score": 100.0,
+      "fix_match": true,
+      "fix_score": 100.0
+    },
+    {
+      "v1": "CVPR",
+      "v2": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "target_match": true,
+      "category": "acronym_expansion",
+      "base_match": true,
+      "base_score": 100.0,
+      "fix_match": true,
+      "fix_score": 100.0
+    },
+    {
+      "v1": "ICLR",
+      "v2": "International Conference on Learning Representations",
+      "target_match": true,
+      "category": "acronym_expansion",
+      "base_match": true,
+      "base_score": 100.0,
+      "fix_match": true,
+      "fix_score": 100.0
+    },
+    {
+      "v1": "AAAI",
+      "v2": "AAAI Conference on Artificial Intelligence",
+      "target_match": true,
+      "category": "acronym_expansion",
+      "base_match": true,
+      "base_score": 100.0,
+      "fix_match": true,
+      "fix_score": 100.0
+    },
+    {
+      "v1": "EMNLP",
+      "v2": "Empirical Methods in Natural Language Processing",
+      "target_match": true,
+      "category": "acronym_expansion",
+      "base_match": true,
+      "base_score": 100.0,
+      "fix_match": true,
+      "fix_score": 100.0
+    },
+    {
+      "v1": "ACL",
+      "v2": "Association for Computational Linguistics",
+      "target_match": true,
+      "category": "acronym_expansion",
+      "base_match": true,
+      "base_score": 100.0,
+      "fix_match": true,
+      "fix_score": 100.0
+    },
+    {
+      "v1": "Journal of Machine Learning Research",
+      "v2": "journal of machine learning research.",
+      "target_match": true,
+      "category": "case_punctuation",
+      "base_match": true,
+      "base_score": 100.0,
+      "fix_match": true,
+      "fix_score": 100.0
+    },
+    {
+      "v1": "Nature Chemistry: Volume 3",
+      "v2": "Nature Chemistry",
+      "target_match": true,
+      "category": "volume_prefix_normalization",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": true,
+      "fix_score": 94.11764705882352
+    },
+    {
+      "v1": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+      "v2": "IEEE Conference on Computer Vision and Pattern Recognition",
+      "target_match": true,
+      "category": "proceedings_prefix",
+      "base_match": true,
+      "base_score": 100.0,
+      "fix_match": true,
+      "fix_score": 100.0
+    },
+    {
+      "v1": "Transactions on Pattern Analysis and Machine Intelligence",
+      "v2": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "target_match": true,
+      "category": "publisher_prefix",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": true,
+      "fix_score": 94.25287356321839
+    },
+    {
+      "v1": "arXiv preprint arXiv:2103.00020",
+      "v2": "arXiv",
+      "target_match": true,
+      "category": "arxiv_variant",
+      "base_match": true,
+      "base_score": 100.0,
+      "fix_match": true,
+      "fix_score": 100.0
+    },
+    {
+      "v1": "Cornell University Library (arXiv)",
+      "v2": "arXiv:1706.03762",
+      "target_match": true,
+      "category": "arxiv_variant",
+      "base_match": true,
+      "base_score": 100.0,
+      "fix_match": true,
+      "fix_score": 100.0
+    },
+    {
+      "v1": "Communications of the ACM",
+      "v2": "CACM",
+      "target_match": true,
+      "category": "acronym_expansion",
+      "base_match": true,
+      "base_score": 100.0,
+      "fix_match": true,
+      "fix_score": 100.0
+    },
+    {
+      "v1": "PNAS",
+      "v2": "Proceedings of the National Academy of Sciences",
+      "target_match": true,
+      "category": "acronym_expansion",
+      "base_match": true,
+      "base_score": 100.0,
+      "fix_match": true,
+      "fix_score": 100.0
+    },
+    {
+      "v1": "Artificial Intelligence",
+      "v2": "Artificial Intelligence (AIJ)",
+      "target_match": true,
+      "category": "acronym_parenthesis",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": true,
+      "fix_score": 92.0
+    },
+    {
+      "v1": "Machine Learning",
+      "v2": "Machine Learning Journal",
+      "target_match": true,
+      "category": "journal_suffix",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": true,
+      "fix_score": 80.0
+    },
+    {
+      "v1": "Data Mining and Knowledge Discovery",
+      "v2": "Data mining and knowledge discovery",
+      "target_match": true,
+      "category": "case_normalization",
+      "base_match": true,
+      "base_score": 100.0,
+      "fix_match": true,
+      "fix_score": 100.0
+    },
+    {
+      "v1": "ACM Transactions on Graphics",
+      "v2": "Transactions on Graphics (TOG)",
+      "target_match": true,
+      "category": "acronym_parenthesis",
+      "base_match": true,
+      "base_score": 80.0,
+      "fix_match": false,
+      "fix_score": 66.66666666666667
+    },
+    {
+      "v1": "IEEE Robotics and Automation Letters",
+      "v2": "Robotics and Automation Letters",
+      "target_match": true,
+      "category": "publisher_prefix",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": true,
+      "fix_score": 92.53731343283582
+    },
+    {
+      "v1": "Deep Learning",
+      "v2": "Mathematical Foundations for Deep Learning",
+      "target_match": false,
+      "category": "subset_broadening",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": false,
+      "fix_score": 47.27272727272728
+    },
+    {
+      "v1": "Machine Learning with Applications",
+      "v2": "Machine Learning",
+      "target_match": false,
+      "category": "distinct_spinoff_journal",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": false,
+      "fix_score": 64.0
+    },
+    {
+      "v1": "Nature",
+      "v2": "Nature Machine Intelligence",
+      "target_match": false,
+      "category": "distinct_sister_journal",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": false,
+      "fix_score": 36.36363636363637
+    },
+    {
+      "v1": "Nature",
+      "v2": "Nature Chemistry",
+      "target_match": false,
+      "category": "distinct_sister_journal",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": false,
+      "fix_score": 54.54545454545454
+    },
+    {
+      "v1": "Artificial Intelligence",
+      "v2": "Artificial Intelligence and Digital Development",
+      "target_match": false,
+      "category": "subset_broadening",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": false,
+      "fix_score": 65.71428571428571
+    },
+    {
+      "v1": "Computer Vision and Image Understanding",
+      "v2": "Series in Computer Vision",
+      "target_match": false,
+      "category": "book_series_vs_journal",
+      "base_match": true,
+      "base_score": 75.0,
+      "fix_match": false,
+      "fix_score": 65.625
+    },
+    {
+      "v1": "Natural Language Processing",
+      "v2": "International Conference on Natural Language Processing and Knowledge Engineering",
+      "target_match": false,
+      "category": "subset_broadening",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": false,
+      "fix_score": 67.5
+    },
+    {
+      "v1": "Deep Learning Pipeline",
+      "v2": "Hands-on Deep Learning",
+      "target_match": false,
+      "category": "distinct_book_title",
+      "base_match": true,
+      "base_score": 74.28571428571428,
+      "fix_match": false,
+      "fix_score": 68.18181818181819
+    },
+    {
+      "v1": "Machine Learning",
+      "v2": "Fundamentals of Machine Learning",
+      "target_match": false,
+      "category": "distinct_book_title",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": false,
+      "fix_score": 66.66666666666667
+    },
+    {
+      "v1": "ICML",
+      "v2": "NeurIPS",
+      "target_match": false,
+      "category": "different_top_conference",
+      "base_match": false,
+      "base_score": 18.181818181818187,
+      "fix_match": false,
+      "fix_score": 18.181818181818176
+    },
+    {
+      "v1": "CVPR",
+      "v2": "ICCV",
+      "target_match": false,
+      "category": "different_top_conference",
+      "base_match": false,
+      "base_score": 50.0,
+      "fix_match": false,
+      "fix_score": 50.0
+    },
+    {
+      "v1": "IEEE Transactions on Information Theory",
+      "v2": "IEEE Transactions on Communications",
+      "target_match": false,
+      "category": "different_ieee_transactions",
+      "base_match": false,
+      "base_score": 57.142857142857146,
+      "fix_match": false,
+      "fix_score": 42.85714285714286
+    },
+    {
+      "v1": "Journal of Artificial Intelligence Research",
+      "v2": "Artificial Intelligence",
+      "target_match": false,
+      "category": "different_competing_journal",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": true,
+      "fix_score": 83.63636363636364
+    },
+    {
+      "v1": "Bioinformatics",
+      "v2": "Briefings in Bioinformatics",
+      "target_match": false,
+      "category": "different_competing_journal",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": false,
+      "fix_score": 68.29268292682926
+    },
+    {
+      "v1": "IEEE Transactions on Neural Networks",
+      "v2": "IEEE Transactions on Neural Networks and Learning Systems",
+      "target_match": false,
+      "category": "successor_journal_different_scope",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": false,
+      "fix_score": 65.57377049180329
+    },
+    {
+      "v1": "Soft Computing and Machine Learning",
+      "v2": "Machine Learning",
+      "target_match": false,
+      "category": "subset_broadening",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": false,
+      "fix_score": 62.745098039215684
+    },
+    {
+      "v1": "Quantum Machine Learning",
+      "v2": "Soft Computing and Machine Learning",
+      "target_match": false,
+      "category": "distinct_topic_venue",
+      "base_match": true,
+      "base_score": 80.0,
+      "fix_match": false,
+      "fix_score": 61.01694915254237
+    },
+    {
+      "v1": "Building Scalable Deep Learning Pipelines on AWS",
+      "v2": "Deep Learning",
+      "target_match": false,
+      "category": "subset_broadening",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": false,
+      "fix_score": 42.622950819672134
+    },
+    {
+      "v1": "Automated Machine Learning for Business",
+      "v2": "Machine Learning",
+      "target_match": false,
+      "category": "subset_broadening",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": false,
+      "fix_score": 58.18181818181818
+    },
+    {
+      "v1": "Applications of Artificial Intelligence in Chemistry",
+      "v2": "Artificial Intelligence",
+      "target_match": false,
+      "category": "subset_broadening",
+      "base_match": true,
+      "base_score": 95.0,
+      "fix_match": false,
+      "fix_score": 61.33333333333333
+    }
+  ]
+}

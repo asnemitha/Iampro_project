@@ -1,0 +1,236 @@
+{
+  "threshold_results": {
+    "60": {
+      "CiteGuard + Venue Fix": {
+        "metrics": {
+          "tp": 367,
+          "tn": 93,
+          "fp": 7,
+          "fn": 133,
+          "acc": 0.7666666666666667,
+          "p": 0.9812834224598931,
+          "r": 0.734,
+          "f1": 0.8398169336384439
+        },
+        "categories": {
+          "wrong_year": "100/100",
+          "corrupted_authors": "7/100",
+          "valid": "93/100",
+          "plausible_fabricated": "100/100",
+          "doi_mismatch": "99/100",
+          "wrong_venue": "61/100"
+        }
+      },
+      "CiteGuard + Author + Venue Fix": {
+        "metrics": {
+          "tp": 451,
+          "tn": 93,
+          "fp": 7,
+          "fn": 49,
+          "acc": 0.9066666666666666,
+          "p": 0.9847161572052402,
+          "r": 0.902,
+          "f1": 0.941544885177453
+        },
+        "categories": {
+          "wrong_year": "100/100",
+          "corrupted_authors": "91/100",
+          "valid": "93/100",
+          "plausible_fabricated": "100/100",
+          "doi_mismatch": "99/100",
+          "wrong_venue": "61/100"
+        }
+      }
+    },
+    "65": {
+      "CiteGuard + Venue Fix": {
+        "metrics": {
+          "tp": 367,
+          "tn": 93,
+          "fp": 7,
+          "fn": 133,
+          "acc": 0.7666666666666667,
+          "p": 0.9812834224598931,
+          "r": 0.734,
+          "f1": 0.8398169336384439
+        },
+        "categories": {
+          "wrong_year": "100/100",
+          "corrupted_authors": "7/100",
+          "valid": "93/100",
+          "plausible_fabricated": "100/100",
+          "doi_mismatch": "99/100",
+          "wrong_venue": "61/100"
+        }
+      },
+      "CiteGuard + Author + Venue Fix": {
+        "metrics": {
+          "tp": 451,
+          "tn": 93,
+          "fp": 7,
+          "fn": 49,
+          "acc": 0.9066666666666666,
+          "p": 0.9847161572052402,
+          "r": 0.902,
+          "f1": 0.941544885177453
+        },
+        "categories": {
+          "wrong_year": "100/100",
+          "corrupted_authors": "91/100",
+          "valid": "93/100",
+          "plausible_fabricated": "100/100",
+          "doi_mismatch": "99/100",
+          "wrong_venue": "61/100"
+        }
+      }
+    },
+    "70": {
+      "CiteGuard + Venue Fix": {
+        "metrics": {
+          "tp": 367,
+          "tn": 93,
+          "fp": 7,
+          "fn": 133,
+          "acc": 0.7666666666666667,
+          "p": 0.9812834224598931,
+          "r": 0.734,
+          "f1": 0.8398169336384439
+        },
+        "categories": {
+          "wrong_year": "100/100",
+          "corrupted_authors": "7/100",
+          "valid": "93/100",
+          "plausible_fabricated": "100/100",
+          "doi_mismatch": "99/100",
+          "wrong_venue": "61/100"
+        }
+      },
+      "CiteGuard + Author + Venue Fix": {
+        "metrics": {
+          "tp": 451,
+          "tn": 93,
+          "fp": 7,
+          "fn": 49,
+          "acc": 0.9066666666666666,
+          "p": 0.9847161572052402,
+          "r": 0.902,
+          "f1": 0.941544885177453
+        },
+        "categories": {
+          "wrong_year": "100/100",
+          "corrupted_authors": "91/100",
+          "valid": "93/100",
+          "plausible_fabricated": "100/100",
+          "doi_mismatch": "99/100",
+          "wrong_venue": "61/100"
+        }
+      }
+    },
+    "75": {
+      "CiteGuard + Venue Fix": {
+        "metrics": {
+          "tp": 367,
+          "tn": 93,
+          "fp": 7,
+          "fn": 133,
+          "acc": 0.7666666666666667,
+          "p": 0.9812834224598931,
+          "r": 0.734,
+          "f1": 0.8398169336384439
+        },
+        "categories": {
+          "wrong_year": "100/100",
+          "corrupted_authors": "7/100",
+          "valid": "93/100",
+          "plausible_fabricated": "100/100",
+          "doi_mismatch": "99/100",
+          "wrong_venue": "61/100"
+        }
+      },
+      "CiteGuard + Author + Venue Fix": {
+        "metrics": {
+          "tp": 451,
+          "tn": 93,
+          "fp": 7,
+          "fn": 49,
+          "acc": 0.9066666666666666,
+          "p": 0.9847161572052402,
+          "r": 0.902,
+          "f1": 0.941544885177453
+        },
+        "categories": {
+          "wrong_year": "100/100",
+          "corrupted_authors": "91/100",
+          "valid": "93/100",
+          "plausible_fabricated": "100/100",
+          "doi_mismatch": "99/100",
+          "wrong_venue": "61/100"
+        }
+      }
+    },
+    "80": {
+      "CiteGuard + Venue Fix": {
+        "metrics": {
+          "tp": 367,
+          "tn": 93,
+          "fp": 7,
+          "fn": 133,
+          "acc": 0.7666666666666667,
+          "p": 0.9812834224598931,
+          "r": 0.734,
+          "f1": 0.8398169336384439
+        },
+        "categories": {
+          "wrong_year": "100/100",
+          "corrupted_authors": "7/100",
+          "valid": "93/100",
+          "plausible_fabricated": "100/100",
+          "doi_mismatch": "99/100",
+          "wrong_venue": "61/100"
+        }
+      },
+      "CiteGuard + Author + Venue Fix": {
+        "metrics": {
+          "tp": 451,
+          "tn": 93,
+          "fp": 7,
+          "fn": 49,
+          "acc": 0.9066666666666666,
+          "p": 0.9847161572052402,
+          "r": 0.902,
+          "f1": 0.941544885177453
+        },
+        "categories": {
+          "wrong_year": "100/100",
+          "corrupted_authors": "91/100",
+          "valid": "93/100",
+          "plausible_fabricated": "100/100",
+          "doi_mismatch": "99/100",
+          "wrong_venue": "61/100"
+        }
+      }
+    }
+  },
+  "alias_rejections": {
+    "60": {
+      "with_alias_lookup": 0,
+      "without_alias_lookup": 10
+    },
+    "65": {
+      "with_alias_lookup": 0,
+      "without_alias_lookup": 10
+    },
+    "70": {
+      "with_alias_lookup": 0,
+      "without_alias_lookup": 10
+    },
+    "75": {
+      "with_alias_lookup": 0,
+      "without_alias_lookup": 10
+    },
+    "80": {
+      "with_alias_lookup": 0,
+      "without_alias_lookup": 10
+    }
+  }
+}

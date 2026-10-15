@@ -1,0 +1,190 @@
+{
+  "Current CiteGuard": {
+    "overall": {
+      "total": 600,
+      "tp": 344,
+      "tn": 93,
+      "fp": 7,
+      "fn": 156,
+      "accuracy": 0.7283333333333334,
+      "precision": 0.98005698005698,
+      "recall": 0.688,
+      "f1": 0.8084606345475911
+    },
+    "categories": {
+      "valid": {
+        "correct": 93,
+        "total": 100,
+        "accuracy": 0.93
+      },
+      "corrupted_authors": {
+        "correct": 7,
+        "total": 100,
+        "accuracy": 0.07
+      },
+      "wrong_year": {
+        "correct": 100,
+        "total": 100,
+        "accuracy": 1.0
+      },
+      "wrong_venue": {
+        "correct": 38,
+        "total": 100,
+        "accuracy": 0.38
+      },
+      "doi_mismatch": {
+        "correct": 99,
+        "total": 100,
+        "accuracy": 0.99
+      },
+      "plausible_fabricated": {
+        "correct": 100,
+        "total": 100,
+        "accuracy": 1.0
+      }
+    },
+    "improvements_over_previous": 1,
+    "regressions_from_previous": 0
+  },
+  "CiteGuard + Author Fix": {
+    "overall": {
+      "total": 600,
+      "tp": 428,
+      "tn": 93,
+      "fp": 7,
+      "fn": 72,
+      "accuracy": 0.8683333333333333,
+      "precision": 0.9839080459770115,
+      "recall": 0.856,
+      "f1": 0.9155080213903743
+    },
+    "categories": {
+      "valid": {
+        "correct": 93,
+        "total": 100,
+        "accuracy": 0.93
+      },
+      "corrupted_authors": {
+        "correct": 91,
+        "total": 100,
+        "accuracy": 0.91
+      },
+      "wrong_year": {
+        "correct": 100,
+        "total": 100,
+        "accuracy": 1.0
+      },
+      "wrong_venue": {
+        "correct": 38,
+        "total": 100,
+        "accuracy": 0.38
+      },
+      "doi_mismatch": {
+        "correct": 99,
+        "total": 100,
+        "accuracy": 0.99
+      },
+      "plausible_fabricated": {
+        "correct": 100,
+        "total": 100,
+        "accuracy": 1.0
+      }
+    },
+    "improvements_over_previous": 1,
+    "regressions_from_previous": 0
+  },
+  "CiteGuard + Venue Fix": {
+    "overall": {
+      "total": 600,
+      "tp": 368,
+      "tn": 93,
+      "fp": 7,
+      "fn": 132,
+      "accuracy": 0.7683333333333333,
+      "precision": 0.9813333333333333,
+      "recall": 0.736,
+      "f1": 0.8411428571428571
+    },
+    "categories": {
+      "valid": {
+        "correct": 93,
+        "total": 100,
+        "accuracy": 0.93
+      },
+      "corrupted_authors": {
+        "correct": 7,
+        "total": 100,
+        "accuracy": 0.07
+      },
+      "wrong_year": {
+        "correct": 100,
+        "total": 100,
+        "accuracy": 1.0
+      },
+      "wrong_venue": {
+        "correct": 62,
+        "total": 100,
+        "accuracy": 0.62
+      },
+      "doi_mismatch": {
+        "correct": 99,
+        "total": 100,
+        "accuracy": 0.99
+      },
+      "plausible_fabricated": {
+        "correct": 100,
+        "total": 100,
+        "accuracy": 1.0
+      }
+    },
+    "improvements_over_previous": 25,
+    "regressions_from_previous": 0
+  },
+  "CiteGuard + Author + Venue Fix": {
+    "overall": {
+      "total": 600,
+      "tp": 452,
+      "tn": 93,
+      "fp": 7,
+      "fn": 48,
+      "accuracy": 0.9083333333333333,
+      "precision": 0.9847494553376906,
+      "recall": 0.904,
+      "f1": 0.9426485922836289
+    },
+    "categories": {
+      "valid": {
+        "correct": 93,
+        "total": 100,
+        "accuracy": 0.93
+      },
+      "corrupted_authors": {
+        "correct": 91,
+        "total": 100,
+        "accuracy": 0.91
+      },
+      "wrong_year": {
+        "correct": 100,
+        "total": 100,
+        "accuracy": 1.0
+      },
+      "wrong_venue": {
+        "correct": 62,
+        "total": 100,
+        "accuracy": 0.62
+      },
+      "doi_mismatch": {
+        "correct": 99,
+        "total": 100,
+        "accuracy": 0.99
+      },
+      "plausible_fabricated": {
+        "correct": 100,
+        "total": 100,
+        "accuracy": 1.0
+      }
+    },
+    "improvements_over_previous": 25,
+    "regressions_from_previous": 0
+  }
+}

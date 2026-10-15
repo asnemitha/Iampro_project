@@ -1,5 +1,12 @@
 .env
+.env.*
+!.env.example
+
 venv/
-models/
 __pycache__/
 *.pyc
+node_modules/
+
+# Large generated/model files
+experiments/api_cache.sqlite
+models/distilbert_classifier/
