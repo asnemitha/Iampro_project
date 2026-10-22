@@ -261,6 +261,48 @@ def verify_response(llm_response: str, use_author_fix: bool = False, use_venue_f
                 else None
             )
 
+            # Check if this failure was caused by an outage across all providers
+            # vs confirmed negative evidence from successful queries
+            is_provider_outage = False
+            if parsed.get("title"):
+                from app.services.multi_source_retriever import last_retrieval_status
+                is_provider_outage = bool(last_retrieval_status.get("all_failed", False))
+            elif parsed.get("doi"):
+                from app.services import crossref_service
+                is_provider_outage = not crossref_service.last_status.get("success", True)
+
+            if is_provider_outage:
+                print("\nVERIFICATION INCOMPLETE: ALL SCHOLARLY PROVIDERS UNREACHABLE")
+                results.append({
+                    "citation": citation,
+                    "paper_exists": None,
+                    "citation_accurate": False,
+                    "hallucination_type": "Unverified / Provider Outage",
+                    "metadata_errors": [
+                        "All scholarly metadata providers (Crossref, Semantic Scholar, OpenAlex) were unreachable or returned errors."
+                    ],
+                    "matched_title": None,
+                    "matched_authors": [],
+                    "matched_year": None,
+                    "matched_venue": None,
+                    "matched_doi": None,
+                    "candidate_score": 0,
+                    "title_similarity": 0,
+                    "author_similarity": 0,
+                    "year_match": False,
+                    "venue_match": False,
+                    "doi_match": False,
+                    "hallucination_score": None,
+                    "confidence": "Uncertain (Verification Incomplete)",
+                    "corrected_citation": None,
+                    "reason": [
+                        "Verification could not be completed because scholarly registry APIs were unreachable or returned errors."
+                    ],
+                    "prompt_consistency": prompt_consistency,
+                    "api_status": "OUTAGE",
+                })
+                continue
+
             results.append({
 
                 "citation": citation,
@@ -306,6 +348,8 @@ def verify_response(llm_response: str, use_author_fix: bool = False, use_venue_f
                 "reason": ["Paper could not be verified in scholarly databases."],
 
                 "prompt_consistency": prompt_consistency,
+
+                "api_status": "VERIFIED",
 
             })
 

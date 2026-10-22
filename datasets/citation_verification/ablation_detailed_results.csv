@@ -1,0 +1,3001 @@
+citation_id,error_type,ground_truth,prediction,configuration
+307,wrong_year,1,0,DOI-only
+307,wrong_year,1,1,Crossref Metadata
+307,wrong_year,1,0,Crossref + Title
+307,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+307,wrong_year,1,1,Full CiteGuard
+258,corrupted_authors,1,0,DOI-only
+258,corrupted_authors,1,0,Crossref Metadata
+258,corrupted_authors,1,0,Crossref + Title
+258,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+258,corrupted_authors,1,0,Full CiteGuard
+6,valid,0,0,DOI-only
+6,valid,0,0,Crossref Metadata
+6,valid,0,0,Crossref + Title
+6,valid,0,0,Crossref + Title + Authors + Year + Venue
+6,valid,0,0,Full CiteGuard
+591,plausible_fabricated,1,1,DOI-only
+591,plausible_fabricated,1,1,Crossref Metadata
+591,plausible_fabricated,1,1,Crossref + Title
+591,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+591,plausible_fabricated,1,1,Full CiteGuard
+275,corrupted_authors,1,0,DOI-only
+275,corrupted_authors,1,1,Crossref Metadata
+275,corrupted_authors,1,0,Crossref + Title
+275,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+275,corrupted_authors,1,1,Full CiteGuard
+97,valid,0,0,DOI-only
+97,valid,0,0,Crossref Metadata
+97,valid,0,0,Crossref + Title
+97,valid,0,1,Crossref + Title + Authors + Year + Venue
+97,valid,0,1,Full CiteGuard
+504,plausible_fabricated,1,1,DOI-only
+504,plausible_fabricated,1,1,Crossref Metadata
+504,plausible_fabricated,1,1,Crossref + Title
+504,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+504,plausible_fabricated,1,1,Full CiteGuard
+210,corrupted_authors,1,0,DOI-only
+210,corrupted_authors,1,1,Crossref Metadata
+210,corrupted_authors,1,0,Crossref + Title
+210,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+210,corrupted_authors,1,0,Full CiteGuard
+169,doi_mismatch,1,0,DOI-only
+169,doi_mismatch,1,1,Crossref Metadata
+169,doi_mismatch,1,0,Crossref + Title
+169,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+169,doi_mismatch,1,1,Full CiteGuard
+151,doi_mismatch,1,0,DOI-only
+151,doi_mismatch,1,1,Crossref Metadata
+151,doi_mismatch,1,0,Crossref + Title
+151,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+151,doi_mismatch,1,1,Full CiteGuard
+526,plausible_fabricated,1,1,DOI-only
+526,plausible_fabricated,1,1,Crossref Metadata
+526,plausible_fabricated,1,1,Crossref + Title
+526,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+526,plausible_fabricated,1,1,Full CiteGuard
+557,plausible_fabricated,1,1,DOI-only
+557,plausible_fabricated,1,1,Crossref Metadata
+557,plausible_fabricated,1,1,Crossref + Title
+557,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+557,plausible_fabricated,1,1,Full CiteGuard
+552,plausible_fabricated,1,1,DOI-only
+552,plausible_fabricated,1,1,Crossref Metadata
+552,plausible_fabricated,1,1,Crossref + Title
+552,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+552,plausible_fabricated,1,1,Full CiteGuard
+424,wrong_venue,1,0,DOI-only
+424,wrong_venue,1,1,Crossref Metadata
+424,wrong_venue,1,0,Crossref + Title
+424,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+424,wrong_venue,1,1,Full CiteGuard
+186,doi_mismatch,1,0,DOI-only
+186,doi_mismatch,1,1,Crossref Metadata
+186,doi_mismatch,1,0,Crossref + Title
+186,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+186,doi_mismatch,1,1,Full CiteGuard
+252,corrupted_authors,1,0,DOI-only
+252,corrupted_authors,1,0,Crossref Metadata
+252,corrupted_authors,1,0,Crossref + Title
+252,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+252,corrupted_authors,1,0,Full CiteGuard
+211,corrupted_authors,1,0,DOI-only
+211,corrupted_authors,1,1,Crossref Metadata
+211,corrupted_authors,1,0,Crossref + Title
+211,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+211,corrupted_authors,1,0,Full CiteGuard
+592,plausible_fabricated,1,1,DOI-only
+592,plausible_fabricated,1,1,Crossref Metadata
+592,plausible_fabricated,1,1,Crossref + Title
+592,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+592,plausible_fabricated,1,1,Full CiteGuard
+174,doi_mismatch,1,0,DOI-only
+174,doi_mismatch,1,1,Crossref Metadata
+174,doi_mismatch,1,0,Crossref + Title
+174,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+174,doi_mismatch,1,1,Full CiteGuard
+523,plausible_fabricated,1,1,DOI-only
+523,plausible_fabricated,1,1,Crossref Metadata
+523,plausible_fabricated,1,1,Crossref + Title
+523,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+523,plausible_fabricated,1,1,Full CiteGuard
+476,wrong_venue,1,0,DOI-only
+476,wrong_venue,1,1,Crossref Metadata
+476,wrong_venue,1,0,Crossref + Title
+476,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+476,wrong_venue,1,1,Full CiteGuard
+551,plausible_fabricated,1,1,DOI-only
+551,plausible_fabricated,1,1,Crossref Metadata
+551,plausible_fabricated,1,1,Crossref + Title
+551,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+551,plausible_fabricated,1,1,Full CiteGuard
+144,doi_mismatch,1,0,DOI-only
+144,doi_mismatch,1,1,Crossref Metadata
+144,doi_mismatch,1,0,Crossref + Title
+144,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+144,doi_mismatch,1,1,Full CiteGuard
+101,doi_mismatch,1,0,DOI-only
+101,doi_mismatch,1,1,Crossref Metadata
+101,doi_mismatch,1,0,Crossref + Title
+101,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+101,doi_mismatch,1,1,Full CiteGuard
+466,wrong_venue,1,0,DOI-only
+466,wrong_venue,1,1,Crossref Metadata
+466,wrong_venue,1,0,Crossref + Title
+466,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+466,wrong_venue,1,1,Full CiteGuard
+506,plausible_fabricated,1,1,DOI-only
+506,plausible_fabricated,1,1,Crossref Metadata
+506,plausible_fabricated,1,1,Crossref + Title
+506,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+506,plausible_fabricated,1,1,Full CiteGuard
+222,corrupted_authors,1,0,DOI-only
+222,corrupted_authors,1,1,Crossref Metadata
+222,corrupted_authors,1,0,Crossref + Title
+222,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+222,corrupted_authors,1,1,Full CiteGuard
+154,doi_mismatch,1,0,DOI-only
+154,doi_mismatch,1,1,Crossref Metadata
+154,doi_mismatch,1,0,Crossref + Title
+154,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+154,doi_mismatch,1,1,Full CiteGuard
+474,wrong_venue,1,0,DOI-only
+474,wrong_venue,1,0,Crossref Metadata
+474,wrong_venue,1,0,Crossref + Title
+474,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+474,wrong_venue,1,1,Full CiteGuard
+398,wrong_year,1,0,DOI-only
+398,wrong_year,1,1,Crossref Metadata
+398,wrong_year,1,0,Crossref + Title
+398,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+398,wrong_year,1,1,Full CiteGuard
+310,wrong_year,1,0,DOI-only
+310,wrong_year,1,1,Crossref Metadata
+310,wrong_year,1,0,Crossref + Title
+310,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+310,wrong_year,1,1,Full CiteGuard
+68,valid,0,0,DOI-only
+68,valid,0,0,Crossref Metadata
+68,valid,0,0,Crossref + Title
+68,valid,0,0,Crossref + Title + Authors + Year + Venue
+68,valid,0,0,Full CiteGuard
+486,wrong_venue,1,0,DOI-only
+486,wrong_venue,1,1,Crossref Metadata
+486,wrong_venue,1,0,Crossref + Title
+486,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+486,wrong_venue,1,1,Full CiteGuard
+497,wrong_venue,1,0,DOI-only
+497,wrong_venue,1,1,Crossref Metadata
+497,wrong_venue,1,0,Crossref + Title
+497,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+497,wrong_venue,1,1,Full CiteGuard
+263,corrupted_authors,1,0,DOI-only
+263,corrupted_authors,1,1,Crossref Metadata
+263,corrupted_authors,1,0,Crossref + Title
+263,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+263,corrupted_authors,1,0,Full CiteGuard
+107,doi_mismatch,1,0,DOI-only
+107,doi_mismatch,1,1,Crossref Metadata
+107,doi_mismatch,1,0,Crossref + Title
+107,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+107,doi_mismatch,1,1,Full CiteGuard
+96,valid,0,0,DOI-only
+96,valid,0,0,Crossref Metadata
+96,valid,0,0,Crossref + Title
+96,valid,0,0,Crossref + Title + Authors + Year + Venue
+96,valid,0,0,Full CiteGuard
+588,plausible_fabricated,1,1,DOI-only
+588,plausible_fabricated,1,1,Crossref Metadata
+588,plausible_fabricated,1,1,Crossref + Title
+588,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+588,plausible_fabricated,1,1,Full CiteGuard
+498,wrong_venue,1,0,DOI-only
+498,wrong_venue,1,0,Crossref Metadata
+498,wrong_venue,1,0,Crossref + Title
+498,wrong_venue,1,0,Crossref + Title + Authors + Year + Venue
+498,wrong_venue,1,0,Full CiteGuard
+92,valid,0,0,DOI-only
+92,valid,0,0,Crossref Metadata
+92,valid,0,0,Crossref + Title
+92,valid,0,1,Crossref + Title + Authors + Year + Venue
+92,valid,0,1,Full CiteGuard
+18,valid,0,0,DOI-only
+18,valid,0,0,Crossref Metadata
+18,valid,0,0,Crossref + Title
+18,valid,0,0,Crossref + Title + Authors + Year + Venue
+18,valid,0,0,Full CiteGuard
+439,wrong_venue,1,0,DOI-only
+439,wrong_venue,1,1,Crossref Metadata
+439,wrong_venue,1,0,Crossref + Title
+439,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+439,wrong_venue,1,1,Full CiteGuard
+303,wrong_year,1,0,DOI-only
+303,wrong_year,1,1,Crossref Metadata
+303,wrong_year,1,0,Crossref + Title
+303,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+303,wrong_year,1,1,Full CiteGuard
+214,corrupted_authors,1,0,DOI-only
+214,corrupted_authors,1,1,Crossref Metadata
+214,corrupted_authors,1,1,Crossref + Title
+214,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+214,corrupted_authors,1,1,Full CiteGuard
+35,valid,0,0,DOI-only
+35,valid,0,0,Crossref Metadata
+35,valid,0,0,Crossref + Title
+35,valid,0,0,Crossref + Title + Authors + Year + Venue
+35,valid,0,1,Full CiteGuard
+593,plausible_fabricated,1,1,DOI-only
+593,plausible_fabricated,1,1,Crossref Metadata
+593,plausible_fabricated,1,1,Crossref + Title
+593,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+593,plausible_fabricated,1,1,Full CiteGuard
+396,wrong_year,1,0,DOI-only
+396,wrong_year,1,1,Crossref Metadata
+396,wrong_year,1,0,Crossref + Title
+396,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+396,wrong_year,1,1,Full CiteGuard
+454,wrong_venue,1,0,DOI-only
+454,wrong_venue,1,1,Crossref Metadata
+454,wrong_venue,1,0,Crossref + Title
+454,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+454,wrong_venue,1,1,Full CiteGuard
+320,wrong_year,1,0,DOI-only
+320,wrong_year,1,1,Crossref Metadata
+320,wrong_year,1,0,Crossref + Title
+320,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+320,wrong_year,1,1,Full CiteGuard
+328,wrong_year,1,0,DOI-only
+328,wrong_year,1,1,Crossref Metadata
+328,wrong_year,1,0,Crossref + Title
+328,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+328,wrong_year,1,1,Full CiteGuard
+583,plausible_fabricated,1,1,DOI-only
+583,plausible_fabricated,1,1,Crossref Metadata
+583,plausible_fabricated,1,1,Crossref + Title
+583,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+583,plausible_fabricated,1,1,Full CiteGuard
+257,corrupted_authors,1,0,DOI-only
+257,corrupted_authors,1,1,Crossref Metadata
+257,corrupted_authors,1,0,Crossref + Title
+257,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+257,corrupted_authors,1,0,Full CiteGuard
+51,valid,0,0,DOI-only
+51,valid,0,0,Crossref Metadata
+51,valid,0,0,Crossref + Title
+51,valid,0,0,Crossref + Title + Authors + Year + Venue
+51,valid,0,0,Full CiteGuard
+17,valid,0,0,DOI-only
+17,valid,0,0,Crossref Metadata
+17,valid,0,0,Crossref + Title
+17,valid,0,0,Crossref + Title + Authors + Year + Venue
+17,valid,0,0,Full CiteGuard
+512,plausible_fabricated,1,1,DOI-only
+512,plausible_fabricated,1,1,Crossref Metadata
+512,plausible_fabricated,1,1,Crossref + Title
+512,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+512,plausible_fabricated,1,1,Full CiteGuard
+380,wrong_year,1,0,DOI-only
+380,wrong_year,1,1,Crossref Metadata
+380,wrong_year,1,0,Crossref + Title
+380,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+380,wrong_year,1,1,Full CiteGuard
+161,doi_mismatch,1,0,DOI-only
+161,doi_mismatch,1,1,Crossref Metadata
+161,doi_mismatch,1,0,Crossref + Title
+161,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+161,doi_mismatch,1,1,Full CiteGuard
+64,valid,0,0,DOI-only
+64,valid,0,0,Crossref Metadata
+64,valid,0,0,Crossref + Title
+64,valid,0,0,Crossref + Title + Authors + Year + Venue
+64,valid,0,0,Full CiteGuard
+230,corrupted_authors,1,0,DOI-only
+230,corrupted_authors,1,1,Crossref Metadata
+230,corrupted_authors,1,0,Crossref + Title
+230,corrupted_authors,1,1,Crossref + Title + Authors + Year + Venue
+230,corrupted_authors,1,1,Full CiteGuard
+45,valid,0,0,DOI-only
+45,valid,0,0,Crossref Metadata
+45,valid,0,0,Crossref + Title
+45,valid,0,0,Crossref + Title + Authors + Year + Venue
+45,valid,0,0,Full CiteGuard
+114,doi_mismatch,1,0,DOI-only
+114,doi_mismatch,1,1,Crossref Metadata
+114,doi_mismatch,1,1,Crossref + Title
+114,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+114,doi_mismatch,1,1,Full CiteGuard
+171,doi_mismatch,1,0,DOI-only
+171,doi_mismatch,1,1,Crossref Metadata
+171,doi_mismatch,1,0,Crossref + Title
+171,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+171,doi_mismatch,1,1,Full CiteGuard
+19,valid,0,0,DOI-only
+19,valid,0,0,Crossref Metadata
+19,valid,0,0,Crossref + Title
+19,valid,0,0,Crossref + Title + Authors + Year + Venue
+19,valid,0,0,Full CiteGuard
+30,valid,0,0,DOI-only
+30,valid,0,0,Crossref Metadata
+30,valid,0,0,Crossref + Title
+30,valid,0,1,Crossref + Title + Authors + Year + Venue
+30,valid,0,1,Full CiteGuard
+248,corrupted_authors,1,0,DOI-only
+248,corrupted_authors,1,1,Crossref Metadata
+248,corrupted_authors,1,0,Crossref + Title
+248,corrupted_authors,1,1,Crossref + Title + Authors + Year + Venue
+248,corrupted_authors,1,1,Full CiteGuard
+444,wrong_venue,1,0,DOI-only
+444,wrong_venue,1,1,Crossref Metadata
+444,wrong_venue,1,0,Crossref + Title
+444,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+444,wrong_venue,1,1,Full CiteGuard
+61,valid,0,0,DOI-only
+61,valid,0,0,Crossref Metadata
+61,valid,0,0,Crossref + Title
+61,valid,0,0,Crossref + Title + Authors + Year + Venue
+61,valid,0,0,Full CiteGuard
+503,plausible_fabricated,1,1,DOI-only
+503,plausible_fabricated,1,1,Crossref Metadata
+503,plausible_fabricated,1,1,Crossref + Title
+503,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+503,plausible_fabricated,1,1,Full CiteGuard
+269,corrupted_authors,1,0,DOI-only
+269,corrupted_authors,1,1,Crossref Metadata
+269,corrupted_authors,1,0,Crossref + Title
+269,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+269,corrupted_authors,1,0,Full CiteGuard
+491,wrong_venue,1,0,DOI-only
+491,wrong_venue,1,1,Crossref Metadata
+491,wrong_venue,1,0,Crossref + Title
+491,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+491,wrong_venue,1,0,Full CiteGuard
+365,wrong_year,1,0,DOI-only
+365,wrong_year,1,1,Crossref Metadata
+365,wrong_year,1,0,Crossref + Title
+365,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+365,wrong_year,1,1,Full CiteGuard
+469,wrong_venue,1,0,DOI-only
+469,wrong_venue,1,1,Crossref Metadata
+469,wrong_venue,1,0,Crossref + Title
+469,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+469,wrong_venue,1,1,Full CiteGuard
+139,doi_mismatch,1,0,DOI-only
+139,doi_mismatch,1,1,Crossref Metadata
+139,doi_mismatch,1,0,Crossref + Title
+139,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+139,doi_mismatch,1,1,Full CiteGuard
+431,wrong_venue,1,0,DOI-only
+431,wrong_venue,1,1,Crossref Metadata
+431,wrong_venue,1,0,Crossref + Title
+431,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+431,wrong_venue,1,1,Full CiteGuard
+490,wrong_venue,1,0,DOI-only
+490,wrong_venue,1,0,Crossref Metadata
+490,wrong_venue,1,0,Crossref + Title
+490,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+490,wrong_venue,1,1,Full CiteGuard
+351,wrong_year,1,0,DOI-only
+351,wrong_year,1,1,Crossref Metadata
+351,wrong_year,1,0,Crossref + Title
+351,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+351,wrong_year,1,1,Full CiteGuard
+496,wrong_venue,1,0,DOI-only
+496,wrong_venue,1,1,Crossref Metadata
+496,wrong_venue,1,0,Crossref + Title
+496,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+496,wrong_venue,1,1,Full CiteGuard
+34,valid,0,0,DOI-only
+34,valid,0,0,Crossref Metadata
+34,valid,0,0,Crossref + Title
+34,valid,0,0,Crossref + Title + Authors + Year + Venue
+34,valid,0,0,Full CiteGuard
+28,valid,0,0,DOI-only
+28,valid,0,0,Crossref Metadata
+28,valid,0,0,Crossref + Title
+28,valid,0,0,Crossref + Title + Authors + Year + Venue
+28,valid,0,0,Full CiteGuard
+587,plausible_fabricated,1,1,DOI-only
+587,plausible_fabricated,1,1,Crossref Metadata
+587,plausible_fabricated,1,1,Crossref + Title
+587,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+587,plausible_fabricated,1,1,Full CiteGuard
+451,wrong_venue,1,0,DOI-only
+451,wrong_venue,1,1,Crossref Metadata
+451,wrong_venue,1,0,Crossref + Title
+451,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+451,wrong_venue,1,1,Full CiteGuard
+162,doi_mismatch,1,0,DOI-only
+162,doi_mismatch,1,1,Crossref Metadata
+162,doi_mismatch,1,0,Crossref + Title
+162,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+162,doi_mismatch,1,1,Full CiteGuard
+225,corrupted_authors,1,0,DOI-only
+225,corrupted_authors,1,1,Crossref Metadata
+225,corrupted_authors,1,0,Crossref + Title
+225,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+225,corrupted_authors,1,0,Full CiteGuard
+515,plausible_fabricated,1,1,DOI-only
+515,plausible_fabricated,1,1,Crossref Metadata
+515,plausible_fabricated,1,1,Crossref + Title
+515,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+515,plausible_fabricated,1,1,Full CiteGuard
+192,doi_mismatch,1,0,DOI-only
+192,doi_mismatch,1,1,Crossref Metadata
+192,doi_mismatch,1,0,Crossref + Title
+192,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+192,doi_mismatch,1,1,Full CiteGuard
+247,corrupted_authors,1,0,DOI-only
+247,corrupted_authors,1,1,Crossref Metadata
+247,corrupted_authors,1,0,Crossref + Title
+247,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+247,corrupted_authors,1,0,Full CiteGuard
+331,wrong_year,1,0,DOI-only
+331,wrong_year,1,1,Crossref Metadata
+331,wrong_year,1,0,Crossref + Title
+331,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+331,wrong_year,1,1,Full CiteGuard
+145,doi_mismatch,1,0,DOI-only
+145,doi_mismatch,1,1,Crossref Metadata
+145,doi_mismatch,1,0,Crossref + Title
+145,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+145,doi_mismatch,1,1,Full CiteGuard
+375,wrong_year,1,0,DOI-only
+375,wrong_year,1,1,Crossref Metadata
+375,wrong_year,1,0,Crossref + Title
+375,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+375,wrong_year,1,1,Full CiteGuard
+283,corrupted_authors,1,0,DOI-only
+283,corrupted_authors,1,1,Crossref Metadata
+283,corrupted_authors,1,0,Crossref + Title
+283,corrupted_authors,1,1,Crossref + Title + Authors + Year + Venue
+283,corrupted_authors,1,1,Full CiteGuard
+58,valid,0,0,DOI-only
+58,valid,0,0,Crossref Metadata
+58,valid,0,0,Crossref + Title
+58,valid,0,0,Crossref + Title + Authors + Year + Venue
+58,valid,0,0,Full CiteGuard
+196,doi_mismatch,1,0,DOI-only
+196,doi_mismatch,1,1,Crossref Metadata
+196,doi_mismatch,1,0,Crossref + Title
+196,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+196,doi_mismatch,1,1,Full CiteGuard
+206,corrupted_authors,1,0,DOI-only
+206,corrupted_authors,1,1,Crossref Metadata
+206,corrupted_authors,1,0,Crossref + Title
+206,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+206,corrupted_authors,1,0,Full CiteGuard
+541,plausible_fabricated,1,1,DOI-only
+541,plausible_fabricated,1,1,Crossref Metadata
+541,plausible_fabricated,1,1,Crossref + Title
+541,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+541,plausible_fabricated,1,1,Full CiteGuard
+80,valid,0,0,DOI-only
+80,valid,0,0,Crossref Metadata
+80,valid,0,0,Crossref + Title
+80,valid,0,0,Crossref + Title + Authors + Year + Venue
+80,valid,0,0,Full CiteGuard
+77,valid,0,0,DOI-only
+77,valid,0,0,Crossref Metadata
+77,valid,0,0,Crossref + Title
+77,valid,0,1,Crossref + Title + Authors + Year + Venue
+77,valid,0,1,Full CiteGuard
+242,corrupted_authors,1,0,DOI-only
+242,corrupted_authors,1,1,Crossref Metadata
+242,corrupted_authors,1,0,Crossref + Title
+242,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+242,corrupted_authors,1,0,Full CiteGuard
+54,valid,0,0,DOI-only
+54,valid,0,0,Crossref Metadata
+54,valid,0,0,Crossref + Title
+54,valid,0,0,Crossref + Title + Authors + Year + Venue
+54,valid,0,1,Full CiteGuard
+344,wrong_year,1,0,DOI-only
+344,wrong_year,1,1,Crossref Metadata
+344,wrong_year,1,0,Crossref + Title
+344,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+344,wrong_year,1,1,Full CiteGuard
+203,corrupted_authors,1,0,DOI-only
+203,corrupted_authors,1,1,Crossref Metadata
+203,corrupted_authors,1,0,Crossref + Title
+203,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+203,corrupted_authors,1,0,Full CiteGuard
+294,corrupted_authors,1,0,DOI-only
+294,corrupted_authors,1,1,Crossref Metadata
+294,corrupted_authors,1,0,Crossref + Title
+294,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+294,corrupted_authors,1,0,Full CiteGuard
+460,wrong_venue,1,0,DOI-only
+460,wrong_venue,1,1,Crossref Metadata
+460,wrong_venue,1,0,Crossref + Title
+460,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+460,wrong_venue,1,0,Full CiteGuard
+291,corrupted_authors,1,0,DOI-only
+291,corrupted_authors,1,1,Crossref Metadata
+291,corrupted_authors,1,0,Crossref + Title
+291,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+291,corrupted_authors,1,0,Full CiteGuard
+271,corrupted_authors,1,0,DOI-only
+271,corrupted_authors,1,0,Crossref Metadata
+271,corrupted_authors,1,0,Crossref + Title
+271,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+271,corrupted_authors,1,0,Full CiteGuard
+129,doi_mismatch,1,0,DOI-only
+129,doi_mismatch,1,1,Crossref Metadata
+129,doi_mismatch,1,1,Crossref + Title
+129,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+129,doi_mismatch,1,1,Full CiteGuard
+265,corrupted_authors,1,0,DOI-only
+265,corrupted_authors,1,1,Crossref Metadata
+265,corrupted_authors,1,0,Crossref + Title
+265,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+265,corrupted_authors,1,0,Full CiteGuard
+488,wrong_venue,1,0,DOI-only
+488,wrong_venue,1,1,Crossref Metadata
+488,wrong_venue,1,0,Crossref + Title
+488,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+488,wrong_venue,1,1,Full CiteGuard
+20,valid,0,0,DOI-only
+20,valid,0,0,Crossref Metadata
+20,valid,0,0,Crossref + Title
+20,valid,0,0,Crossref + Title + Authors + Year + Venue
+20,valid,0,1,Full CiteGuard
+517,plausible_fabricated,1,1,DOI-only
+517,plausible_fabricated,1,1,Crossref Metadata
+517,plausible_fabricated,1,1,Crossref + Title
+517,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+517,plausible_fabricated,1,1,Full CiteGuard
+273,corrupted_authors,1,0,DOI-only
+273,corrupted_authors,1,1,Crossref Metadata
+273,corrupted_authors,1,0,Crossref + Title
+273,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+273,corrupted_authors,1,0,Full CiteGuard
+217,corrupted_authors,1,0,DOI-only
+217,corrupted_authors,1,1,Crossref Metadata
+217,corrupted_authors,1,0,Crossref + Title
+217,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+217,corrupted_authors,1,0,Full CiteGuard
+74,valid,0,0,DOI-only
+74,valid,0,0,Crossref Metadata
+74,valid,0,0,Crossref + Title
+74,valid,0,0,Crossref + Title + Authors + Year + Venue
+74,valid,0,0,Full CiteGuard
+301,wrong_year,1,0,DOI-only
+301,wrong_year,1,1,Crossref Metadata
+301,wrong_year,1,0,Crossref + Title
+301,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+301,wrong_year,1,1,Full CiteGuard
+393,wrong_year,1,0,DOI-only
+393,wrong_year,1,1,Crossref Metadata
+393,wrong_year,1,0,Crossref + Title
+393,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+393,wrong_year,1,1,Full CiteGuard
+52,valid,0,0,DOI-only
+52,valid,0,0,Crossref Metadata
+52,valid,0,0,Crossref + Title
+52,valid,0,0,Crossref + Title + Authors + Year + Venue
+52,valid,0,0,Full CiteGuard
+9,valid,0,0,DOI-only
+9,valid,0,0,Crossref Metadata
+9,valid,0,0,Crossref + Title
+9,valid,0,0,Crossref + Title + Authors + Year + Venue
+9,valid,0,0,Full CiteGuard
+599,plausible_fabricated,1,1,DOI-only
+599,plausible_fabricated,1,1,Crossref Metadata
+599,plausible_fabricated,1,1,Crossref + Title
+599,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+599,plausible_fabricated,1,1,Full CiteGuard
+334,wrong_year,1,0,DOI-only
+334,wrong_year,1,1,Crossref Metadata
+334,wrong_year,1,0,Crossref + Title
+334,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+334,wrong_year,1,1,Full CiteGuard
+232,corrupted_authors,1,0,DOI-only
+232,corrupted_authors,1,1,Crossref Metadata
+232,corrupted_authors,1,0,Crossref + Title
+232,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+232,corrupted_authors,1,0,Full CiteGuard
+590,plausible_fabricated,1,1,DOI-only
+590,plausible_fabricated,1,1,Crossref Metadata
+590,plausible_fabricated,1,1,Crossref + Title
+590,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+590,plausible_fabricated,1,1,Full CiteGuard
+415,wrong_venue,1,0,DOI-only
+415,wrong_venue,1,1,Crossref Metadata
+415,wrong_venue,1,0,Crossref + Title
+415,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+415,wrong_venue,1,1,Full CiteGuard
+401,wrong_venue,1,0,DOI-only
+401,wrong_venue,1,1,Crossref Metadata
+401,wrong_venue,1,0,Crossref + Title
+401,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+401,wrong_venue,1,0,Full CiteGuard
+400,wrong_year,1,0,DOI-only
+400,wrong_year,1,1,Crossref Metadata
+400,wrong_year,1,0,Crossref + Title
+400,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+400,wrong_year,1,1,Full CiteGuard
+501,plausible_fabricated,1,1,DOI-only
+501,plausible_fabricated,1,1,Crossref Metadata
+501,plausible_fabricated,1,1,Crossref + Title
+501,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+501,plausible_fabricated,1,1,Full CiteGuard
+468,wrong_venue,1,0,DOI-only
+468,wrong_venue,1,1,Crossref Metadata
+468,wrong_venue,1,0,Crossref + Title
+468,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+468,wrong_venue,1,1,Full CiteGuard
+179,doi_mismatch,1,0,DOI-only
+179,doi_mismatch,1,1,Crossref Metadata
+179,doi_mismatch,1,0,Crossref + Title
+179,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+179,doi_mismatch,1,1,Full CiteGuard
+282,corrupted_authors,1,0,DOI-only
+282,corrupted_authors,1,1,Crossref Metadata
+282,corrupted_authors,1,0,Crossref + Title
+282,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+282,corrupted_authors,1,0,Full CiteGuard
+378,wrong_year,1,0,DOI-only
+378,wrong_year,1,1,Crossref Metadata
+378,wrong_year,1,0,Crossref + Title
+378,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+378,wrong_year,1,1,Full CiteGuard
+148,doi_mismatch,1,0,DOI-only
+148,doi_mismatch,1,1,Crossref Metadata
+148,doi_mismatch,1,0,Crossref + Title
+148,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+148,doi_mismatch,1,1,Full CiteGuard
+549,plausible_fabricated,1,1,DOI-only
+549,plausible_fabricated,1,1,Crossref Metadata
+549,plausible_fabricated,1,1,Crossref + Title
+549,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+549,plausible_fabricated,1,1,Full CiteGuard
+299,corrupted_authors,1,0,DOI-only
+299,corrupted_authors,1,1,Crossref Metadata
+299,corrupted_authors,1,0,Crossref + Title
+299,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+299,corrupted_authors,1,1,Full CiteGuard
+569,plausible_fabricated,1,1,DOI-only
+569,plausible_fabricated,1,1,Crossref Metadata
+569,plausible_fabricated,1,1,Crossref + Title
+569,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+569,plausible_fabricated,1,1,Full CiteGuard
+539,plausible_fabricated,1,1,DOI-only
+539,plausible_fabricated,1,1,Crossref Metadata
+539,plausible_fabricated,1,1,Crossref + Title
+539,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+539,plausible_fabricated,1,1,Full CiteGuard
+75,valid,0,0,DOI-only
+75,valid,0,0,Crossref Metadata
+75,valid,0,0,Crossref + Title
+75,valid,0,0,Crossref + Title + Authors + Year + Venue
+75,valid,0,1,Full CiteGuard
+343,wrong_year,1,0,DOI-only
+343,wrong_year,1,1,Crossref Metadata
+343,wrong_year,1,0,Crossref + Title
+343,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+343,wrong_year,1,1,Full CiteGuard
+12,valid,0,0,DOI-only
+12,valid,0,0,Crossref Metadata
+12,valid,0,0,Crossref + Title
+12,valid,0,0,Crossref + Title + Authors + Year + Venue
+12,valid,0,0,Full CiteGuard
+150,doi_mismatch,1,0,DOI-only
+150,doi_mismatch,1,1,Crossref Metadata
+150,doi_mismatch,1,0,Crossref + Title
+150,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+150,doi_mismatch,1,1,Full CiteGuard
+364,wrong_year,1,0,DOI-only
+364,wrong_year,1,1,Crossref Metadata
+364,wrong_year,1,0,Crossref + Title
+364,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+364,wrong_year,1,1,Full CiteGuard
+137,doi_mismatch,1,0,DOI-only
+137,doi_mismatch,1,1,Crossref Metadata
+137,doi_mismatch,1,0,Crossref + Title
+137,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+137,doi_mismatch,1,1,Full CiteGuard
+348,wrong_year,1,0,DOI-only
+348,wrong_year,1,1,Crossref Metadata
+348,wrong_year,1,0,Crossref + Title
+348,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+348,wrong_year,1,1,Full CiteGuard
+371,wrong_year,1,0,DOI-only
+371,wrong_year,1,1,Crossref Metadata
+371,wrong_year,1,0,Crossref + Title
+371,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+371,wrong_year,1,1,Full CiteGuard
+349,wrong_year,1,0,DOI-only
+349,wrong_year,1,1,Crossref Metadata
+349,wrong_year,1,0,Crossref + Title
+349,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+349,wrong_year,1,1,Full CiteGuard
+253,corrupted_authors,1,0,DOI-only
+253,corrupted_authors,1,1,Crossref Metadata
+253,corrupted_authors,1,0,Crossref + Title
+253,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+253,corrupted_authors,1,0,Full CiteGuard
+550,plausible_fabricated,1,1,DOI-only
+550,plausible_fabricated,1,1,Crossref Metadata
+550,plausible_fabricated,1,1,Crossref + Title
+550,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+550,plausible_fabricated,1,1,Full CiteGuard
+201,corrupted_authors,1,0,DOI-only
+201,corrupted_authors,1,1,Crossref Metadata
+201,corrupted_authors,1,0,Crossref + Title
+201,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+201,corrupted_authors,1,0,Full CiteGuard
+324,wrong_year,1,0,DOI-only
+324,wrong_year,1,1,Crossref Metadata
+324,wrong_year,1,0,Crossref + Title
+324,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+324,wrong_year,1,1,Full CiteGuard
+315,wrong_year,1,0,DOI-only
+315,wrong_year,1,1,Crossref Metadata
+315,wrong_year,1,0,Crossref + Title
+315,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+315,wrong_year,1,1,Full CiteGuard
+73,valid,0,0,DOI-only
+73,valid,0,0,Crossref Metadata
+73,valid,0,0,Crossref + Title
+73,valid,0,0,Crossref + Title + Authors + Year + Venue
+73,valid,0,0,Full CiteGuard
+135,doi_mismatch,1,0,DOI-only
+135,doi_mismatch,1,1,Crossref Metadata
+135,doi_mismatch,1,0,Crossref + Title
+135,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+135,doi_mismatch,1,1,Full CiteGuard
+333,wrong_year,1,0,DOI-only
+333,wrong_year,1,1,Crossref Metadata
+333,wrong_year,1,0,Crossref + Title
+333,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+333,wrong_year,1,1,Full CiteGuard
+235,corrupted_authors,1,0,DOI-only
+235,corrupted_authors,1,1,Crossref Metadata
+235,corrupted_authors,1,0,Crossref + Title
+235,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+235,corrupted_authors,1,1,Full CiteGuard
+430,wrong_venue,1,0,DOI-only
+430,wrong_venue,1,1,Crossref Metadata
+430,wrong_venue,1,0,Crossref + Title
+430,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+430,wrong_venue,1,1,Full CiteGuard
+329,wrong_year,1,0,DOI-only
+329,wrong_year,1,1,Crossref Metadata
+329,wrong_year,1,1,Crossref + Title
+329,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+329,wrong_year,1,1,Full CiteGuard
+461,wrong_venue,1,0,DOI-only
+461,wrong_venue,1,1,Crossref Metadata
+461,wrong_venue,1,0,Crossref + Title
+461,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+461,wrong_venue,1,1,Full CiteGuard
+514,plausible_fabricated,1,1,DOI-only
+514,plausible_fabricated,1,1,Crossref Metadata
+514,plausible_fabricated,1,1,Crossref + Title
+514,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+514,plausible_fabricated,1,1,Full CiteGuard
+456,wrong_venue,1,0,DOI-only
+456,wrong_venue,1,1,Crossref Metadata
+456,wrong_venue,1,0,Crossref + Title
+456,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+456,wrong_venue,1,1,Full CiteGuard
+81,valid,0,0,DOI-only
+81,valid,0,0,Crossref Metadata
+81,valid,0,0,Crossref + Title
+81,valid,0,0,Crossref + Title + Authors + Year + Venue
+81,valid,0,0,Full CiteGuard
+50,valid,0,0,DOI-only
+50,valid,0,0,Crossref Metadata
+50,valid,0,0,Crossref + Title
+50,valid,0,0,Crossref + Title + Authors + Year + Venue
+50,valid,0,0,Full CiteGuard
+31,valid,0,0,DOI-only
+31,valid,0,0,Crossref Metadata
+31,valid,0,0,Crossref + Title
+31,valid,0,0,Crossref + Title + Authors + Year + Venue
+31,valid,0,1,Full CiteGuard
+60,valid,0,0,DOI-only
+60,valid,0,0,Crossref Metadata
+60,valid,0,0,Crossref + Title
+60,valid,0,0,Crossref + Title + Authors + Year + Venue
+60,valid,0,0,Full CiteGuard
+288,corrupted_authors,1,0,DOI-only
+288,corrupted_authors,1,1,Crossref Metadata
+288,corrupted_authors,1,0,Crossref + Title
+288,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+288,corrupted_authors,1,0,Full CiteGuard
+176,doi_mismatch,1,0,DOI-only
+176,doi_mismatch,1,1,Crossref Metadata
+176,doi_mismatch,1,0,Crossref + Title
+176,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+176,doi_mismatch,1,1,Full CiteGuard
+302,wrong_year,1,0,DOI-only
+302,wrong_year,1,1,Crossref Metadata
+302,wrong_year,1,0,Crossref + Title
+302,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+302,wrong_year,1,1,Full CiteGuard
+117,doi_mismatch,1,0,DOI-only
+117,doi_mismatch,1,1,Crossref Metadata
+117,doi_mismatch,1,0,Crossref + Title
+117,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+117,doi_mismatch,1,1,Full CiteGuard
+508,plausible_fabricated,1,1,DOI-only
+508,plausible_fabricated,1,1,Crossref Metadata
+508,plausible_fabricated,1,1,Crossref + Title
+508,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+508,plausible_fabricated,1,1,Full CiteGuard
+330,wrong_year,1,0,DOI-only
+330,wrong_year,1,1,Crossref Metadata
+330,wrong_year,1,0,Crossref + Title
+330,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+330,wrong_year,1,1,Full CiteGuard
+383,wrong_year,1,0,DOI-only
+383,wrong_year,1,1,Crossref Metadata
+383,wrong_year,1,0,Crossref + Title
+383,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+383,wrong_year,1,1,Full CiteGuard
+484,wrong_venue,1,0,DOI-only
+484,wrong_venue,1,1,Crossref Metadata
+484,wrong_venue,1,0,Crossref + Title
+484,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+484,wrong_venue,1,1,Full CiteGuard
+89,valid,0,0,DOI-only
+89,valid,0,0,Crossref Metadata
+89,valid,0,0,Crossref + Title
+89,valid,0,0,Crossref + Title + Authors + Year + Venue
+89,valid,0,0,Full CiteGuard
+136,doi_mismatch,1,0,DOI-only
+136,doi_mismatch,1,1,Crossref Metadata
+136,doi_mismatch,1,0,Crossref + Title
+136,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+136,doi_mismatch,1,1,Full CiteGuard
+388,wrong_year,1,0,DOI-only
+388,wrong_year,1,1,Crossref Metadata
+388,wrong_year,1,0,Crossref + Title
+388,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+388,wrong_year,1,1,Full CiteGuard
+187,doi_mismatch,1,0,DOI-only
+187,doi_mismatch,1,1,Crossref Metadata
+187,doi_mismatch,1,0,Crossref + Title
+187,doi_mismatch,1,0,Crossref + Title + Authors + Year + Venue
+187,doi_mismatch,1,0,Full CiteGuard
+95,valid,0,0,DOI-only
+95,valid,0,0,Crossref Metadata
+95,valid,0,0,Crossref + Title
+95,valid,0,0,Crossref + Title + Authors + Year + Venue
+95,valid,0,0,Full CiteGuard
+149,doi_mismatch,1,0,DOI-only
+149,doi_mismatch,1,1,Crossref Metadata
+149,doi_mismatch,1,0,Crossref + Title
+149,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+149,doi_mismatch,1,1,Full CiteGuard
+361,wrong_year,1,0,DOI-only
+361,wrong_year,1,1,Crossref Metadata
+361,wrong_year,1,0,Crossref + Title
+361,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+361,wrong_year,1,1,Full CiteGuard
+290,corrupted_authors,1,0,DOI-only
+290,corrupted_authors,1,1,Crossref Metadata
+290,corrupted_authors,1,0,Crossref + Title
+290,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+290,corrupted_authors,1,0,Full CiteGuard
+487,wrong_venue,1,0,DOI-only
+487,wrong_venue,1,0,Crossref Metadata
+487,wrong_venue,1,0,Crossref + Title
+487,wrong_venue,1,0,Crossref + Title + Authors + Year + Venue
+487,wrong_venue,1,0,Full CiteGuard
+104,doi_mismatch,1,0,DOI-only
+104,doi_mismatch,1,1,Crossref Metadata
+104,doi_mismatch,1,0,Crossref + Title
+104,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+104,doi_mismatch,1,1,Full CiteGuard
+57,valid,0,0,DOI-only
+57,valid,0,0,Crossref Metadata
+57,valid,0,0,Crossref + Title
+57,valid,0,0,Crossref + Title + Authors + Year + Venue
+57,valid,0,0,Full CiteGuard
+432,wrong_venue,1,0,DOI-only
+432,wrong_venue,1,1,Crossref Metadata
+432,wrong_venue,1,0,Crossref + Title
+432,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+432,wrong_venue,1,1,Full CiteGuard
+450,wrong_venue,1,0,DOI-only
+450,wrong_venue,1,1,Crossref Metadata
+450,wrong_venue,1,0,Crossref + Title
+450,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+450,wrong_venue,1,1,Full CiteGuard
+5,valid,0,0,DOI-only
+5,valid,0,0,Crossref Metadata
+5,valid,0,0,Crossref + Title
+5,valid,0,0,Crossref + Title + Authors + Year + Venue
+5,valid,0,0,Full CiteGuard
+485,wrong_venue,1,0,DOI-only
+485,wrong_venue,1,1,Crossref Metadata
+485,wrong_venue,1,0,Crossref + Title
+485,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+485,wrong_venue,1,0,Full CiteGuard
+191,doi_mismatch,1,0,DOI-only
+191,doi_mismatch,1,1,Crossref Metadata
+191,doi_mismatch,1,0,Crossref + Title
+191,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+191,doi_mismatch,1,1,Full CiteGuard
+538,plausible_fabricated,1,1,DOI-only
+538,plausible_fabricated,1,1,Crossref Metadata
+538,plausible_fabricated,1,1,Crossref + Title
+538,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+538,plausible_fabricated,1,1,Full CiteGuard
+166,doi_mismatch,1,0,DOI-only
+166,doi_mismatch,1,1,Crossref Metadata
+166,doi_mismatch,1,0,Crossref + Title
+166,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+166,doi_mismatch,1,1,Full CiteGuard
+122,doi_mismatch,1,0,DOI-only
+122,doi_mismatch,1,1,Crossref Metadata
+122,doi_mismatch,1,1,Crossref + Title
+122,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+122,doi_mismatch,1,1,Full CiteGuard
+177,doi_mismatch,1,0,DOI-only
+177,doi_mismatch,1,1,Crossref Metadata
+177,doi_mismatch,1,0,Crossref + Title
+177,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+177,doi_mismatch,1,1,Full CiteGuard
+194,doi_mismatch,1,0,DOI-only
+194,doi_mismatch,1,1,Crossref Metadata
+194,doi_mismatch,1,0,Crossref + Title
+194,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+194,doi_mismatch,1,1,Full CiteGuard
+543,plausible_fabricated,1,1,DOI-only
+543,plausible_fabricated,1,1,Crossref Metadata
+543,plausible_fabricated,1,1,Crossref + Title
+543,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+543,plausible_fabricated,1,1,Full CiteGuard
+449,wrong_venue,1,0,DOI-only
+449,wrong_venue,1,1,Crossref Metadata
+449,wrong_venue,1,0,Crossref + Title
+449,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+449,wrong_venue,1,1,Full CiteGuard
+105,doi_mismatch,1,0,DOI-only
+105,doi_mismatch,1,1,Crossref Metadata
+105,doi_mismatch,1,0,Crossref + Title
+105,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+105,doi_mismatch,1,1,Full CiteGuard
+185,doi_mismatch,1,0,DOI-only
+185,doi_mismatch,1,1,Crossref Metadata
+185,doi_mismatch,1,0,Crossref + Title
+185,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+185,doi_mismatch,1,1,Full CiteGuard
+404,wrong_venue,1,0,DOI-only
+404,wrong_venue,1,0,Crossref Metadata
+404,wrong_venue,1,0,Crossref + Title
+404,wrong_venue,1,0,Crossref + Title + Authors + Year + Venue
+404,wrong_venue,1,0,Full CiteGuard
+513,plausible_fabricated,1,1,DOI-only
+513,plausible_fabricated,1,1,Crossref Metadata
+513,plausible_fabricated,1,1,Crossref + Title
+513,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+513,plausible_fabricated,1,1,Full CiteGuard
+49,valid,0,0,DOI-only
+49,valid,0,0,Crossref Metadata
+49,valid,0,0,Crossref + Title
+49,valid,0,0,Crossref + Title + Authors + Year + Venue
+49,valid,0,0,Full CiteGuard
+562,plausible_fabricated,1,1,DOI-only
+562,plausible_fabricated,1,1,Crossref Metadata
+562,plausible_fabricated,1,1,Crossref + Title
+562,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+562,plausible_fabricated,1,1,Full CiteGuard
+429,wrong_venue,1,0,DOI-only
+429,wrong_venue,1,1,Crossref Metadata
+429,wrong_venue,1,1,Crossref + Title
+429,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+429,wrong_venue,1,1,Full CiteGuard
+306,wrong_year,1,0,DOI-only
+306,wrong_year,1,1,Crossref Metadata
+306,wrong_year,1,0,Crossref + Title
+306,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+306,wrong_year,1,1,Full CiteGuard
+372,wrong_year,1,0,DOI-only
+372,wrong_year,1,1,Crossref Metadata
+372,wrong_year,1,0,Crossref + Title
+372,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+372,wrong_year,1,1,Full CiteGuard
+298,corrupted_authors,1,0,DOI-only
+298,corrupted_authors,1,1,Crossref Metadata
+298,corrupted_authors,1,0,Crossref + Title
+298,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+298,corrupted_authors,1,0,Full CiteGuard
+478,wrong_venue,1,0,DOI-only
+478,wrong_venue,1,1,Crossref Metadata
+478,wrong_venue,1,0,Crossref + Title
+478,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+478,wrong_venue,1,1,Full CiteGuard
+223,corrupted_authors,1,0,DOI-only
+223,corrupted_authors,1,1,Crossref Metadata
+223,corrupted_authors,1,1,Crossref + Title
+223,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+223,corrupted_authors,1,1,Full CiteGuard
+88,valid,0,0,DOI-only
+88,valid,0,0,Crossref Metadata
+88,valid,0,0,Crossref + Title
+88,valid,0,0,Crossref + Title + Authors + Year + Venue
+88,valid,0,0,Full CiteGuard
+67,valid,0,0,DOI-only
+67,valid,0,0,Crossref Metadata
+67,valid,0,0,Crossref + Title
+67,valid,0,0,Crossref + Title + Authors + Year + Venue
+67,valid,0,0,Full CiteGuard
+434,wrong_venue,1,0,DOI-only
+434,wrong_venue,1,1,Crossref Metadata
+434,wrong_venue,1,0,Crossref + Title
+434,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+434,wrong_venue,1,1,Full CiteGuard
+567,plausible_fabricated,1,1,DOI-only
+567,plausible_fabricated,1,1,Crossref Metadata
+567,plausible_fabricated,1,1,Crossref + Title
+567,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+567,plausible_fabricated,1,1,Full CiteGuard
+580,plausible_fabricated,1,1,DOI-only
+580,plausible_fabricated,1,1,Crossref Metadata
+580,plausible_fabricated,1,1,Crossref + Title
+580,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+580,plausible_fabricated,1,1,Full CiteGuard
+270,corrupted_authors,1,0,DOI-only
+270,corrupted_authors,1,1,Crossref Metadata
+270,corrupted_authors,1,0,Crossref + Title
+270,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+270,corrupted_authors,1,0,Full CiteGuard
+47,valid,0,0,DOI-only
+47,valid,0,0,Crossref Metadata
+47,valid,0,0,Crossref + Title
+47,valid,0,0,Crossref + Title + Authors + Year + Venue
+47,valid,0,0,Full CiteGuard
+279,corrupted_authors,1,0,DOI-only
+279,corrupted_authors,1,1,Crossref Metadata
+279,corrupted_authors,1,0,Crossref + Title
+279,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+279,corrupted_authors,1,0,Full CiteGuard
+293,corrupted_authors,1,0,DOI-only
+293,corrupted_authors,1,1,Crossref Metadata
+293,corrupted_authors,1,0,Crossref + Title
+293,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+293,corrupted_authors,1,0,Full CiteGuard
+8,valid,0,0,DOI-only
+8,valid,0,0,Crossref Metadata
+8,valid,0,0,Crossref + Title
+8,valid,0,0,Crossref + Title + Authors + Year + Venue
+8,valid,0,1,Full CiteGuard
+470,wrong_venue,1,0,DOI-only
+470,wrong_venue,1,1,Crossref Metadata
+470,wrong_venue,1,0,Crossref + Title
+470,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+470,wrong_venue,1,1,Full CiteGuard
+98,valid,0,0,DOI-only
+98,valid,0,0,Crossref Metadata
+98,valid,0,0,Crossref + Title
+98,valid,0,0,Crossref + Title + Authors + Year + Venue
+98,valid,0,0,Full CiteGuard
+376,wrong_year,1,0,DOI-only
+376,wrong_year,1,1,Crossref Metadata
+376,wrong_year,1,0,Crossref + Title
+376,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+376,wrong_year,1,1,Full CiteGuard
+157,doi_mismatch,1,0,DOI-only
+157,doi_mismatch,1,1,Crossref Metadata
+157,doi_mismatch,1,0,Crossref + Title
+157,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+157,doi_mismatch,1,1,Full CiteGuard
+467,wrong_venue,1,0,DOI-only
+467,wrong_venue,1,0,Crossref Metadata
+467,wrong_venue,1,0,Crossref + Title
+467,wrong_venue,1,0,Crossref + Title + Authors + Year + Venue
+467,wrong_venue,1,0,Full CiteGuard
+370,wrong_year,1,0,DOI-only
+370,wrong_year,1,1,Crossref Metadata
+370,wrong_year,1,0,Crossref + Title
+370,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+370,wrong_year,1,1,Full CiteGuard
+326,wrong_year,1,0,DOI-only
+326,wrong_year,1,1,Crossref Metadata
+326,wrong_year,1,0,Crossref + Title
+326,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+326,wrong_year,1,1,Full CiteGuard
+382,wrong_year,1,0,DOI-only
+382,wrong_year,1,1,Crossref Metadata
+382,wrong_year,1,0,Crossref + Title
+382,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+382,wrong_year,1,1,Full CiteGuard
+455,wrong_venue,1,0,DOI-only
+455,wrong_venue,1,1,Crossref Metadata
+455,wrong_venue,1,0,Crossref + Title
+455,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+455,wrong_venue,1,1,Full CiteGuard
+519,plausible_fabricated,1,1,DOI-only
+519,plausible_fabricated,1,1,Crossref Metadata
+519,plausible_fabricated,1,1,Crossref + Title
+519,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+519,plausible_fabricated,1,1,Full CiteGuard
+23,valid,0,0,DOI-only
+23,valid,0,0,Crossref Metadata
+23,valid,0,1,Crossref + Title
+23,valid,0,0,Crossref + Title + Authors + Year + Venue
+23,valid,0,1,Full CiteGuard
+518,plausible_fabricated,1,1,DOI-only
+518,plausible_fabricated,1,1,Crossref Metadata
+518,plausible_fabricated,1,1,Crossref + Title
+518,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+518,plausible_fabricated,1,1,Full CiteGuard
+414,wrong_venue,1,0,DOI-only
+414,wrong_venue,1,1,Crossref Metadata
+414,wrong_venue,1,1,Crossref + Title
+414,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+414,wrong_venue,1,1,Full CiteGuard
+425,wrong_venue,1,0,DOI-only
+425,wrong_venue,1,1,Crossref Metadata
+425,wrong_venue,1,0,Crossref + Title
+425,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+425,wrong_venue,1,1,Full CiteGuard
+83,valid,0,0,DOI-only
+83,valid,0,0,Crossref Metadata
+83,valid,0,0,Crossref + Title
+83,valid,0,1,Crossref + Title + Authors + Year + Venue
+83,valid,0,1,Full CiteGuard
+421,wrong_venue,1,0,DOI-only
+421,wrong_venue,1,1,Crossref Metadata
+421,wrong_venue,1,0,Crossref + Title
+421,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+421,wrong_venue,1,1,Full CiteGuard
+509,plausible_fabricated,1,1,DOI-only
+509,plausible_fabricated,1,1,Crossref Metadata
+509,plausible_fabricated,1,1,Crossref + Title
+509,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+509,plausible_fabricated,1,1,Full CiteGuard
+534,plausible_fabricated,1,1,DOI-only
+534,plausible_fabricated,1,1,Crossref Metadata
+534,plausible_fabricated,1,1,Crossref + Title
+534,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+534,plausible_fabricated,1,1,Full CiteGuard
+212,corrupted_authors,1,0,DOI-only
+212,corrupted_authors,1,1,Crossref Metadata
+212,corrupted_authors,1,0,Crossref + Title
+212,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+212,corrupted_authors,1,0,Full CiteGuard
+435,wrong_venue,1,0,DOI-only
+435,wrong_venue,1,1,Crossref Metadata
+435,wrong_venue,1,0,Crossref + Title
+435,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+435,wrong_venue,1,1,Full CiteGuard
+120,doi_mismatch,1,0,DOI-only
+120,doi_mismatch,1,1,Crossref Metadata
+120,doi_mismatch,1,0,Crossref + Title
+120,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+120,doi_mismatch,1,1,Full CiteGuard
+124,doi_mismatch,1,0,DOI-only
+124,doi_mismatch,1,1,Crossref Metadata
+124,doi_mismatch,1,0,Crossref + Title
+124,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+124,doi_mismatch,1,1,Full CiteGuard
+199,doi_mismatch,1,0,DOI-only
+199,doi_mismatch,1,1,Crossref Metadata
+199,doi_mismatch,1,0,Crossref + Title
+199,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+199,doi_mismatch,1,1,Full CiteGuard
+138,doi_mismatch,1,0,DOI-only
+138,doi_mismatch,1,1,Crossref Metadata
+138,doi_mismatch,1,0,Crossref + Title
+138,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+138,doi_mismatch,1,1,Full CiteGuard
+236,corrupted_authors,1,0,DOI-only
+236,corrupted_authors,1,1,Crossref Metadata
+236,corrupted_authors,1,0,Crossref + Title
+236,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+236,corrupted_authors,1,0,Full CiteGuard
+511,plausible_fabricated,1,1,DOI-only
+511,plausible_fabricated,1,1,Crossref Metadata
+511,plausible_fabricated,1,1,Crossref + Title
+511,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+511,plausible_fabricated,1,1,Full CiteGuard
+158,doi_mismatch,1,0,DOI-only
+158,doi_mismatch,1,1,Crossref Metadata
+158,doi_mismatch,1,0,Crossref + Title
+158,doi_mismatch,1,0,Crossref + Title + Authors + Year + Venue
+158,doi_mismatch,1,1,Full CiteGuard
+499,wrong_venue,1,0,DOI-only
+499,wrong_venue,1,0,Crossref Metadata
+499,wrong_venue,1,0,Crossref + Title
+499,wrong_venue,1,0,Crossref + Title + Authors + Year + Venue
+499,wrong_venue,1,1,Full CiteGuard
+573,plausible_fabricated,1,1,DOI-only
+573,plausible_fabricated,1,1,Crossref Metadata
+573,plausible_fabricated,1,1,Crossref + Title
+573,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+573,plausible_fabricated,1,1,Full CiteGuard
+402,wrong_venue,1,0,DOI-only
+402,wrong_venue,1,1,Crossref Metadata
+402,wrong_venue,1,0,Crossref + Title
+402,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+402,wrong_venue,1,1,Full CiteGuard
+188,doi_mismatch,1,0,DOI-only
+188,doi_mismatch,1,1,Crossref Metadata
+188,doi_mismatch,1,0,Crossref + Title
+188,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+188,doi_mismatch,1,1,Full CiteGuard
+525,plausible_fabricated,1,1,DOI-only
+525,plausible_fabricated,1,1,Crossref Metadata
+525,plausible_fabricated,1,1,Crossref + Title
+525,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+525,plausible_fabricated,1,1,Full CiteGuard
+285,corrupted_authors,1,0,DOI-only
+285,corrupted_authors,1,1,Crossref Metadata
+285,corrupted_authors,1,0,Crossref + Title
+285,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+285,corrupted_authors,1,0,Full CiteGuard
+492,wrong_venue,1,0,DOI-only
+492,wrong_venue,1,1,Crossref Metadata
+492,wrong_venue,1,0,Crossref + Title
+492,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+492,wrong_venue,1,1,Full CiteGuard
+572,plausible_fabricated,1,1,DOI-only
+572,plausible_fabricated,1,1,Crossref Metadata
+572,plausible_fabricated,1,1,Crossref + Title
+572,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+572,plausible_fabricated,1,1,Full CiteGuard
+118,doi_mismatch,1,0,DOI-only
+118,doi_mismatch,1,1,Crossref Metadata
+118,doi_mismatch,1,0,Crossref + Title
+118,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+118,doi_mismatch,1,1,Full CiteGuard
+358,wrong_year,1,0,DOI-only
+358,wrong_year,1,1,Crossref Metadata
+358,wrong_year,1,0,Crossref + Title
+358,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+358,wrong_year,1,1,Full CiteGuard
+397,wrong_year,1,0,DOI-only
+397,wrong_year,1,1,Crossref Metadata
+397,wrong_year,1,0,Crossref + Title
+397,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+397,wrong_year,1,1,Full CiteGuard
+405,wrong_venue,1,0,DOI-only
+405,wrong_venue,1,0,Crossref Metadata
+405,wrong_venue,1,0,Crossref + Title
+405,wrong_venue,1,0,Crossref + Title + Authors + Year + Venue
+405,wrong_venue,1,0,Full CiteGuard
+93,valid,0,0,DOI-only
+93,valid,0,0,Crossref Metadata
+93,valid,0,0,Crossref + Title
+93,valid,0,0,Crossref + Title + Authors + Year + Venue
+93,valid,0,0,Full CiteGuard
+246,corrupted_authors,1,0,DOI-only
+246,corrupted_authors,1,1,Crossref Metadata
+246,corrupted_authors,1,0,Crossref + Title
+246,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+246,corrupted_authors,1,0,Full CiteGuard
+563,plausible_fabricated,1,1,DOI-only
+563,plausible_fabricated,1,1,Crossref Metadata
+563,plausible_fabricated,1,1,Crossref + Title
+563,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+563,plausible_fabricated,1,1,Full CiteGuard
+426,wrong_venue,1,0,DOI-only
+426,wrong_venue,1,1,Crossref Metadata
+426,wrong_venue,1,0,Crossref + Title
+426,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+426,wrong_venue,1,1,Full CiteGuard
+251,corrupted_authors,1,0,DOI-only
+251,corrupted_authors,1,1,Crossref Metadata
+251,corrupted_authors,1,0,Crossref + Title
+251,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+251,corrupted_authors,1,0,Full CiteGuard
+406,wrong_venue,1,0,DOI-only
+406,wrong_venue,1,0,Crossref Metadata
+406,wrong_venue,1,0,Crossref + Title
+406,wrong_venue,1,0,Crossref + Title + Authors + Year + Venue
+406,wrong_venue,1,0,Full CiteGuard
+7,valid,0,0,DOI-only
+7,valid,0,0,Crossref Metadata
+7,valid,0,0,Crossref + Title
+7,valid,0,0,Crossref + Title + Authors + Year + Venue
+7,valid,0,1,Full CiteGuard
+175,doi_mismatch,1,0,DOI-only
+175,doi_mismatch,1,1,Crossref Metadata
+175,doi_mismatch,1,0,Crossref + Title
+175,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+175,doi_mismatch,1,1,Full CiteGuard
+260,corrupted_authors,1,0,DOI-only
+260,corrupted_authors,1,1,Crossref Metadata
+260,corrupted_authors,1,0,Crossref + Title
+260,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+260,corrupted_authors,1,0,Full CiteGuard
+296,corrupted_authors,1,0,DOI-only
+296,corrupted_authors,1,0,Crossref Metadata
+296,corrupted_authors,1,0,Crossref + Title
+296,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+296,corrupted_authors,1,0,Full CiteGuard
+190,doi_mismatch,1,0,DOI-only
+190,doi_mismatch,1,1,Crossref Metadata
+190,doi_mismatch,1,0,Crossref + Title
+190,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+190,doi_mismatch,1,1,Full CiteGuard
+389,wrong_year,1,0,DOI-only
+389,wrong_year,1,1,Crossref Metadata
+389,wrong_year,1,0,Crossref + Title
+389,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+389,wrong_year,1,1,Full CiteGuard
+178,doi_mismatch,1,0,DOI-only
+178,doi_mismatch,1,1,Crossref Metadata
+178,doi_mismatch,1,0,Crossref + Title
+178,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+178,doi_mismatch,1,1,Full CiteGuard
+22,valid,0,0,DOI-only
+22,valid,0,0,Crossref Metadata
+22,valid,0,0,Crossref + Title
+22,valid,0,0,Crossref + Title + Authors + Year + Venue
+22,valid,0,1,Full CiteGuard
+62,valid,0,0,DOI-only
+62,valid,0,0,Crossref Metadata
+62,valid,0,0,Crossref + Title
+62,valid,0,1,Crossref + Title + Authors + Year + Venue
+62,valid,0,1,Full CiteGuard
+495,wrong_venue,1,0,DOI-only
+495,wrong_venue,1,1,Crossref Metadata
+495,wrong_venue,1,0,Crossref + Title
+495,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+495,wrong_venue,1,1,Full CiteGuard
+53,valid,0,0,DOI-only
+53,valid,0,0,Crossref Metadata
+53,valid,0,0,Crossref + Title
+53,valid,0,0,Crossref + Title + Authors + Year + Venue
+53,valid,0,0,Full CiteGuard
+433,wrong_venue,1,0,DOI-only
+433,wrong_venue,1,1,Crossref Metadata
+433,wrong_venue,1,0,Crossref + Title
+433,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+433,wrong_venue,1,1,Full CiteGuard
+39,valid,0,0,DOI-only
+39,valid,0,0,Crossref Metadata
+39,valid,0,0,Crossref + Title
+39,valid,0,0,Crossref + Title + Authors + Year + Venue
+39,valid,0,0,Full CiteGuard
+453,wrong_venue,1,0,DOI-only
+453,wrong_venue,1,1,Crossref Metadata
+453,wrong_venue,1,0,Crossref + Title
+453,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+453,wrong_venue,1,1,Full CiteGuard
+204,corrupted_authors,1,0,DOI-only
+204,corrupted_authors,1,1,Crossref Metadata
+204,corrupted_authors,1,0,Crossref + Title
+204,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+204,corrupted_authors,1,0,Full CiteGuard
+193,doi_mismatch,1,0,DOI-only
+193,doi_mismatch,1,1,Crossref Metadata
+193,doi_mismatch,1,0,Crossref + Title
+193,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+193,doi_mismatch,1,1,Full CiteGuard
+545,plausible_fabricated,1,1,DOI-only
+545,plausible_fabricated,1,1,Crossref Metadata
+545,plausible_fabricated,1,1,Crossref + Title
+545,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+545,plausible_fabricated,1,1,Full CiteGuard
+391,wrong_year,1,0,DOI-only
+391,wrong_year,1,1,Crossref Metadata
+391,wrong_year,1,0,Crossref + Title
+391,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+391,wrong_year,1,1,Full CiteGuard
+56,valid,0,0,DOI-only
+56,valid,0,0,Crossref Metadata
+56,valid,0,0,Crossref + Title
+56,valid,0,0,Crossref + Title + Authors + Year + Venue
+56,valid,0,0,Full CiteGuard
+160,doi_mismatch,1,0,DOI-only
+160,doi_mismatch,1,1,Crossref Metadata
+160,doi_mismatch,1,0,Crossref + Title
+160,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+160,doi_mismatch,1,1,Full CiteGuard
+84,valid,0,0,DOI-only
+84,valid,0,0,Crossref Metadata
+84,valid,0,0,Crossref + Title
+84,valid,0,0,Crossref + Title + Authors + Year + Venue
+84,valid,0,0,Full CiteGuard
+416,wrong_venue,1,0,DOI-only
+416,wrong_venue,1,1,Crossref Metadata
+416,wrong_venue,1,0,Crossref + Title
+416,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+416,wrong_venue,1,1,Full CiteGuard
+86,valid,0,0,DOI-only
+86,valid,0,0,Crossref Metadata
+86,valid,0,0,Crossref + Title
+86,valid,0,0,Crossref + Title + Authors + Year + Venue
+86,valid,0,0,Full CiteGuard
+189,doi_mismatch,1,0,DOI-only
+189,doi_mismatch,1,1,Crossref Metadata
+189,doi_mismatch,1,0,Crossref + Title
+189,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+189,doi_mismatch,1,1,Full CiteGuard
+132,doi_mismatch,1,0,DOI-only
+132,doi_mismatch,1,1,Crossref Metadata
+132,doi_mismatch,1,0,Crossref + Title
+132,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+132,doi_mismatch,1,1,Full CiteGuard
+556,plausible_fabricated,1,1,DOI-only
+556,plausible_fabricated,1,1,Crossref Metadata
+556,plausible_fabricated,1,1,Crossref + Title
+556,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+556,plausible_fabricated,1,1,Full CiteGuard
+535,plausible_fabricated,1,1,DOI-only
+535,plausible_fabricated,1,1,Crossref Metadata
+535,plausible_fabricated,1,1,Crossref + Title
+535,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+535,plausible_fabricated,1,1,Full CiteGuard
+59,valid,0,0,DOI-only
+59,valid,0,0,Crossref Metadata
+59,valid,0,0,Crossref + Title
+59,valid,0,0,Crossref + Title + Authors + Year + Venue
+59,valid,0,0,Full CiteGuard
+475,wrong_venue,1,0,DOI-only
+475,wrong_venue,1,0,Crossref Metadata
+475,wrong_venue,1,0,Crossref + Title
+475,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+475,wrong_venue,1,1,Full CiteGuard
+65,valid,0,0,DOI-only
+65,valid,0,0,Crossref Metadata
+65,valid,0,0,Crossref + Title
+65,valid,0,0,Crossref + Title + Authors + Year + Venue
+65,valid,0,0,Full CiteGuard
+500,wrong_venue,1,0,DOI-only
+500,wrong_venue,1,1,Crossref Metadata
+500,wrong_venue,1,0,Crossref + Title
+500,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+500,wrong_venue,1,1,Full CiteGuard
+582,plausible_fabricated,1,1,DOI-only
+582,plausible_fabricated,1,1,Crossref Metadata
+582,plausible_fabricated,1,1,Crossref + Title
+582,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+582,plausible_fabricated,1,1,Full CiteGuard
+352,wrong_year,1,0,DOI-only
+352,wrong_year,1,1,Crossref Metadata
+352,wrong_year,1,0,Crossref + Title
+352,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+352,wrong_year,1,1,Full CiteGuard
+103,doi_mismatch,1,0,DOI-only
+103,doi_mismatch,1,1,Crossref Metadata
+103,doi_mismatch,1,0,Crossref + Title
+103,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+103,doi_mismatch,1,1,Full CiteGuard
+390,wrong_year,1,0,DOI-only
+390,wrong_year,1,1,Crossref Metadata
+390,wrong_year,1,0,Crossref + Title
+390,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+390,wrong_year,1,1,Full CiteGuard
+16,valid,0,0,DOI-only
+16,valid,0,0,Crossref Metadata
+16,valid,0,0,Crossref + Title
+16,valid,0,0,Crossref + Title + Authors + Year + Venue
+16,valid,0,0,Full CiteGuard
+21,valid,0,0,DOI-only
+21,valid,0,0,Crossref Metadata
+21,valid,0,0,Crossref + Title
+21,valid,0,0,Crossref + Title + Authors + Year + Venue
+21,valid,0,1,Full CiteGuard
+36,valid,0,0,DOI-only
+36,valid,0,0,Crossref Metadata
+36,valid,0,0,Crossref + Title
+36,valid,0,0,Crossref + Title + Authors + Year + Venue
+36,valid,0,0,Full CiteGuard
+596,plausible_fabricated,1,1,DOI-only
+596,plausible_fabricated,1,1,Crossref Metadata
+596,plausible_fabricated,1,1,Crossref + Title
+596,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+596,plausible_fabricated,1,1,Full CiteGuard
+180,doi_mismatch,1,0,DOI-only
+180,doi_mismatch,1,1,Crossref Metadata
+180,doi_mismatch,1,0,Crossref + Title
+180,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+180,doi_mismatch,1,1,Full CiteGuard
+27,valid,0,0,DOI-only
+27,valid,0,0,Crossref Metadata
+27,valid,0,0,Crossref + Title
+27,valid,0,0,Crossref + Title + Authors + Year + Venue
+27,valid,0,0,Full CiteGuard
+584,plausible_fabricated,1,1,DOI-only
+584,plausible_fabricated,1,1,Crossref Metadata
+584,plausible_fabricated,1,1,Crossref + Title
+584,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+584,plausible_fabricated,1,1,Full CiteGuard
+597,plausible_fabricated,1,1,DOI-only
+597,plausible_fabricated,1,1,Crossref Metadata
+597,plausible_fabricated,1,1,Crossref + Title
+597,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+597,plausible_fabricated,1,1,Full CiteGuard
+241,corrupted_authors,1,0,DOI-only
+241,corrupted_authors,1,1,Crossref Metadata
+241,corrupted_authors,1,0,Crossref + Title
+241,corrupted_authors,1,1,Crossref + Title + Authors + Year + Venue
+241,corrupted_authors,1,1,Full CiteGuard
+521,plausible_fabricated,1,1,DOI-only
+521,plausible_fabricated,1,1,Crossref Metadata
+521,plausible_fabricated,1,1,Crossref + Title
+521,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+521,plausible_fabricated,1,1,Full CiteGuard
+130,doi_mismatch,1,0,DOI-only
+130,doi_mismatch,1,1,Crossref Metadata
+130,doi_mismatch,1,0,Crossref + Title
+130,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+130,doi_mismatch,1,1,Full CiteGuard
+355,wrong_year,1,0,DOI-only
+355,wrong_year,1,1,Crossref Metadata
+355,wrong_year,1,0,Crossref + Title
+355,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+355,wrong_year,1,1,Full CiteGuard
+143,doi_mismatch,1,0,DOI-only
+143,doi_mismatch,1,1,Crossref Metadata
+143,doi_mismatch,1,0,Crossref + Title
+143,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+143,doi_mismatch,1,1,Full CiteGuard
+530,plausible_fabricated,1,1,DOI-only
+530,plausible_fabricated,1,1,Crossref Metadata
+530,plausible_fabricated,1,1,Crossref + Title
+530,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+530,plausible_fabricated,1,1,Full CiteGuard
+332,wrong_year,1,0,DOI-only
+332,wrong_year,1,1,Crossref Metadata
+332,wrong_year,1,0,Crossref + Title
+332,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+332,wrong_year,1,1,Full CiteGuard
+312,wrong_year,1,0,DOI-only
+312,wrong_year,1,1,Crossref Metadata
+312,wrong_year,1,0,Crossref + Title
+312,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+312,wrong_year,1,1,Full CiteGuard
+233,corrupted_authors,1,0,DOI-only
+233,corrupted_authors,1,1,Crossref Metadata
+233,corrupted_authors,1,0,Crossref + Title
+233,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+233,corrupted_authors,1,0,Full CiteGuard
+109,doi_mismatch,1,0,DOI-only
+109,doi_mismatch,1,1,Crossref Metadata
+109,doi_mismatch,1,0,Crossref + Title
+109,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+109,doi_mismatch,1,1,Full CiteGuard
+168,doi_mismatch,1,0,DOI-only
+168,doi_mismatch,1,1,Crossref Metadata
+168,doi_mismatch,1,0,Crossref + Title
+168,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+168,doi_mismatch,1,1,Full CiteGuard
+350,wrong_year,1,0,DOI-only
+350,wrong_year,1,1,Crossref Metadata
+350,wrong_year,1,0,Crossref + Title
+350,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+350,wrong_year,1,1,Full CiteGuard
+134,doi_mismatch,1,0,DOI-only
+134,doi_mismatch,1,1,Crossref Metadata
+134,doi_mismatch,1,0,Crossref + Title
+134,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+134,doi_mismatch,1,1,Full CiteGuard
+576,plausible_fabricated,1,1,DOI-only
+576,plausible_fabricated,1,1,Crossref Metadata
+576,plausible_fabricated,1,1,Crossref + Title
+576,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+576,plausible_fabricated,1,1,Full CiteGuard
+94,valid,0,0,DOI-only
+94,valid,0,0,Crossref Metadata
+94,valid,0,0,Crossref + Title
+94,valid,0,0,Crossref + Title + Authors + Year + Venue
+94,valid,0,0,Full CiteGuard
+237,corrupted_authors,1,0,DOI-only
+237,corrupted_authors,1,1,Crossref Metadata
+237,corrupted_authors,1,0,Crossref + Title
+237,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+237,corrupted_authors,1,0,Full CiteGuard
+70,valid,0,0,DOI-only
+70,valid,0,0,Crossref Metadata
+70,valid,0,0,Crossref + Title
+70,valid,0,0,Crossref + Title + Authors + Year + Venue
+70,valid,0,0,Full CiteGuard
+220,corrupted_authors,1,0,DOI-only
+220,corrupted_authors,1,1,Crossref Metadata
+220,corrupted_authors,1,0,Crossref + Title
+220,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+220,corrupted_authors,1,1,Full CiteGuard
+586,plausible_fabricated,1,1,DOI-only
+586,plausible_fabricated,1,1,Crossref Metadata
+586,plausible_fabricated,1,1,Crossref + Title
+586,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+586,plausible_fabricated,1,1,Full CiteGuard
+464,wrong_venue,1,0,DOI-only
+464,wrong_venue,1,1,Crossref Metadata
+464,wrong_venue,1,0,Crossref + Title
+464,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+464,wrong_venue,1,1,Full CiteGuard
+289,corrupted_authors,1,0,DOI-only
+289,corrupted_authors,1,1,Crossref Metadata
+289,corrupted_authors,1,0,Crossref + Title
+289,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+289,corrupted_authors,1,0,Full CiteGuard
+304,wrong_year,1,0,DOI-only
+304,wrong_year,1,1,Crossref Metadata
+304,wrong_year,1,0,Crossref + Title
+304,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+304,wrong_year,1,1,Full CiteGuard
+544,plausible_fabricated,1,1,DOI-only
+544,plausible_fabricated,1,1,Crossref Metadata
+544,plausible_fabricated,1,1,Crossref + Title
+544,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+544,plausible_fabricated,1,1,Full CiteGuard
+14,valid,0,0,DOI-only
+14,valid,0,0,Crossref Metadata
+14,valid,0,1,Crossref + Title
+14,valid,0,0,Crossref + Title + Authors + Year + Venue
+14,valid,0,1,Full CiteGuard
+600,plausible_fabricated,1,1,DOI-only
+600,plausible_fabricated,1,1,Crossref Metadata
+600,plausible_fabricated,1,1,Crossref + Title
+600,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+600,plausible_fabricated,1,1,Full CiteGuard
+319,wrong_year,1,0,DOI-only
+319,wrong_year,1,1,Crossref Metadata
+319,wrong_year,1,0,Crossref + Title
+319,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+319,wrong_year,1,1,Full CiteGuard
+507,plausible_fabricated,1,1,DOI-only
+507,plausible_fabricated,1,1,Crossref Metadata
+507,plausible_fabricated,1,1,Crossref + Title
+507,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+507,plausible_fabricated,1,1,Full CiteGuard
+240,corrupted_authors,1,0,DOI-only
+240,corrupted_authors,1,1,Crossref Metadata
+240,corrupted_authors,1,0,Crossref + Title
+240,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+240,corrupted_authors,1,0,Full CiteGuard
+85,valid,0,0,DOI-only
+85,valid,0,0,Crossref Metadata
+85,valid,0,0,Crossref + Title
+85,valid,0,0,Crossref + Title + Authors + Year + Venue
+85,valid,0,0,Full CiteGuard
+494,wrong_venue,1,0,DOI-only
+494,wrong_venue,1,0,Crossref Metadata
+494,wrong_venue,1,0,Crossref + Title
+494,wrong_venue,1,0,Crossref + Title + Authors + Year + Venue
+494,wrong_venue,1,0,Full CiteGuard
+173,doi_mismatch,1,0,DOI-only
+173,doi_mismatch,1,1,Crossref Metadata
+173,doi_mismatch,1,0,Crossref + Title
+173,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+173,doi_mismatch,1,1,Full CiteGuard
+457,wrong_venue,1,0,DOI-only
+457,wrong_venue,1,1,Crossref Metadata
+457,wrong_venue,1,0,Crossref + Title
+457,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+457,wrong_venue,1,0,Full CiteGuard
+15,valid,0,0,DOI-only
+15,valid,0,0,Crossref Metadata
+15,valid,0,0,Crossref + Title
+15,valid,0,0,Crossref + Title + Authors + Year + Venue
+15,valid,0,0,Full CiteGuard
+386,wrong_year,1,0,DOI-only
+386,wrong_year,1,1,Crossref Metadata
+386,wrong_year,1,0,Crossref + Title
+386,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+386,wrong_year,1,1,Full CiteGuard
+224,corrupted_authors,1,0,DOI-only
+224,corrupted_authors,1,1,Crossref Metadata
+224,corrupted_authors,1,0,Crossref + Title
+224,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+224,corrupted_authors,1,0,Full CiteGuard
+471,wrong_venue,1,0,DOI-only
+471,wrong_venue,1,1,Crossref Metadata
+471,wrong_venue,1,0,Crossref + Title
+471,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+471,wrong_venue,1,1,Full CiteGuard
+465,wrong_venue,1,0,DOI-only
+465,wrong_venue,1,1,Crossref Metadata
+465,wrong_venue,1,0,Crossref + Title
+465,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+465,wrong_venue,1,1,Full CiteGuard
+250,corrupted_authors,1,0,DOI-only
+250,corrupted_authors,1,1,Crossref Metadata
+250,corrupted_authors,1,0,Crossref + Title
+250,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+250,corrupted_authors,1,0,Full CiteGuard
+571,plausible_fabricated,1,1,DOI-only
+571,plausible_fabricated,1,1,Crossref Metadata
+571,plausible_fabricated,1,1,Crossref + Title
+571,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+571,plausible_fabricated,1,1,Full CiteGuard
+309,wrong_year,1,0,DOI-only
+309,wrong_year,1,1,Crossref Metadata
+309,wrong_year,1,0,Crossref + Title
+309,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+309,wrong_year,1,1,Full CiteGuard
+280,corrupted_authors,1,0,DOI-only
+280,corrupted_authors,1,1,Crossref Metadata
+280,corrupted_authors,1,0,Crossref + Title
+280,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+280,corrupted_authors,1,0,Full CiteGuard
+276,corrupted_authors,1,0,DOI-only
+276,corrupted_authors,1,1,Crossref Metadata
+276,corrupted_authors,1,0,Crossref + Title
+276,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+276,corrupted_authors,1,0,Full CiteGuard
+215,corrupted_authors,1,0,DOI-only
+215,corrupted_authors,1,1,Crossref Metadata
+215,corrupted_authors,1,0,Crossref + Title
+215,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+215,corrupted_authors,1,0,Full CiteGuard
+533,plausible_fabricated,1,1,DOI-only
+533,plausible_fabricated,1,1,Crossref Metadata
+533,plausible_fabricated,1,1,Crossref + Title
+533,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+533,plausible_fabricated,1,1,Full CiteGuard
+594,plausible_fabricated,1,1,DOI-only
+594,plausible_fabricated,1,1,Crossref Metadata
+594,plausible_fabricated,1,1,Crossref + Title
+594,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+594,plausible_fabricated,1,1,Full CiteGuard
+181,doi_mismatch,1,0,DOI-only
+181,doi_mismatch,1,1,Crossref Metadata
+181,doi_mismatch,1,0,Crossref + Title
+181,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+181,doi_mismatch,1,1,Full CiteGuard
+4,valid,0,0,DOI-only
+4,valid,0,0,Crossref Metadata
+4,valid,0,0,Crossref + Title
+4,valid,0,0,Crossref + Title + Authors + Year + Venue
+4,valid,0,0,Full CiteGuard
+245,corrupted_authors,1,0,DOI-only
+245,corrupted_authors,1,1,Crossref Metadata
+245,corrupted_authors,1,0,Crossref + Title
+245,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+245,corrupted_authors,1,0,Full CiteGuard
+502,plausible_fabricated,1,1,DOI-only
+502,plausible_fabricated,1,1,Crossref Metadata
+502,plausible_fabricated,1,1,Crossref + Title
+502,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+502,plausible_fabricated,1,1,Full CiteGuard
+440,wrong_venue,1,0,DOI-only
+440,wrong_venue,1,1,Crossref Metadata
+440,wrong_venue,1,0,Crossref + Title
+440,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+440,wrong_venue,1,1,Full CiteGuard
+11,valid,0,0,DOI-only
+11,valid,0,0,Crossref Metadata
+11,valid,0,0,Crossref + Title
+11,valid,0,0,Crossref + Title + Authors + Year + Venue
+11,valid,0,0,Full CiteGuard
+300,corrupted_authors,1,0,DOI-only
+300,corrupted_authors,1,1,Crossref Metadata
+300,corrupted_authors,1,0,Crossref + Title
+300,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+300,corrupted_authors,1,0,Full CiteGuard
+200,doi_mismatch,1,0,DOI-only
+200,doi_mismatch,1,1,Crossref Metadata
+200,doi_mismatch,1,0,Crossref + Title
+200,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+200,doi_mismatch,1,1,Full CiteGuard
+505,plausible_fabricated,1,1,DOI-only
+505,plausible_fabricated,1,1,Crossref Metadata
+505,plausible_fabricated,1,1,Crossref + Title
+505,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+505,plausible_fabricated,1,1,Full CiteGuard
+579,plausible_fabricated,1,1,DOI-only
+579,plausible_fabricated,1,1,Crossref Metadata
+579,plausible_fabricated,1,1,Crossref + Title
+579,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+579,plausible_fabricated,1,1,Full CiteGuard
+32,valid,0,0,DOI-only
+32,valid,0,0,Crossref Metadata
+32,valid,0,0,Crossref + Title
+32,valid,0,0,Crossref + Title + Authors + Year + Venue
+32,valid,0,0,Full CiteGuard
+578,plausible_fabricated,1,1,DOI-only
+578,plausible_fabricated,1,1,Crossref Metadata
+578,plausible_fabricated,1,1,Crossref + Title
+578,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+578,plausible_fabricated,1,1,Full CiteGuard
+481,wrong_venue,1,0,DOI-only
+481,wrong_venue,1,1,Crossref Metadata
+481,wrong_venue,1,0,Crossref + Title
+481,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+481,wrong_venue,1,1,Full CiteGuard
+278,corrupted_authors,1,0,DOI-only
+278,corrupted_authors,1,1,Crossref Metadata
+278,corrupted_authors,1,0,Crossref + Title
+278,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+278,corrupted_authors,1,0,Full CiteGuard
+170,doi_mismatch,1,0,DOI-only
+170,doi_mismatch,1,1,Crossref Metadata
+170,doi_mismatch,1,0,Crossref + Title
+170,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+170,doi_mismatch,1,1,Full CiteGuard
+209,corrupted_authors,1,0,DOI-only
+209,corrupted_authors,1,0,Crossref Metadata
+209,corrupted_authors,1,0,Crossref + Title
+209,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+209,corrupted_authors,1,0,Full CiteGuard
+520,plausible_fabricated,1,1,DOI-only
+520,plausible_fabricated,1,1,Crossref Metadata
+520,plausible_fabricated,1,1,Crossref + Title
+520,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+520,plausible_fabricated,1,1,Full CiteGuard
+33,valid,0,0,DOI-only
+33,valid,0,0,Crossref Metadata
+33,valid,0,0,Crossref + Title
+33,valid,0,0,Crossref + Title + Authors + Year + Venue
+33,valid,0,0,Full CiteGuard
+477,wrong_venue,1,0,DOI-only
+477,wrong_venue,1,1,Crossref Metadata
+477,wrong_venue,1,0,Crossref + Title
+477,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+477,wrong_venue,1,1,Full CiteGuard
+362,wrong_year,1,0,DOI-only
+362,wrong_year,1,1,Crossref Metadata
+362,wrong_year,1,0,Crossref + Title
+362,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+362,wrong_year,1,1,Full CiteGuard
+79,valid,0,0,DOI-only
+79,valid,0,0,Crossref Metadata
+79,valid,0,0,Crossref + Title
+79,valid,0,0,Crossref + Title + Authors + Year + Venue
+79,valid,0,0,Full CiteGuard
+356,wrong_year,1,0,DOI-only
+356,wrong_year,1,1,Crossref Metadata
+356,wrong_year,1,0,Crossref + Title
+356,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+356,wrong_year,1,1,Full CiteGuard
+446,wrong_venue,1,0,DOI-only
+446,wrong_venue,1,1,Crossref Metadata
+446,wrong_venue,1,0,Crossref + Title
+446,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+446,wrong_venue,1,1,Full CiteGuard
+529,plausible_fabricated,1,1,DOI-only
+529,plausible_fabricated,1,1,Crossref Metadata
+529,plausible_fabricated,1,1,Crossref + Title
+529,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+529,plausible_fabricated,1,1,Full CiteGuard
+595,plausible_fabricated,1,1,DOI-only
+595,plausible_fabricated,1,1,Crossref Metadata
+595,plausible_fabricated,1,1,Crossref + Title
+595,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+595,plausible_fabricated,1,1,Full CiteGuard
+71,valid,0,0,DOI-only
+71,valid,0,0,Crossref Metadata
+71,valid,0,0,Crossref + Title
+71,valid,0,0,Crossref + Title + Authors + Year + Venue
+71,valid,0,0,Full CiteGuard
+42,valid,0,0,DOI-only
+42,valid,0,0,Crossref Metadata
+42,valid,0,0,Crossref + Title
+42,valid,0,0,Crossref + Title + Authors + Year + Venue
+42,valid,0,0,Full CiteGuard
+277,corrupted_authors,1,0,DOI-only
+277,corrupted_authors,1,1,Crossref Metadata
+277,corrupted_authors,1,0,Crossref + Title
+277,corrupted_authors,1,1,Crossref + Title + Authors + Year + Venue
+277,corrupted_authors,1,1,Full CiteGuard
+564,plausible_fabricated,1,1,DOI-only
+564,plausible_fabricated,1,1,Crossref Metadata
+564,plausible_fabricated,1,1,Crossref + Title
+564,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+564,plausible_fabricated,1,1,Full CiteGuard
+473,wrong_venue,1,0,DOI-only
+473,wrong_venue,1,1,Crossref Metadata
+473,wrong_venue,1,0,Crossref + Title
+473,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+473,wrong_venue,1,1,Full CiteGuard
+140,doi_mismatch,1,0,DOI-only
+140,doi_mismatch,1,1,Crossref Metadata
+140,doi_mismatch,1,0,Crossref + Title
+140,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+140,doi_mismatch,1,1,Full CiteGuard
+458,wrong_venue,1,0,DOI-only
+458,wrong_venue,1,0,Crossref Metadata
+458,wrong_venue,1,0,Crossref + Title
+458,wrong_venue,1,0,Crossref + Title + Authors + Year + Venue
+458,wrong_venue,1,0,Full CiteGuard
+489,wrong_venue,1,0,DOI-only
+489,wrong_venue,1,0,Crossref Metadata
+489,wrong_venue,1,0,Crossref + Title
+489,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+489,wrong_venue,1,0,Full CiteGuard
+366,wrong_year,1,0,DOI-only
+366,wrong_year,1,1,Crossref Metadata
+366,wrong_year,1,0,Crossref + Title
+366,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+366,wrong_year,1,1,Full CiteGuard
+536,plausible_fabricated,1,1,DOI-only
+536,plausible_fabricated,1,1,Crossref Metadata
+536,plausible_fabricated,1,1,Crossref + Title
+536,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+536,plausible_fabricated,1,1,Full CiteGuard
+226,corrupted_authors,1,0,DOI-only
+226,corrupted_authors,1,1,Crossref Metadata
+226,corrupted_authors,1,0,Crossref + Title
+226,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+226,corrupted_authors,1,1,Full CiteGuard
+141,doi_mismatch,1,0,DOI-only
+141,doi_mismatch,1,1,Crossref Metadata
+141,doi_mismatch,1,0,Crossref + Title
+141,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+141,doi_mismatch,1,1,Full CiteGuard
+123,doi_mismatch,1,0,DOI-only
+123,doi_mismatch,1,1,Crossref Metadata
+123,doi_mismatch,1,1,Crossref + Title
+123,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+123,doi_mismatch,1,1,Full CiteGuard
+321,wrong_year,1,0,DOI-only
+321,wrong_year,1,1,Crossref Metadata
+321,wrong_year,1,0,Crossref + Title
+321,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+321,wrong_year,1,1,Full CiteGuard
+249,corrupted_authors,1,0,DOI-only
+249,corrupted_authors,1,1,Crossref Metadata
+249,corrupted_authors,1,0,Crossref + Title
+249,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+249,corrupted_authors,1,0,Full CiteGuard
+267,corrupted_authors,1,0,DOI-only
+267,corrupted_authors,1,0,Crossref Metadata
+267,corrupted_authors,1,0,Crossref + Title
+267,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+267,corrupted_authors,1,0,Full CiteGuard
+142,doi_mismatch,1,0,DOI-only
+142,doi_mismatch,1,1,Crossref Metadata
+142,doi_mismatch,1,0,Crossref + Title
+142,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+142,doi_mismatch,1,1,Full CiteGuard
+327,wrong_year,1,0,DOI-only
+327,wrong_year,1,1,Crossref Metadata
+327,wrong_year,1,0,Crossref + Title
+327,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+327,wrong_year,1,1,Full CiteGuard
+127,doi_mismatch,1,0,DOI-only
+127,doi_mismatch,1,1,Crossref Metadata
+127,doi_mismatch,1,0,Crossref + Title
+127,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+127,doi_mismatch,1,1,Full CiteGuard
+428,wrong_venue,1,0,DOI-only
+428,wrong_venue,1,1,Crossref Metadata
+428,wrong_venue,1,0,Crossref + Title
+428,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+428,wrong_venue,1,1,Full CiteGuard
+133,doi_mismatch,1,0,DOI-only
+133,doi_mismatch,1,1,Crossref Metadata
+133,doi_mismatch,1,0,Crossref + Title
+133,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+133,doi_mismatch,1,1,Full CiteGuard
+231,corrupted_authors,1,0,DOI-only
+231,corrupted_authors,1,1,Crossref Metadata
+231,corrupted_authors,1,0,Crossref + Title
+231,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+231,corrupted_authors,1,1,Full CiteGuard
+448,wrong_venue,1,0,DOI-only
+448,wrong_venue,1,1,Crossref Metadata
+448,wrong_venue,1,0,Crossref + Title
+448,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+448,wrong_venue,1,1,Full CiteGuard
+381,wrong_year,1,0,DOI-only
+381,wrong_year,1,1,Crossref Metadata
+381,wrong_year,1,0,Crossref + Title
+381,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+381,wrong_year,1,1,Full CiteGuard
+82,valid,0,0,DOI-only
+82,valid,0,0,Crossref Metadata
+82,valid,0,0,Crossref + Title
+82,valid,0,0,Crossref + Title + Authors + Year + Venue
+82,valid,0,0,Full CiteGuard
+553,plausible_fabricated,1,1,DOI-only
+553,plausible_fabricated,1,1,Crossref Metadata
+553,plausible_fabricated,1,1,Crossref + Title
+553,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+553,plausible_fabricated,1,1,Full CiteGuard
+493,wrong_venue,1,0,DOI-only
+493,wrong_venue,1,1,Crossref Metadata
+493,wrong_venue,1,0,Crossref + Title
+493,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+493,wrong_venue,1,1,Full CiteGuard
+219,corrupted_authors,1,0,DOI-only
+219,corrupted_authors,1,0,Crossref Metadata
+219,corrupted_authors,1,0,Crossref + Title
+219,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+219,corrupted_authors,1,0,Full CiteGuard
+259,corrupted_authors,1,0,DOI-only
+259,corrupted_authors,1,1,Crossref Metadata
+259,corrupted_authors,1,0,Crossref + Title
+259,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+259,corrupted_authors,1,0,Full CiteGuard
+369,wrong_year,1,0,DOI-only
+369,wrong_year,1,1,Crossref Metadata
+369,wrong_year,1,0,Crossref + Title
+369,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+369,wrong_year,1,1,Full CiteGuard
+314,wrong_year,1,0,DOI-only
+314,wrong_year,1,1,Crossref Metadata
+314,wrong_year,1,1,Crossref + Title
+314,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+314,wrong_year,1,1,Full CiteGuard
+479,wrong_venue,1,0,DOI-only
+479,wrong_venue,1,0,Crossref Metadata
+479,wrong_venue,1,0,Crossref + Title
+479,wrong_venue,1,0,Crossref + Title + Authors + Year + Venue
+479,wrong_venue,1,0,Full CiteGuard
+387,wrong_year,1,0,DOI-only
+387,wrong_year,1,1,Crossref Metadata
+387,wrong_year,1,0,Crossref + Title
+387,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+387,wrong_year,1,1,Full CiteGuard
+163,doi_mismatch,1,0,DOI-only
+163,doi_mismatch,1,1,Crossref Metadata
+163,doi_mismatch,1,0,Crossref + Title
+163,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+163,doi_mismatch,1,1,Full CiteGuard
+305,wrong_year,1,0,DOI-only
+305,wrong_year,1,1,Crossref Metadata
+305,wrong_year,1,0,Crossref + Title
+305,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+305,wrong_year,1,1,Full CiteGuard
+287,corrupted_authors,1,0,DOI-only
+287,corrupted_authors,1,0,Crossref Metadata
+287,corrupted_authors,1,0,Crossref + Title
+287,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+287,corrupted_authors,1,0,Full CiteGuard
+537,plausible_fabricated,1,1,DOI-only
+537,plausible_fabricated,1,1,Crossref Metadata
+537,plausible_fabricated,1,1,Crossref + Title
+537,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+537,plausible_fabricated,1,1,Full CiteGuard
+342,wrong_year,1,0,DOI-only
+342,wrong_year,1,1,Crossref Metadata
+342,wrong_year,1,0,Crossref + Title
+342,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+342,wrong_year,1,1,Full CiteGuard
+418,wrong_venue,1,0,DOI-only
+418,wrong_venue,1,0,Crossref Metadata
+418,wrong_venue,1,0,Crossref + Title
+418,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+418,wrong_venue,1,1,Full CiteGuard
+411,wrong_venue,1,0,DOI-only
+411,wrong_venue,1,0,Crossref Metadata
+411,wrong_venue,1,0,Crossref + Title
+411,wrong_venue,1,0,Crossref + Title + Authors + Year + Venue
+411,wrong_venue,1,0,Full CiteGuard
+69,valid,0,0,DOI-only
+69,valid,0,0,Crossref Metadata
+69,valid,0,0,Crossref + Title
+69,valid,0,0,Crossref + Title + Authors + Year + Venue
+69,valid,0,0,Full CiteGuard
+443,wrong_venue,1,0,DOI-only
+443,wrong_venue,1,1,Crossref Metadata
+443,wrong_venue,1,0,Crossref + Title
+443,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+443,wrong_venue,1,1,Full CiteGuard
+63,valid,0,0,DOI-only
+63,valid,0,0,Crossref Metadata
+63,valid,0,0,Crossref + Title
+63,valid,0,0,Crossref + Title + Authors + Year + Venue
+63,valid,0,0,Full CiteGuard
+516,plausible_fabricated,1,1,DOI-only
+516,plausible_fabricated,1,1,Crossref Metadata
+516,plausible_fabricated,1,1,Crossref + Title
+516,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+516,plausible_fabricated,1,1,Full CiteGuard
+546,plausible_fabricated,1,1,DOI-only
+546,plausible_fabricated,1,1,Crossref Metadata
+546,plausible_fabricated,1,1,Crossref + Title
+546,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+546,plausible_fabricated,1,1,Full CiteGuard
+570,plausible_fabricated,1,1,DOI-only
+570,plausible_fabricated,1,1,Crossref Metadata
+570,plausible_fabricated,1,1,Crossref + Title
+570,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+570,plausible_fabricated,1,1,Full CiteGuard
+238,corrupted_authors,1,0,DOI-only
+238,corrupted_authors,1,1,Crossref Metadata
+238,corrupted_authors,1,0,Crossref + Title
+238,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+238,corrupted_authors,1,0,Full CiteGuard
+266,corrupted_authors,1,0,DOI-only
+266,corrupted_authors,1,1,Crossref Metadata
+266,corrupted_authors,1,0,Crossref + Title
+266,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+266,corrupted_authors,1,0,Full CiteGuard
+437,wrong_venue,1,0,DOI-only
+437,wrong_venue,1,1,Crossref Metadata
+437,wrong_venue,1,0,Crossref + Title
+437,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+437,wrong_venue,1,1,Full CiteGuard
+412,wrong_venue,1,0,DOI-only
+412,wrong_venue,1,1,Crossref Metadata
+412,wrong_venue,1,0,Crossref + Title
+412,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+412,wrong_venue,1,0,Full CiteGuard
+91,valid,0,0,DOI-only
+91,valid,0,0,Crossref Metadata
+91,valid,0,0,Crossref + Title
+91,valid,0,0,Crossref + Title + Authors + Year + Venue
+91,valid,0,0,Full CiteGuard
+113,doi_mismatch,1,0,DOI-only
+113,doi_mismatch,1,1,Crossref Metadata
+113,doi_mismatch,1,0,Crossref + Title
+113,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+113,doi_mismatch,1,1,Full CiteGuard
+218,corrupted_authors,1,0,DOI-only
+218,corrupted_authors,1,1,Crossref Metadata
+218,corrupted_authors,1,0,Crossref + Title
+218,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+218,corrupted_authors,1,0,Full CiteGuard
+399,wrong_year,1,0,DOI-only
+399,wrong_year,1,1,Crossref Metadata
+399,wrong_year,1,0,Crossref + Title
+399,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+399,wrong_year,1,1,Full CiteGuard
+55,valid,0,0,DOI-only
+55,valid,0,0,Crossref Metadata
+55,valid,0,0,Crossref + Title
+55,valid,0,1,Crossref + Title + Authors + Year + Venue
+55,valid,0,1,Full CiteGuard
+528,plausible_fabricated,1,1,DOI-only
+528,plausible_fabricated,1,1,Crossref Metadata
+528,plausible_fabricated,1,1,Crossref + Title
+528,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+528,plausible_fabricated,1,1,Full CiteGuard
+459,wrong_venue,1,0,DOI-only
+459,wrong_venue,1,1,Crossref Metadata
+459,wrong_venue,1,0,Crossref + Title
+459,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+459,wrong_venue,1,1,Full CiteGuard
+3,valid,0,0,DOI-only
+3,valid,0,0,Crossref Metadata
+3,valid,0,0,Crossref + Title
+3,valid,0,0,Crossref + Title + Authors + Year + Venue
+3,valid,0,0,Full CiteGuard
+353,wrong_year,1,0,DOI-only
+353,wrong_year,1,1,Crossref Metadata
+353,wrong_year,1,0,Crossref + Title
+353,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+353,wrong_year,1,1,Full CiteGuard
+483,wrong_venue,1,0,DOI-only
+483,wrong_venue,1,1,Crossref Metadata
+483,wrong_venue,1,0,Crossref + Title
+483,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+483,wrong_venue,1,1,Full CiteGuard
+452,wrong_venue,1,0,DOI-only
+452,wrong_venue,1,0,Crossref Metadata
+452,wrong_venue,1,0,Crossref + Title
+452,wrong_venue,1,0,Crossref + Title + Authors + Year + Venue
+452,wrong_venue,1,0,Full CiteGuard
+125,doi_mismatch,1,0,DOI-only
+125,doi_mismatch,1,1,Crossref Metadata
+125,doi_mismatch,1,0,Crossref + Title
+125,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+125,doi_mismatch,1,1,Full CiteGuard
+558,plausible_fabricated,1,1,DOI-only
+558,plausible_fabricated,1,1,Crossref Metadata
+558,plausible_fabricated,1,1,Crossref + Title
+558,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+558,plausible_fabricated,1,1,Full CiteGuard
+254,corrupted_authors,1,0,DOI-only
+254,corrupted_authors,1,1,Crossref Metadata
+254,corrupted_authors,1,0,Crossref + Title
+254,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+254,corrupted_authors,1,1,Full CiteGuard
+197,doi_mismatch,1,0,DOI-only
+197,doi_mismatch,1,1,Crossref Metadata
+197,doi_mismatch,1,0,Crossref + Title
+197,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+197,doi_mismatch,1,1,Full CiteGuard
+510,plausible_fabricated,1,1,DOI-only
+510,plausible_fabricated,1,1,Crossref Metadata
+510,plausible_fabricated,1,1,Crossref + Title
+510,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+510,plausible_fabricated,1,1,Full CiteGuard
+368,wrong_year,1,0,DOI-only
+368,wrong_year,1,1,Crossref Metadata
+368,wrong_year,1,0,Crossref + Title
+368,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+368,wrong_year,1,1,Full CiteGuard
+100,valid,0,0,DOI-only
+100,valid,0,0,Crossref Metadata
+100,valid,0,0,Crossref + Title
+100,valid,0,0,Crossref + Title + Authors + Year + Venue
+100,valid,0,0,Full CiteGuard
+295,corrupted_authors,1,0,DOI-only
+295,corrupted_authors,1,1,Crossref Metadata
+295,corrupted_authors,1,0,Crossref + Title
+295,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+295,corrupted_authors,1,0,Full CiteGuard
+323,wrong_year,1,0,DOI-only
+323,wrong_year,1,1,Crossref Metadata
+323,wrong_year,1,1,Crossref + Title
+323,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+323,wrong_year,1,1,Full CiteGuard
+213,corrupted_authors,1,0,DOI-only
+213,corrupted_authors,1,1,Crossref Metadata
+213,corrupted_authors,1,0,Crossref + Title
+213,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+213,corrupted_authors,1,0,Full CiteGuard
+554,plausible_fabricated,1,1,DOI-only
+554,plausible_fabricated,1,1,Crossref Metadata
+554,plausible_fabricated,1,1,Crossref + Title
+554,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+554,plausible_fabricated,1,1,Full CiteGuard
+38,valid,0,0,DOI-only
+38,valid,0,0,Crossref Metadata
+38,valid,0,0,Crossref + Title
+38,valid,0,0,Crossref + Title + Authors + Year + Venue
+38,valid,0,0,Full CiteGuard
+394,wrong_year,1,0,DOI-only
+394,wrong_year,1,1,Crossref Metadata
+394,wrong_year,1,0,Crossref + Title
+394,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+394,wrong_year,1,1,Full CiteGuard
+436,wrong_venue,1,0,DOI-only
+436,wrong_venue,1,1,Crossref Metadata
+436,wrong_venue,1,0,Crossref + Title
+436,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+436,wrong_venue,1,1,Full CiteGuard
+555,plausible_fabricated,1,1,DOI-only
+555,plausible_fabricated,1,1,Crossref Metadata
+555,plausible_fabricated,1,1,Crossref + Title
+555,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+555,plausible_fabricated,1,1,Full CiteGuard
+244,corrupted_authors,1,0,DOI-only
+244,corrupted_authors,1,1,Crossref Metadata
+244,corrupted_authors,1,0,Crossref + Title
+244,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+244,corrupted_authors,1,1,Full CiteGuard
+126,doi_mismatch,1,0,DOI-only
+126,doi_mismatch,1,1,Crossref Metadata
+126,doi_mismatch,1,0,Crossref + Title
+126,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+126,doi_mismatch,1,1,Full CiteGuard
+24,valid,0,0,DOI-only
+24,valid,0,0,Crossref Metadata
+24,valid,0,0,Crossref + Title
+24,valid,0,0,Crossref + Title + Authors + Year + Venue
+24,valid,0,0,Full CiteGuard
+13,valid,0,0,DOI-only
+13,valid,0,0,Crossref Metadata
+13,valid,0,0,Crossref + Title
+13,valid,0,0,Crossref + Title + Authors + Year + Venue
+13,valid,0,0,Full CiteGuard
+76,valid,0,0,DOI-only
+76,valid,0,0,Crossref Metadata
+76,valid,0,0,Crossref + Title
+76,valid,0,0,Crossref + Title + Authors + Year + Venue
+76,valid,0,0,Full CiteGuard
+102,doi_mismatch,1,0,DOI-only
+102,doi_mismatch,1,1,Crossref Metadata
+102,doi_mismatch,1,0,Crossref + Title
+102,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+102,doi_mismatch,1,1,Full CiteGuard
+413,wrong_venue,1,0,DOI-only
+413,wrong_venue,1,1,Crossref Metadata
+413,wrong_venue,1,0,Crossref + Title
+413,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+413,wrong_venue,1,1,Full CiteGuard
+116,doi_mismatch,1,0,DOI-only
+116,doi_mismatch,1,1,Crossref Metadata
+116,doi_mismatch,1,0,Crossref + Title
+116,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+116,doi_mismatch,1,1,Full CiteGuard
+598,plausible_fabricated,1,1,DOI-only
+598,plausible_fabricated,1,1,Crossref Metadata
+598,plausible_fabricated,1,1,Crossref + Title
+598,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+598,plausible_fabricated,1,1,Full CiteGuard
+345,wrong_year,1,0,DOI-only
+345,wrong_year,1,1,Crossref Metadata
+345,wrong_year,1,0,Crossref + Title
+345,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+345,wrong_year,1,1,Full CiteGuard
+121,doi_mismatch,1,0,DOI-only
+121,doi_mismatch,1,1,Crossref Metadata
+121,doi_mismatch,1,0,Crossref + Title
+121,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+121,doi_mismatch,1,1,Full CiteGuard
+385,wrong_year,1,0,DOI-only
+385,wrong_year,1,1,Crossref Metadata
+385,wrong_year,1,0,Crossref + Title
+385,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+385,wrong_year,1,1,Full CiteGuard
+420,wrong_venue,1,0,DOI-only
+420,wrong_venue,1,1,Crossref Metadata
+420,wrong_venue,1,0,Crossref + Title
+420,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+420,wrong_venue,1,1,Full CiteGuard
+48,valid,0,0,DOI-only
+48,valid,0,0,Crossref Metadata
+48,valid,0,0,Crossref + Title
+48,valid,0,1,Crossref + Title + Authors + Year + Venue
+48,valid,0,1,Full CiteGuard
+172,doi_mismatch,1,0,DOI-only
+172,doi_mismatch,1,1,Crossref Metadata
+172,doi_mismatch,1,0,Crossref + Title
+172,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+172,doi_mismatch,1,1,Full CiteGuard
+318,wrong_year,1,0,DOI-only
+318,wrong_year,1,1,Crossref Metadata
+318,wrong_year,1,0,Crossref + Title
+318,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+318,wrong_year,1,1,Full CiteGuard
+325,wrong_year,1,0,DOI-only
+325,wrong_year,1,1,Crossref Metadata
+325,wrong_year,1,0,Crossref + Title
+325,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+325,wrong_year,1,1,Full CiteGuard
+542,plausible_fabricated,1,1,DOI-only
+542,plausible_fabricated,1,1,Crossref Metadata
+542,plausible_fabricated,1,1,Crossref + Title
+542,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+542,plausible_fabricated,1,1,Full CiteGuard
+264,corrupted_authors,1,0,DOI-only
+264,corrupted_authors,1,1,Crossref Metadata
+264,corrupted_authors,1,0,Crossref + Title
+264,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+264,corrupted_authors,1,0,Full CiteGuard
+146,doi_mismatch,1,0,DOI-only
+146,doi_mismatch,1,1,Crossref Metadata
+146,doi_mismatch,1,0,Crossref + Title
+146,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+146,doi_mismatch,1,1,Full CiteGuard
+44,valid,0,0,DOI-only
+44,valid,0,0,Crossref Metadata
+44,valid,0,0,Crossref + Title
+44,valid,0,0,Crossref + Title + Authors + Year + Venue
+44,valid,0,1,Full CiteGuard
+338,wrong_year,1,0,DOI-only
+338,wrong_year,1,1,Crossref Metadata
+338,wrong_year,1,0,Crossref + Title
+338,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+338,wrong_year,1,1,Full CiteGuard
+87,valid,0,0,DOI-only
+87,valid,0,0,Crossref Metadata
+87,valid,0,0,Crossref + Title
+87,valid,0,0,Crossref + Title + Authors + Year + Venue
+87,valid,0,0,Full CiteGuard
+377,wrong_year,1,0,DOI-only
+377,wrong_year,1,1,Crossref Metadata
+377,wrong_year,1,0,Crossref + Title
+377,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+377,wrong_year,1,1,Full CiteGuard
+408,wrong_venue,1,0,DOI-only
+408,wrong_venue,1,0,Crossref Metadata
+408,wrong_venue,1,0,Crossref + Title
+408,wrong_venue,1,0,Crossref + Title + Authors + Year + Venue
+408,wrong_venue,1,1,Full CiteGuard
+462,wrong_venue,1,0,DOI-only
+462,wrong_venue,1,1,Crossref Metadata
+462,wrong_venue,1,0,Crossref + Title
+462,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+462,wrong_venue,1,1,Full CiteGuard
+407,wrong_venue,1,0,DOI-only
+407,wrong_venue,1,0,Crossref Metadata
+407,wrong_venue,1,0,Crossref + Title
+407,wrong_venue,1,0,Crossref + Title + Authors + Year + Venue
+407,wrong_venue,1,1,Full CiteGuard
+577,plausible_fabricated,1,1,DOI-only
+577,plausible_fabricated,1,1,Crossref Metadata
+577,plausible_fabricated,1,1,Crossref + Title
+577,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+577,plausible_fabricated,1,1,Full CiteGuard
+262,corrupted_authors,1,0,DOI-only
+262,corrupted_authors,1,1,Crossref Metadata
+262,corrupted_authors,1,0,Crossref + Title
+262,corrupted_authors,1,1,Crossref + Title + Authors + Year + Venue
+262,corrupted_authors,1,1,Full CiteGuard
+110,doi_mismatch,1,0,DOI-only
+110,doi_mismatch,1,1,Crossref Metadata
+110,doi_mismatch,1,0,Crossref + Title
+110,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+110,doi_mismatch,1,1,Full CiteGuard
+346,wrong_year,1,0,DOI-only
+346,wrong_year,1,1,Crossref Metadata
+346,wrong_year,1,0,Crossref + Title
+346,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+346,wrong_year,1,1,Full CiteGuard
+480,wrong_venue,1,0,DOI-only
+480,wrong_venue,1,1,Crossref Metadata
+480,wrong_venue,1,0,Crossref + Title
+480,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+480,wrong_venue,1,1,Full CiteGuard
+227,corrupted_authors,1,0,DOI-only
+227,corrupted_authors,1,1,Crossref Metadata
+227,corrupted_authors,1,0,Crossref + Title
+227,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+227,corrupted_authors,1,0,Full CiteGuard
+239,corrupted_authors,1,0,DOI-only
+239,corrupted_authors,1,1,Crossref Metadata
+239,corrupted_authors,1,0,Crossref + Title
+239,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+239,corrupted_authors,1,0,Full CiteGuard
+165,doi_mismatch,1,0,DOI-only
+165,doi_mismatch,1,1,Crossref Metadata
+165,doi_mismatch,1,0,Crossref + Title
+165,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+165,doi_mismatch,1,1,Full CiteGuard
+336,wrong_year,1,0,DOI-only
+336,wrong_year,1,1,Crossref Metadata
+336,wrong_year,1,0,Crossref + Title
+336,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+336,wrong_year,1,1,Full CiteGuard
+311,wrong_year,1,0,DOI-only
+311,wrong_year,1,1,Crossref Metadata
+311,wrong_year,1,0,Crossref + Title
+311,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+311,wrong_year,1,1,Full CiteGuard
+297,corrupted_authors,1,0,DOI-only
+297,corrupted_authors,1,1,Crossref Metadata
+297,corrupted_authors,1,0,Crossref + Title
+297,corrupted_authors,1,1,Crossref + Title + Authors + Year + Venue
+297,corrupted_authors,1,1,Full CiteGuard
+403,wrong_venue,1,0,DOI-only
+403,wrong_venue,1,1,Crossref Metadata
+403,wrong_venue,1,0,Crossref + Title
+403,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+403,wrong_venue,1,1,Full CiteGuard
+221,corrupted_authors,1,0,DOI-only
+221,corrupted_authors,1,1,Crossref Metadata
+221,corrupted_authors,1,0,Crossref + Title
+221,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+221,corrupted_authors,1,1,Full CiteGuard
+108,doi_mismatch,1,0,DOI-only
+108,doi_mismatch,1,1,Crossref Metadata
+108,doi_mismatch,1,0,Crossref + Title
+108,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+108,doi_mismatch,1,1,Full CiteGuard
+147,doi_mismatch,1,0,DOI-only
+147,doi_mismatch,1,1,Crossref Metadata
+147,doi_mismatch,1,0,Crossref + Title
+147,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+147,doi_mismatch,1,1,Full CiteGuard
+156,doi_mismatch,1,0,DOI-only
+156,doi_mismatch,1,1,Crossref Metadata
+156,doi_mismatch,1,0,Crossref + Title
+156,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+156,doi_mismatch,1,1,Full CiteGuard
+1,valid,0,0,DOI-only
+1,valid,0,0,Crossref Metadata
+1,valid,0,0,Crossref + Title
+1,valid,0,0,Crossref + Title + Authors + Year + Venue
+1,valid,0,0,Full CiteGuard
+427,wrong_venue,1,0,DOI-only
+427,wrong_venue,1,1,Crossref Metadata
+427,wrong_venue,1,0,Crossref + Title
+427,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+427,wrong_venue,1,1,Full CiteGuard
+281,corrupted_authors,1,0,DOI-only
+281,corrupted_authors,1,1,Crossref Metadata
+281,corrupted_authors,1,0,Crossref + Title
+281,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+281,corrupted_authors,1,0,Full CiteGuard
+208,corrupted_authors,1,0,DOI-only
+208,corrupted_authors,1,0,Crossref Metadata
+208,corrupted_authors,1,0,Crossref + Title
+208,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+208,corrupted_authors,1,1,Full CiteGuard
+155,doi_mismatch,1,0,DOI-only
+155,doi_mismatch,1,1,Crossref Metadata
+155,doi_mismatch,1,0,Crossref + Title
+155,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+155,doi_mismatch,1,1,Full CiteGuard
+292,corrupted_authors,1,0,DOI-only
+292,corrupted_authors,1,1,Crossref Metadata
+292,corrupted_authors,1,0,Crossref + Title
+292,corrupted_authors,1,1,Crossref + Title + Authors + Year + Venue
+292,corrupted_authors,1,1,Full CiteGuard
+585,plausible_fabricated,1,1,DOI-only
+585,plausible_fabricated,1,1,Crossref Metadata
+585,plausible_fabricated,1,1,Crossref + Title
+585,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+585,plausible_fabricated,1,1,Full CiteGuard
+90,valid,0,0,DOI-only
+90,valid,0,0,Crossref Metadata
+90,valid,0,0,Crossref + Title
+90,valid,0,0,Crossref + Title + Authors + Year + Venue
+90,valid,0,0,Full CiteGuard
+463,wrong_venue,1,0,DOI-only
+463,wrong_venue,1,1,Crossref Metadata
+463,wrong_venue,1,0,Crossref + Title
+463,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+463,wrong_venue,1,1,Full CiteGuard
+384,wrong_year,1,0,DOI-only
+384,wrong_year,1,1,Crossref Metadata
+384,wrong_year,1,0,Crossref + Title
+384,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+384,wrong_year,1,1,Full CiteGuard
+347,wrong_year,1,0,DOI-only
+347,wrong_year,1,1,Crossref Metadata
+347,wrong_year,1,0,Crossref + Title
+347,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+347,wrong_year,1,1,Full CiteGuard
+527,plausible_fabricated,1,1,DOI-only
+527,plausible_fabricated,1,1,Crossref Metadata
+527,plausible_fabricated,1,1,Crossref + Title
+527,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+527,plausible_fabricated,1,1,Full CiteGuard
+560,plausible_fabricated,1,1,DOI-only
+560,plausible_fabricated,1,1,Crossref Metadata
+560,plausible_fabricated,1,1,Crossref + Title
+560,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+560,plausible_fabricated,1,1,Full CiteGuard
+568,plausible_fabricated,1,1,DOI-only
+568,plausible_fabricated,1,1,Crossref Metadata
+568,plausible_fabricated,1,1,Crossref + Title
+568,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+568,plausible_fabricated,1,1,Full CiteGuard
+581,plausible_fabricated,1,1,DOI-only
+581,plausible_fabricated,1,1,Crossref Metadata
+581,plausible_fabricated,1,1,Crossref + Title
+581,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+581,plausible_fabricated,1,1,Full CiteGuard
+99,valid,0,0,DOI-only
+99,valid,0,0,Crossref Metadata
+99,valid,0,0,Crossref + Title
+99,valid,0,0,Crossref + Title + Authors + Year + Venue
+99,valid,0,1,Full CiteGuard
+66,valid,0,0,DOI-only
+66,valid,0,0,Crossref Metadata
+66,valid,0,0,Crossref + Title
+66,valid,0,0,Crossref + Title + Authors + Year + Venue
+66,valid,0,0,Full CiteGuard
+284,corrupted_authors,1,0,DOI-only
+284,corrupted_authors,1,1,Crossref Metadata
+284,corrupted_authors,1,0,Crossref + Title
+284,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+284,corrupted_authors,1,0,Full CiteGuard
+589,plausible_fabricated,1,1,DOI-only
+589,plausible_fabricated,1,1,Crossref Metadata
+589,plausible_fabricated,1,1,Crossref + Title
+589,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+589,plausible_fabricated,1,1,Full CiteGuard
+357,wrong_year,1,0,DOI-only
+357,wrong_year,1,1,Crossref Metadata
+357,wrong_year,1,0,Crossref + Title
+357,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+357,wrong_year,1,1,Full CiteGuard
+207,corrupted_authors,1,0,DOI-only
+207,corrupted_authors,1,1,Crossref Metadata
+207,corrupted_authors,1,0,Crossref + Title
+207,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+207,corrupted_authors,1,1,Full CiteGuard
+335,wrong_year,1,0,DOI-only
+335,wrong_year,1,1,Crossref Metadata
+335,wrong_year,1,0,Crossref + Title
+335,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+335,wrong_year,1,1,Full CiteGuard
+419,wrong_venue,1,0,DOI-only
+419,wrong_venue,1,0,Crossref Metadata
+419,wrong_venue,1,0,Crossref + Title
+419,wrong_venue,1,0,Crossref + Title + Authors + Year + Venue
+419,wrong_venue,1,0,Full CiteGuard
+317,wrong_year,1,0,DOI-only
+317,wrong_year,1,1,Crossref Metadata
+317,wrong_year,1,0,Crossref + Title
+317,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+317,wrong_year,1,1,Full CiteGuard
+308,wrong_year,1,0,DOI-only
+308,wrong_year,1,1,Crossref Metadata
+308,wrong_year,1,0,Crossref + Title
+308,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+308,wrong_year,1,1,Full CiteGuard
+128,doi_mismatch,1,0,DOI-only
+128,doi_mismatch,1,1,Crossref Metadata
+128,doi_mismatch,1,0,Crossref + Title
+128,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+128,doi_mismatch,1,1,Full CiteGuard
+532,plausible_fabricated,1,1,DOI-only
+532,plausible_fabricated,1,1,Crossref Metadata
+532,plausible_fabricated,1,1,Crossref + Title
+532,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+532,plausible_fabricated,1,1,Full CiteGuard
+339,wrong_year,1,0,DOI-only
+339,wrong_year,1,1,Crossref Metadata
+339,wrong_year,1,0,Crossref + Title
+339,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+339,wrong_year,1,1,Full CiteGuard
+547,plausible_fabricated,1,1,DOI-only
+547,plausible_fabricated,1,1,Crossref Metadata
+547,plausible_fabricated,1,1,Crossref + Title
+547,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+547,plausible_fabricated,1,1,Full CiteGuard
+442,wrong_venue,1,0,DOI-only
+442,wrong_venue,1,1,Crossref Metadata
+442,wrong_venue,1,0,Crossref + Title
+442,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+442,wrong_venue,1,1,Full CiteGuard
+373,wrong_year,1,0,DOI-only
+373,wrong_year,1,1,Crossref Metadata
+373,wrong_year,1,0,Crossref + Title
+373,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+373,wrong_year,1,1,Full CiteGuard
+202,corrupted_authors,1,0,DOI-only
+202,corrupted_authors,1,1,Crossref Metadata
+202,corrupted_authors,1,0,Crossref + Title
+202,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+202,corrupted_authors,1,1,Full CiteGuard
+2,valid,0,0,DOI-only
+2,valid,0,0,Crossref Metadata
+2,valid,0,0,Crossref + Title
+2,valid,0,0,Crossref + Title + Authors + Year + Venue
+2,valid,0,1,Full CiteGuard
+531,plausible_fabricated,1,1,DOI-only
+531,plausible_fabricated,1,1,Crossref Metadata
+531,plausible_fabricated,1,1,Crossref + Title
+531,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+531,plausible_fabricated,1,1,Full CiteGuard
+46,valid,0,0,DOI-only
+46,valid,0,0,Crossref Metadata
+46,valid,0,0,Crossref + Title
+46,valid,0,0,Crossref + Title + Authors + Year + Venue
+46,valid,0,0,Full CiteGuard
+261,corrupted_authors,1,0,DOI-only
+261,corrupted_authors,1,1,Crossref Metadata
+261,corrupted_authors,1,0,Crossref + Title
+261,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+261,corrupted_authors,1,0,Full CiteGuard
+195,doi_mismatch,1,0,DOI-only
+195,doi_mismatch,1,1,Crossref Metadata
+195,doi_mismatch,1,0,Crossref + Title
+195,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+195,doi_mismatch,1,1,Full CiteGuard
+395,wrong_year,1,0,DOI-only
+395,wrong_year,1,1,Crossref Metadata
+395,wrong_year,1,0,Crossref + Title
+395,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+395,wrong_year,1,1,Full CiteGuard
+540,plausible_fabricated,1,1,DOI-only
+540,plausible_fabricated,1,1,Crossref Metadata
+540,plausible_fabricated,1,1,Crossref + Title
+540,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+540,plausible_fabricated,1,1,Full CiteGuard
+524,plausible_fabricated,1,1,DOI-only
+524,plausible_fabricated,1,1,Crossref Metadata
+524,plausible_fabricated,1,1,Crossref + Title
+524,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+524,plausible_fabricated,1,1,Full CiteGuard
+447,wrong_venue,1,0,DOI-only
+447,wrong_venue,1,1,Crossref Metadata
+447,wrong_venue,1,0,Crossref + Title
+447,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+447,wrong_venue,1,1,Full CiteGuard
+322,wrong_year,1,0,DOI-only
+322,wrong_year,1,1,Crossref Metadata
+322,wrong_year,1,0,Crossref + Title
+322,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+322,wrong_year,1,1,Full CiteGuard
+354,wrong_year,1,0,DOI-only
+354,wrong_year,1,1,Crossref Metadata
+354,wrong_year,1,0,Crossref + Title
+354,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+354,wrong_year,1,1,Full CiteGuard
+445,wrong_venue,1,0,DOI-only
+445,wrong_venue,1,1,Crossref Metadata
+445,wrong_venue,1,0,Crossref + Title
+445,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+445,wrong_venue,1,1,Full CiteGuard
+112,doi_mismatch,1,0,DOI-only
+112,doi_mismatch,1,1,Crossref Metadata
+112,doi_mismatch,1,0,Crossref + Title
+112,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+112,doi_mismatch,1,1,Full CiteGuard
+561,plausible_fabricated,1,1,DOI-only
+561,plausible_fabricated,1,1,Crossref Metadata
+561,plausible_fabricated,1,1,Crossref + Title
+561,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+561,plausible_fabricated,1,1,Full CiteGuard
+272,corrupted_authors,1,0,DOI-only
+272,corrupted_authors,1,1,Crossref Metadata
+272,corrupted_authors,1,0,Crossref + Title
+272,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+272,corrupted_authors,1,0,Full CiteGuard
+183,doi_mismatch,1,0,DOI-only
+183,doi_mismatch,1,1,Crossref Metadata
+183,doi_mismatch,1,0,Crossref + Title
+183,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+183,doi_mismatch,1,1,Full CiteGuard
+268,corrupted_authors,1,0,DOI-only
+268,corrupted_authors,1,1,Crossref Metadata
+268,corrupted_authors,1,0,Crossref + Title
+268,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+268,corrupted_authors,1,0,Full CiteGuard
+119,doi_mismatch,1,0,DOI-only
+119,doi_mismatch,1,1,Crossref Metadata
+119,doi_mismatch,1,0,Crossref + Title
+119,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+119,doi_mismatch,1,1,Full CiteGuard
+29,valid,0,0,DOI-only
+29,valid,0,0,Crossref Metadata
+29,valid,0,1,Crossref + Title
+29,valid,0,0,Crossref + Title + Authors + Year + Venue
+29,valid,0,1,Full CiteGuard
+340,wrong_year,1,0,DOI-only
+340,wrong_year,1,1,Crossref Metadata
+340,wrong_year,1,0,Crossref + Title
+340,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+340,wrong_year,1,1,Full CiteGuard
+410,wrong_venue,1,0,DOI-only
+410,wrong_venue,1,0,Crossref Metadata
+410,wrong_venue,1,0,Crossref + Title
+410,wrong_venue,1,0,Crossref + Title + Authors + Year + Venue
+410,wrong_venue,1,0,Full CiteGuard
+522,plausible_fabricated,1,1,DOI-only
+522,plausible_fabricated,1,1,Crossref Metadata
+522,plausible_fabricated,1,1,Crossref + Title
+522,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+522,plausible_fabricated,1,1,Full CiteGuard
+360,wrong_year,1,0,DOI-only
+360,wrong_year,1,1,Crossref Metadata
+360,wrong_year,1,0,Crossref + Title
+360,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+360,wrong_year,1,1,Full CiteGuard
+548,plausible_fabricated,1,1,DOI-only
+548,plausible_fabricated,1,1,Crossref Metadata
+548,plausible_fabricated,1,1,Crossref + Title
+548,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+548,plausible_fabricated,1,1,Full CiteGuard
+72,valid,0,0,DOI-only
+72,valid,0,0,Crossref Metadata
+72,valid,0,0,Crossref + Title
+72,valid,0,0,Crossref + Title + Authors + Year + Venue
+72,valid,0,0,Full CiteGuard
+286,corrupted_authors,1,0,DOI-only
+286,corrupted_authors,1,1,Crossref Metadata
+286,corrupted_authors,1,0,Crossref + Title
+286,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+286,corrupted_authors,1,0,Full CiteGuard
+337,wrong_year,1,0,DOI-only
+337,wrong_year,1,1,Crossref Metadata
+337,wrong_year,1,0,Crossref + Title
+337,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+337,wrong_year,1,1,Full CiteGuard
+409,wrong_venue,1,0,DOI-only
+409,wrong_venue,1,0,Crossref Metadata
+409,wrong_venue,1,0,Crossref + Title
+409,wrong_venue,1,0,Crossref + Title + Authors + Year + Venue
+409,wrong_venue,1,0,Full CiteGuard
+198,doi_mismatch,1,0,DOI-only
+198,doi_mismatch,1,1,Crossref Metadata
+198,doi_mismatch,1,0,Crossref + Title
+198,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+198,doi_mismatch,1,1,Full CiteGuard
+25,valid,0,0,DOI-only
+25,valid,0,0,Crossref Metadata
+25,valid,0,0,Crossref + Title
+25,valid,0,0,Crossref + Title + Authors + Year + Venue
+25,valid,0,0,Full CiteGuard
+229,corrupted_authors,1,0,DOI-only
+229,corrupted_authors,1,1,Crossref Metadata
+229,corrupted_authors,1,1,Crossref + Title
+229,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+229,corrupted_authors,1,1,Full CiteGuard
+234,corrupted_authors,1,0,DOI-only
+234,corrupted_authors,1,1,Crossref Metadata
+234,corrupted_authors,1,0,Crossref + Title
+234,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+234,corrupted_authors,1,0,Full CiteGuard
+313,wrong_year,1,0,DOI-only
+313,wrong_year,1,1,Crossref Metadata
+313,wrong_year,1,0,Crossref + Title
+313,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+313,wrong_year,1,1,Full CiteGuard
+359,wrong_year,1,0,DOI-only
+359,wrong_year,1,1,Crossref Metadata
+359,wrong_year,1,0,Crossref + Title
+359,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+359,wrong_year,1,1,Full CiteGuard
+472,wrong_venue,1,0,DOI-only
+472,wrong_venue,1,1,Crossref Metadata
+472,wrong_venue,1,0,Crossref + Title
+472,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+472,wrong_venue,1,1,Full CiteGuard
+205,corrupted_authors,1,0,DOI-only
+205,corrupted_authors,1,1,Crossref Metadata
+205,corrupted_authors,1,0,Crossref + Title
+205,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+205,corrupted_authors,1,0,Full CiteGuard
+228,corrupted_authors,1,0,DOI-only
+228,corrupted_authors,1,1,Crossref Metadata
+228,corrupted_authors,1,0,Crossref + Title
+228,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+228,corrupted_authors,1,0,Full CiteGuard
+482,wrong_venue,1,0,DOI-only
+482,wrong_venue,1,1,Crossref Metadata
+482,wrong_venue,1,0,Crossref + Title
+482,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+482,wrong_venue,1,1,Full CiteGuard
+40,valid,0,0,DOI-only
+40,valid,0,0,Crossref Metadata
+40,valid,0,0,Crossref + Title
+40,valid,0,0,Crossref + Title + Authors + Year + Venue
+40,valid,0,0,Full CiteGuard
+392,wrong_year,1,0,DOI-only
+392,wrong_year,1,1,Crossref Metadata
+392,wrong_year,1,0,Crossref + Title
+392,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+392,wrong_year,1,1,Full CiteGuard
+111,doi_mismatch,1,0,DOI-only
+111,doi_mismatch,1,1,Crossref Metadata
+111,doi_mismatch,1,0,Crossref + Title
+111,doi_mismatch,1,0,Crossref + Title + Authors + Year + Venue
+111,doi_mismatch,1,1,Full CiteGuard
+164,doi_mismatch,1,0,DOI-only
+164,doi_mismatch,1,1,Crossref Metadata
+164,doi_mismatch,1,0,Crossref + Title
+164,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+164,doi_mismatch,1,1,Full CiteGuard
+274,corrupted_authors,1,0,DOI-only
+274,corrupted_authors,1,1,Crossref Metadata
+274,corrupted_authors,1,0,Crossref + Title
+274,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+274,corrupted_authors,1,0,Full CiteGuard
+255,corrupted_authors,1,0,DOI-only
+255,corrupted_authors,1,1,Crossref Metadata
+255,corrupted_authors,1,0,Crossref + Title
+255,corrupted_authors,1,1,Crossref + Title + Authors + Year + Venue
+255,corrupted_authors,1,1,Full CiteGuard
+422,wrong_venue,1,0,DOI-only
+422,wrong_venue,1,1,Crossref Metadata
+422,wrong_venue,1,0,Crossref + Title
+422,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+422,wrong_venue,1,1,Full CiteGuard
+341,wrong_year,1,0,DOI-only
+341,wrong_year,1,1,Crossref Metadata
+341,wrong_year,1,0,Crossref + Title
+341,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+341,wrong_year,1,1,Full CiteGuard
+184,doi_mismatch,1,0,DOI-only
+184,doi_mismatch,1,1,Crossref Metadata
+184,doi_mismatch,1,0,Crossref + Title
+184,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+184,doi_mismatch,1,1,Full CiteGuard
+26,valid,0,0,DOI-only
+26,valid,0,0,Crossref Metadata
+26,valid,0,0,Crossref + Title
+26,valid,0,0,Crossref + Title + Authors + Year + Venue
+26,valid,0,1,Full CiteGuard
+423,wrong_venue,1,0,DOI-only
+423,wrong_venue,1,1,Crossref Metadata
+423,wrong_venue,1,1,Crossref + Title
+423,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+423,wrong_venue,1,1,Full CiteGuard
+182,doi_mismatch,1,0,DOI-only
+182,doi_mismatch,1,1,Crossref Metadata
+182,doi_mismatch,1,0,Crossref + Title
+182,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+182,doi_mismatch,1,1,Full CiteGuard
+167,doi_mismatch,1,0,DOI-only
+167,doi_mismatch,1,1,Crossref Metadata
+167,doi_mismatch,1,0,Crossref + Title
+167,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+167,doi_mismatch,1,1,Full CiteGuard
+243,corrupted_authors,1,0,DOI-only
+243,corrupted_authors,1,1,Crossref Metadata
+243,corrupted_authors,1,0,Crossref + Title
+243,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+243,corrupted_authors,1,0,Full CiteGuard
+159,doi_mismatch,1,0,DOI-only
+159,doi_mismatch,1,1,Crossref Metadata
+159,doi_mismatch,1,0,Crossref + Title
+159,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+159,doi_mismatch,1,1,Full CiteGuard
+417,wrong_venue,1,0,DOI-only
+417,wrong_venue,1,1,Crossref Metadata
+417,wrong_venue,1,0,Crossref + Title
+417,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+417,wrong_venue,1,1,Full CiteGuard
+574,plausible_fabricated,1,1,DOI-only
+574,plausible_fabricated,1,1,Crossref Metadata
+574,plausible_fabricated,1,1,Crossref + Title
+574,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+574,plausible_fabricated,1,1,Full CiteGuard
+363,wrong_year,1,0,DOI-only
+363,wrong_year,1,1,Crossref Metadata
+363,wrong_year,1,0,Crossref + Title
+363,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+363,wrong_year,1,1,Full CiteGuard
+106,doi_mismatch,1,0,DOI-only
+106,doi_mismatch,1,1,Crossref Metadata
+106,doi_mismatch,1,0,Crossref + Title
+106,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+106,doi_mismatch,1,1,Full CiteGuard
+256,corrupted_authors,1,0,DOI-only
+256,corrupted_authors,1,1,Crossref Metadata
+256,corrupted_authors,1,0,Crossref + Title
+256,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+256,corrupted_authors,1,0,Full CiteGuard
+216,corrupted_authors,1,0,DOI-only
+216,corrupted_authors,1,1,Crossref Metadata
+216,corrupted_authors,1,0,Crossref + Title
+216,corrupted_authors,1,0,Crossref + Title + Authors + Year + Venue
+216,corrupted_authors,1,0,Full CiteGuard
+367,wrong_year,1,0,DOI-only
+367,wrong_year,1,1,Crossref Metadata
+367,wrong_year,1,0,Crossref + Title
+367,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+367,wrong_year,1,1,Full CiteGuard
+41,valid,0,0,DOI-only
+41,valid,0,0,Crossref Metadata
+41,valid,0,0,Crossref + Title
+41,valid,0,1,Crossref + Title + Authors + Year + Venue
+41,valid,0,1,Full CiteGuard
+374,wrong_year,1,0,DOI-only
+374,wrong_year,1,1,Crossref Metadata
+374,wrong_year,1,0,Crossref + Title
+374,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+374,wrong_year,1,1,Full CiteGuard
+316,wrong_year,1,0,DOI-only
+316,wrong_year,1,1,Crossref Metadata
+316,wrong_year,1,0,Crossref + Title
+316,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+316,wrong_year,1,1,Full CiteGuard
+43,valid,0,0,DOI-only
+43,valid,0,0,Crossref Metadata
+43,valid,0,0,Crossref + Title
+43,valid,0,0,Crossref + Title + Authors + Year + Venue
+43,valid,0,0,Full CiteGuard
+131,doi_mismatch,1,0,DOI-only
+131,doi_mismatch,1,1,Crossref Metadata
+131,doi_mismatch,1,0,Crossref + Title
+131,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+131,doi_mismatch,1,1,Full CiteGuard
+441,wrong_venue,1,0,DOI-only
+441,wrong_venue,1,1,Crossref Metadata
+441,wrong_venue,1,0,Crossref + Title
+441,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+441,wrong_venue,1,1,Full CiteGuard
+152,doi_mismatch,1,0,DOI-only
+152,doi_mismatch,1,1,Crossref Metadata
+152,doi_mismatch,1,0,Crossref + Title
+152,doi_mismatch,1,0,Crossref + Title + Authors + Year + Venue
+152,doi_mismatch,1,1,Full CiteGuard
+566,plausible_fabricated,1,1,DOI-only
+566,plausible_fabricated,1,1,Crossref Metadata
+566,plausible_fabricated,1,1,Crossref + Title
+566,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+566,plausible_fabricated,1,1,Full CiteGuard
+379,wrong_year,1,0,DOI-only
+379,wrong_year,1,1,Crossref Metadata
+379,wrong_year,1,0,Crossref + Title
+379,wrong_year,1,1,Crossref + Title + Authors + Year + Venue
+379,wrong_year,1,1,Full CiteGuard
+37,valid,0,0,DOI-only
+37,valid,0,0,Crossref Metadata
+37,valid,0,0,Crossref + Title
+37,valid,0,0,Crossref + Title + Authors + Year + Venue
+37,valid,0,0,Full CiteGuard
+559,plausible_fabricated,1,1,DOI-only
+559,plausible_fabricated,1,1,Crossref Metadata
+559,plausible_fabricated,1,1,Crossref + Title
+559,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+559,plausible_fabricated,1,1,Full CiteGuard
+153,doi_mismatch,1,0,DOI-only
+153,doi_mismatch,1,1,Crossref Metadata
+153,doi_mismatch,1,0,Crossref + Title
+153,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+153,doi_mismatch,1,1,Full CiteGuard
+78,valid,0,0,DOI-only
+78,valid,0,0,Crossref Metadata
+78,valid,0,0,Crossref + Title
+78,valid,0,0,Crossref + Title + Authors + Year + Venue
+78,valid,0,0,Full CiteGuard
+115,doi_mismatch,1,0,DOI-only
+115,doi_mismatch,1,1,Crossref Metadata
+115,doi_mismatch,1,0,Crossref + Title
+115,doi_mismatch,1,1,Crossref + Title + Authors + Year + Venue
+115,doi_mismatch,1,1,Full CiteGuard
+10,valid,0,0,DOI-only
+10,valid,0,0,Crossref Metadata
+10,valid,0,0,Crossref + Title
+10,valid,0,0,Crossref + Title + Authors + Year + Venue
+10,valid,0,0,Full CiteGuard
+575,plausible_fabricated,1,1,DOI-only
+575,plausible_fabricated,1,1,Crossref Metadata
+575,plausible_fabricated,1,1,Crossref + Title
+575,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+575,plausible_fabricated,1,1,Full CiteGuard
+438,wrong_venue,1,0,DOI-only
+438,wrong_venue,1,1,Crossref Metadata
+438,wrong_venue,1,0,Crossref + Title
+438,wrong_venue,1,1,Crossref + Title + Authors + Year + Venue
+438,wrong_venue,1,1,Full CiteGuard
+565,plausible_fabricated,1,1,DOI-only
+565,plausible_fabricated,1,1,Crossref Metadata
+565,plausible_fabricated,1,1,Crossref + Title
+565,plausible_fabricated,1,1,Crossref + Title + Authors + Year + Venue
+565,plausible_fabricated,1,1,Full CiteGuard

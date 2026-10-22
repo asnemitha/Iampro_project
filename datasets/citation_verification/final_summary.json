@@ -1,0 +1,46 @@
+[
+    {
+        "configuration": "Current CiteGuard",
+        "tp": 403,
+        "fn": 97,
+        "fp": 25,
+        "tn": 75,
+        "accuracy": 79.67,
+        "precision": 94.16,
+        "recall": 80.6,
+        "f1": 86.85
+    },
+    {
+        "configuration": "CiteGuard + Author Fix",
+        "tp": 461,
+        "fn": 39,
+        "fp": 25,
+        "tn": 75,
+        "accuracy": 89.33,
+        "precision": 94.86,
+        "recall": 92.2,
+        "f1": 93.51
+    },
+    {
+        "configuration": "CiteGuard + Venue Fix",
+        "tp": 409,
+        "fn": 91,
+        "fp": 25,
+        "tn": 75,
+        "accuracy": 80.67,
+        "precision": 94.24,
+        "recall": 81.8,
+        "f1": 87.58
+    },
+    {
+        "configuration": "CiteGuard + Author + Venue Fix",
+        "tp": 467,
+        "fn": 33,
+        "fp": 25,
+        "tn": 75,
+        "accuracy": 90.33,
+        "precision": 94.92,
+        "recall": 93.4,
+        "f1": 94.15
+    }
+]

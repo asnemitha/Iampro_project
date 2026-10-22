@@ -1,17 +1,27 @@
 import os
+import traceback
 from dotenv import load_dotenv
 from google import genai
 
 load_dotenv()
 
+DEFAULT_MODELS = [
+    os.getenv("GEMINI_MODEL", "gemini-3.5-flash"),
+    "gemini-3.6-flash",
+    "gemini-3.5-flash-lite",
+    "gemini-flash-latest",
+    "gemini-flash-lite-latest",
+]
+
 def generate_llm_response(prompt: str):
     """
-    Generate response using Google Gemini API
+    Generate response using Google Gemini API with fallback model failover.
     """
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
-        raise ValueError("GEMINI_API_KEY environment variable not set")
-        
+        print("\n[GeminiService] Error: GEMINI_API_KEY environment variable not set.")
+        return "I'm sorry, I cannot process this request because the GEMINI_API_KEY environment variable is not set."
+
     client = genai.Client(api_key=api_key)
     system_prompt = (
         "You are a helpful research assistant. When asked to provide research papers or citations, you MUST format "
@@ -28,23 +38,34 @@ def generate_llm_response(prompt: str):
     )
 
     full_prompt = system_prompt + prompt
-    
-    try:
-        # Using gemini-2.5-flash as it's the recommended default for text tasks
-        response = client.models.generate_content(
-            model='gemini-2.5-flash',
-            contents=full_prompt,
-        )
 
-        text = response.text
-        
-        print("\n" + "=" * 80)
-        print("FULL GEMINI RESPONSE")
-        print("=" * 80)
-        print(text)
-        print("=" * 80)
+    last_error = None
+    seen = set()
+    models = [m for m in DEFAULT_MODELS if m and not (m in seen or seen.add(m))]
 
-        return text
-    except Exception as e:
-        print(f"\nError generating LLM response: {e}")
-        return "I'm sorry, I cannot process this request at the moment due to safety filters or rate limits."
+    for model_name in models:
+        try:
+            response = client.models.generate_content(
+                model=model_name,
+                contents=full_prompt,
+            )
+
+            text = response.text
+            if text:
+                print("\n" + "=" * 80)
+                print(f"FULL GEMINI RESPONSE (Model: {model_name})")
+                print("=" * 80)
+                print(text)
+                print("=" * 80)
+                return text
+
+        except Exception as e:
+            last_error = e
+            err_str = str(e)
+            print(f"\n[GeminiService] Model '{model_name}' failed: {err_str[:300]}")
+            if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str or "404" in err_str or "NOT_FOUND" in err_str:
+                continue
+            continue
+
+    print(f"\n[GeminiService] All Gemini candidate models failed. Last exception: {repr(last_error)}")
+    return "I'm sorry, I cannot process this request at the moment due to safety filters or rate limits."

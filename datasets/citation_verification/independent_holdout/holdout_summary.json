@@ -1,0 +1,750 @@
+{
+  "Baseline": {
+    "overall": {
+      "tp": 234,
+      "tn": 94,
+      "fp": 6,
+      "fn": 66,
+      "total": 400,
+      "accuracy": 82.0,
+      "accuracy_ci_95": [
+        77.94,
+        85.45
+      ],
+      "precision": 97.5,
+      "precision_ci_95": [
+        94.65,
+        98.85
+      ],
+      "recall": 78.0,
+      "recall_ci_95": [
+        72.97,
+        82.32
+      ],
+      "specificity": 94.0,
+      "specificity_ci_95": [
+        87.52,
+        97.22
+      ],
+      "balanced_accuracy": 86.0,
+      "f1": 86.67,
+      "macro_f1": 79.49,
+      "configuration": "Baseline"
+    },
+    "by_discipline": {
+      "computer_science": {
+        "tp": 58,
+        "tn": 22,
+        "fp": 3,
+        "fn": 17,
+        "total": 100,
+        "accuracy": 80.0,
+        "accuracy_ci_95": [
+          71.12,
+          86.66
+        ],
+        "precision": 95.08,
+        "precision_ci_95": [
+          86.51,
+          98.31
+        ],
+        "recall": 77.33,
+        "recall_ci_95": [
+          66.66,
+          85.34
+        ],
+        "specificity": 88.0,
+        "specificity_ci_95": [
+          70.04,
+          95.83
+        ],
+        "balanced_accuracy": 82.67,
+        "f1": 85.29,
+        "macro_f1": 77.02
+      },
+      "medicine_biomedical": {
+        "tp": 58,
+        "tn": 25,
+        "fp": 0,
+        "fn": 17,
+        "total": 100,
+        "accuracy": 83.0,
+        "accuracy_ci_95": [
+          74.45,
+          89.11
+        ],
+        "precision": 100.0,
+        "precision_ci_95": [
+          93.79,
+          100.0
+        ],
+        "recall": 77.33,
+        "recall_ci_95": [
+          66.66,
+          85.34
+        ],
+        "specificity": 100.0,
+        "specificity_ci_95": [
+          86.68,
+          100.0
+        ],
+        "balanced_accuracy": 88.67,
+        "f1": 87.22,
+        "macro_f1": 80.92
+      },
+      "natural_sciences": {
+        "tp": 59,
+        "tn": 24,
+        "fp": 1,
+        "fn": 16,
+        "total": 100,
+        "accuracy": 83.0,
+        "accuracy_ci_95": [
+          74.45,
+          89.11
+        ],
+        "precision": 98.33,
+        "precision_ci_95": [
+          91.14,
+          99.71
+        ],
+        "recall": 78.67,
+        "recall_ci_95": [
+          68.12,
+          86.42
+        ],
+        "specificity": 96.0,
+        "specificity_ci_95": [
+          80.46,
+          99.29
+        ],
+        "balanced_accuracy": 87.33,
+        "f1": 87.41,
+        "macro_f1": 80.63
+      },
+      "humanities_social_sciences": {
+        "tp": 59,
+        "tn": 23,
+        "fp": 2,
+        "fn": 16,
+        "total": 100,
+        "accuracy": 82.0,
+        "accuracy_ci_95": [
+          73.33,
+          88.3
+        ],
+        "precision": 96.72,
+        "precision_ci_95": [
+          88.81,
+          99.1
+        ],
+        "recall": 78.67,
+        "recall_ci_95": [
+          68.12,
+          86.42
+        ],
+        "specificity": 92.0,
+        "specificity_ci_95": [
+          75.03,
+          97.78
+        ],
+        "balanced_accuracy": 85.33,
+        "f1": 86.76,
+        "macro_f1": 79.32
+      }
+    },
+    "by_error_type": {
+      "valid": {
+        "total": 100,
+        "correct": 94,
+        "accuracy": 94.0
+      },
+      "corrupted_authors": {
+        "total": 60,
+        "correct": 5,
+        "accuracy": 8.33
+      },
+      "wrong_venue": {
+        "total": 60,
+        "correct": 49,
+        "accuracy": 81.67
+      },
+      "wrong_year": {
+        "total": 60,
+        "correct": 60,
+        "accuracy": 100.0
+      },
+      "doi_mismatch": {
+        "total": 60,
+        "correct": 60,
+        "accuracy": 100.0
+      },
+      "plausible_fabricated": {
+        "total": 60,
+        "correct": 60,
+        "accuracy": 100.0
+      }
+    }
+  },
+  "Author Fix": {
+    "overall": {
+      "tp": 279,
+      "tn": 93,
+      "fp": 7,
+      "fn": 21,
+      "total": 400,
+      "accuracy": 93.0,
+      "accuracy_ci_95": [
+        90.07,
+        95.11
+      ],
+      "precision": 97.55,
+      "precision_ci_95": [
+        95.03,
+        98.81
+      ],
+      "recall": 93.0,
+      "recall_ci_95": [
+        89.54,
+        95.38
+      ],
+      "specificity": 93.0,
+      "specificity_ci_95": [
+        86.25,
+        96.57
+      ],
+      "balanced_accuracy": 93.0,
+      "f1": 95.22,
+      "macro_f1": 91.07,
+      "configuration": "Author Fix"
+    },
+    "by_discipline": {
+      "computer_science": {
+        "tp": 67,
+        "tn": 22,
+        "fp": 3,
+        "fn": 8,
+        "total": 100,
+        "accuracy": 89.0,
+        "accuracy_ci_95": [
+          81.37,
+          93.75
+        ],
+        "precision": 95.71,
+        "precision_ci_95": [
+          88.14,
+          98.53
+        ],
+        "recall": 89.33,
+        "recall_ci_95": [
+          80.34,
+          94.5
+        ],
+        "specificity": 88.0,
+        "specificity_ci_95": [
+          70.04,
+          95.83
+        ],
+        "balanced_accuracy": 88.67,
+        "f1": 92.41,
+        "macro_f1": 86.21
+      },
+      "medicine_biomedical": {
+        "tp": 69,
+        "tn": 25,
+        "fp": 0,
+        "fn": 6,
+        "total": 100,
+        "accuracy": 94.0,
+        "accuracy_ci_95": [
+          87.52,
+          97.22
+        ],
+        "precision": 100.0,
+        "precision_ci_95": [
+          94.73,
+          100.0
+        ],
+        "recall": 92.0,
+        "recall_ci_95": [
+          83.63,
+          96.28
+        ],
+        "specificity": 100.0,
+        "specificity_ci_95": [
+          86.68,
+          100.0
+        ],
+        "balanced_accuracy": 96.0,
+        "f1": 95.83,
+        "macro_f1": 92.56
+      },
+      "natural_sciences": {
+        "tp": 71,
+        "tn": 24,
+        "fp": 1,
+        "fn": 4,
+        "total": 100,
+        "accuracy": 95.0,
+        "accuracy_ci_95": [
+          88.82,
+          97.85
+        ],
+        "precision": 98.61,
+        "precision_ci_95": [
+          92.54,
+          99.75
+        ],
+        "recall": 94.67,
+        "recall_ci_95": [
+          87.07,
+          97.91
+        ],
+        "specificity": 96.0,
+        "specificity_ci_95": [
+          80.46,
+          99.29
+        ],
+        "balanced_accuracy": 95.33,
+        "f1": 96.6,
+        "macro_f1": 93.58
+      },
+      "humanities_social_sciences": {
+        "tp": 72,
+        "tn": 22,
+        "fp": 3,
+        "fn": 3,
+        "total": 100,
+        "accuracy": 94.0,
+        "accuracy_ci_95": [
+          87.52,
+          97.22
+        ],
+        "precision": 96.0,
+        "precision_ci_95": [
+          88.89,
+          98.63
+        ],
+        "recall": 96.0,
+        "recall_ci_95": [
+          88.89,
+          98.63
+        ],
+        "specificity": 88.0,
+        "specificity_ci_95": [
+          70.04,
+          95.83
+        ],
+        "balanced_accuracy": 92.0,
+        "f1": 96.0,
+        "macro_f1": 92.0
+      }
+    },
+    "by_error_type": {
+      "valid": {
+        "total": 100,
+        "correct": 93,
+        "accuracy": 93.0
+      },
+      "corrupted_authors": {
+        "total": 60,
+        "correct": 50,
+        "accuracy": 83.33
+      },
+      "wrong_venue": {
+        "total": 60,
+        "correct": 49,
+        "accuracy": 81.67
+      },
+      "wrong_year": {
+        "total": 60,
+        "correct": 60,
+        "accuracy": 100.0
+      },
+      "doi_mismatch": {
+        "total": 60,
+        "correct": 60,
+        "accuracy": 100.0
+      },
+      "plausible_fabricated": {
+        "total": 60,
+        "correct": 60,
+        "accuracy": 100.0
+      }
+    }
+  },
+  "Venue Fix": {
+    "overall": {
+      "tp": 239,
+      "tn": 94,
+      "fp": 6,
+      "fn": 61,
+      "total": 400,
+      "accuracy": 83.25,
+      "accuracy_ci_95": [
+        79.28,
+        86.59
+      ],
+      "precision": 97.55,
+      "precision_ci_95": [
+        94.76,
+        98.87
+      ],
+      "recall": 79.67,
+      "recall_ci_95": [
+        74.75,
+        83.83
+      ],
+      "specificity": 94.0,
+      "specificity_ci_95": [
+        87.52,
+        97.22
+      ],
+      "balanced_accuracy": 86.83,
+      "f1": 87.71,
+      "macro_f1": 80.72,
+      "configuration": "Venue Fix"
+    },
+    "by_discipline": {
+      "computer_science": {
+        "tp": 61,
+        "tn": 22,
+        "fp": 3,
+        "fn": 14,
+        "total": 100,
+        "accuracy": 83.0,
+        "accuracy_ci_95": [
+          74.45,
+          89.11
+        ],
+        "precision": 95.31,
+        "precision_ci_95": [
+          87.1,
+          98.39
+        ],
+        "recall": 81.33,
+        "recall_ci_95": [
+          71.07,
+          88.54
+        ],
+        "specificity": 88.0,
+        "specificity_ci_95": [
+          70.04,
+          95.83
+        ],
+        "balanced_accuracy": 84.67,
+        "f1": 87.77,
+        "macro_f1": 79.95
+      },
+      "medicine_biomedical": {
+        "tp": 60,
+        "tn": 25,
+        "fp": 0,
+        "fn": 15,
+        "total": 100,
+        "accuracy": 85.0,
+        "accuracy_ci_95": [
+          76.72,
+          90.69
+        ],
+        "precision": 100.0,
+        "precision_ci_95": [
+          93.98,
+          100.0
+        ],
+        "recall": 80.0,
+        "recall_ci_95": [
+          69.59,
+          87.49
+        ],
+        "specificity": 100.0,
+        "specificity_ci_95": [
+          86.68,
+          100.0
+        ],
+        "balanced_accuracy": 90.0,
+        "f1": 88.89,
+        "macro_f1": 82.91
+      },
+      "natural_sciences": {
+        "tp": 59,
+        "tn": 24,
+        "fp": 1,
+        "fn": 16,
+        "total": 100,
+        "accuracy": 83.0,
+        "accuracy_ci_95": [
+          74.45,
+          89.11
+        ],
+        "precision": 98.33,
+        "precision_ci_95": [
+          91.14,
+          99.71
+        ],
+        "recall": 78.67,
+        "recall_ci_95": [
+          68.12,
+          86.42
+        ],
+        "specificity": 96.0,
+        "specificity_ci_95": [
+          80.46,
+          99.29
+        ],
+        "balanced_accuracy": 87.33,
+        "f1": 87.41,
+        "macro_f1": 80.63
+      },
+      "humanities_social_sciences": {
+        "tp": 59,
+        "tn": 23,
+        "fp": 2,
+        "fn": 16,
+        "total": 100,
+        "accuracy": 82.0,
+        "accuracy_ci_95": [
+          73.33,
+          88.3
+        ],
+        "precision": 96.72,
+        "precision_ci_95": [
+          88.81,
+          99.1
+        ],
+        "recall": 78.67,
+        "recall_ci_95": [
+          68.12,
+          86.42
+        ],
+        "specificity": 92.0,
+        "specificity_ci_95": [
+          75.03,
+          97.78
+        ],
+        "balanced_accuracy": 85.33,
+        "f1": 86.76,
+        "macro_f1": 79.32
+      }
+    },
+    "by_error_type": {
+      "valid": {
+        "total": 100,
+        "correct": 94,
+        "accuracy": 94.0
+      },
+      "corrupted_authors": {
+        "total": 60,
+        "correct": 5,
+        "accuracy": 8.33
+      },
+      "wrong_venue": {
+        "total": 60,
+        "correct": 54,
+        "accuracy": 90.0
+      },
+      "wrong_year": {
+        "total": 60,
+        "correct": 60,
+        "accuracy": 100.0
+      },
+      "doi_mismatch": {
+        "total": 60,
+        "correct": 60,
+        "accuracy": 100.0
+      },
+      "plausible_fabricated": {
+        "total": 60,
+        "correct": 60,
+        "accuracy": 100.0
+      }
+    }
+  },
+  "Combined": {
+    "overall": {
+      "tp": 284,
+      "tn": 93,
+      "fp": 7,
+      "fn": 16,
+      "total": 400,
+      "accuracy": 94.25,
+      "accuracy_ci_95": [
+        91.52,
+        96.14
+      ],
+      "precision": 97.59,
+      "precision_ci_95": [
+        95.12,
+        98.83
+      ],
+      "recall": 94.67,
+      "recall_ci_95": [
+        91.51,
+        96.69
+      ],
+      "specificity": 93.0,
+      "specificity_ci_95": [
+        86.25,
+        96.57
+      ],
+      "balanced_accuracy": 93.83,
+      "f1": 96.11,
+      "macro_f1": 92.55,
+      "configuration": "Combined"
+    },
+    "by_discipline": {
+      "computer_science": {
+        "tp": 70,
+        "tn": 22,
+        "fp": 3,
+        "fn": 5,
+        "total": 100,
+        "accuracy": 92.0,
+        "accuracy_ci_95": [
+          85.0,
+          95.89
+        ],
+        "precision": 95.89,
+        "precision_ci_95": [
+          88.6,
+          98.59
+        ],
+        "recall": 93.33,
+        "recall_ci_95": [
+          85.32,
+          97.12
+        ],
+        "specificity": 88.0,
+        "specificity_ci_95": [
+          70.04,
+          95.83
+        ],
+        "balanced_accuracy": 90.67,
+        "f1": 94.59,
+        "macro_f1": 89.6
+      },
+      "medicine_biomedical": {
+        "tp": 71,
+        "tn": 25,
+        "fp": 0,
+        "fn": 4,
+        "total": 100,
+        "accuracy": 96.0,
+        "accuracy_ci_95": [
+          90.16,
+          98.43
+        ],
+        "precision": 100.0,
+        "precision_ci_95": [
+          94.87,
+          100.0
+        ],
+        "recall": 94.67,
+        "recall_ci_95": [
+          87.07,
+          97.91
+        ],
+        "specificity": 100.0,
+        "specificity_ci_95": [
+          86.68,
+          100.0
+        ],
+        "balanced_accuracy": 97.33,
+        "f1": 97.26,
+        "macro_f1": 94.93
+      },
+      "natural_sciences": {
+        "tp": 71,
+        "tn": 24,
+        "fp": 1,
+        "fn": 4,
+        "total": 100,
+        "accuracy": 95.0,
+        "accuracy_ci_95": [
+          88.82,
+          97.85
+        ],
+        "precision": 98.61,
+        "precision_ci_95": [
+          92.54,
+          99.75
+        ],
+        "recall": 94.67,
+        "recall_ci_95": [
+          87.07,
+          97.91
+        ],
+        "specificity": 96.0,
+        "specificity_ci_95": [
+          80.46,
+          99.29
+        ],
+        "balanced_accuracy": 95.33,
+        "f1": 96.6,
+        "macro_f1": 93.58
+      },
+      "humanities_social_sciences": {
+        "tp": 72,
+        "tn": 22,
+        "fp": 3,
+        "fn": 3,
+        "total": 100,
+        "accuracy": 94.0,
+        "accuracy_ci_95": [
+          87.52,
+          97.22
+        ],
+        "precision": 96.0,
+        "precision_ci_95": [
+          88.89,
+          98.63
+        ],
+        "recall": 96.0,
+        "recall_ci_95": [
+          88.89,
+          98.63
+        ],
+        "specificity": 88.0,
+        "specificity_ci_95": [
+          70.04,
+          95.83
+        ],
+        "balanced_accuracy": 92.0,
+        "f1": 96.0,
+        "macro_f1": 92.0
+      }
+    },
+    "by_error_type": {
+      "valid": {
+        "total": 100,
+        "correct": 93,
+        "accuracy": 93.0
+      },
+      "corrupted_authors": {
+        "total": 60,
+        "correct": 50,
+        "accuracy": 83.33
+      },
+      "wrong_venue": {
+        "total": 60,
+        "correct": 54,
+        "accuracy": 90.0
+      },
+      "wrong_year": {
+        "total": 60,
+        "correct": 60,
+        "accuracy": 100.0
+      },
+      "doi_mismatch": {
+        "total": 60,
+        "correct": 60,
+        "accuracy": 100.0
+      },
+      "plausible_fabricated": {
+        "total": 60,
+        "correct": 60,
+        "accuracy": 100.0
+      }
+    }
+  }
+}

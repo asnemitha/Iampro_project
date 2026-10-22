@@ -1,0 +1,5 @@
+configuration,tp,tn,fp,fn,total,accuracy,precision,recall,specificity,balanced_accuracy,f1,macro_f1
+Baseline,234,94,6,66,400,82.0,97.5,78.0,94.0,86.0,86.67,79.49
+Author Fix,279,93,7,21,400,93.0,97.55,93.0,93.0,93.0,95.22,91.07
+Venue Fix,239,94,6,61,400,83.25,97.55,79.67,94.0,86.83,87.71,80.72
+Combined,284,93,7,16,400,94.25,97.59,94.67,93.0,93.83,96.11,92.55

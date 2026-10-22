@@ -5,9 +5,10 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parents[3]
 CACHE_PATH = BASE_DIR / "experiments" / "api_cache"
 
-# Create a cached session that persists for 30 days
+# Create a cached session that persists and falls back to cached responses on rate limits
 session = requests_cache.CachedSession(
     str(CACHE_PATH),
     backend='sqlite',
-    expire_after=2592000 
+    expire_after=-1,
+    stale_if_error=True
 )

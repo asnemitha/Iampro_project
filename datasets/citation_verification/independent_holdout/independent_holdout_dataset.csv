@@ -1,0 +1,2001 @@
+id,discipline,citation,ground_truth,error_type,source_doi,donor_doi,original_field_value,mutated_field_value,mutation_rule,retrieval_date,provenance_source
+1,computer_science,"Title: ""Sok: vector OLE-based zero-knowledge protocols""
+Authors: Carsten Baum; Samuel Dittmer; Peter Scholl; Xiao Wang
+Year: 2023
+Venue: Designs, Codes and Cryptography
+DOI: 10.1007/s10623-023-01292-8",0,valid,10.1007/s10623-023-01292-8,,,,genuine_traceable_seed,2026-10-15T13:26:33.548228+00:00,Crossref
+2,computer_science,"Title: ""Designing a Practical Code-Based Signature Scheme from Zero-Knowledge Proofs with Trusted Setup""
+Authors: Shay Gueron; Edoardo Persichetti; Paolo Santini
+Year: 2022
+Venue: Cryptography
+DOI: 10.3390/cryptography6010005",0,valid,10.3390/cryptography6010005,,,,genuine_traceable_seed,2026-10-15T13:26:33.613275+00:00,Crossref
+3,computer_science,"Title: ""Prover-efficient commit-and-prove zero-knowledge SNARKs""
+Authors: Helger Lipmaa
+Year: 2017
+Venue: International Journal of Applied Cryptography
+DOI: 10.1504/ijact.2017.089355",0,valid,10.1504/ijact.2017.089355,,,,genuine_traceable_seed,2026-10-15T13:26:33.676678+00:00,Crossref
+4,computer_science,"Title: ""Zero-knowledge proofs of knowledge for group homomorphisms""
+Authors: Ueli Maurer
+Year: 2015
+Venue: Designs, Codes and Cryptography
+DOI: 10.1007/s10623-015-0103-5",0,valid,10.1007/s10623-015-0103-5,,,,genuine_traceable_seed,2026-10-15T13:26:33.738777+00:00,Crossref
+5,computer_science,"Title: ""A zero-knowledge identification protocol in the ring of Gaussian integers""
+Authors: Maheswara Rao Valluri
+Year: 2016
+Venue: Journal of Discrete Mathematical Sciences and Cryptography
+DOI: 10.1080/09720529.2015.1101886",0,valid,10.1080/09720529.2015.1101886,,,,genuine_traceable_seed,2026-10-15T13:26:33.802685+00:00,Crossref
+6,computer_science,"Title: ""Special Issue on Cryptographic Protocols""
+Authors: Andreas Vogt
+Year: 2018
+Venue: Cryptography
+DOI: 10.3390/cryptography2030019",0,valid,10.3390/cryptography2030019,,,,genuine_traceable_seed,2026-10-15T13:26:33.865042+00:00,Crossref
+7,computer_science,"Title: ""Shielding Probabilistically Checkable Proofs: Zero-Knowledge PCPs from Leakage Resilience""
+Authors: Mor Weiss
+Year: 2022
+Venue: Entropy
+DOI: 10.3390/e24070970",0,valid,10.3390/e24070970,,,,genuine_traceable_seed,2026-10-15T13:26:33.927097+00:00,Crossref
+8,computer_science,"Title: ""Enhancing Cybersecurity with Zero-Knowledge Proofs""
+Authors: Dr. Alan Mitchell; Dr. Rebecca Chang
+Year: 2020
+Venue: American Journal Of Cryptography And Network Security
+DOI: 10.71465/ajcns890",0,valid,10.71465/ajcns890,,,,genuine_traceable_seed,2026-10-15T13:26:33.990180+00:00,Crossref
+9,computer_science,"Title: ""Review on Cryptography and Network Security Zero Knowledge Technique in Blockchain Technology""
+Authors: Anjana S. Chandran
+Year: 2022
+Venue: International Journal of Information Security and Privacy
+DOI: 10.4018/ijisp.308306",0,valid,10.4018/ijisp.308306,,,,genuine_traceable_seed,2026-10-15T13:26:34.052452+00:00,Crossref
+10,computer_science,"Title: ""Simple, Near-Optimal Quantum Protocols for Die-Rolling""
+Authors: Jamie Sikora
+Year: 2017
+Venue: Cryptography
+DOI: 10.3390/cryptography1020011",0,valid,10.3390/cryptography1020011,,,,genuine_traceable_seed,2026-10-15T13:26:34.114780+00:00,Crossref
+11,computer_science,"Title: ""Strengthening Zero-Knowledge Protocols Using Signatures""
+Authors: Juan A. Garay; Philip MacKenzie; Ke Yang
+Year: 2005
+Venue: Journal of Cryptology
+DOI: 10.1007/s00145-005-0307-3",0,valid,10.1007/s00145-005-0307-3,,,,genuine_traceable_seed,2026-10-15T13:26:34.175850+00:00,Crossref
+12,computer_science,"Title: ""Guest editorial: Special issue on Mathematics of Zero-Knowledge""
+Authors: Steven Galbraith; Rosario Gennaro; Carla Ràfols; Ron Steinfeld
+Year: 2023
+Venue: Designs, Codes and Cryptography
+DOI: 10.1007/s10623-023-01260-2",0,valid,10.1007/s10623-023-01260-2,,,,genuine_traceable_seed,2026-10-15T13:26:34.238122+00:00,Crossref
+13,computer_science,"Title: ""Minimum Round Card-Based Cryptographic Protocols Using Private Operations""
+Authors: Hibiki Ono; Yoshifumi Manabe
+Year: 2021
+Venue: Cryptography
+DOI: 10.3390/cryptography5030017",0,valid,10.3390/cryptography5030017,,,,genuine_traceable_seed,2026-10-15T13:26:34.302034+00:00,Crossref
+14,computer_science,"Title: ""Cryptography: Data Encryption, Decryption and Compression, Database Privacy and Security, Zero Knowledge of Proof""
+Authors: Aksa Isac John
+Year: 2021
+Venue: International Journal for Research in Applied Science and Engineering Technology
+DOI: 10.22214/ijraset.2021.38175",0,valid,10.22214/ijraset.2021.38175,,,,genuine_traceable_seed,2026-10-15T13:26:34.364710+00:00,Crossref
+15,computer_science,"Title: ""On the Amortized Complexity of Zero-Knowledge Protocols""
+Authors: Ronald Cramer; Ivan Damgård; Marcel Keller
+Year: 2013
+Venue: Journal of Cryptology
+DOI: 10.1007/s00145-013-9145-x",0,valid,10.1007/s00145-013-9145-x,,,,genuine_traceable_seed,2026-10-15T13:26:34.428374+00:00,Crossref
+16,computer_science,"Title: ""Byzantine Fault Tolerance For Distributed Ledgers Revisited""
+Authors: Yongge Wang
+Year: 2022
+Venue: Distributed Ledger Technologies: Research and Practice
+DOI: 10.1145/3538227",0,valid,10.1145/3538227,,,,genuine_traceable_seed,2026-10-15T13:26:36.200844+00:00,Crossref
+17,computer_science,"Title: ""T-PBFT: An EigenTrust-based practical Byzantine fault tolerance consensus algorithm""
+Authors: Sheng Gao; Tianyu Yu; Jianming Zhu; Wei Cai
+Year: 2019
+Venue: China Communications
+DOI: 10.23919/jcc.2019.12.008",0,valid,10.23919/jcc.2019.12.008,,,,genuine_traceable_seed,2026-10-15T13:26:36.257904+00:00,Crossref
+18,computer_science,"Title: ""A Brief Study on Byzantine Fault Tolerance, Consensus, and Blockchain""
+Authors: Zhiping Li; Hanmin Zhong; Bo Zhang; Ruolong Ma
+Year: 2023
+Venue: Highlights in Science, Engineering and Technology
+DOI: 10.54097/hset.v47i.8224",0,valid,10.54097/hset.v47i.8224,,,,genuine_traceable_seed,2026-10-15T13:26:36.320928+00:00,Crossref
+19,computer_science,"Title: ""Dynamic Protocol Blockchain for Practical Byzantine Fault Tolerance Consensus""
+Authors: Ali Asad Sarfraz; Shiren Ye; Tianshu CheneyPen Zhao; Muhammad Usama Raza; Tianshu Chen
+Year: 2023
+Venue: International Journal Of Scientific Advances
+DOI: 10.51542/ijscia.v4i3.1",0,valid,10.51542/ijscia.v4i3.1,,,,genuine_traceable_seed,2026-10-15T13:26:36.384137+00:00,Crossref
+20,computer_science,"Title: ""A Hierarchy Byzantine Fault Tolerance Consensus Protocol Based on Node Reputation""
+Authors: Xixi Wang; Yepeng Guan
+Year: 2022
+Venue: Sensors
+DOI: 10.3390/s22155887",0,valid,10.3390/s22155887,,,,genuine_traceable_seed,2026-10-15T13:26:36.447116+00:00,Crossref
+21,computer_science,"Title: ""Improved Byzantine fault tolerance with fast consensus""
+Authors: Jaya Singh; Aditya Kumawat; Subramanian Venkatesan
+Year: 2022
+Venue: Concurrency and Computation: Practice and Experience
+DOI: 10.1002/cpe.6813",0,valid,10.1002/cpe.6813,,,,genuine_traceable_seed,2026-10-15T13:26:36.509262+00:00,Crossref
+22,computer_science,"Title: ""Joint Reputation Based Grouping and Hierarchical Byzantine Fault Tolerance Consensus Protocol""
+Authors: Hao Qin; Yepeng Guan
+Year: 2023
+Venue: IEEE Access
+DOI: 10.1109/access.2023.3305375",0,valid,10.1109/access.2023.3305375,,,,genuine_traceable_seed,2026-10-15T13:26:36.571066+00:00,Crossref
+23,computer_science,"Title: ""A Study on Byzantine Fault Tolerance Methods in Distributed Networks""
+Authors: M.A. Nasreen; Amal Ganesh; C. Sunitha
+Year: 2016
+Venue: Procedia Computer Science
+DOI: 10.1016/j.procs.2016.05.125",0,valid,10.1016/j.procs.2016.05.125,,,,genuine_traceable_seed,2026-10-15T13:26:36.634483+00:00,Crossref
+24,computer_science,"Title: ""Practical Byzantine fault tolerance consensus based on comprehensive reputation""
+Authors: Jiamou Qi; Yepeng Guan
+Year: 2022
+Venue: Peer-to-Peer Networking and Applications
+DOI: 10.1007/s12083-022-01408-2",0,valid,10.1007/s12083-022-01408-2,,,,genuine_traceable_seed,2026-10-15T13:26:36.697111+00:00,Crossref
+25,computer_science,"Title: ""A hierarchical byzantine fault tolerance consensus protocol for the Internet of Things""
+Authors: Rongxin Guo; Zhenping Guo; Zerui Lin; Wenxian Jiang
+Year: 2024
+Venue: High-Confidence Computing
+DOI: 10.1016/j.hcc.2023.100196",0,valid,10.1016/j.hcc.2023.100196,,,,genuine_traceable_seed,2026-10-15T13:26:36.759901+00:00,Crossref
+26,computer_science,"Title: ""Sok: vector OLE-based zero-knowledge protocols""
+Authors: Shay Gueron; Samuel Dittmer; Peter Scholl; Xiao Wang
+Year: 2023
+Venue: Designs, Codes and Cryptography
+DOI: 10.1007/s10623-023-01292-8",1,corrupted_authors,10.1007/s10623-023-01292-8,10.3390/cryptography6010005,Carsten Baum; Samuel Dittmer; Peter Scholl; Xiao Wang,Shay Gueron; Samuel Dittmer; Peter Scholl; Xiao Wang,first_author_substitution (donor=10.3390/cryptography6010005),2026-10-15T13:26:33.548228+00:00,Crossref
+27,computer_science,"Title: ""Sok: vector OLE-based zero-knowledge protocols""
+Authors: Carsten Baum; Samuel Dittmer; Peter Scholl; Xiao Wang
+Year: 2023
+Venue: Cryptography
+DOI: 10.1007/s10623-023-01292-8",1,wrong_venue,10.1007/s10623-023-01292-8,10.3390/cryptography6010005,"Designs, Codes and Cryptography",Cryptography,venue_substitution (donor=10.3390/cryptography6010005),2026-10-15T13:26:33.548228+00:00,Crossref
+28,computer_science,"Title: ""Sok: vector OLE-based zero-knowledge protocols""
+Authors: Carsten Baum; Samuel Dittmer; Peter Scholl; Xiao Wang
+Year: 2018
+Venue: Designs, Codes and Cryptography
+DOI: 10.1007/s10623-023-01292-8",1,wrong_year,10.1007/s10623-023-01292-8,,2023,2018,year_shift_plus_minus_five,2026-10-15T13:26:33.548228+00:00,Crossref
+29,computer_science,"Title: ""Designing a Practical Code-Based Signature Scheme from Zero-Knowledge Proofs with Trusted Setup""
+Authors: Shay Gueron; Edoardo Persichetti; Paolo Santini
+Year: 2022
+Venue: International Journal of Applied Cryptography
+DOI: 10.3390/cryptography6010005",1,wrong_venue,10.3390/cryptography6010005,10.1504/ijact.2017.089355,Cryptography,International Journal of Applied Cryptography,venue_substitution (donor=10.1504/ijact.2017.089355),2026-10-15T13:26:33.613275+00:00,Crossref
+30,computer_science,"Title: ""Designing a Practical Code-Based Signature Scheme from Zero-Knowledge Proofs with Trusted Setup""
+Authors: Shay Gueron; Edoardo Persichetti; Paolo Santini
+Year: 2016
+Venue: Cryptography
+DOI: 10.3390/cryptography6010005",1,wrong_year,10.3390/cryptography6010005,,2022,2016,year_shift_plus_minus_five,2026-10-15T13:26:33.613275+00:00,Crossref
+31,computer_science,"Title: ""Designing a Practical Code-Based Signature Scheme from Zero-Knowledge Proofs with Trusted Setup""
+Authors: Shay Gueron; Edoardo Persichetti; Paolo Santini
+Year: 2022
+Venue: Cryptography
+DOI: 10.1504/ijact.2017.089355",1,doi_mismatch,10.3390/cryptography6010005,10.1504/ijact.2017.089355,10.3390/cryptography6010005,10.1504/ijact.2017.089355,doi_substitution (donor=10.1504/ijact.2017.089355),2026-10-15T13:26:33.613275+00:00,Crossref
+32,computer_science,"Title: ""Prover-efficient commit-and-prove zero-knowledge SNARKs""
+Authors: Helger Lipmaa
+Year: 2012
+Venue: International Journal of Applied Cryptography
+DOI: 10.1504/ijact.2017.089355",1,wrong_year,10.1504/ijact.2017.089355,,2017,2012,year_shift_plus_minus_five,2026-10-15T13:26:33.676678+00:00,Crossref
+33,computer_science,"Title: ""Prover-efficient commit-and-prove zero-knowledge SNARKs""
+Authors: Helger Lipmaa
+Year: 2017
+Venue: International Journal of Applied Cryptography
+DOI: 10.1007/s10623-015-0103-5",1,doi_mismatch,10.1504/ijact.2017.089355,10.1007/s10623-015-0103-5,10.1504/ijact.2017.089355,10.1007/s10623-015-0103-5,doi_substitution (donor=10.1007/s10623-015-0103-5),2026-10-15T13:26:33.676678+00:00,Crossref
+34,computer_science,"Title: ""Scalable Zero-Knowledge Rollups for Distributed State Machine Replication""
+Authors: Marcus Vance; Elena Rostova; Hiroshi Tanaka
+Year: 2022
+Venue: IEEE Transactions on Dependable and Secure Computing
+DOI: 10.9999/citeguard.holdout.computer_science.001",1,plausible_fabricated,10.9999/citeguard.holdout.computer_science.001,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:33.676678+00:00,synthetic_generation
+35,computer_science,"Title: ""Zero-knowledge proofs of knowledge for group homomorphisms""
+Authors: Ueli Maurer
+Year: 2015
+Venue: Designs, Codes and Cryptography
+DOI: 10.1080/09720529.2015.1101886",1,doi_mismatch,10.1007/s10623-015-0103-5,10.1080/09720529.2015.1101886,10.1007/s10623-015-0103-5,10.1080/09720529.2015.1101886,doi_substitution (donor=10.1080/09720529.2015.1101886),2026-10-15T13:26:33.738777+00:00,Crossref
+36,computer_science,"Title: ""Optimizing Distributed Consensus in Asynchronous High-Throughput Networks""
+Authors: Arthur Pendelton; Siddharth Verma
+Year: 2021
+Venue: ACM Transactions on Computer Systems
+DOI: 10.9999/citeguard.holdout.computer_science.002",1,plausible_fabricated,10.9999/citeguard.holdout.computer_science.002,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:33.738777+00:00,synthetic_generation
+37,computer_science,"Title: ""Zero-knowledge proofs of knowledge for group homomorphisms""
+Authors: Maheswara Rao Valluri
+Year: 2015
+Venue: Designs, Codes and Cryptography
+DOI: 10.1007/s10623-015-0103-5",1,corrupted_authors,10.1007/s10623-015-0103-5,10.1080/09720529.2015.1101886,Ueli Maurer,Maheswara Rao Valluri,first_author_substitution (donor=10.1080/09720529.2015.1101886),2026-10-15T13:26:33.738777+00:00,Crossref
+38,computer_science,"Title: ""Formal Verification of Cryptographic Hardware Accelerators Against Side-Channel Attacks""
+Authors: Claire Dubois; Julian Richter; Wei Zhang
+Year: 2023
+Venue: IEEE Transactions on Information Forensics and Security
+DOI: 10.9999/citeguard.holdout.computer_science.003",1,plausible_fabricated,10.9999/citeguard.holdout.computer_science.003,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:33.802685+00:00,synthetic_generation
+39,computer_science,"Title: ""A zero-knowledge identification protocol in the ring of Gaussian integers""
+Authors: Andreas Vogt
+Year: 2016
+Venue: Journal of Discrete Mathematical Sciences and Cryptography
+DOI: 10.1080/09720529.2015.1101886",1,corrupted_authors,10.1080/09720529.2015.1101886,10.3390/cryptography2030019,Maheswara Rao Valluri,Andreas Vogt,first_author_substitution (donor=10.3390/cryptography2030019),2026-10-15T13:26:33.802685+00:00,Crossref
+40,computer_science,"Title: ""A zero-knowledge identification protocol in the ring of Gaussian integers""
+Authors: Maheswara Rao Valluri
+Year: 2016
+Venue: Cryptography
+DOI: 10.1080/09720529.2015.1101886",1,wrong_venue,10.1080/09720529.2015.1101886,10.3390/cryptography2030019,Journal of Discrete Mathematical Sciences and Cryptography,Cryptography,venue_substitution (donor=10.3390/cryptography2030019),2026-10-15T13:26:33.802685+00:00,Crossref
+41,computer_science,"Title: ""Special Issue on Cryptographic Protocols""
+Authors: Mor Weiss
+Year: 2018
+Venue: Cryptography
+DOI: 10.3390/cryptography2030019",1,corrupted_authors,10.3390/cryptography2030019,10.3390/e24070970,Andreas Vogt,Mor Weiss,first_author_substitution (donor=10.3390/e24070970),2026-10-15T13:26:33.865042+00:00,Crossref
+42,computer_science,"Title: ""Special Issue on Cryptographic Protocols""
+Authors: Andreas Vogt
+Year: 2018
+Venue: Entropy
+DOI: 10.3390/cryptography2030019",1,wrong_venue,10.3390/cryptography2030019,10.3390/e24070970,Cryptography,Entropy,venue_substitution (donor=10.3390/e24070970),2026-10-15T13:26:33.865042+00:00,Crossref
+43,computer_science,"Title: ""Special Issue on Cryptographic Protocols""
+Authors: Andreas Vogt
+Year: 2023
+Venue: Cryptography
+DOI: 10.3390/cryptography2030019",1,wrong_year,10.3390/cryptography2030019,,2018,2023,year_shift_plus_minus_five,2026-10-15T13:26:33.865042+00:00,Crossref
+44,computer_science,"Title: ""Shielding Probabilistically Checkable Proofs: Zero-Knowledge PCPs from Leakage Resilience""
+Authors: Mor Weiss
+Year: 2022
+Venue: American Journal Of Cryptography And Network Security
+DOI: 10.3390/e24070970",1,wrong_venue,10.3390/e24070970,10.71465/ajcns890,Entropy,American Journal Of Cryptography And Network Security,venue_substitution (donor=10.71465/ajcns890),2026-10-15T13:26:33.927097+00:00,Crossref
+45,computer_science,"Title: ""Shielding Probabilistically Checkable Proofs: Zero-Knowledge PCPs from Leakage Resilience""
+Authors: Mor Weiss
+Year: 2016
+Venue: Entropy
+DOI: 10.3390/e24070970",1,wrong_year,10.3390/e24070970,,2022,2016,year_shift_plus_minus_five,2026-10-15T13:26:33.927097+00:00,Crossref
+46,computer_science,"Title: ""Shielding Probabilistically Checkable Proofs: Zero-Knowledge PCPs from Leakage Resilience""
+Authors: Mor Weiss
+Year: 2022
+Venue: Entropy
+DOI: 10.71465/ajcns890",1,doi_mismatch,10.3390/e24070970,10.71465/ajcns890,10.3390/e24070970,10.71465/ajcns890,doi_substitution (donor=10.71465/ajcns890),2026-10-15T13:26:33.927097+00:00,Crossref
+47,computer_science,"Title: ""Enhancing Cybersecurity with Zero-Knowledge Proofs""
+Authors: Dr. Alan Mitchell; Dr. Rebecca Chang
+Year: 2014
+Venue: American Journal Of Cryptography And Network Security
+DOI: 10.71465/ajcns890",1,wrong_year,10.71465/ajcns890,,2020,2014,year_shift_plus_minus_five,2026-10-15T13:26:33.990180+00:00,Crossref
+48,computer_science,"Title: ""Enhancing Cybersecurity with Zero-Knowledge Proofs""
+Authors: Dr. Alan Mitchell; Dr. Rebecca Chang
+Year: 2020
+Venue: American Journal Of Cryptography And Network Security
+DOI: 10.4018/ijisp.308306",1,doi_mismatch,10.71465/ajcns890,10.4018/ijisp.308306,10.71465/ajcns890,10.4018/ijisp.308306,doi_substitution (donor=10.4018/ijisp.308306),2026-10-15T13:26:33.990180+00:00,Crossref
+49,computer_science,"Title: ""Decentralized Key Exchange Protocols with Post-Quantum Forward Secrecy""
+Authors: Nadia Al-Mansoor; Lukas Meyer
+Year: 2020
+Venue: Journal of Cryptology
+DOI: 10.9999/citeguard.holdout.computer_science.004",1,plausible_fabricated,10.9999/citeguard.holdout.computer_science.004,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:33.990180+00:00,synthetic_generation
+50,computer_science,"Title: ""Review on Cryptography and Network Security Zero Knowledge Technique in Blockchain Technology""
+Authors: Anjana S. Chandran
+Year: 2022
+Venue: International Journal of Information Security and Privacy
+DOI: 10.3390/cryptography1020011",1,doi_mismatch,10.4018/ijisp.308306,10.3390/cryptography1020011,10.4018/ijisp.308306,10.3390/cryptography1020011,doi_substitution (donor=10.3390/cryptography1020011),2026-10-15T13:26:34.052452+00:00,Crossref
+51,computer_science,"Title: ""Adaptive Query Execution for Heterogeneous Multi-Cloud Relational Databases""
+Authors: Gabriel Santos; Chloe Bennett; Faisal Karim
+Year: 2021
+Venue: ACM Transactions on Database Systems
+DOI: 10.9999/citeguard.holdout.computer_science.005",1,plausible_fabricated,10.9999/citeguard.holdout.computer_science.005,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:34.052452+00:00,synthetic_generation
+52,computer_science,"Title: ""Review on Cryptography and Network Security Zero Knowledge Technique in Blockchain Technology""
+Authors: Jamie Sikora
+Year: 2022
+Venue: International Journal of Information Security and Privacy
+DOI: 10.4018/ijisp.308306",1,corrupted_authors,10.4018/ijisp.308306,10.3390/cryptography1020011,Anjana S. Chandran,Jamie Sikora,first_author_substitution (donor=10.3390/cryptography1020011),2026-10-15T13:26:34.052452+00:00,Crossref
+53,computer_science,"Title: ""Static Analysis of Concurrent Memory Models in Modern Systems Programming Languages""
+Authors: Thomas Lindqvist; Priya Nair
+Year: 2022
+Venue: IEEE Transactions on Software Engineering
+DOI: 10.9999/citeguard.holdout.computer_science.006",1,plausible_fabricated,10.9999/citeguard.holdout.computer_science.006,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:34.114780+00:00,synthetic_generation
+54,computer_science,"Title: ""Simple, Near-Optimal Quantum Protocols for Die-Rolling""
+Authors: Juan A. Garay
+Year: 2017
+Venue: Cryptography
+DOI: 10.3390/cryptography1020011",1,corrupted_authors,10.3390/cryptography1020011,10.1007/s00145-005-0307-3,Jamie Sikora,Juan A. Garay,first_author_substitution (donor=10.1007/s00145-005-0307-3),2026-10-15T13:26:34.114780+00:00,Crossref
+55,computer_science,"Title: ""Simple, Near-Optimal Quantum Protocols for Die-Rolling""
+Authors: Jamie Sikora
+Year: 2017
+Venue: Journal of Cryptology
+DOI: 10.3390/cryptography1020011",1,wrong_venue,10.3390/cryptography1020011,10.1007/s00145-005-0307-3,Cryptography,Journal of Cryptology,venue_substitution (donor=10.1007/s00145-005-0307-3),2026-10-15T13:26:34.114780+00:00,Crossref
+56,computer_science,"Title: ""Strengthening Zero-Knowledge Protocols Using Signatures""
+Authors: Steven Galbraith; Philip MacKenzie; Ke Yang
+Year: 2005
+Venue: Journal of Cryptology
+DOI: 10.1007/s00145-005-0307-3",1,corrupted_authors,10.1007/s00145-005-0307-3,10.1007/s10623-023-01260-2,Juan A. Garay; Philip MacKenzie; Ke Yang,Steven Galbraith; Philip MacKenzie; Ke Yang,first_author_substitution (donor=10.1007/s10623-023-01260-2),2026-10-15T13:26:34.175850+00:00,Crossref
+57,computer_science,"Title: ""Strengthening Zero-Knowledge Protocols Using Signatures""
+Authors: Juan A. Garay; Philip MacKenzie; Ke Yang
+Year: 2005
+Venue: Designs, Codes and Cryptography
+DOI: 10.1007/s00145-005-0307-3",1,wrong_venue,10.1007/s00145-005-0307-3,10.1007/s10623-023-01260-2,Journal of Cryptology,"Designs, Codes and Cryptography",venue_substitution (donor=10.1007/s10623-023-01260-2),2026-10-15T13:26:34.175850+00:00,Crossref
+58,computer_science,"Title: ""Strengthening Zero-Knowledge Protocols Using Signatures""
+Authors: Juan A. Garay; Philip MacKenzie; Ke Yang
+Year: 2000
+Venue: Journal of Cryptology
+DOI: 10.1007/s00145-005-0307-3",1,wrong_year,10.1007/s00145-005-0307-3,,2005,2000,year_shift_plus_minus_five,2026-10-15T13:26:34.175850+00:00,Crossref
+59,computer_science,"Title: ""Guest editorial: Special issue on Mathematics of Zero-Knowledge""
+Authors: Steven Galbraith; Rosario Gennaro; Carla Ràfols; Ron Steinfeld
+Year: 2023
+Venue: Cryptography
+DOI: 10.1007/s10623-023-01260-2",1,wrong_venue,10.1007/s10623-023-01260-2,10.3390/cryptography5030017,"Designs, Codes and Cryptography",Cryptography,venue_substitution (donor=10.3390/cryptography5030017),2026-10-15T13:26:34.238122+00:00,Crossref
+60,computer_science,"Title: ""Guest editorial: Special issue on Mathematics of Zero-Knowledge""
+Authors: Steven Galbraith; Rosario Gennaro; Carla Ràfols; Ron Steinfeld
+Year: 2018
+Venue: Designs, Codes and Cryptography
+DOI: 10.1007/s10623-023-01260-2",1,wrong_year,10.1007/s10623-023-01260-2,,2023,2018,year_shift_plus_minus_five,2026-10-15T13:26:34.238122+00:00,Crossref
+61,computer_science,"Title: ""Guest editorial: Special issue on Mathematics of Zero-Knowledge""
+Authors: Steven Galbraith; Rosario Gennaro; Carla Ràfols; Ron Steinfeld
+Year: 2023
+Venue: Designs, Codes and Cryptography
+DOI: 10.3390/cryptography5030017",1,doi_mismatch,10.1007/s10623-023-01260-2,10.3390/cryptography5030017,10.1007/s10623-023-01260-2,10.3390/cryptography5030017,doi_substitution (donor=10.3390/cryptography5030017),2026-10-15T13:26:34.238122+00:00,Crossref
+62,computer_science,"Title: ""Minimum Round Card-Based Cryptographic Protocols Using Private Operations""
+Authors: Hibiki Ono; Yoshifumi Manabe
+Year: 2016
+Venue: Cryptography
+DOI: 10.3390/cryptography5030017",1,wrong_year,10.3390/cryptography5030017,,2021,2016,year_shift_plus_minus_five,2026-10-15T13:26:34.302034+00:00,Crossref
+63,computer_science,"Title: ""Minimum Round Card-Based Cryptographic Protocols Using Private Operations""
+Authors: Hibiki Ono; Yoshifumi Manabe
+Year: 2021
+Venue: Cryptography
+DOI: 10.22214/ijraset.2021.38175",1,doi_mismatch,10.3390/cryptography5030017,10.22214/ijraset.2021.38175,10.3390/cryptography5030017,10.22214/ijraset.2021.38175,doi_substitution (donor=10.22214/ijraset.2021.38175),2026-10-15T13:26:34.302034+00:00,Crossref
+64,computer_science,"Title: ""Fault-Tolerant Byzantine State Replication with Dynamic Validator Reconfiguration""
+Authors: Dmitri Volkov; Sarah Jenkins
+Year: 2019
+Venue: Distributed Computing
+DOI: 10.9999/citeguard.holdout.computer_science.007",1,plausible_fabricated,10.9999/citeguard.holdout.computer_science.007,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:34.302034+00:00,synthetic_generation
+65,computer_science,"Title: ""Cryptography: Data Encryption, Decryption and Compression, Database Privacy and Security, Zero Knowledge of Proof""
+Authors: Aksa Isac John
+Year: 2021
+Venue: International Journal for Research in Applied Science and Engineering Technology
+DOI: 10.1007/s00145-013-9145-x",1,doi_mismatch,10.22214/ijraset.2021.38175,10.1007/s00145-013-9145-x,10.22214/ijraset.2021.38175,10.1007/s00145-013-9145-x,doi_substitution (donor=10.1007/s00145-013-9145-x),2026-10-15T13:26:34.364710+00:00,Crossref
+66,computer_science,"Title: ""Automated Synthesis of Provably Secure Microarchitectural Isolation Enclaves""
+Authors: Kenji Sato; Hannah Abbott; Matthias Becker
+Year: 2023
+Venue: IEEE Micro
+DOI: 10.9999/citeguard.holdout.computer_science.008",1,plausible_fabricated,10.9999/citeguard.holdout.computer_science.008,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:34.364710+00:00,synthetic_generation
+67,computer_science,"Title: ""Cryptography: Data Encryption, Decryption and Compression, Database Privacy and Security, Zero Knowledge of Proof""
+Authors: Ronald Cramer
+Year: 2021
+Venue: International Journal for Research in Applied Science and Engineering Technology
+DOI: 10.22214/ijraset.2021.38175",1,corrupted_authors,10.22214/ijraset.2021.38175,10.1007/s00145-013-9145-x,Aksa Isac John,Ronald Cramer,first_author_substitution (donor=10.1007/s00145-013-9145-x),2026-10-15T13:26:34.364710+00:00,Crossref
+68,computer_science,"Title: ""Energy-Efficient Packet Scheduling in Multi-Hop Wireless Edge Mesh Architectures""
+Authors: Rashid Khan; Ananya Sen
+Year: 2020
+Venue: IEEE Transactions on Mobile Computing
+DOI: 10.9999/citeguard.holdout.computer_science.009",1,plausible_fabricated,10.9999/citeguard.holdout.computer_science.009,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:34.428374+00:00,synthetic_generation
+69,computer_science,"Title: ""On the Amortized Complexity of Zero-Knowledge Protocols""
+Authors: Yongge Wang; Ivan Damgård; Marcel Keller
+Year: 2013
+Venue: Journal of Cryptology
+DOI: 10.1007/s00145-013-9145-x",1,corrupted_authors,10.1007/s00145-013-9145-x,10.1145/3538227,Ronald Cramer; Ivan Damgård; Marcel Keller,Yongge Wang; Ivan Damgård; Marcel Keller,first_author_substitution (donor=10.1145/3538227),2026-10-15T13:26:34.428374+00:00,Crossref
+70,computer_science,"Title: ""On the Amortized Complexity of Zero-Knowledge Protocols""
+Authors: Ronald Cramer; Ivan Damgård; Marcel Keller
+Year: 2013
+Venue: Distributed Ledger Technologies: Research and Practice
+DOI: 10.1007/s00145-013-9145-x",1,wrong_venue,10.1007/s00145-013-9145-x,10.1145/3538227,Journal of Cryptology,Distributed Ledger Technologies: Research and Practice,venue_substitution (donor=10.1145/3538227),2026-10-15T13:26:34.428374+00:00,Crossref
+71,computer_science,"Title: ""Byzantine Fault Tolerance For Distributed Ledgers Revisited""
+Authors: Sheng Gao
+Year: 2022
+Venue: Distributed Ledger Technologies: Research and Practice
+DOI: 10.1145/3538227",1,corrupted_authors,10.1145/3538227,10.23919/jcc.2019.12.008,Yongge Wang,Sheng Gao,first_author_substitution (donor=10.23919/jcc.2019.12.008),2026-10-15T13:26:36.200844+00:00,Crossref
+72,computer_science,"Title: ""Byzantine Fault Tolerance For Distributed Ledgers Revisited""
+Authors: Yongge Wang
+Year: 2022
+Venue: China Communications
+DOI: 10.1145/3538227",1,wrong_venue,10.1145/3538227,10.23919/jcc.2019.12.008,Distributed Ledger Technologies: Research and Practice,China Communications,venue_substitution (donor=10.23919/jcc.2019.12.008),2026-10-15T13:26:36.200844+00:00,Crossref
+73,computer_science,"Title: ""Byzantine Fault Tolerance For Distributed Ledgers Revisited""
+Authors: Yongge Wang
+Year: 2016
+Venue: Distributed Ledger Technologies: Research and Practice
+DOI: 10.1145/3538227",1,wrong_year,10.1145/3538227,,2022,2016,year_shift_plus_minus_five,2026-10-15T13:26:36.200844+00:00,Crossref
+74,computer_science,"Title: ""T-PBFT: An EigenTrust-based practical Byzantine fault tolerance consensus algorithm""
+Authors: Sheng Gao; Tianyu Yu; Jianming Zhu; Wei Cai
+Year: 2019
+Venue: Highlights in Science, Engineering and Technology
+DOI: 10.23919/jcc.2019.12.008",1,wrong_venue,10.23919/jcc.2019.12.008,10.54097/hset.v47i.8224,China Communications,"Highlights in Science, Engineering and Technology",venue_substitution (donor=10.54097/hset.v47i.8224),2026-10-15T13:26:36.257904+00:00,Crossref
+75,computer_science,"Title: ""T-PBFT: An EigenTrust-based practical Byzantine fault tolerance consensus algorithm""
+Authors: Sheng Gao; Tianyu Yu; Jianming Zhu; Wei Cai
+Year: 2014
+Venue: China Communications
+DOI: 10.23919/jcc.2019.12.008",1,wrong_year,10.23919/jcc.2019.12.008,,2019,2014,year_shift_plus_minus_five,2026-10-15T13:26:36.257904+00:00,Crossref
+76,computer_science,"Title: ""T-PBFT: An EigenTrust-based practical Byzantine fault tolerance consensus algorithm""
+Authors: Sheng Gao; Tianyu Yu; Jianming Zhu; Wei Cai
+Year: 2019
+Venue: China Communications
+DOI: 10.54097/hset.v47i.8224",1,doi_mismatch,10.23919/jcc.2019.12.008,10.54097/hset.v47i.8224,10.23919/jcc.2019.12.008,10.54097/hset.v47i.8224,doi_substitution (donor=10.54097/hset.v47i.8224),2026-10-15T13:26:36.257904+00:00,Crossref
+77,computer_science,"Title: ""A Brief Study on Byzantine Fault Tolerance, Consensus, and Blockchain""
+Authors: Zhiping Li; Hanmin Zhong; Bo Zhang; Ruolong Ma
+Year: 2018
+Venue: Highlights in Science, Engineering and Technology
+DOI: 10.54097/hset.v47i.8224",1,wrong_year,10.54097/hset.v47i.8224,,2023,2018,year_shift_plus_minus_five,2026-10-15T13:26:36.320928+00:00,Crossref
+78,computer_science,"Title: ""A Brief Study on Byzantine Fault Tolerance, Consensus, and Blockchain""
+Authors: Zhiping Li; Hanmin Zhong; Bo Zhang; Ruolong Ma
+Year: 2023
+Venue: Highlights in Science, Engineering and Technology
+DOI: 10.51542/ijscia.v4i3.1",1,doi_mismatch,10.54097/hset.v47i.8224,10.51542/ijscia.v4i3.1,10.54097/hset.v47i.8224,10.51542/ijscia.v4i3.1,doi_substitution (donor=10.51542/ijscia.v4i3.1),2026-10-15T13:26:36.320928+00:00,Crossref
+79,computer_science,"Title: ""Provable Confidentiality in Cloud-Native Serverless Computing Fabrics""
+Authors: Benjamin Clark; Yael Cohen
+Year: 2022
+Venue: Journal of Systems Architecture
+DOI: 10.9999/citeguard.holdout.computer_science.010",1,plausible_fabricated,10.9999/citeguard.holdout.computer_science.010,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:36.320928+00:00,synthetic_generation
+80,computer_science,"Title: ""Dynamic Protocol Blockchain for Practical Byzantine Fault Tolerance Consensus""
+Authors: Ali Asad Sarfraz; Shiren Ye; Tianshu CheneyPen Zhao; Muhammad Usama Raza; Tianshu Chen
+Year: 2023
+Venue: International Journal Of Scientific Advances
+DOI: 10.3390/s22155887",1,doi_mismatch,10.51542/ijscia.v4i3.1,10.3390/s22155887,10.51542/ijscia.v4i3.1,10.3390/s22155887,doi_substitution (donor=10.3390/s22155887),2026-10-15T13:26:36.384137+00:00,Crossref
+81,computer_science,"Title: ""Dynamic Graph Indexing for Sub-Second Path Queries on Planetary-Scale Knowledge Networks""
+Authors: Zhiqiang Wu; Miriam Goldstein
+Year: 2021
+Venue: VLDB Journal
+DOI: 10.9999/citeguard.holdout.computer_science.011",1,plausible_fabricated,10.9999/citeguard.holdout.computer_science.011,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:36.384137+00:00,synthetic_generation
+82,computer_science,"Title: ""Dynamic Protocol Blockchain for Practical Byzantine Fault Tolerance Consensus""
+Authors: Xixi Wang; Shiren Ye; Tianshu CheneyPen Zhao; Muhammad Usama Raza; Tianshu Chen
+Year: 2023
+Venue: International Journal Of Scientific Advances
+DOI: 10.51542/ijscia.v4i3.1",1,corrupted_authors,10.51542/ijscia.v4i3.1,10.3390/s22155887,Ali Asad Sarfraz; Shiren Ye; Tianshu CheneyPen Zhao; Muhammad Usama Raza; Tianshu Chen,Xixi Wang; Shiren Ye; Tianshu CheneyPen Zhao; Muhammad Usama Raza; Tianshu Chen,first_author_substitution (donor=10.3390/s22155887),2026-10-15T13:26:36.384137+00:00,Crossref
+83,computer_science,"Title: ""Resilient Cross-Chain Interoperability Protocols under Asynchronous Adversaries""
+Authors: Oliver Queen; Stefan Novak
+Year: 2023
+Venue: IEEE Transactions on Network and Service Management
+DOI: 10.9999/citeguard.holdout.computer_science.012",1,plausible_fabricated,10.9999/citeguard.holdout.computer_science.012,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:36.447116+00:00,synthetic_generation
+84,computer_science,"Title: ""A Hierarchy Byzantine Fault Tolerance Consensus Protocol Based on Node Reputation""
+Authors: Jaya Singh; Yepeng Guan
+Year: 2022
+Venue: Sensors
+DOI: 10.3390/s22155887",1,corrupted_authors,10.3390/s22155887,10.1002/cpe.6813,Xixi Wang; Yepeng Guan,Jaya Singh; Yepeng Guan,first_author_substitution (donor=10.1002/cpe.6813),2026-10-15T13:26:36.447116+00:00,Crossref
+85,computer_science,"Title: ""A Hierarchy Byzantine Fault Tolerance Consensus Protocol Based on Node Reputation""
+Authors: Xixi Wang; Yepeng Guan
+Year: 2022
+Venue: Concurrency and Computation: Practice and Experience
+DOI: 10.3390/s22155887",1,wrong_venue,10.3390/s22155887,10.1002/cpe.6813,Sensors,Concurrency and Computation: Practice and Experience,venue_substitution (donor=10.1002/cpe.6813),2026-10-15T13:26:36.447116+00:00,Crossref
+86,computer_science,"Title: ""Improved Byzantine fault tolerance with fast consensus""
+Authors: Hao Qin; Aditya Kumawat; Subramanian Venkatesan
+Year: 2022
+Venue: Concurrency and Computation: Practice and Experience
+DOI: 10.1002/cpe.6813",1,corrupted_authors,10.1002/cpe.6813,10.1109/access.2023.3305375,Jaya Singh; Aditya Kumawat; Subramanian Venkatesan,Hao Qin; Aditya Kumawat; Subramanian Venkatesan,first_author_substitution (donor=10.1109/access.2023.3305375),2026-10-15T13:26:36.509262+00:00,Crossref
+87,computer_science,"Title: ""Improved Byzantine fault tolerance with fast consensus""
+Authors: Jaya Singh; Aditya Kumawat; Subramanian Venkatesan
+Year: 2022
+Venue: IEEE Access
+DOI: 10.1002/cpe.6813",1,wrong_venue,10.1002/cpe.6813,10.1109/access.2023.3305375,Concurrency and Computation: Practice and Experience,IEEE Access,venue_substitution (donor=10.1109/access.2023.3305375),2026-10-15T13:26:36.509262+00:00,Crossref
+88,computer_science,"Title: ""Improved Byzantine fault tolerance with fast consensus""
+Authors: Jaya Singh; Aditya Kumawat; Subramanian Venkatesan
+Year: 2016
+Venue: Concurrency and Computation: Practice and Experience
+DOI: 10.1002/cpe.6813",1,wrong_year,10.1002/cpe.6813,,2022,2016,year_shift_plus_minus_five,2026-10-15T13:26:36.509262+00:00,Crossref
+89,computer_science,"Title: ""Joint Reputation Based Grouping and Hierarchical Byzantine Fault Tolerance Consensus Protocol""
+Authors: Hao Qin; Yepeng Guan
+Year: 2023
+Venue: Procedia Computer Science
+DOI: 10.1109/access.2023.3305375",1,wrong_venue,10.1109/access.2023.3305375,10.1016/j.procs.2016.05.125,IEEE Access,Procedia Computer Science,venue_substitution (donor=10.1016/j.procs.2016.05.125),2026-10-15T13:26:36.571066+00:00,Crossref
+90,computer_science,"Title: ""Joint Reputation Based Grouping and Hierarchical Byzantine Fault Tolerance Consensus Protocol""
+Authors: Hao Qin; Yepeng Guan
+Year: 2018
+Venue: IEEE Access
+DOI: 10.1109/access.2023.3305375",1,wrong_year,10.1109/access.2023.3305375,,2023,2018,year_shift_plus_minus_five,2026-10-15T13:26:36.571066+00:00,Crossref
+91,computer_science,"Title: ""Joint Reputation Based Grouping and Hierarchical Byzantine Fault Tolerance Consensus Protocol""
+Authors: Hao Qin; Yepeng Guan
+Year: 2023
+Venue: IEEE Access
+DOI: 10.1016/j.procs.2016.05.125",1,doi_mismatch,10.1109/access.2023.3305375,10.1016/j.procs.2016.05.125,10.1109/access.2023.3305375,10.1016/j.procs.2016.05.125,doi_substitution (donor=10.1016/j.procs.2016.05.125),2026-10-15T13:26:36.571066+00:00,Crossref
+92,computer_science,"Title: ""A Study on Byzantine Fault Tolerance Methods in Distributed Networks""
+Authors: M.A. Nasreen; Amal Ganesh; C. Sunitha
+Year: 2021
+Venue: Procedia Computer Science
+DOI: 10.1016/j.procs.2016.05.125",1,wrong_year,10.1016/j.procs.2016.05.125,,2016,2021,year_shift_plus_minus_five,2026-10-15T13:26:36.634483+00:00,Crossref
+93,computer_science,"Title: ""A Study on Byzantine Fault Tolerance Methods in Distributed Networks""
+Authors: M.A. Nasreen; Amal Ganesh; C. Sunitha
+Year: 2016
+Venue: Procedia Computer Science
+DOI: 10.1007/s12083-022-01408-2",1,doi_mismatch,10.1016/j.procs.2016.05.125,10.1007/s12083-022-01408-2,10.1016/j.procs.2016.05.125,10.1007/s12083-022-01408-2,doi_substitution (donor=10.1007/s12083-022-01408-2),2026-10-15T13:26:36.634483+00:00,Crossref
+94,computer_science,"Title: ""Automated Detection of Speculative Execution Side Channels in Cryptographic Libraries""
+Authors: Fatima Zahra; Geoffrey Hayes
+Year: 2022
+Venue: ACM Transactions on Privacy and Security
+DOI: 10.9999/citeguard.holdout.computer_science.013",1,plausible_fabricated,10.9999/citeguard.holdout.computer_science.013,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:36.634483+00:00,synthetic_generation
+95,computer_science,"Title: ""Practical Byzantine fault tolerance consensus based on comprehensive reputation""
+Authors: Jiamou Qi; Yepeng Guan
+Year: 2022
+Venue: Peer-to-Peer Networking and Applications
+DOI: 10.1016/j.hcc.2023.100196",1,doi_mismatch,10.1007/s12083-022-01408-2,10.1016/j.hcc.2023.100196,10.1007/s12083-022-01408-2,10.1016/j.hcc.2023.100196,doi_substitution (donor=10.1016/j.hcc.2023.100196),2026-10-15T13:26:36.697111+00:00,Crossref
+96,computer_science,"Title: ""High-Performance Columnar Compression for Distributed Analytical Workloads""
+Authors: Lucas Rossi; Kavita Rao
+Year: 2020
+Venue: Information Systems
+DOI: 10.9999/citeguard.holdout.computer_science.014",1,plausible_fabricated,10.9999/citeguard.holdout.computer_science.014,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:36.697111+00:00,synthetic_generation
+97,computer_science,"Title: ""Practical Byzantine fault tolerance consensus based on comprehensive reputation""
+Authors: Rongxin Guo; Yepeng Guan
+Year: 2022
+Venue: Peer-to-Peer Networking and Applications
+DOI: 10.1007/s12083-022-01408-2",1,corrupted_authors,10.1007/s12083-022-01408-2,10.1016/j.hcc.2023.100196,Jiamou Qi; Yepeng Guan,Rongxin Guo; Yepeng Guan,first_author_substitution (donor=10.1016/j.hcc.2023.100196),2026-10-15T13:26:36.697111+00:00,Crossref
+98,computer_science,"Title: ""Hierarchical Multi-Party Computation for Privacy-Preserving Collaborative Auditing""
+Authors: Patrick O'Connor; Sunita Sharma; Jonas Lind
+Year: 2021
+Venue: IEEE Transactions on Services Computing
+DOI: 10.9999/citeguard.holdout.computer_science.015",1,plausible_fabricated,10.9999/citeguard.holdout.computer_science.015,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:36.759901+00:00,synthetic_generation
+99,computer_science,"Title: ""A hierarchical byzantine fault tolerance consensus protocol for the Internet of Things""
+Authors: Carsten Baum; Zhenping Guo; Zerui Lin; Wenxian Jiang
+Year: 2024
+Venue: High-Confidence Computing
+DOI: 10.1016/j.hcc.2023.100196",1,corrupted_authors,10.1016/j.hcc.2023.100196,10.1007/s10623-023-01292-8,Rongxin Guo; Zhenping Guo; Zerui Lin; Wenxian Jiang,Carsten Baum; Zhenping Guo; Zerui Lin; Wenxian Jiang,first_author_substitution (donor=10.1007/s10623-023-01292-8),2026-10-15T13:26:36.759901+00:00,Crossref
+100,computer_science,"Title: ""A hierarchical byzantine fault tolerance consensus protocol for the Internet of Things""
+Authors: Rongxin Guo; Zhenping Guo; Zerui Lin; Wenxian Jiang
+Year: 2024
+Venue: Designs, Codes and Cryptography
+DOI: 10.1016/j.hcc.2023.100196",1,wrong_venue,10.1016/j.hcc.2023.100196,10.1007/s10623-023-01292-8,High-Confidence Computing,"Designs, Codes and Cryptography",venue_substitution (donor=10.1007/s10623-023-01292-8),2026-10-15T13:26:36.759901+00:00,Crossref
+101,medicine_biomedical,"Title: ""Probiotics in Pregnant Women to Prevent Allergic Disease: A Randomized, Double-Blind Trial""
+Authors: Michael Pistiner
+Year: 2011
+Venue: Pediatrics
+DOI: 10.1542/peds.2011-2107xxx",0,valid,10.1542/peds.2011-2107xxx,,,,genuine_traceable_seed,2026-10-15T13:26:38.273257+00:00,Crossref
+102,medicine_biomedical,"Title: ""Effect of omega-3 on brain natriuretic peptide and echocardiographic findings in heart failure: Double-blind placebo-controlled randomized trial""
+Authors: J. Kojuri; M.A. Ostovan; G.R. Rezaian; P. Archin Dialameh; N. Zamiri; M.B. Sharifkazemi; M. Jannati
+Year: 2013
+Venue: Journal of Cardiovascular Disease Research
+DOI: 10.1016/j.jcdr.2013.02.013",0,valid,10.1016/j.jcdr.2013.02.013,,,,genuine_traceable_seed,2026-10-15T13:26:38.323916+00:00,Crossref
+103,medicine_biomedical,"Title: ""Efficacy of topical local anaesthesia to reduce perioperative pain for endovenous laser ablation of varicose veins: a double-blind randomized controlled trial""
+Authors: Sunita Saha; Alok Tiwari; Charlotte Hunns; Jonathan Refson; Ahmed Abidia
+Year: 2016
+Venue: Therapeutic Advances in Cardiovascular Disease
+DOI: 10.1177/1753944716644140",0,valid,10.1177/1753944716644140,,,,genuine_traceable_seed,2026-10-15T13:26:38.386879+00:00,Crossref
+104,medicine_biomedical,"Title: ""Efficacy of Zinc Sulfate in Peptic Ulcer Disease: A Randomized Double-Blind Clinical Trial Study""
+Authors: Kambiz Yazdanpanah
+Year: 2016
+Venue: JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH
+DOI: 10.7860/jcdr/2016/20834.8300",0,valid,10.7860/jcdr/2016/20834.8300,,,,genuine_traceable_seed,2026-10-15T13:26:38.450497+00:00,Crossref
+105,medicine_biomedical,"Title: ""Zafirlukast Treatment for Acute Asthma: Evaluation in a Randomized, Double-blind, Multicenter Trial""
+Authors: Sandra K. Willsie
+Year: 2006
+Venue: Yearbook of Pulmonary Disease
+DOI: 10.1016/s8756-3452(08)70028-8",0,valid,10.1016/s8756-3452(08)70028-8,,,,genuine_traceable_seed,2026-10-15T13:26:38.512821+00:00,Crossref
+106,medicine_biomedical,"Title: ""Effect of Atorvastatin on the Disease Activity and Severity of Rheumatoid Arthritis: Double-Blind Randomized Controlled Trial""
+Authors: Karim Mowla
+Year: 2016
+Venue: JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH
+DOI: 10.7860/jcdr/2016/16538.7814",0,valid,10.7860/jcdr/2016/16538.7814,,,,genuine_traceable_seed,2026-10-15T13:26:38.574832+00:00,Crossref
+107,medicine_biomedical,"Title: ""Randomized, Double-blind, Placebo-Controlled Trial on Symptomatic Effects of Coenzyme Q10 in Parkinson Disease""
+Authors: Alexander Storch
+Year: 2007
+Venue: Archives of Neurology
+DOI: 10.1001/archneur.64.7.nct60005",0,valid,10.1001/archneur.64.7.nct60005,,,,genuine_traceable_seed,2026-10-15T13:26:38.637736+00:00,Crossref
+108,medicine_biomedical,"Title: ""A randomized, double-blind, placebo-controlled trial of a COX-2 inhibitor (Rofecoxib) in patients undergoing coronary artery bypass surgery""
+Authors: P.-S. Wong
+Year: 2006
+Venue: Interactive CardioVascular and Thoracic Surgery
+DOI: 10.1510/icvts.2005.118455",0,valid,10.1510/icvts.2005.118455,,,,genuine_traceable_seed,2026-10-15T13:26:38.700373+00:00,Crossref
+109,medicine_biomedical,"Title: ""Antioxidant Properties of Carvedilol and Metoprolol in Heart Failure: A Double-Blind Randomized Controlled Trial""
+Authors: Mano Arumanayagam; Skiva Chan; Shirley Tong; John E. Sanderson
+Year: 2001
+Venue: Journal of Cardiovascular Pharmacology
+DOI: 10.1097/00005344-200101000-00006",0,valid,10.1097/00005344-200101000-00006,,,,genuine_traceable_seed,2026-10-15T13:26:38.763507+00:00,Crossref
+110,medicine_biomedical,"Title: ""Mig-RL: a Natural Preventive Treatment Against Migraine. Outcomes of a Randomized, Double-Blind Clinical Trial""
+Authors: Rémi Shrivastava
+Year: 2021
+Venue: Neuroscience and Neurological Surgery
+DOI: 10.31579/2578-8868/192",0,valid,10.31579/2578-8868/192,,,,genuine_traceable_seed,2026-10-15T13:26:38.823876+00:00,Crossref
+111,medicine_biomedical,"Title: ""Applicability of Press Needles to a Double-blind Trial""
+Authors: Shougo Miyazaki; Akihito Hagihara; Ryo Kanda; Yoshito Mukaino; Koichi Nobutomo
+Year: 2009
+Venue: The Clinical Journal of Pain
+DOI: 10.1097/ajp.0b013e318193a6e1",0,valid,10.1097/ajp.0b013e318193a6e1,,,,genuine_traceable_seed,2026-10-15T13:26:38.886613+00:00,Crossref
+112,medicine_biomedical,"Title: ""Heparinized solution vs. saline solution in the maintenance of arterial catheters: A double blind randomized clinical trial""
+Authors: J.A. Barker
+Year: 2009
+Venue: Yearbook of Pulmonary Disease
+DOI: 10.1016/s8756-3452(08)79034-0",0,valid,10.1016/s8756-3452(08)79034-0,,,,genuine_traceable_seed,2026-10-15T13:26:38.949810+00:00,Crossref
+113,medicine_biomedical,"Title: ""Nebulized Budesonide Added to Standard Pediatric Emergency Department Treatment of Acute Asthma: A Randomized, Double-blind Trial""
+Authors: S.K. Willsie
+Year: 2012
+Venue: Yearbook of Pulmonary Disease
+DOI: 10.1016/j.ypdi.2012.02.011",0,valid,10.1016/j.ypdi.2012.02.011,,,,genuine_traceable_seed,2026-10-15T13:26:39.012258+00:00,Crossref
+114,medicine_biomedical,"Title: ""A randomized, double-blind, placebo-controlled trial with cerebrolysin in Alzheimer's disease""
+Authors: M. Panisset; S. Gauthier; H. Moessler; M. Windisch
+Year: 2000
+Venue: European Neuropsychopharmacology
+DOI: 10.1016/s0924-977x(00)80462-9",0,valid,10.1016/s0924-977x(00)80462-9,,,,genuine_traceable_seed,2026-10-15T13:26:39.074356+00:00,Crossref
+115,medicine_biomedical,"Title: ""Ornidazole for Prophylaxis of Postoperative Crohn's Disease Recurrence: A Randomized, Double-Blind, Placebo-Controlled Trial""
+Authors: G.R. Lichtenstein
+Year: 2006
+Venue: Yearbook of Gastroenterology
+DOI: 10.1016/s0739-5930(08)70327-1",0,valid,10.1016/s0739-5930(08)70327-1,,,,genuine_traceable_seed,2026-10-15T13:26:39.136772+00:00,Crossref
+116,medicine_biomedical,"Title: ""Double-Blind Randomized Controlled Trial of Rifaximin for Persistent Symptoms in Patients with Celiac Disease""
+Authors: N. Talley
+Year: 2012
+Venue: Yearbook of Medicine
+DOI: 10.1016/s0084-3873(12)00280-5",0,valid,10.1016/s0084-3873(12)00280-5,,,,genuine_traceable_seed,2026-10-15T13:26:39.198692+00:00,Crossref
+117,medicine_biomedical,"Title: ""Reflections on Monoclonal Antibodies in Immunodiagnosis and Immunotherapy""
+Authors: Zenon Steplewski
+Year: 2020
+Venue: Monoclonal Antibodies in Immunodiagnosis &amp; Immunotherapy
+DOI: 10.1089/mab.2020.29001.zen",0,valid,10.1089/mab.2020.29001.zen,,,,genuine_traceable_seed,2026-10-15T13:26:40.839987+00:00,Crossref
+118,medicine_biomedical,"Title: ""The Future of Monoclonal Antibodies in Immunodiagnosis and Immunotherapy""
+Authors: Thomas Kieber-Emmons
+Year: 2020
+Venue: Monoclonal Antibodies in Immunodiagnosis &amp; Immunotherapy
+DOI: 10.1089/mab.2020.29000.tke",0,valid,10.1089/mab.2020.29000.tke,,,,genuine_traceable_seed,2026-10-15T13:26:40.897205+00:00,Crossref
+119,medicine_biomedical,"Title: ""Charting the Course for Monoclonal Antibodies in Immunodiagnosis and Immunotherapy""
+Authors: Cory L. Brooks; Andrei Moroz
+Year: 2024
+Venue: Monoclonal Antibodies in Immunodiagnosis &amp; Immunotherapy
+DOI: 10.1089/mab.2024.0012",0,valid,10.1089/mab.2024.0012,,,,genuine_traceable_seed,2026-10-15T13:26:40.959194+00:00,Crossref
+120,medicine_biomedical,"Title: ""Dendrimers, Carotenoids, and Monoclonal Antibodies""
+Authors: Yuriy K. Bashmakov; Ivan M. Petyaev
+Year: 2017
+Venue: Monoclonal Antibodies in Immunodiagnosis &amp; Immunotherapy
+DOI: 10.1089/mab.2017.0032",0,valid,10.1089/mab.2017.0032,,,,genuine_traceable_seed,2026-10-15T13:26:41.020241+00:00,Crossref
+121,medicine_biomedical,"Title: ""Which Is Better? High-Dose Metformin Alone or Combination of Low-Dose Metformin and Linagliptin on Glycemic Variability in Japanese Type 2 Diabetes Patients with Insufficient Glycemic Control with Low-Dose Metformin Alone—A Randomized, Crossover, Pilot Study""
+Authors: HIROSHI TAKAHASHI; RIMEI NISHIMURA; KAZUNORI UTSUNOMIYA
+Year: 2018
+Venue: Diabetes
+DOI: 10.2337/db18-1134-p",0,valid,10.2337/db18-1134-p,,,,genuine_traceable_seed,2026-10-15T13:26:43.337933+00:00,Crossref
+122,medicine_biomedical,"Title: ""Comparative evaluation of Pioglitazone versus Voglibose on glycemic control in patients with Type 2 Diabetes Mellitus on Metformin""
+Authors: Md Faheem Mubeen
+Year: 2018
+Venue: Journal of Medical Science And clinical Research
+DOI: 10.18535/jmscr/v6i7.135",0,valid,10.18535/jmscr/v6i7.135,,,,genuine_traceable_seed,2026-10-15T13:26:43.395159+00:00,Crossref
+123,medicine_biomedical,"Title: ""864-P: Effects on Glycemic Control by Combination Therapy of Gliclazide-Metformin and Insulin in Type 2 Diabetes Mellitus Patients""
+Authors: MOHAMMAD SAIFUDDIN
+Year: 2023
+Venue: Diabetes
+DOI: 10.2337/db23-864-p",0,valid,10.2337/db23-864-p,,,,genuine_traceable_seed,2026-10-15T13:26:43.457818+00:00,Crossref
+124,medicine_biomedical,"Title: ""Metformin improves glycemic variability in adults with type 1 diabetes mellitus: an open-label randomized control trial""
+Authors: Xiuzhen Zhang; Dan Xu; Ping Xu; Shufen Yang; Qingmei Zhang; Yan Wu; Fengyi Yuan
+Year: 2021
+Venue: Endocrine Connections
+DOI: 10.1530/ec-21-0146",0,valid,10.1530/ec-21-0146,,,,genuine_traceable_seed,2026-10-15T13:26:43.520167+00:00,Crossref
+125,medicine_biomedical,"Title: ""Repaglinide/metformin fixed-dose combination to improve glycemic control in patients with type 2 diabetes: an update""
+Authors: Robert Moses
+Year: 2010
+Venue: Diabetes, Metabolic Syndrome and Obesity: Targets and Therapy
+DOI: 10.2147/dmsott.s6621",0,valid,10.2147/dmsott.s6621,,,,genuine_traceable_seed,2026-10-15T13:26:43.581804+00:00,Crossref
+126,medicine_biomedical,"Title: ""Probiotics in Pregnant Women to Prevent Allergic Disease: A Randomized, Double-Blind Trial""
+Authors: J. Kojuri
+Year: 2011
+Venue: Pediatrics
+DOI: 10.1542/peds.2011-2107xxx",1,corrupted_authors,10.1542/peds.2011-2107xxx,10.1016/j.jcdr.2013.02.013,Michael Pistiner,J. Kojuri,first_author_substitution (donor=10.1016/j.jcdr.2013.02.013),2026-10-15T13:26:38.273257+00:00,Crossref
+127,medicine_biomedical,"Title: ""Probiotics in Pregnant Women to Prevent Allergic Disease: A Randomized, Double-Blind Trial""
+Authors: Michael Pistiner
+Year: 2011
+Venue: Journal of Cardiovascular Disease Research
+DOI: 10.1542/peds.2011-2107xxx",1,wrong_venue,10.1542/peds.2011-2107xxx,10.1016/j.jcdr.2013.02.013,Pediatrics,Journal of Cardiovascular Disease Research,venue_substitution (donor=10.1016/j.jcdr.2013.02.013),2026-10-15T13:26:38.273257+00:00,Crossref
+128,medicine_biomedical,"Title: ""Probiotics in Pregnant Women to Prevent Allergic Disease: A Randomized, Double-Blind Trial""
+Authors: Michael Pistiner
+Year: 2006
+Venue: Pediatrics
+DOI: 10.1542/peds.2011-2107xxx",1,wrong_year,10.1542/peds.2011-2107xxx,,2011,2006,year_shift_plus_minus_five,2026-10-15T13:26:38.273257+00:00,Crossref
+129,medicine_biomedical,"Title: ""Effect of omega-3 on brain natriuretic peptide and echocardiographic findings in heart failure: Double-blind placebo-controlled randomized trial""
+Authors: J. Kojuri; M.A. Ostovan; G.R. Rezaian; P. Archin Dialameh; N. Zamiri; M.B. Sharifkazemi; M. Jannati
+Year: 2013
+Venue: Therapeutic Advances in Cardiovascular Disease
+DOI: 10.1016/j.jcdr.2013.02.013",1,wrong_venue,10.1016/j.jcdr.2013.02.013,10.1177/1753944716644140,Journal of Cardiovascular Disease Research,Therapeutic Advances in Cardiovascular Disease,venue_substitution (donor=10.1177/1753944716644140),2026-10-15T13:26:38.323916+00:00,Crossref
+130,medicine_biomedical,"Title: ""Effect of omega-3 on brain natriuretic peptide and echocardiographic findings in heart failure: Double-blind placebo-controlled randomized trial""
+Authors: J. Kojuri; M.A. Ostovan; G.R. Rezaian; P. Archin Dialameh; N. Zamiri; M.B. Sharifkazemi; M. Jannati
+Year: 2008
+Venue: Journal of Cardiovascular Disease Research
+DOI: 10.1016/j.jcdr.2013.02.013",1,wrong_year,10.1016/j.jcdr.2013.02.013,,2013,2008,year_shift_plus_minus_five,2026-10-15T13:26:38.323916+00:00,Crossref
+131,medicine_biomedical,"Title: ""Effect of omega-3 on brain natriuretic peptide and echocardiographic findings in heart failure: Double-blind placebo-controlled randomized trial""
+Authors: J. Kojuri; M.A. Ostovan; G.R. Rezaian; P. Archin Dialameh; N. Zamiri; M.B. Sharifkazemi; M. Jannati
+Year: 2013
+Venue: Journal of Cardiovascular Disease Research
+DOI: 10.1177/1753944716644140",1,doi_mismatch,10.1016/j.jcdr.2013.02.013,10.1177/1753944716644140,10.1016/j.jcdr.2013.02.013,10.1177/1753944716644140,doi_substitution (donor=10.1177/1753944716644140),2026-10-15T13:26:38.323916+00:00,Crossref
+132,medicine_biomedical,"Title: ""Efficacy of topical local anaesthesia to reduce perioperative pain for endovenous laser ablation of varicose veins: a double-blind randomized controlled trial""
+Authors: Sunita Saha; Alok Tiwari; Charlotte Hunns; Jonathan Refson; Ahmed Abidia
+Year: 2021
+Venue: Therapeutic Advances in Cardiovascular Disease
+DOI: 10.1177/1753944716644140",1,wrong_year,10.1177/1753944716644140,,2016,2021,year_shift_plus_minus_five,2026-10-15T13:26:38.386879+00:00,Crossref
+133,medicine_biomedical,"Title: ""Efficacy of topical local anaesthesia to reduce perioperative pain for endovenous laser ablation of varicose veins: a double-blind randomized controlled trial""
+Authors: Sunita Saha; Alok Tiwari; Charlotte Hunns; Jonathan Refson; Ahmed Abidia
+Year: 2016
+Venue: Therapeutic Advances in Cardiovascular Disease
+DOI: 10.7860/jcdr/2016/20834.8300",1,doi_mismatch,10.1177/1753944716644140,10.7860/jcdr/2016/20834.8300,10.1177/1753944716644140,10.7860/jcdr/2016/20834.8300,doi_substitution (donor=10.7860/jcdr/2016/20834.8300),2026-10-15T13:26:38.386879+00:00,Crossref
+134,medicine_biomedical,"Title: ""Multi-Targeted Kinase Inhibition in Refractory Pancreatic Adenocarcinoma: A Phase III Trial""
+Authors: Eleanor Campbell; David Rosenbaum; Beatriz Morales
+Year: 2021
+Venue: The Lancet Oncology
+DOI: 10.9999/citeguard.holdout.medicine_biomedical.001",1,plausible_fabricated,10.9999/citeguard.holdout.medicine_biomedical.001,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:38.386879+00:00,synthetic_generation
+135,medicine_biomedical,"Title: ""Efficacy of Zinc Sulfate in Peptic Ulcer Disease: A Randomized Double-Blind Clinical Trial Study""
+Authors: Kambiz Yazdanpanah
+Year: 2016
+Venue: JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH
+DOI: 10.1016/s8756-3452(08)70028-8",1,doi_mismatch,10.7860/jcdr/2016/20834.8300,10.1016/s8756-3452(08)70028-8,10.7860/jcdr/2016/20834.8300,10.1016/s8756-3452(08)70028-8,doi_substitution (donor=10.1016/s8756-3452(08)70028-8),2026-10-15T13:26:38.450497+00:00,Crossref
+136,medicine_biomedical,"Title: ""Long-Term Clinical Outcomes of SGLT2 Inhibition in Advanced Heart Failure with Preserved Ejection Fraction""
+Authors: Gareth Edwards; Sunita Patel; Fritz Schneider
+Year: 2022
+Venue: New England Journal of Medicine
+DOI: 10.9999/citeguard.holdout.medicine_biomedical.002",1,plausible_fabricated,10.9999/citeguard.holdout.medicine_biomedical.002,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:38.450497+00:00,synthetic_generation
+137,medicine_biomedical,"Title: ""Efficacy of Zinc Sulfate in Peptic Ulcer Disease: A Randomized Double-Blind Clinical Trial Study""
+Authors: Sandra K. Willsie
+Year: 2016
+Venue: JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH
+DOI: 10.7860/jcdr/2016/20834.8300",1,corrupted_authors,10.7860/jcdr/2016/20834.8300,10.1016/s8756-3452(08)70028-8,Kambiz Yazdanpanah,Sandra K. Willsie,first_author_substitution (donor=10.1016/s8756-3452(08)70028-8),2026-10-15T13:26:38.450497+00:00,Crossref
+138,medicine_biomedical,"Title: ""Genome-Wide Epigenetic Profiling Identifies Novel Therapeutic Vulnerabilities in Glioblastoma Multiforme""
+Authors: Maria S. Rodriguez; Christian Hoffmann
+Year: 2020
+Venue: Cancer Cell
+DOI: 10.9999/citeguard.holdout.medicine_biomedical.003",1,plausible_fabricated,10.9999/citeguard.holdout.medicine_biomedical.003,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:38.512821+00:00,synthetic_generation
+139,medicine_biomedical,"Title: ""Zafirlukast Treatment for Acute Asthma: Evaluation in a Randomized, Double-blind, Multicenter Trial""
+Authors: Karim Mowla
+Year: 2006
+Venue: Yearbook of Pulmonary Disease
+DOI: 10.1016/s8756-3452(08)70028-8",1,corrupted_authors,10.1016/s8756-3452(08)70028-8,10.7860/jcdr/2016/16538.7814,Sandra K. Willsie,Karim Mowla,first_author_substitution (donor=10.7860/jcdr/2016/16538.7814),2026-10-15T13:26:38.512821+00:00,Crossref
+140,medicine_biomedical,"Title: ""Zafirlukast Treatment for Acute Asthma: Evaluation in a Randomized, Double-blind, Multicenter Trial""
+Authors: Sandra K. Willsie
+Year: 2006
+Venue: JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH
+DOI: 10.1016/s8756-3452(08)70028-8",1,wrong_venue,10.1016/s8756-3452(08)70028-8,10.7860/jcdr/2016/16538.7814,Yearbook of Pulmonary Disease,JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH,venue_substitution (donor=10.7860/jcdr/2016/16538.7814),2026-10-15T13:26:38.512821+00:00,Crossref
+141,medicine_biomedical,"Title: ""Effect of Atorvastatin on the Disease Activity and Severity of Rheumatoid Arthritis: Double-Blind Randomized Controlled Trial""
+Authors: Alexander Storch
+Year: 2016
+Venue: JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH
+DOI: 10.7860/jcdr/2016/16538.7814",1,corrupted_authors,10.7860/jcdr/2016/16538.7814,10.1001/archneur.64.7.nct60005,Karim Mowla,Alexander Storch,first_author_substitution (donor=10.1001/archneur.64.7.nct60005),2026-10-15T13:26:38.574832+00:00,Crossref
+142,medicine_biomedical,"Title: ""Effect of Atorvastatin on the Disease Activity and Severity of Rheumatoid Arthritis: Double-Blind Randomized Controlled Trial""
+Authors: Karim Mowla
+Year: 2016
+Venue: Archives of Neurology
+DOI: 10.7860/jcdr/2016/16538.7814",1,wrong_venue,10.7860/jcdr/2016/16538.7814,10.1001/archneur.64.7.nct60005,JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH,Archives of Neurology,venue_substitution (donor=10.1001/archneur.64.7.nct60005),2026-10-15T13:26:38.574832+00:00,Crossref
+143,medicine_biomedical,"Title: ""Effect of Atorvastatin on the Disease Activity and Severity of Rheumatoid Arthritis: Double-Blind Randomized Controlled Trial""
+Authors: Karim Mowla
+Year: 2021
+Venue: JOURNAL OF CLINICAL AND DIAGNOSTIC RESEARCH
+DOI: 10.7860/jcdr/2016/16538.7814",1,wrong_year,10.7860/jcdr/2016/16538.7814,,2016,2021,year_shift_plus_minus_five,2026-10-15T13:26:38.574832+00:00,Crossref
+144,medicine_biomedical,"Title: ""Randomized, Double-blind, Placebo-Controlled Trial on Symptomatic Effects of Coenzyme Q10 in Parkinson Disease""
+Authors: Alexander Storch
+Year: 2007
+Venue: Interactive CardioVascular and Thoracic Surgery
+DOI: 10.1001/archneur.64.7.nct60005",1,wrong_venue,10.1001/archneur.64.7.nct60005,10.1510/icvts.2005.118455,Archives of Neurology,Interactive CardioVascular and Thoracic Surgery,venue_substitution (donor=10.1510/icvts.2005.118455),2026-10-15T13:26:38.637736+00:00,Crossref
+145,medicine_biomedical,"Title: ""Randomized, Double-blind, Placebo-Controlled Trial on Symptomatic Effects of Coenzyme Q10 in Parkinson Disease""
+Authors: Alexander Storch
+Year: 2002
+Venue: Archives of Neurology
+DOI: 10.1001/archneur.64.7.nct60005",1,wrong_year,10.1001/archneur.64.7.nct60005,,2007,2002,year_shift_plus_minus_five,2026-10-15T13:26:38.637736+00:00,Crossref
+146,medicine_biomedical,"Title: ""Randomized, Double-blind, Placebo-Controlled Trial on Symptomatic Effects of Coenzyme Q10 in Parkinson Disease""
+Authors: Alexander Storch
+Year: 2007
+Venue: Archives of Neurology
+DOI: 10.1510/icvts.2005.118455",1,doi_mismatch,10.1001/archneur.64.7.nct60005,10.1510/icvts.2005.118455,10.1001/archneur.64.7.nct60005,10.1510/icvts.2005.118455,doi_substitution (donor=10.1510/icvts.2005.118455),2026-10-15T13:26:38.637736+00:00,Crossref
+147,medicine_biomedical,"Title: ""A randomized, double-blind, placebo-controlled trial of a COX-2 inhibitor (Rofecoxib) in patients undergoing coronary artery bypass surgery""
+Authors: P.-S. Wong
+Year: 2011
+Venue: Interactive CardioVascular and Thoracic Surgery
+DOI: 10.1510/icvts.2005.118455",1,wrong_year,10.1510/icvts.2005.118455,,2006,2011,year_shift_plus_minus_five,2026-10-15T13:26:38.700373+00:00,Crossref
+148,medicine_biomedical,"Title: ""A randomized, double-blind, placebo-controlled trial of a COX-2 inhibitor (Rofecoxib) in patients undergoing coronary artery bypass surgery""
+Authors: P.-S. Wong
+Year: 2006
+Venue: Interactive CardioVascular and Thoracic Surgery
+DOI: 10.1097/00005344-200101000-00006",1,doi_mismatch,10.1510/icvts.2005.118455,10.1097/00005344-200101000-00006,10.1510/icvts.2005.118455,10.1097/00005344-200101000-00006,doi_substitution (donor=10.1097/00005344-200101000-00006),2026-10-15T13:26:38.700373+00:00,Crossref
+149,medicine_biomedical,"Title: ""Safety and Efficacy of Dual Immune Checkpoint Blockade in Recurrent Metastatic Melanoma""
+Authors: Alexander Wright; Jasmine Taylor; Li Wei
+Year: 2023
+Venue: Journal of Clinical Oncology
+DOI: 10.9999/citeguard.holdout.medicine_biomedical.004",1,plausible_fabricated,10.9999/citeguard.holdout.medicine_biomedical.004,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:38.700373+00:00,synthetic_generation
+150,medicine_biomedical,"Title: ""Antioxidant Properties of Carvedilol and Metoprolol in Heart Failure: A Double-Blind Randomized Controlled Trial""
+Authors: Mano Arumanayagam; Skiva Chan; Shirley Tong; John E. Sanderson
+Year: 2001
+Venue: Journal of Cardiovascular Pharmacology
+DOI: 10.31579/2578-8868/192",1,doi_mismatch,10.1097/00005344-200101000-00006,10.31579/2578-8868/192,10.1097/00005344-200101000-00006,10.31579/2578-8868/192,doi_substitution (donor=10.31579/2578-8868/192),2026-10-15T13:26:38.763507+00:00,Crossref
+151,medicine_biomedical,"Title: ""Monoclonal Antibody Targeting Tau Aggregation in Mild Cognitive Impairment: A Randomized Controlled Trial""
+Authors: Robert Sterling; Katarina Novak
+Year: 2021
+Venue: JAMA Neurology
+DOI: 10.9999/citeguard.holdout.medicine_biomedical.005",1,plausible_fabricated,10.9999/citeguard.holdout.medicine_biomedical.005,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:38.763507+00:00,synthetic_generation
+152,medicine_biomedical,"Title: ""Antioxidant Properties of Carvedilol and Metoprolol in Heart Failure: A Double-Blind Randomized Controlled Trial""
+Authors: Rémi Shrivastava; Skiva Chan; Shirley Tong; John E. Sanderson
+Year: 2001
+Venue: Journal of Cardiovascular Pharmacology
+DOI: 10.1097/00005344-200101000-00006",1,corrupted_authors,10.1097/00005344-200101000-00006,10.31579/2578-8868/192,Mano Arumanayagam; Skiva Chan; Shirley Tong; John E. Sanderson,Rémi Shrivastava; Skiva Chan; Shirley Tong; John E. Sanderson,first_author_substitution (donor=10.31579/2578-8868/192),2026-10-15T13:26:38.763507+00:00,Crossref
+153,medicine_biomedical,"Title: ""Early Coronary Intravascular Lithotripsy versus Rotational Atherectomy in Severely Calcified Lesions""
+Authors: Matteo Moretti; Grace Kelly; Hassan Farouk
+Year: 2022
+Venue: Circulation
+DOI: 10.9999/citeguard.holdout.medicine_biomedical.006",1,plausible_fabricated,10.9999/citeguard.holdout.medicine_biomedical.006,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:38.823876+00:00,synthetic_generation
+154,medicine_biomedical,"Title: ""Mig-RL: a Natural Preventive Treatment Against Migraine. Outcomes of a Randomized, Double-Blind Clinical Trial""
+Authors: Shougo Miyazaki
+Year: 2021
+Venue: Neuroscience and Neurological Surgery
+DOI: 10.31579/2578-8868/192",1,corrupted_authors,10.31579/2578-8868/192,10.1097/ajp.0b013e318193a6e1,Rémi Shrivastava,Shougo Miyazaki,first_author_substitution (donor=10.1097/ajp.0b013e318193a6e1),2026-10-15T13:26:38.823876+00:00,Crossref
+155,medicine_biomedical,"Title: ""Mig-RL: a Natural Preventive Treatment Against Migraine. Outcomes of a Randomized, Double-Blind Clinical Trial""
+Authors: Rémi Shrivastava
+Year: 2021
+Venue: The Clinical Journal of Pain
+DOI: 10.31579/2578-8868/192",1,wrong_venue,10.31579/2578-8868/192,10.1097/ajp.0b013e318193a6e1,Neuroscience and Neurological Surgery,The Clinical Journal of Pain,venue_substitution (donor=10.1097/ajp.0b013e318193a6e1),2026-10-15T13:26:38.823876+00:00,Crossref
+156,medicine_biomedical,"Title: ""Applicability of Press Needles to a Double-blind Trial""
+Authors: J.A. Barker; Akihito Hagihara; Ryo Kanda; Yoshito Mukaino; Koichi Nobutomo
+Year: 2009
+Venue: The Clinical Journal of Pain
+DOI: 10.1097/ajp.0b013e318193a6e1",1,corrupted_authors,10.1097/ajp.0b013e318193a6e1,10.1016/s8756-3452(08)79034-0,Shougo Miyazaki; Akihito Hagihara; Ryo Kanda; Yoshito Mukaino; Koichi Nobutomo,J.A. Barker; Akihito Hagihara; Ryo Kanda; Yoshito Mukaino; Koichi Nobutomo,first_author_substitution (donor=10.1016/s8756-3452(08)79034-0),2026-10-15T13:26:38.886613+00:00,Crossref
+157,medicine_biomedical,"Title: ""Applicability of Press Needles to a Double-blind Trial""
+Authors: Shougo Miyazaki; Akihito Hagihara; Ryo Kanda; Yoshito Mukaino; Koichi Nobutomo
+Year: 2009
+Venue: Yearbook of Pulmonary Disease
+DOI: 10.1097/ajp.0b013e318193a6e1",1,wrong_venue,10.1097/ajp.0b013e318193a6e1,10.1016/s8756-3452(08)79034-0,The Clinical Journal of Pain,Yearbook of Pulmonary Disease,venue_substitution (donor=10.1016/s8756-3452(08)79034-0),2026-10-15T13:26:38.886613+00:00,Crossref
+158,medicine_biomedical,"Title: ""Applicability of Press Needles to a Double-blind Trial""
+Authors: Shougo Miyazaki; Akihito Hagihara; Ryo Kanda; Yoshito Mukaino; Koichi Nobutomo
+Year: 2004
+Venue: The Clinical Journal of Pain
+DOI: 10.1097/ajp.0b013e318193a6e1",1,wrong_year,10.1097/ajp.0b013e318193a6e1,,2009,2004,year_shift_plus_minus_five,2026-10-15T13:26:38.886613+00:00,Crossref
+159,medicine_biomedical,"Title: ""Heparinized solution vs. saline solution in the maintenance of arterial catheters: A double blind randomized clinical trial""
+Authors: J.A. Barker
+Year: 2009
+Venue: European Neuropsychopharmacology
+DOI: 10.1016/s8756-3452(08)79034-0",1,wrong_venue,10.1016/s8756-3452(08)79034-0,10.1016/s0924-977x(00)80462-9,Yearbook of Pulmonary Disease,European Neuropsychopharmacology,venue_substitution (donor=10.1016/s0924-977x(00)80462-9),2026-10-15T13:26:38.949810+00:00,Crossref
+160,medicine_biomedical,"Title: ""Heparinized solution vs. saline solution in the maintenance of arterial catheters: A double blind randomized clinical trial""
+Authors: J.A. Barker
+Year: 2004
+Venue: Yearbook of Pulmonary Disease
+DOI: 10.1016/s8756-3452(08)79034-0",1,wrong_year,10.1016/s8756-3452(08)79034-0,,2009,2004,year_shift_plus_minus_five,2026-10-15T13:26:38.949810+00:00,Crossref
+161,medicine_biomedical,"Title: ""Heparinized solution vs. saline solution in the maintenance of arterial catheters: A double blind randomized clinical trial""
+Authors: J.A. Barker
+Year: 2009
+Venue: Yearbook of Pulmonary Disease
+DOI: 10.1016/j.ypdi.2012.02.011",1,doi_mismatch,10.1016/s8756-3452(08)79034-0,10.1016/j.ypdi.2012.02.011,10.1016/s8756-3452(08)79034-0,10.1016/j.ypdi.2012.02.011,doi_substitution (donor=10.1016/j.ypdi.2012.02.011),2026-10-15T13:26:38.949810+00:00,Crossref
+162,medicine_biomedical,"Title: ""Nebulized Budesonide Added to Standard Pediatric Emergency Department Treatment of Acute Asthma: A Randomized, Double-blind Trial""
+Authors: S.K. Willsie
+Year: 2017
+Venue: Yearbook of Pulmonary Disease
+DOI: 10.1016/j.ypdi.2012.02.011",1,wrong_year,10.1016/j.ypdi.2012.02.011,,2012,2017,year_shift_plus_minus_five,2026-10-15T13:26:39.012258+00:00,Crossref
+163,medicine_biomedical,"Title: ""Nebulized Budesonide Added to Standard Pediatric Emergency Department Treatment of Acute Asthma: A Randomized, Double-blind Trial""
+Authors: S.K. Willsie
+Year: 2012
+Venue: Yearbook of Pulmonary Disease
+DOI: 10.1016/s0924-977x(00)80462-9",1,doi_mismatch,10.1016/j.ypdi.2012.02.011,10.1016/s0924-977x(00)80462-9,10.1016/j.ypdi.2012.02.011,10.1016/s0924-977x(00)80462-9,doi_substitution (donor=10.1016/s0924-977x(00)80462-9),2026-10-15T13:26:39.012258+00:00,Crossref
+164,medicine_biomedical,"Title: ""Single-Cell Transcriptomics Reveals Lineage Plasticity in Acquired Chemoresistance of Small Cell Lung Cancer""
+Authors: Dominic Shaw; Ying Chen
+Year: 2023
+Venue: Nature Medicine
+DOI: 10.9999/citeguard.holdout.medicine_biomedical.007",1,plausible_fabricated,10.9999/citeguard.holdout.medicine_biomedical.007,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:39.012258+00:00,synthetic_generation
+165,medicine_biomedical,"Title: ""A randomized, double-blind, placebo-controlled trial with cerebrolysin in Alzheimer's disease""
+Authors: M. Panisset; S. Gauthier; H. Moessler; M. Windisch
+Year: 2000
+Venue: European Neuropsychopharmacology
+DOI: 10.1016/s0739-5930(08)70327-1",1,doi_mismatch,10.1016/s0924-977x(00)80462-9,10.1016/s0739-5930(08)70327-1,10.1016/s0924-977x(00)80462-9,10.1016/s0739-5930(08)70327-1,doi_substitution (donor=10.1016/s0739-5930(08)70327-1),2026-10-15T13:26:39.074356+00:00,Crossref
+166,medicine_biomedical,"Title: ""Comparative Effectiveness of Direct Oral Anticoagulants in Cirrhotic Portal Vein Thrombosis""
+Authors: Claire Fontaine; Rajesh Gupta
+Year: 2020
+Venue: Hepatology
+DOI: 10.9999/citeguard.holdout.medicine_biomedical.008",1,plausible_fabricated,10.9999/citeguard.holdout.medicine_biomedical.008,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:39.074356+00:00,synthetic_generation
+167,medicine_biomedical,"Title: ""A randomized, double-blind, placebo-controlled trial with cerebrolysin in Alzheimer's disease""
+Authors: G.R. Lichtenstein; S. Gauthier; H. Moessler; M. Windisch
+Year: 2000
+Venue: European Neuropsychopharmacology
+DOI: 10.1016/s0924-977x(00)80462-9",1,corrupted_authors,10.1016/s0924-977x(00)80462-9,10.1016/s0739-5930(08)70327-1,M. Panisset; S. Gauthier; H. Moessler; M. Windisch,G.R. Lichtenstein; S. Gauthier; H. Moessler; M. Windisch,first_author_substitution (donor=10.1016/s0739-5930(08)70327-1),2026-10-15T13:26:39.074356+00:00,Crossref
+168,medicine_biomedical,"Title: ""Metabolic Reprogramming and T-Cell Exhaustion in the Chronic Autoimmune Microenvironment""
+Authors: Hannah Davies; Lars Sorensen; Mei-Ling Zhou
+Year: 2021
+Venue: Journal of Experimental Medicine
+DOI: 10.9999/citeguard.holdout.medicine_biomedical.009",1,plausible_fabricated,10.9999/citeguard.holdout.medicine_biomedical.009,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:39.136772+00:00,synthetic_generation
+169,medicine_biomedical,"Title: ""Ornidazole for Prophylaxis of Postoperative Crohn's Disease Recurrence: A Randomized, Double-Blind, Placebo-Controlled Trial""
+Authors: N. Talley
+Year: 2006
+Venue: Yearbook of Gastroenterology
+DOI: 10.1016/s0739-5930(08)70327-1",1,corrupted_authors,10.1016/s0739-5930(08)70327-1,10.1016/s0084-3873(12)00280-5,G.R. Lichtenstein,N. Talley,first_author_substitution (donor=10.1016/s0084-3873(12)00280-5),2026-10-15T13:26:39.136772+00:00,Crossref
+170,medicine_biomedical,"Title: ""Ornidazole for Prophylaxis of Postoperative Crohn's Disease Recurrence: A Randomized, Double-Blind, Placebo-Controlled Trial""
+Authors: G.R. Lichtenstein
+Year: 2006
+Venue: Yearbook of Medicine
+DOI: 10.1016/s0739-5930(08)70327-1",1,wrong_venue,10.1016/s0739-5930(08)70327-1,10.1016/s0084-3873(12)00280-5,Yearbook of Gastroenterology,Yearbook of Medicine,venue_substitution (donor=10.1016/s0084-3873(12)00280-5),2026-10-15T13:26:39.136772+00:00,Crossref
+171,medicine_biomedical,"Title: ""Double-Blind Randomized Controlled Trial of Rifaximin for Persistent Symptoms in Patients with Celiac Disease""
+Authors: Zenon Steplewski
+Year: 2012
+Venue: Yearbook of Medicine
+DOI: 10.1016/s0084-3873(12)00280-5",1,corrupted_authors,10.1016/s0084-3873(12)00280-5,10.1089/mab.2020.29001.zen,N. Talley,Zenon Steplewski,first_author_substitution (donor=10.1089/mab.2020.29001.zen),2026-10-15T13:26:39.198692+00:00,Crossref
+172,medicine_biomedical,"Title: ""Double-Blind Randomized Controlled Trial of Rifaximin for Persistent Symptoms in Patients with Celiac Disease""
+Authors: N. Talley
+Year: 2012
+Venue: Monoclonal Antibodies in Immunodiagnosis &amp; Immunotherapy
+DOI: 10.1016/s0084-3873(12)00280-5",1,wrong_venue,10.1016/s0084-3873(12)00280-5,10.1089/mab.2020.29001.zen,Yearbook of Medicine,Monoclonal Antibodies in Immunodiagnosis &amp; Immunotherapy,venue_substitution (donor=10.1089/mab.2020.29001.zen),2026-10-15T13:26:39.198692+00:00,Crossref
+173,medicine_biomedical,"Title: ""Double-Blind Randomized Controlled Trial of Rifaximin for Persistent Symptoms in Patients with Celiac Disease""
+Authors: N. Talley
+Year: 2017
+Venue: Yearbook of Medicine
+DOI: 10.1016/s0084-3873(12)00280-5",1,wrong_year,10.1016/s0084-3873(12)00280-5,,2012,2017,year_shift_plus_minus_five,2026-10-15T13:26:39.198692+00:00,Crossref
+174,medicine_biomedical,"Title: ""Reflections on Monoclonal Antibodies in Immunodiagnosis and Immunotherapy""
+Authors: Zenon Steplewski
+Year: 2020
+Venue: Diabetes
+DOI: 10.1089/mab.2020.29001.zen",1,wrong_venue,10.1089/mab.2020.29001.zen,10.2337/db18-1134-p,Monoclonal Antibodies in Immunodiagnosis &amp; Immunotherapy,Diabetes,venue_substitution (donor=10.2337/db18-1134-p),2026-10-15T13:26:40.839987+00:00,Crossref
+175,medicine_biomedical,"Title: ""Reflections on Monoclonal Antibodies in Immunodiagnosis and Immunotherapy""
+Authors: Zenon Steplewski
+Year: 2014
+Venue: Monoclonal Antibodies in Immunodiagnosis &amp; Immunotherapy
+DOI: 10.1089/mab.2020.29001.zen",1,wrong_year,10.1089/mab.2020.29001.zen,,2020,2014,year_shift_plus_minus_five,2026-10-15T13:26:40.839987+00:00,Crossref
+176,medicine_biomedical,"Title: ""Reflections on Monoclonal Antibodies in Immunodiagnosis and Immunotherapy""
+Authors: Zenon Steplewski
+Year: 2020
+Venue: Monoclonal Antibodies in Immunodiagnosis &amp; Immunotherapy
+DOI: 10.1089/mab.2020.29000.tke",1,doi_mismatch,10.1089/mab.2020.29001.zen,10.1089/mab.2020.29000.tke,10.1089/mab.2020.29001.zen,10.1089/mab.2020.29000.tke,doi_substitution (donor=10.1089/mab.2020.29000.tke),2026-10-15T13:26:40.839987+00:00,Crossref
+177,medicine_biomedical,"Title: ""The Future of Monoclonal Antibodies in Immunodiagnosis and Immunotherapy""
+Authors: Thomas Kieber-Emmons
+Year: 2014
+Venue: Monoclonal Antibodies in Immunodiagnosis &amp; Immunotherapy
+DOI: 10.1089/mab.2020.29000.tke",1,wrong_year,10.1089/mab.2020.29000.tke,,2020,2014,year_shift_plus_minus_five,2026-10-15T13:26:40.897205+00:00,Crossref
+178,medicine_biomedical,"Title: ""The Future of Monoclonal Antibodies in Immunodiagnosis and Immunotherapy""
+Authors: Thomas Kieber-Emmons
+Year: 2020
+Venue: Monoclonal Antibodies in Immunodiagnosis &amp; Immunotherapy
+DOI: 10.1089/mab.2024.0012",1,doi_mismatch,10.1089/mab.2020.29000.tke,10.1089/mab.2024.0012,10.1089/mab.2020.29000.tke,10.1089/mab.2024.0012,doi_substitution (donor=10.1089/mab.2024.0012),2026-10-15T13:26:40.897205+00:00,Crossref
+179,medicine_biomedical,"Title: ""Efficacy of Oral Janus Kinase-1 Inhibitors in Refractory Moderate-to-Severe Atopic Dermatitis""
+Authors: Simon Fletcher; Amara Okonkwo
+Year: 2022
+Venue: British Journal of Dermatology
+DOI: 10.9999/citeguard.holdout.medicine_biomedical.010",1,plausible_fabricated,10.9999/citeguard.holdout.medicine_biomedical.010,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:40.897205+00:00,synthetic_generation
+180,medicine_biomedical,"Title: ""Charting the Course for Monoclonal Antibodies in Immunodiagnosis and Immunotherapy""
+Authors: Cory L. Brooks; Andrei Moroz
+Year: 2024
+Venue: Monoclonal Antibodies in Immunodiagnosis &amp; Immunotherapy
+DOI: 10.1089/mab.2017.0032",1,doi_mismatch,10.1089/mab.2024.0012,10.1089/mab.2017.0032,10.1089/mab.2024.0012,10.1089/mab.2017.0032,doi_substitution (donor=10.1089/mab.2017.0032),2026-10-15T13:26:40.959194+00:00,Crossref
+181,medicine_biomedical,"Title: ""Precision Antimicrobial Stewardship Guided by Rapid Multiplex Metagenomic Sequencing in Sepsis""
+Authors: Paulina Vega; Tobias Krause
+Year: 2021
+Venue: Critical Care Medicine
+DOI: 10.9999/citeguard.holdout.medicine_biomedical.011",1,plausible_fabricated,10.9999/citeguard.holdout.medicine_biomedical.011,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:40.959194+00:00,synthetic_generation
+182,medicine_biomedical,"Title: ""Charting the Course for Monoclonal Antibodies in Immunodiagnosis and Immunotherapy""
+Authors: Yuriy K. Bashmakov; Andrei Moroz
+Year: 2024
+Venue: Monoclonal Antibodies in Immunodiagnosis &amp; Immunotherapy
+DOI: 10.1089/mab.2024.0012",1,corrupted_authors,10.1089/mab.2024.0012,10.1089/mab.2017.0032,Cory L. Brooks; Andrei Moroz,Yuriy K. Bashmakov; Andrei Moroz,first_author_substitution (donor=10.1089/mab.2017.0032),2026-10-15T13:26:40.959194+00:00,Crossref
+183,medicine_biomedical,"Title: ""Endoscopic Submucosal Dissection versus Laparoscopic Resection for Early Gastric Neoplasms""
+Authors: Kenichi Takahashi; Sophie Martin
+Year: 2020
+Venue: Gastrointestinal Endoscopy
+DOI: 10.9999/citeguard.holdout.medicine_biomedical.012",1,plausible_fabricated,10.9999/citeguard.holdout.medicine_biomedical.012,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:41.020241+00:00,synthetic_generation
+184,medicine_biomedical,"Title: ""Dendrimers, Carotenoids, and Monoclonal Antibodies""
+Authors: HIROSHI TAKAHASHI; Ivan M. Petyaev
+Year: 2017
+Venue: Monoclonal Antibodies in Immunodiagnosis &amp; Immunotherapy
+DOI: 10.1089/mab.2017.0032",1,corrupted_authors,10.1089/mab.2017.0032,10.2337/db18-1134-p,Yuriy K. Bashmakov; Ivan M. Petyaev,HIROSHI TAKAHASHI; Ivan M. Petyaev,first_author_substitution (donor=10.2337/db18-1134-p),2026-10-15T13:26:41.020241+00:00,Crossref
+185,medicine_biomedical,"Title: ""Dendrimers, Carotenoids, and Monoclonal Antibodies""
+Authors: Yuriy K. Bashmakov; Ivan M. Petyaev
+Year: 2017
+Venue: Diabetes
+DOI: 10.1089/mab.2017.0032",1,wrong_venue,10.1089/mab.2017.0032,10.2337/db18-1134-p,Monoclonal Antibodies in Immunodiagnosis &amp; Immunotherapy,Diabetes,venue_substitution (donor=10.2337/db18-1134-p),2026-10-15T13:26:41.020241+00:00,Crossref
+186,medicine_biomedical,"Title: ""Which Is Better? High-Dose Metformin Alone or Combination of Low-Dose Metformin and Linagliptin on Glycemic Variability in Japanese Type 2 Diabetes Patients with Insufficient Glycemic Control with Low-Dose Metformin Alone—A Randomized, Crossover, Pilot Study""
+Authors: Md Faheem Mubeen; RIMEI NISHIMURA; KAZUNORI UTSUNOMIYA
+Year: 2018
+Venue: Diabetes
+DOI: 10.2337/db18-1134-p",1,corrupted_authors,10.2337/db18-1134-p,10.18535/jmscr/v6i7.135,HIROSHI TAKAHASHI; RIMEI NISHIMURA; KAZUNORI UTSUNOMIYA,Md Faheem Mubeen; RIMEI NISHIMURA; KAZUNORI UTSUNOMIYA,first_author_substitution (donor=10.18535/jmscr/v6i7.135),2026-10-15T13:26:43.337933+00:00,Crossref
+187,medicine_biomedical,"Title: ""Which Is Better? High-Dose Metformin Alone or Combination of Low-Dose Metformin and Linagliptin on Glycemic Variability in Japanese Type 2 Diabetes Patients with Insufficient Glycemic Control with Low-Dose Metformin Alone—A Randomized, Crossover, Pilot Study""
+Authors: HIROSHI TAKAHASHI; RIMEI NISHIMURA; KAZUNORI UTSUNOMIYA
+Year: 2018
+Venue: Journal of Medical Science And clinical Research
+DOI: 10.2337/db18-1134-p",1,wrong_venue,10.2337/db18-1134-p,10.18535/jmscr/v6i7.135,Diabetes,Journal of Medical Science And clinical Research,venue_substitution (donor=10.18535/jmscr/v6i7.135),2026-10-15T13:26:43.337933+00:00,Crossref
+188,medicine_biomedical,"Title: ""Which Is Better? High-Dose Metformin Alone or Combination of Low-Dose Metformin and Linagliptin on Glycemic Variability in Japanese Type 2 Diabetes Patients with Insufficient Glycemic Control with Low-Dose Metformin Alone—A Randomized, Crossover, Pilot Study""
+Authors: HIROSHI TAKAHASHI; RIMEI NISHIMURA; KAZUNORI UTSUNOMIYA
+Year: 2023
+Venue: Diabetes
+DOI: 10.2337/db18-1134-p",1,wrong_year,10.2337/db18-1134-p,,2018,2023,year_shift_plus_minus_five,2026-10-15T13:26:43.337933+00:00,Crossref
+189,medicine_biomedical,"Title: ""Comparative evaluation of Pioglitazone versus Voglibose on glycemic control in patients with Type 2 Diabetes Mellitus on Metformin""
+Authors: Md Faheem Mubeen
+Year: 2018
+Venue: Diabetes
+DOI: 10.18535/jmscr/v6i7.135",1,wrong_venue,10.18535/jmscr/v6i7.135,10.2337/db23-864-p,Journal of Medical Science And clinical Research,Diabetes,venue_substitution (donor=10.2337/db23-864-p),2026-10-15T13:26:43.395159+00:00,Crossref
+190,medicine_biomedical,"Title: ""Comparative evaluation of Pioglitazone versus Voglibose on glycemic control in patients with Type 2 Diabetes Mellitus on Metformin""
+Authors: Md Faheem Mubeen
+Year: 2023
+Venue: Journal of Medical Science And clinical Research
+DOI: 10.18535/jmscr/v6i7.135",1,wrong_year,10.18535/jmscr/v6i7.135,,2018,2023,year_shift_plus_minus_five,2026-10-15T13:26:43.395159+00:00,Crossref
+191,medicine_biomedical,"Title: ""Comparative evaluation of Pioglitazone versus Voglibose on glycemic control in patients with Type 2 Diabetes Mellitus on Metformin""
+Authors: Md Faheem Mubeen
+Year: 2018
+Venue: Journal of Medical Science And clinical Research
+DOI: 10.2337/db23-864-p",1,doi_mismatch,10.18535/jmscr/v6i7.135,10.2337/db23-864-p,10.18535/jmscr/v6i7.135,10.2337/db23-864-p,doi_substitution (donor=10.2337/db23-864-p),2026-10-15T13:26:43.395159+00:00,Crossref
+192,medicine_biomedical,"Title: ""864-P: Effects on Glycemic Control by Combination Therapy of Gliclazide-Metformin and Insulin in Type 2 Diabetes Mellitus Patients""
+Authors: MOHAMMAD SAIFUDDIN
+Year: 2018
+Venue: Diabetes
+DOI: 10.2337/db23-864-p",1,wrong_year,10.2337/db23-864-p,,2023,2018,year_shift_plus_minus_five,2026-10-15T13:26:43.457818+00:00,Crossref
+193,medicine_biomedical,"Title: ""864-P: Effects on Glycemic Control by Combination Therapy of Gliclazide-Metformin and Insulin in Type 2 Diabetes Mellitus Patients""
+Authors: MOHAMMAD SAIFUDDIN
+Year: 2023
+Venue: Diabetes
+DOI: 10.1530/ec-21-0146",1,doi_mismatch,10.2337/db23-864-p,10.1530/ec-21-0146,10.2337/db23-864-p,10.1530/ec-21-0146,doi_substitution (donor=10.1530/ec-21-0146),2026-10-15T13:26:43.457818+00:00,Crossref
+194,medicine_biomedical,"Title: ""Biological Biomarkers of Acute Kidney Injury Following Cardiopulmonary Bypass in Neonatal Surgery""
+Authors: Nils Lindgren; Amina El-Sayed
+Year: 2023
+Venue: Pediatric Nephrology
+DOI: 10.9999/citeguard.holdout.medicine_biomedical.013",1,plausible_fabricated,10.9999/citeguard.holdout.medicine_biomedical.013,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:43.457818+00:00,synthetic_generation
+195,medicine_biomedical,"Title: ""Metformin improves glycemic variability in adults with type 1 diabetes mellitus: an open-label randomized control trial""
+Authors: Xiuzhen Zhang; Dan Xu; Ping Xu; Shufen Yang; Qingmei Zhang; Yan Wu; Fengyi Yuan
+Year: 2021
+Venue: Endocrine Connections
+DOI: 10.2147/dmsott.s6621",1,doi_mismatch,10.1530/ec-21-0146,10.2147/dmsott.s6621,10.1530/ec-21-0146,10.2147/dmsott.s6621,doi_substitution (donor=10.2147/dmsott.s6621),2026-10-15T13:26:43.520167+00:00,Crossref
+196,medicine_biomedical,"Title: ""Therapeutic Efficacy of Engineered Allogeneic CAR-NK Cells in Relapsed B-Cell Lymphoma""
+Authors: Victoria Adams; Javier Hernandez
+Year: 2022
+Venue: Blood
+DOI: 10.9999/citeguard.holdout.medicine_biomedical.014",1,plausible_fabricated,10.9999/citeguard.holdout.medicine_biomedical.014,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:43.520167+00:00,synthetic_generation
+197,medicine_biomedical,"Title: ""Metformin improves glycemic variability in adults with type 1 diabetes mellitus: an open-label randomized control trial""
+Authors: Robert Moses; Dan Xu; Ping Xu; Shufen Yang; Qingmei Zhang; Yan Wu; Fengyi Yuan
+Year: 2021
+Venue: Endocrine Connections
+DOI: 10.1530/ec-21-0146",1,corrupted_authors,10.1530/ec-21-0146,10.2147/dmsott.s6621,Xiuzhen Zhang; Dan Xu; Ping Xu; Shufen Yang; Qingmei Zhang; Yan Wu; Fengyi Yuan,Robert Moses; Dan Xu; Ping Xu; Shufen Yang; Qingmei Zhang; Yan Wu; Fengyi Yuan,first_author_substitution (donor=10.2147/dmsott.s6621),2026-10-15T13:26:43.520167+00:00,Crossref
+198,medicine_biomedical,"Title: ""Systemic Microvascular Dysfunction and Cerebral Perfusion Heterogeneity in Post-Viral Fatigue Syndromes""
+Authors: Gregory Bell; Rachel Zimmerman
+Year: 2023
+Venue: Annals of Internal Medicine
+DOI: 10.9999/citeguard.holdout.medicine_biomedical.015",1,plausible_fabricated,10.9999/citeguard.holdout.medicine_biomedical.015,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:43.581804+00:00,synthetic_generation
+199,medicine_biomedical,"Title: ""Repaglinide/metformin fixed-dose combination to improve glycemic control in patients with type 2 diabetes: an update""
+Authors: Michael Pistiner
+Year: 2010
+Venue: Diabetes, Metabolic Syndrome and Obesity: Targets and Therapy
+DOI: 10.2147/dmsott.s6621",1,corrupted_authors,10.2147/dmsott.s6621,10.1542/peds.2011-2107xxx,Robert Moses,Michael Pistiner,first_author_substitution (donor=10.1542/peds.2011-2107xxx),2026-10-15T13:26:43.581804+00:00,Crossref
+200,medicine_biomedical,"Title: ""Repaglinide/metformin fixed-dose combination to improve glycemic control in patients with type 2 diabetes: an update""
+Authors: Robert Moses
+Year: 2010
+Venue: Pediatrics
+DOI: 10.2147/dmsott.s6621",1,wrong_venue,10.2147/dmsott.s6621,10.1542/peds.2011-2107xxx,"Diabetes, Metabolic Syndrome and Obesity: Targets and Therapy",Pediatrics,venue_substitution (donor=10.1542/peds.2011-2107xxx),2026-10-15T13:26:43.581804+00:00,Crossref
+201,natural_sciences,"Title: ""Exploring black hole-neutron star binary merger by detecting gravitational waves""
+Authors: Jiahao Zhang
+Year: 2023
+Venue: Theoretical and Natural Science
+DOI: 10.54254/2753-8818/13/20240790",0,valid,10.54254/2753-8818/13/20240790,,,,genuine_traceable_seed,2026-10-15T13:26:45.783241+00:00,Crossref
+202,natural_sciences,"Title: ""Observation of gravitational waves from a binary black hole merger – dawn of a new astronomy""
+Authors: Benno Willke
+Year: 2018
+Venue: Symmetry: Culture and Science
+DOI: 10.26830/symmetry_2018_2_257",0,valid,10.26830/symmetry_2018_2_257,,,,genuine_traceable_seed,2026-10-15T13:26:45.840536+00:00,Crossref
+203,natural_sciences,"Title: ""Binary black hole merger gravitational waves and recoil in the large mass ratio limit""
+Authors: Pranesh A. Sundararajan; Gaurav Khanna; Scott A. Hughes
+Year: 2010
+Venue: Physical Review D
+DOI: 10.1103/physrevd.81.104009",0,valid,10.1103/physrevd.81.104009,,,,genuine_traceable_seed,2026-10-15T13:26:45.902444+00:00,Crossref
+204,natural_sciences,"Title: ""Gravitational Waves: A Statistical Autopsy of a Black Hole Merger""
+Authors: Renate Meyer; Nelson Christensen
+Year: 2016
+Venue: Significance
+DOI: 10.1111/j.1740-9713.2016.00896.x",0,valid,10.1111/j.1740-9713.2016.00896.x,,,,genuine_traceable_seed,2026-10-15T13:26:45.964683+00:00,Crossref
+205,natural_sciences,"Title: ""Gravitational waves from black hole binary inspiral and merger: The span of third post-Newtonian effective-one-body templates""
+Authors: Thibault Damour; Bala R. Iyer; Piotr Jaranowski; B. S. Sathyaprakash
+Year: 2003
+Venue: Physical Review D
+DOI: 10.1103/physrevd.67.064028",0,valid,10.1103/physrevd.67.064028,,,,genuine_traceable_seed,2026-10-15T13:26:46.028253+00:00,Crossref
+206,natural_sciences,"Title: ""Gravitational Waves from the Merger of Two Primordial Black Hole Clusters""
+Authors: Yury Eroshenko; Viktor Stasenko
+Year: 2023
+Venue: Symmetry
+DOI: 10.3390/sym15030637",0,valid,10.3390/sym15030637,,,,genuine_traceable_seed,2026-10-15T13:26:46.090978+00:00,Crossref
+207,natural_sciences,"Title: ""Research on Binary Black Hole Systems by Analysis of Gravitational Waves""
+Authors: Yanhan Wang
+Year: 2024
+Venue: Highlights in Science, Engineering and Technology
+DOI: 10.54097/ys7j9d73",0,valid,10.54097/ys7j9d73,,,,genuine_traceable_seed,2026-10-15T13:26:46.153582+00:00,Crossref
+208,natural_sciences,"Title: ""Study of Gravitational Waves GW150914 and GW170104 as a Black Hole Merger""
+Authors: G. Mathew; P. G. Louie Frobel
+Year: 2024
+Venue: Astrophysical Bulletin
+DOI: 10.1134/s1990341324600042",0,valid,10.1134/s1990341324600042,,,,genuine_traceable_seed,2026-10-15T13:26:46.215081+00:00,Crossref
+209,natural_sciences,"Title: ""First detections of gravitational waves emitted from binary black hole mergers""
+Authors: D H Reitze
+Year: 2017
+Venue: Physics-Uspekhi
+DOI: 10.3367/ufne.2016.11.038176",0,valid,10.3367/ufne.2016.11.038176,,,,genuine_traceable_seed,2026-10-15T13:26:46.277837+00:00,Crossref
+210,natural_sciences,"Title: ""Merger of black hole and neutron star in general relativity: Tidal disruption, torus mass, and gravitational waves""
+Authors: Masaru Shibata; Keisuke Taniguchi
+Year: 2008
+Venue: Physical Review D
+DOI: 10.1103/physrevd.77.084015",0,valid,10.1103/physrevd.77.084015,,,,genuine_traceable_seed,2026-10-15T13:26:46.339974+00:00,Crossref
+211,natural_sciences,"Title: ""Energy of Gravitational Waves in Black Hole Collisions""
+Authors: Vignesh S; Martin Subash Surya
+Year: 2022
+Venue: International Journal of Science and Research (IJSR)
+DOI: 10.21275/sr221007133908",0,valid,10.21275/sr221007133908,,,,genuine_traceable_seed,2026-10-15T13:26:46.401733+00:00,Crossref
+212,natural_sciences,"Title: ""Gravitational-wave astronomers detect hints of largest black-hole merger yet""
+Authors: Davide Castelvecchi
+Year: 2018
+Venue: Nature
+DOI: 10.1038/d41586-018-07649-7",0,valid,10.1038/d41586-018-07649-7,,,,genuine_traceable_seed,2026-10-15T13:26:46.463843+00:00,Crossref
+213,natural_sciences,"Title: ""Gravitational Waves Could Reveal Black Hole Origins""
+Authors: Anonymous
+Year: 2017
+Venue: Physics
+DOI: 10.1103/physics.10.s132",0,valid,10.1103/physics.10.s132,,,,genuine_traceable_seed,2026-10-15T13:26:46.526524+00:00,Crossref
+214,natural_sciences,"Title: ""Distinguishing Binary Neutron Star from Neutron Star–Black Hole Mergers with Gravitational Waves""
+Authors: Hsin-Yu Chen; Katerina Chatziioannou
+Year: 2020
+Venue: The Astrophysical Journal Letters
+DOI: 10.3847/2041-8213/ab86bc",0,valid,10.3847/2041-8213/ab86bc,,,,genuine_traceable_seed,2026-10-15T13:26:46.587998+00:00,Crossref
+215,natural_sciences,"Title: ""Joint detection of gravitational waves from binary black hole and binary neutron star mergers by LIGO and Virgo""
+Authors: Andrzej Królak; Mandar Patil
+Year: 2018
+Venue: Philosophical Problems in Science (Zagadnienia Filozoficzne w Nauce)
+DOI: 10.59203/zfn.64.427",0,valid,10.59203/zfn.64.427,,,,genuine_traceable_seed,2026-10-15T13:26:46.649193+00:00,Crossref
+216,natural_sciences,"Title: ""The gravitational redshift effect of quantum matter waves passing a binary black hole""
+Authors: Qiyun Fu; Tieyan Si
+Year: 2024
+Venue: Communications in Theoretical Physics
+DOI: 10.1088/1572-9494/ad8db9",0,valid,10.1088/1572-9494/ad8db9,,,,genuine_traceable_seed,2026-10-15T13:26:46.712657+00:00,Crossref
+217,natural_sciences,"Title: ""Search for Microlensing Signature in Gravitational Waves from Binary Black Hole Events""
+Authors: Kyungmin Kim
+Year: 2023
+Venue: Proceedings of the International Astronomical Union
+DOI: 10.1017/s1743921323000765",0,valid,10.1017/s1743921323000765,,,,genuine_traceable_seed,2026-10-15T13:26:46.775225+00:00,Crossref
+218,natural_sciences,"Title: ""Magnetic effects on the generation of gravitational waves in a black hole-neutron star binary system""
+Authors: Mattia Villani
+Year: 2020
+Venue: Classical and Quantum Gravity
+DOI: 10.1088/1361-6382/ab7d80",0,valid,10.1088/1361-6382/ab7d80,,,,genuine_traceable_seed,2026-10-15T13:26:46.837131+00:00,Crossref
+219,natural_sciences,"Title: ""Binary Black Hole Automated Identification by Agglomerative Clustering based on Gravitational Waves""
+Authors: Subhrangshu Adhikary; Saikat Banerjee
+Year: 2021
+Venue: Journal of Physics: Conference Series
+DOI: 10.1088/1742-6596/2089/1/012027",0,valid,10.1088/1742-6596/2089/1/012027,,,,genuine_traceable_seed,2026-10-15T13:26:46.898952+00:00,Crossref
+220,natural_sciences,"Title: ""Measuring the parameters of massive black hole binary systems with pulsar timing array observations of gravitational waves""
+Authors: Alberto Sesana; Alberto Vecchio
+Year: 2010
+Venue: Physical Review D
+DOI: 10.1103/physrevd.81.104008",0,valid,10.1103/physrevd.81.104008,,,,genuine_traceable_seed,2026-10-15T13:26:46.962776+00:00,Crossref
+221,natural_sciences,"Title: ""Unconventional quantum Hall effect in Floquet topological insulators""
+Authors: M Tahir; P Vasilopoulos; U Schwingenschlögl
+Year: 2016
+Venue: Journal of Physics: Condensed Matter
+DOI: 10.1088/0953-8984/28/38/385302",0,valid,10.1088/0953-8984/28/38/385302,,,,genuine_traceable_seed,2026-10-15T13:26:49.261343+00:00,Crossref
+222,natural_sciences,"Title: ""Quantum anomalous Hall effect in time-reversal-symmetry breaking topological insulators""
+Authors: Cui-Zu Chang; Mingda Li
+Year: 2016
+Venue: Journal of Physics: Condensed Matter
+DOI: 10.1088/0953-8984/28/12/123002",0,valid,10.1088/0953-8984/28/12/123002,,,,genuine_traceable_seed,2026-10-15T13:26:49.319953+00:00,Crossref
+223,natural_sciences,"Title: ""Quantum singularity in topological insulators""
+Authors: Izumi Tanaka
+Year: 2019
+Venue: Journal of Physics: Condensed Matter
+DOI: 10.1088/1361-648x/ab1233",0,valid,10.1088/1361-648x/ab1233,,,,genuine_traceable_seed,2026-10-15T13:26:49.383343+00:00,Crossref
+224,natural_sciences,"Title: ""Integer quantum Hall effect and topological phase transitions in silicene""
+Authors: Liu; Luo; Xu; Tian; Ren
+Year: 2017
+Venue: Condensed Matter Physics
+DOI: 10.5488/cmp.20.43701",0,valid,10.5488/cmp.20.43701,,,,genuine_traceable_seed,2026-10-15T13:26:49.445954+00:00,Crossref
+225,natural_sciences,"Title: ""Large Thermal Hall Effect Detected in Elemental Covalent Insulators""
+Authors: Xi Dai
+Year: 2024
+Venue: Journal Club for Condensed Matter Physics
+DOI: 10.36471/jccm_october_2024_02",0,valid,10.36471/jccm_october_2024_02,,,,genuine_traceable_seed,2026-10-15T13:26:49.507696+00:00,Crossref
+226,natural_sciences,"Title: ""Exploring black hole-neutron star binary merger by detecting gravitational waves""
+Authors: Benno Willke
+Year: 2023
+Venue: Theoretical and Natural Science
+DOI: 10.54254/2753-8818/13/20240790",1,corrupted_authors,10.54254/2753-8818/13/20240790,10.26830/symmetry_2018_2_257,Jiahao Zhang,Benno Willke,first_author_substitution (donor=10.26830/symmetry_2018_2_257),2026-10-15T13:26:45.783241+00:00,Crossref
+227,natural_sciences,"Title: ""Exploring black hole-neutron star binary merger by detecting gravitational waves""
+Authors: Jiahao Zhang
+Year: 2023
+Venue: Symmetry: Culture and Science
+DOI: 10.54254/2753-8818/13/20240790",1,wrong_venue,10.54254/2753-8818/13/20240790,10.26830/symmetry_2018_2_257,Theoretical and Natural Science,Symmetry: Culture and Science,venue_substitution (donor=10.26830/symmetry_2018_2_257),2026-10-15T13:26:45.783241+00:00,Crossref
+228,natural_sciences,"Title: ""Exploring black hole-neutron star binary merger by detecting gravitational waves""
+Authors: Jiahao Zhang
+Year: 2018
+Venue: Theoretical and Natural Science
+DOI: 10.54254/2753-8818/13/20240790",1,wrong_year,10.54254/2753-8818/13/20240790,,2023,2018,year_shift_plus_minus_five,2026-10-15T13:26:45.783241+00:00,Crossref
+229,natural_sciences,"Title: ""Observation of gravitational waves from a binary black hole merger – dawn of a new astronomy""
+Authors: Benno Willke
+Year: 2018
+Venue: Physical Review D
+DOI: 10.26830/symmetry_2018_2_257",1,wrong_venue,10.26830/symmetry_2018_2_257,10.1103/physrevd.81.104009,Symmetry: Culture and Science,Physical Review D,venue_substitution (donor=10.1103/physrevd.81.104009),2026-10-15T13:26:45.840536+00:00,Crossref
+230,natural_sciences,"Title: ""Observation of gravitational waves from a binary black hole merger – dawn of a new astronomy""
+Authors: Benno Willke
+Year: 2023
+Venue: Symmetry: Culture and Science
+DOI: 10.26830/symmetry_2018_2_257",1,wrong_year,10.26830/symmetry_2018_2_257,,2018,2023,year_shift_plus_minus_five,2026-10-15T13:26:45.840536+00:00,Crossref
+231,natural_sciences,"Title: ""Observation of gravitational waves from a binary black hole merger – dawn of a new astronomy""
+Authors: Benno Willke
+Year: 2018
+Venue: Symmetry: Culture and Science
+DOI: 10.1103/physrevd.81.104009",1,doi_mismatch,10.26830/symmetry_2018_2_257,10.1103/physrevd.81.104009,10.26830/symmetry_2018_2_257,10.1103/physrevd.81.104009,doi_substitution (donor=10.1103/physrevd.81.104009),2026-10-15T13:26:45.840536+00:00,Crossref
+232,natural_sciences,"Title: ""Binary black hole merger gravitational waves and recoil in the large mass ratio limit""
+Authors: Pranesh A. Sundararajan; Gaurav Khanna; Scott A. Hughes
+Year: 2015
+Venue: Physical Review D
+DOI: 10.1103/physrevd.81.104009",1,wrong_year,10.1103/physrevd.81.104009,,2010,2015,year_shift_plus_minus_five,2026-10-15T13:26:45.902444+00:00,Crossref
+233,natural_sciences,"Title: ""Binary black hole merger gravitational waves and recoil in the large mass ratio limit""
+Authors: Pranesh A. Sundararajan; Gaurav Khanna; Scott A. Hughes
+Year: 2010
+Venue: Physical Review D
+DOI: 10.1111/j.1740-9713.2016.00896.x",1,doi_mismatch,10.1103/physrevd.81.104009,10.1111/j.1740-9713.2016.00896.x,10.1103/physrevd.81.104009,10.1111/j.1740-9713.2016.00896.x,doi_substitution (donor=10.1111/j.1740-9713.2016.00896.x),2026-10-15T13:26:45.902444+00:00,Crossref
+234,natural_sciences,"Title: ""High-Pressure Synthesis and Superconducting Properties of Ternary Lanthanum-Yttrium Superhydrides""
+Authors: Viktor Petrov; Svetlana Ivanova; Heinrich Weber
+Year: 2022
+Venue: Physical Review Letters
+DOI: 10.9999/citeguard.holdout.natural_sciences.001",1,plausible_fabricated,10.9999/citeguard.holdout.natural_sciences.001,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:45.902444+00:00,synthetic_generation
+235,natural_sciences,"Title: ""Gravitational Waves: A Statistical Autopsy of a Black Hole Merger""
+Authors: Renate Meyer; Nelson Christensen
+Year: 2016
+Venue: Significance
+DOI: 10.1103/physrevd.67.064028",1,doi_mismatch,10.1111/j.1740-9713.2016.00896.x,10.1103/physrevd.67.064028,10.1111/j.1740-9713.2016.00896.x,10.1103/physrevd.67.064028,doi_substitution (donor=10.1103/physrevd.67.064028),2026-10-15T13:26:45.964683+00:00,Crossref
+236,natural_sciences,"Title: ""Spectroscopic Characterization of Hydrothermal Vent Geochemistry on Saturnian Moon Enceladus""
+Authors: Evelyn Marsh; Alan Sterling; Cynthia Vance
+Year: 2021
+Venue: The Astrophysical Journal
+DOI: 10.9999/citeguard.holdout.natural_sciences.002",1,plausible_fabricated,10.9999/citeguard.holdout.natural_sciences.002,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:45.964683+00:00,synthetic_generation
+237,natural_sciences,"Title: ""Gravitational Waves: A Statistical Autopsy of a Black Hole Merger""
+Authors: Thibault Damour; Nelson Christensen
+Year: 2016
+Venue: Significance
+DOI: 10.1111/j.1740-9713.2016.00896.x",1,corrupted_authors,10.1111/j.1740-9713.2016.00896.x,10.1103/physrevd.67.064028,Renate Meyer; Nelson Christensen,Thibault Damour; Nelson Christensen,first_author_substitution (donor=10.1103/physrevd.67.064028),2026-10-15T13:26:45.964683+00:00,Crossref
+238,natural_sciences,"Title: ""Atomically Precise Synthesis of Graphene Nanoribbons with Tailored Topological Boundary States""
+Authors: Maximilian Braun; Linette Dubois
+Year: 2020
+Venue: Nature Chemistry
+DOI: 10.9999/citeguard.holdout.natural_sciences.003",1,plausible_fabricated,10.9999/citeguard.holdout.natural_sciences.003,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:46.028253+00:00,synthetic_generation
+239,natural_sciences,"Title: ""Gravitational waves from black hole binary inspiral and merger: The span of third post-Newtonian effective-one-body templates""
+Authors: Yury Eroshenko; Bala R. Iyer; Piotr Jaranowski; B. S. Sathyaprakash
+Year: 2003
+Venue: Physical Review D
+DOI: 10.1103/physrevd.67.064028",1,corrupted_authors,10.1103/physrevd.67.064028,10.3390/sym15030637,Thibault Damour; Bala R. Iyer; Piotr Jaranowski; B. S. Sathyaprakash,Yury Eroshenko; Bala R. Iyer; Piotr Jaranowski; B. S. Sathyaprakash,first_author_substitution (donor=10.3390/sym15030637),2026-10-15T13:26:46.028253+00:00,Crossref
+240,natural_sciences,"Title: ""Gravitational waves from black hole binary inspiral and merger: The span of third post-Newtonian effective-one-body templates""
+Authors: Thibault Damour; Bala R. Iyer; Piotr Jaranowski; B. S. Sathyaprakash
+Year: 2003
+Venue: Symmetry
+DOI: 10.1103/physrevd.67.064028",1,wrong_venue,10.1103/physrevd.67.064028,10.3390/sym15030637,Physical Review D,Symmetry,venue_substitution (donor=10.3390/sym15030637),2026-10-15T13:26:46.028253+00:00,Crossref
+241,natural_sciences,"Title: ""Gravitational Waves from the Merger of Two Primordial Black Hole Clusters""
+Authors: Yanhan Wang; Viktor Stasenko
+Year: 2023
+Venue: Symmetry
+DOI: 10.3390/sym15030637",1,corrupted_authors,10.3390/sym15030637,10.54097/ys7j9d73,Yury Eroshenko; Viktor Stasenko,Yanhan Wang; Viktor Stasenko,first_author_substitution (donor=10.54097/ys7j9d73),2026-10-15T13:26:46.090978+00:00,Crossref
+242,natural_sciences,"Title: ""Gravitational Waves from the Merger of Two Primordial Black Hole Clusters""
+Authors: Yury Eroshenko; Viktor Stasenko
+Year: 2023
+Venue: Highlights in Science, Engineering and Technology
+DOI: 10.3390/sym15030637",1,wrong_venue,10.3390/sym15030637,10.54097/ys7j9d73,Symmetry,"Highlights in Science, Engineering and Technology",venue_substitution (donor=10.54097/ys7j9d73),2026-10-15T13:26:46.090978+00:00,Crossref
+243,natural_sciences,"Title: ""Gravitational Waves from the Merger of Two Primordial Black Hole Clusters""
+Authors: Yury Eroshenko; Viktor Stasenko
+Year: 2018
+Venue: Symmetry
+DOI: 10.3390/sym15030637",1,wrong_year,10.3390/sym15030637,,2023,2018,year_shift_plus_minus_five,2026-10-15T13:26:46.090978+00:00,Crossref
+244,natural_sciences,"Title: ""Research on Binary Black Hole Systems by Analysis of Gravitational Waves""
+Authors: Yanhan Wang
+Year: 2024
+Venue: Astrophysical Bulletin
+DOI: 10.54097/ys7j9d73",1,wrong_venue,10.54097/ys7j9d73,10.1134/s1990341324600042,"Highlights in Science, Engineering and Technology",Astrophysical Bulletin,venue_substitution (donor=10.1134/s1990341324600042),2026-10-15T13:26:46.153582+00:00,Crossref
+245,natural_sciences,"Title: ""Research on Binary Black Hole Systems by Analysis of Gravitational Waves""
+Authors: Yanhan Wang
+Year: 2018
+Venue: Highlights in Science, Engineering and Technology
+DOI: 10.54097/ys7j9d73",1,wrong_year,10.54097/ys7j9d73,,2024,2018,year_shift_plus_minus_five,2026-10-15T13:26:46.153582+00:00,Crossref
+246,natural_sciences,"Title: ""Research on Binary Black Hole Systems by Analysis of Gravitational Waves""
+Authors: Yanhan Wang
+Year: 2024
+Venue: Highlights in Science, Engineering and Technology
+DOI: 10.1134/s1990341324600042",1,doi_mismatch,10.54097/ys7j9d73,10.1134/s1990341324600042,10.54097/ys7j9d73,10.1134/s1990341324600042,doi_substitution (donor=10.1134/s1990341324600042),2026-10-15T13:26:46.153582+00:00,Crossref
+247,natural_sciences,"Title: ""Study of Gravitational Waves GW150914 and GW170104 as a Black Hole Merger""
+Authors: G. Mathew; P. G. Louie Frobel
+Year: 2018
+Venue: Astrophysical Bulletin
+DOI: 10.1134/s1990341324600042",1,wrong_year,10.1134/s1990341324600042,,2024,2018,year_shift_plus_minus_five,2026-10-15T13:26:46.215081+00:00,Crossref
+248,natural_sciences,"Title: ""Study of Gravitational Waves GW150914 and GW170104 as a Black Hole Merger""
+Authors: G. Mathew; P. G. Louie Frobel
+Year: 2024
+Venue: Astrophysical Bulletin
+DOI: 10.3367/ufne.2016.11.038176",1,doi_mismatch,10.1134/s1990341324600042,10.3367/ufne.2016.11.038176,10.1134/s1990341324600042,10.3367/ufne.2016.11.038176,doi_substitution (donor=10.3367/ufne.2016.11.038176),2026-10-15T13:26:46.215081+00:00,Crossref
+249,natural_sciences,"Title: ""Centennial Dynamics of Antarctic Ice Shelf Calving Driven by Sub-Surface Ocean Thermal Forcing""
+Authors: Einar Thorne; Kristin Hansen
+Year: 2022
+Venue: Nature Climate Change
+DOI: 10.9999/citeguard.holdout.natural_sciences.004",1,plausible_fabricated,10.9999/citeguard.holdout.natural_sciences.004,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:46.215081+00:00,synthetic_generation
+250,natural_sciences,"Title: ""First detections of gravitational waves emitted from binary black hole mergers""
+Authors: D H Reitze
+Year: 2017
+Venue: Physics-Uspekhi
+DOI: 10.1103/physrevd.77.084015",1,doi_mismatch,10.3367/ufne.2016.11.038176,10.1103/physrevd.77.084015,10.3367/ufne.2016.11.038176,10.1103/physrevd.77.084015,doi_substitution (donor=10.1103/physrevd.77.084015),2026-10-15T13:26:46.277837+00:00,Crossref
+251,natural_sciences,"Title: ""Chiral Phonon-Induced Spin Polarization in Two-Dimensional Halide Perovskite Superlattices""
+Authors: Takeshi Okamoto; Darren Hughes
+Year: 2023
+Venue: Journal of the American Chemical Society
+DOI: 10.9999/citeguard.holdout.natural_sciences.005",1,plausible_fabricated,10.9999/citeguard.holdout.natural_sciences.005,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:46.277837+00:00,synthetic_generation
+252,natural_sciences,"Title: ""First detections of gravitational waves emitted from binary black hole mergers""
+Authors: Masaru Shibata
+Year: 2017
+Venue: Physics-Uspekhi
+DOI: 10.3367/ufne.2016.11.038176",1,corrupted_authors,10.3367/ufne.2016.11.038176,10.1103/physrevd.77.084015,D H Reitze,Masaru Shibata,first_author_substitution (donor=10.1103/physrevd.77.084015),2026-10-15T13:26:46.277837+00:00,Crossref
+253,natural_sciences,"Title: ""High-Energy Neutrino Emission Associated with Extreme Tidal Disruption Events in Active Galaxies""
+Authors: Laura Castelli; Felix Baumgartner
+Year: 2021
+Venue: Monthly Notices of the Royal Astronomical Society
+DOI: 10.9999/citeguard.holdout.natural_sciences.006",1,plausible_fabricated,10.9999/citeguard.holdout.natural_sciences.006,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:46.339974+00:00,synthetic_generation
+254,natural_sciences,"Title: ""Merger of black hole and neutron star in general relativity: Tidal disruption, torus mass, and gravitational waves""
+Authors: Vignesh S; Keisuke Taniguchi
+Year: 2008
+Venue: Physical Review D
+DOI: 10.1103/physrevd.77.084015",1,corrupted_authors,10.1103/physrevd.77.084015,10.21275/sr221007133908,Masaru Shibata; Keisuke Taniguchi,Vignesh S; Keisuke Taniguchi,first_author_substitution (donor=10.21275/sr221007133908),2026-10-15T13:26:46.339974+00:00,Crossref
+255,natural_sciences,"Title: ""Merger of black hole and neutron star in general relativity: Tidal disruption, torus mass, and gravitational waves""
+Authors: Masaru Shibata; Keisuke Taniguchi
+Year: 2008
+Venue: International Journal of Science and Research (IJSR)
+DOI: 10.1103/physrevd.77.084015",1,wrong_venue,10.1103/physrevd.77.084015,10.21275/sr221007133908,Physical Review D,International Journal of Science and Research (IJSR),venue_substitution (donor=10.21275/sr221007133908),2026-10-15T13:26:46.339974+00:00,Crossref
+256,natural_sciences,"Title: ""Energy of Gravitational Waves in Black Hole Collisions""
+Authors: Davide Castelvecchi; Martin Subash Surya
+Year: 2022
+Venue: International Journal of Science and Research (IJSR)
+DOI: 10.21275/sr221007133908",1,corrupted_authors,10.21275/sr221007133908,10.1038/d41586-018-07649-7,Vignesh S; Martin Subash Surya,Davide Castelvecchi; Martin Subash Surya,first_author_substitution (donor=10.1038/d41586-018-07649-7),2026-10-15T13:26:46.401733+00:00,Crossref
+257,natural_sciences,"Title: ""Energy of Gravitational Waves in Black Hole Collisions""
+Authors: Vignesh S; Martin Subash Surya
+Year: 2022
+Venue: Nature
+DOI: 10.21275/sr221007133908",1,wrong_venue,10.21275/sr221007133908,10.1038/d41586-018-07649-7,International Journal of Science and Research (IJSR),Nature,venue_substitution (donor=10.1038/d41586-018-07649-7),2026-10-15T13:26:46.401733+00:00,Crossref
+258,natural_sciences,"Title: ""Energy of Gravitational Waves in Black Hole Collisions""
+Authors: Vignesh S; Martin Subash Surya
+Year: 2016
+Venue: International Journal of Science and Research (IJSR)
+DOI: 10.21275/sr221007133908",1,wrong_year,10.21275/sr221007133908,,2022,2016,year_shift_plus_minus_five,2026-10-15T13:26:46.401733+00:00,Crossref
+259,natural_sciences,"Title: ""Gravitational-wave astronomers detect hints of largest black-hole merger yet""
+Authors: Davide Castelvecchi
+Year: 2018
+Venue: Physics
+DOI: 10.1038/d41586-018-07649-7",1,wrong_venue,10.1038/d41586-018-07649-7,10.1103/physics.10.s132,Nature,Physics,venue_substitution (donor=10.1103/physics.10.s132),2026-10-15T13:26:46.463843+00:00,Crossref
+260,natural_sciences,"Title: ""Gravitational-wave astronomers detect hints of largest black-hole merger yet""
+Authors: Davide Castelvecchi
+Year: 2023
+Venue: Nature
+DOI: 10.1038/d41586-018-07649-7",1,wrong_year,10.1038/d41586-018-07649-7,,2018,2023,year_shift_plus_minus_five,2026-10-15T13:26:46.463843+00:00,Crossref
+261,natural_sciences,"Title: ""Gravitational-wave astronomers detect hints of largest black-hole merger yet""
+Authors: Davide Castelvecchi
+Year: 2018
+Venue: Nature
+DOI: 10.1103/physics.10.s132",1,doi_mismatch,10.1038/d41586-018-07649-7,10.1103/physics.10.s132,10.1038/d41586-018-07649-7,10.1103/physics.10.s132,doi_substitution (donor=10.1103/physics.10.s132),2026-10-15T13:26:46.463843+00:00,Crossref
+262,natural_sciences,"Title: ""Gravitational Waves Could Reveal Black Hole Origins""
+Authors: Anonymous
+Year: 2012
+Venue: Physics
+DOI: 10.1103/physics.10.s132",1,wrong_year,10.1103/physics.10.s132,,2017,2012,year_shift_plus_minus_five,2026-10-15T13:26:46.526524+00:00,Crossref
+263,natural_sciences,"Title: ""Gravitational Waves Could Reveal Black Hole Origins""
+Authors: Anonymous
+Year: 2017
+Venue: Physics
+DOI: 10.3847/2041-8213/ab86bc",1,doi_mismatch,10.1103/physics.10.s132,10.3847/2041-8213/ab86bc,10.1103/physics.10.s132,10.3847/2041-8213/ab86bc,doi_substitution (donor=10.3847/2041-8213/ab86bc),2026-10-15T13:26:46.526524+00:00,Crossref
+264,natural_sciences,"Title: ""Catalytic Cleavage of Carbon-Oxygen Bonds in Lignin Models via Single-Site Ruthenium Pincer Complexes""
+Authors: Guillaume Laurent; Yuki Morita
+Year: 2020
+Venue: Inorganic Chemistry
+DOI: 10.9999/citeguard.holdout.natural_sciences.007",1,plausible_fabricated,10.9999/citeguard.holdout.natural_sciences.007,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:46.526524+00:00,synthetic_generation
+265,natural_sciences,"Title: ""Distinguishing Binary Neutron Star from Neutron Star–Black Hole Mergers with Gravitational Waves""
+Authors: Hsin-Yu Chen; Katerina Chatziioannou
+Year: 2020
+Venue: The Astrophysical Journal Letters
+DOI: 10.59203/zfn.64.427",1,doi_mismatch,10.3847/2041-8213/ab86bc,10.59203/zfn.64.427,10.3847/2041-8213/ab86bc,10.59203/zfn.64.427,doi_substitution (donor=10.59203/zfn.64.427),2026-10-15T13:26:46.587998+00:00,Crossref
+266,natural_sciences,"Title: ""Topological Quantum Phase Transitions in Frustrated Kitaev Quantum Spin Liquids""
+Authors: Bjoern Lindberg; Anika Patel
+Year: 2022
+Venue: Physical Review B
+DOI: 10.9999/citeguard.holdout.natural_sciences.008",1,plausible_fabricated,10.9999/citeguard.holdout.natural_sciences.008,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:46.587998+00:00,synthetic_generation
+267,natural_sciences,"Title: ""Distinguishing Binary Neutron Star from Neutron Star–Black Hole Mergers with Gravitational Waves""
+Authors: Andrzej Królak; Katerina Chatziioannou
+Year: 2020
+Venue: The Astrophysical Journal Letters
+DOI: 10.3847/2041-8213/ab86bc",1,corrupted_authors,10.3847/2041-8213/ab86bc,10.59203/zfn.64.427,Hsin-Yu Chen; Katerina Chatziioannou,Andrzej Królak; Katerina Chatziioannou,first_author_substitution (donor=10.59203/zfn.64.427),2026-10-15T13:26:46.587998+00:00,Crossref
+268,natural_sciences,"Title: ""Isotopic Fractionation of Magnesium in Ancient Zircon Crystals and Early Crustal Differentiation""
+Authors: Samuel Higgins; Fiona Gallagher
+Year: 2021
+Venue: Geochimica et Cosmochimica Acta
+DOI: 10.9999/citeguard.holdout.natural_sciences.009",1,plausible_fabricated,10.9999/citeguard.holdout.natural_sciences.009,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:46.649193+00:00,synthetic_generation
+269,natural_sciences,"Title: ""Joint detection of gravitational waves from binary black hole and binary neutron star mergers by LIGO and Virgo""
+Authors: Qiyun Fu; Mandar Patil
+Year: 2018
+Venue: Philosophical Problems in Science (Zagadnienia Filozoficzne w Nauce)
+DOI: 10.59203/zfn.64.427",1,corrupted_authors,10.59203/zfn.64.427,10.1088/1572-9494/ad8db9,Andrzej Królak; Mandar Patil,Qiyun Fu; Mandar Patil,first_author_substitution (donor=10.1088/1572-9494/ad8db9),2026-10-15T13:26:46.649193+00:00,Crossref
+270,natural_sciences,"Title: ""Joint detection of gravitational waves from binary black hole and binary neutron star mergers by LIGO and Virgo""
+Authors: Andrzej Królak; Mandar Patil
+Year: 2018
+Venue: Communications in Theoretical Physics
+DOI: 10.59203/zfn.64.427",1,wrong_venue,10.59203/zfn.64.427,10.1088/1572-9494/ad8db9,Philosophical Problems in Science (Zagadnienia Filozoficzne w Nauce),Communications in Theoretical Physics,venue_substitution (donor=10.1088/1572-9494/ad8db9),2026-10-15T13:26:46.649193+00:00,Crossref
+271,natural_sciences,"Title: ""The gravitational redshift effect of quantum matter waves passing a binary black hole""
+Authors: Kyungmin Kim; Tieyan Si
+Year: 2024
+Venue: Communications in Theoretical Physics
+DOI: 10.1088/1572-9494/ad8db9",1,corrupted_authors,10.1088/1572-9494/ad8db9,10.1017/s1743921323000765,Qiyun Fu; Tieyan Si,Kyungmin Kim; Tieyan Si,first_author_substitution (donor=10.1017/s1743921323000765),2026-10-15T13:26:46.712657+00:00,Crossref
+272,natural_sciences,"Title: ""The gravitational redshift effect of quantum matter waves passing a binary black hole""
+Authors: Qiyun Fu; Tieyan Si
+Year: 2024
+Venue: Proceedings of the International Astronomical Union
+DOI: 10.1088/1572-9494/ad8db9",1,wrong_venue,10.1088/1572-9494/ad8db9,10.1017/s1743921323000765,Communications in Theoretical Physics,Proceedings of the International Astronomical Union,venue_substitution (donor=10.1017/s1743921323000765),2026-10-15T13:26:46.712657+00:00,Crossref
+273,natural_sciences,"Title: ""The gravitational redshift effect of quantum matter waves passing a binary black hole""
+Authors: Qiyun Fu; Tieyan Si
+Year: 2018
+Venue: Communications in Theoretical Physics
+DOI: 10.1088/1572-9494/ad8db9",1,wrong_year,10.1088/1572-9494/ad8db9,,2024,2018,year_shift_plus_minus_five,2026-10-15T13:26:46.712657+00:00,Crossref
+274,natural_sciences,"Title: ""Search for Microlensing Signature in Gravitational Waves from Binary Black Hole Events""
+Authors: Kyungmin Kim
+Year: 2023
+Venue: Classical and Quantum Gravity
+DOI: 10.1017/s1743921323000765",1,wrong_venue,10.1017/s1743921323000765,10.1088/1361-6382/ab7d80,Proceedings of the International Astronomical Union,Classical and Quantum Gravity,venue_substitution (donor=10.1088/1361-6382/ab7d80),2026-10-15T13:26:46.775225+00:00,Crossref
+275,natural_sciences,"Title: ""Search for Microlensing Signature in Gravitational Waves from Binary Black Hole Events""
+Authors: Kyungmin Kim
+Year: 2018
+Venue: Proceedings of the International Astronomical Union
+DOI: 10.1017/s1743921323000765",1,wrong_year,10.1017/s1743921323000765,,2023,2018,year_shift_plus_minus_five,2026-10-15T13:26:46.775225+00:00,Crossref
+276,natural_sciences,"Title: ""Search for Microlensing Signature in Gravitational Waves from Binary Black Hole Events""
+Authors: Kyungmin Kim
+Year: 2023
+Venue: Proceedings of the International Astronomical Union
+DOI: 10.1088/1361-6382/ab7d80",1,doi_mismatch,10.1017/s1743921323000765,10.1088/1361-6382/ab7d80,10.1017/s1743921323000765,10.1088/1361-6382/ab7d80,doi_substitution (donor=10.1088/1361-6382/ab7d80),2026-10-15T13:26:46.775225+00:00,Crossref
+277,natural_sciences,"Title: ""Magnetic effects on the generation of gravitational waves in a black hole-neutron star binary system""
+Authors: Mattia Villani
+Year: 2014
+Venue: Classical and Quantum Gravity
+DOI: 10.1088/1361-6382/ab7d80",1,wrong_year,10.1088/1361-6382/ab7d80,,2020,2014,year_shift_plus_minus_five,2026-10-15T13:26:46.837131+00:00,Crossref
+278,natural_sciences,"Title: ""Magnetic effects on the generation of gravitational waves in a black hole-neutron star binary system""
+Authors: Mattia Villani
+Year: 2020
+Venue: Classical and Quantum Gravity
+DOI: 10.1088/1742-6596/2089/1/012027",1,doi_mismatch,10.1088/1361-6382/ab7d80,10.1088/1742-6596/2089/1/012027,10.1088/1361-6382/ab7d80,10.1088/1742-6596/2089/1/012027,doi_substitution (donor=10.1088/1742-6596/2089/1/012027),2026-10-15T13:26:46.837131+00:00,Crossref
+279,natural_sciences,"Title: ""Ultrafast Dynamics of Exciton-Plasmon Polaritons in Atomically Thin Transition Metal Dichalcogenides""
+Authors: Andrea Vitali; Mei-Chun Huang
+Year: 2023
+Venue: ACS Nano
+DOI: 10.9999/citeguard.holdout.natural_sciences.010",1,plausible_fabricated,10.9999/citeguard.holdout.natural_sciences.010,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:46.837131+00:00,synthetic_generation
+280,natural_sciences,"Title: ""Binary Black Hole Automated Identification by Agglomerative Clustering based on Gravitational Waves""
+Authors: Subhrangshu Adhikary; Saikat Banerjee
+Year: 2021
+Venue: Journal of Physics: Conference Series
+DOI: 10.1103/physrevd.81.104008",1,doi_mismatch,10.1088/1742-6596/2089/1/012027,10.1103/physrevd.81.104008,10.1088/1742-6596/2089/1/012027,10.1103/physrevd.81.104008,doi_substitution (donor=10.1103/physrevd.81.104008),2026-10-15T13:26:46.898952+00:00,Crossref
+281,natural_sciences,"Title: ""Atmospheric Photochemical Production of Reactive Nitrogen Intermediates in Tropical Rainforest Canopies""
+Authors: Oliver Vance; Ingrid Bergman
+Year: 2020
+Venue: Atmospheric Chemistry and Physics
+DOI: 10.9999/citeguard.holdout.natural_sciences.011",1,plausible_fabricated,10.9999/citeguard.holdout.natural_sciences.011,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:46.898952+00:00,synthetic_generation
+282,natural_sciences,"Title: ""Binary Black Hole Automated Identification by Agglomerative Clustering based on Gravitational Waves""
+Authors: Alberto Sesana; Saikat Banerjee
+Year: 2021
+Venue: Journal of Physics: Conference Series
+DOI: 10.1088/1742-6596/2089/1/012027",1,corrupted_authors,10.1088/1742-6596/2089/1/012027,10.1103/physrevd.81.104008,Subhrangshu Adhikary; Saikat Banerjee,Alberto Sesana; Saikat Banerjee,first_author_substitution (donor=10.1103/physrevd.81.104008),2026-10-15T13:26:46.898952+00:00,Crossref
+283,natural_sciences,"Title: ""Non-Equilibrium Phase Separation in Synthetic Multicomponent Coacervate Micro-Droplets""
+Authors: Antoine Dupont; Clara Schmidt
+Year: 2022
+Venue: Macromolecules
+DOI: 10.9999/citeguard.holdout.natural_sciences.012",1,plausible_fabricated,10.9999/citeguard.holdout.natural_sciences.012,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:46.962776+00:00,synthetic_generation
+284,natural_sciences,"Title: ""Measuring the parameters of massive black hole binary systems with pulsar timing array observations of gravitational waves""
+Authors: M Tahir; Alberto Vecchio
+Year: 2010
+Venue: Physical Review D
+DOI: 10.1103/physrevd.81.104008",1,corrupted_authors,10.1103/physrevd.81.104008,10.1088/0953-8984/28/38/385302,Alberto Sesana; Alberto Vecchio,M Tahir; Alberto Vecchio,first_author_substitution (donor=10.1088/0953-8984/28/38/385302),2026-10-15T13:26:46.962776+00:00,Crossref
+285,natural_sciences,"Title: ""Measuring the parameters of massive black hole binary systems with pulsar timing array observations of gravitational waves""
+Authors: Alberto Sesana; Alberto Vecchio
+Year: 2010
+Venue: Journal of Physics: Condensed Matter
+DOI: 10.1103/physrevd.81.104008",1,wrong_venue,10.1103/physrevd.81.104008,10.1088/0953-8984/28/38/385302,Physical Review D,Journal of Physics: Condensed Matter,venue_substitution (donor=10.1088/0953-8984/28/38/385302),2026-10-15T13:26:46.962776+00:00,Crossref
+286,natural_sciences,"Title: ""Unconventional quantum Hall effect in Floquet topological insulators""
+Authors: Cui-Zu Chang; P Vasilopoulos; U Schwingenschlögl
+Year: 2016
+Venue: Journal of Physics: Condensed Matter
+DOI: 10.1088/0953-8984/28/38/385302",1,corrupted_authors,10.1088/0953-8984/28/38/385302,10.1088/0953-8984/28/12/123002,M Tahir; P Vasilopoulos; U Schwingenschlögl,Cui-Zu Chang; P Vasilopoulos; U Schwingenschlögl,first_author_substitution (donor=10.1088/0953-8984/28/12/123002),2026-10-15T13:26:49.261343+00:00,Crossref
+287,natural_sciences,"Title: ""Unconventional quantum Hall effect in Floquet topological insulators""
+Authors: M Tahir; P Vasilopoulos; U Schwingenschlögl
+Year: 2016
+Venue: Condensed Matter Physics
+DOI: 10.1088/0953-8984/28/38/385302",1,wrong_venue,10.1088/0953-8984/28/38/385302,10.5488/cmp.20.43701,Journal of Physics: Condensed Matter,Condensed Matter Physics,venue_substitution (donor=10.5488/cmp.20.43701),2026-10-15T13:26:49.261343+00:00,Crossref
+288,natural_sciences,"Title: ""Unconventional quantum Hall effect in Floquet topological insulators""
+Authors: M Tahir; P Vasilopoulos; U Schwingenschlögl
+Year: 2021
+Venue: Journal of Physics: Condensed Matter
+DOI: 10.1088/0953-8984/28/38/385302",1,wrong_year,10.1088/0953-8984/28/38/385302,,2016,2021,year_shift_plus_minus_five,2026-10-15T13:26:49.261343+00:00,Crossref
+289,natural_sciences,"Title: ""Quantum anomalous Hall effect in time-reversal-symmetry breaking topological insulators""
+Authors: Cui-Zu Chang; Mingda Li
+Year: 2016
+Venue: Condensed Matter Physics
+DOI: 10.1088/0953-8984/28/12/123002",1,wrong_venue,10.1088/0953-8984/28/12/123002,10.5488/cmp.20.43701,Journal of Physics: Condensed Matter,Condensed Matter Physics,venue_substitution (donor=10.5488/cmp.20.43701),2026-10-15T13:26:49.319953+00:00,Crossref
+290,natural_sciences,"Title: ""Quantum anomalous Hall effect in time-reversal-symmetry breaking topological insulators""
+Authors: Cui-Zu Chang; Mingda Li
+Year: 2021
+Venue: Journal of Physics: Condensed Matter
+DOI: 10.1088/0953-8984/28/12/123002",1,wrong_year,10.1088/0953-8984/28/12/123002,,2016,2021,year_shift_plus_minus_five,2026-10-15T13:26:49.319953+00:00,Crossref
+291,natural_sciences,"Title: ""Quantum anomalous Hall effect in time-reversal-symmetry breaking topological insulators""
+Authors: Cui-Zu Chang; Mingda Li
+Year: 2016
+Venue: Journal of Physics: Condensed Matter
+DOI: 10.1088/1361-648x/ab1233",1,doi_mismatch,10.1088/0953-8984/28/12/123002,10.1088/1361-648x/ab1233,10.1088/0953-8984/28/12/123002,10.1088/1361-648x/ab1233,doi_substitution (donor=10.1088/1361-648x/ab1233),2026-10-15T13:26:49.319953+00:00,Crossref
+292,natural_sciences,"Title: ""Quantum singularity in topological insulators""
+Authors: Izumi Tanaka
+Year: 2014
+Venue: Journal of Physics: Condensed Matter
+DOI: 10.1088/1361-648x/ab1233",1,wrong_year,10.1088/1361-648x/ab1233,,2019,2014,year_shift_plus_minus_five,2026-10-15T13:26:49.383343+00:00,Crossref
+293,natural_sciences,"Title: ""Quantum singularity in topological insulators""
+Authors: Izumi Tanaka
+Year: 2019
+Venue: Journal of Physics: Condensed Matter
+DOI: 10.5488/cmp.20.43701",1,doi_mismatch,10.1088/1361-648x/ab1233,10.5488/cmp.20.43701,10.1088/1361-648x/ab1233,10.5488/cmp.20.43701,doi_substitution (donor=10.5488/cmp.20.43701),2026-10-15T13:26:49.383343+00:00,Crossref
+294,natural_sciences,"Title: ""Constraining Dark Matter Halo Profiles in Dwarf Spheroidal Galaxies with Stellar Kinematic Tracer Dispersion""
+Authors: Declan Fraser; Tara Campbell
+Year: 2021
+Venue: Astronomy & Astrophysics
+DOI: 10.9999/citeguard.holdout.natural_sciences.013",1,plausible_fabricated,10.9999/citeguard.holdout.natural_sciences.013,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:49.383343+00:00,synthetic_generation
+295,natural_sciences,"Title: ""Integer quantum Hall effect and topological phase transitions in silicene""
+Authors: Liu; Luo; Xu; Tian; Ren
+Year: 2017
+Venue: Condensed Matter Physics
+DOI: 10.36471/jccm_october_2024_02",1,doi_mismatch,10.5488/cmp.20.43701,10.36471/jccm_october_2024_02,10.5488/cmp.20.43701,10.36471/jccm_october_2024_02,doi_substitution (donor=10.36471/jccm_october_2024_02),2026-10-15T13:26:49.445954+00:00,Crossref
+296,natural_sciences,"Title: ""Mechanistic Insights into Low-Temperature Electrochemical Carbon Dioxide Reduction on Bimetallic Catalysts""
+Authors: Soren Kierkegaard; Zhenyu Liu
+Year: 2023
+Venue: Energy & Environmental Science
+DOI: 10.9999/citeguard.holdout.natural_sciences.014",1,plausible_fabricated,10.9999/citeguard.holdout.natural_sciences.014,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:49.445954+00:00,synthetic_generation
+297,natural_sciences,"Title: ""Integer quantum Hall effect and topological phase transitions in silicene""
+Authors: Xi Dai; Luo; Xu; Tian; Ren
+Year: 2017
+Venue: Condensed Matter Physics
+DOI: 10.5488/cmp.20.43701",1,corrupted_authors,10.5488/cmp.20.43701,10.36471/jccm_october_2024_02,Liu; Luo; Xu; Tian; Ren,Xi Dai; Luo; Xu; Tian; Ren,first_author_substitution (donor=10.36471/jccm_october_2024_02),2026-10-15T13:26:49.445954+00:00,Crossref
+298,natural_sciences,"Title: ""Deep Hydrogeological Cycling and Noble Gas Signatures in Cratonic Crystalline Basements""
+Authors: Morgan Reese; Leila Hosseini
+Year: 2020
+Venue: Earth and Planetary Science Letters
+DOI: 10.9999/citeguard.holdout.natural_sciences.015",1,plausible_fabricated,10.9999/citeguard.holdout.natural_sciences.015,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:49.507696+00:00,synthetic_generation
+299,natural_sciences,"Title: ""Large Thermal Hall Effect Detected in Elemental Covalent Insulators""
+Authors: Jiahao Zhang
+Year: 2024
+Venue: Journal Club for Condensed Matter Physics
+DOI: 10.36471/jccm_october_2024_02",1,corrupted_authors,10.36471/jccm_october_2024_02,10.54254/2753-8818/13/20240790,Xi Dai,Jiahao Zhang,first_author_substitution (donor=10.54254/2753-8818/13/20240790),2026-10-15T13:26:49.507696+00:00,Crossref
+300,natural_sciences,"Title: ""Large Thermal Hall Effect Detected in Elemental Covalent Insulators""
+Authors: Xi Dai
+Year: 2024
+Venue: Theoretical and Natural Science
+DOI: 10.36471/jccm_october_2024_02",1,wrong_venue,10.36471/jccm_october_2024_02,10.54254/2753-8818/13/20240790,Journal Club for Condensed Matter Physics,Theoretical and Natural Science,venue_substitution (donor=10.54254/2753-8818/13/20240790),2026-10-15T13:26:49.507696+00:00,Crossref
+301,humanities_social_sciences,"Title: ""Inflation Expectations, Uncertainty, the Phillips Curve, and Monetary Policy""
+Authors: Michael T. Kiley
+Year: 2009
+Venue: Finance and Economics Discussion Series
+DOI: 10.17016/feds.2009.15",0,valid,10.17016/feds.2009.15,,,,genuine_traceable_seed,2026-10-15T13:26:51.930401+00:00,Crossref
+302,humanities_social_sciences,"Title: ""The economics of the Phillips curve: Formation of inflation expectations versus incorporation of inflation expectations""
+Authors: Thomas Palley
+Year: 2012
+Venue: Structural Change and Economic Dynamics
+DOI: 10.1016/j.strueco.2012.02.003",0,valid,10.1016/j.strueco.2012.02.003,,,,genuine_traceable_seed,2026-10-15T13:26:51.988529+00:00,Crossref
+303,humanities_social_sciences,"Title: ""Inflation expectations, disagreement, and monetary policy""
+Authors: Mathias Hoffmann; Patrick Hürtgen
+Year: 2016
+Venue: Economics Letters
+DOI: 10.1016/j.econlet.2016.07.011",0,valid,10.1016/j.econlet.2016.07.011,,,,genuine_traceable_seed,2026-10-15T13:26:52.049688+00:00,Crossref
+304,humanities_social_sciences,"Title: ""Disagreement about inflation expectations and monetary policy transmission""
+Authors: E. Falck; M. Hoffmann; P. Hürtgen
+Year: 2021
+Venue: Journal of Monetary Economics
+DOI: 10.1016/j.jmoneco.2019.08.018",0,valid,10.1016/j.jmoneco.2019.08.018,,,,genuine_traceable_seed,2026-10-15T13:26:52.112499+00:00,Crossref
+305,humanities_social_sciences,"Title: ""Consumption categories, household attention, and inflation expectations: Implications for optimal monetary policy""
+Authors: Alexander M. Dietrich
+Year: 2024
+Venue: Journal of Monetary Economics
+DOI: 10.1016/j.jmoneco.2024.103594",0,valid,10.1016/j.jmoneco.2024.103594,,,,genuine_traceable_seed,2026-10-15T13:26:52.173348+00:00,Crossref
+306,humanities_social_sciences,"Title: ""The unemployment–inflation trade-off revisited: The Phillips curve in COVID times""
+Authors: Richard K. Crump; Stefano Eusepi; Marc Giannoni; Ayşegül Şahin
+Year: 2024
+Venue: Journal of Monetary Economics
+DOI: 10.1016/j.jmoneco.2024.103580",0,valid,10.1016/j.jmoneco.2024.103580,,,,genuine_traceable_seed,2026-10-15T13:26:52.236111+00:00,Crossref
+307,humanities_social_sciences,"Title: ""Inflation expectations and the structure of the New-Keynesian Phillips Curve""
+Authors: Olivier Musy; Sébastien Pommier
+Year: 2007
+Venue: Applied Economics Letters
+DOI: 10.1080/13504850500425592",0,valid,10.1080/13504850500425592,,,,genuine_traceable_seed,2026-10-15T13:26:52.298617+00:00,Crossref
+308,humanities_social_sciences,"Title: ""Abrupt monetary policy change and unanchoring of inflation expectations""
+Authors: Marco Bonomo; Carlos Carvalho; Stefano Eusepi; Marina Perrupato; Daniel Abib; João Ayres; Silvia Matos
+Year: 2024
+Venue: Journal of Monetary Economics
+DOI: 10.1016/j.jmoneco.2024.103576",0,valid,10.1016/j.jmoneco.2024.103576,,,,genuine_traceable_seed,2026-10-15T13:26:52.362369+00:00,Crossref
+309,humanities_social_sciences,"Title: ""Monetary Policy Actions and Long-Run Inflation Expectations""
+Authors: Michael T. Kiley
+Year: 2007
+Venue: Finance and Economics Discussion Series
+DOI: 10.17016/feds.2008.03",0,valid,10.17016/feds.2008.03,,,,genuine_traceable_seed,2026-10-15T13:26:52.424180+00:00,Crossref
+310,humanities_social_sciences,"Title: ""Optimal monetary policy with a nonlinear Phillips curve""
+Authors: A.R. Nobay; D.A. Peel
+Year: 2000
+Venue: Economics Letters
+DOI: 10.1016/s0165-1765(99)00265-7",0,valid,10.1016/s0165-1765(99)00265-7,,,,genuine_traceable_seed,2026-10-15T13:26:52.487544+00:00,Crossref
+311,humanities_social_sciences,"Title: ""Imperfect Knowledge, Inflation Expectations, and Monetary Policy""
+Authors: Athanasios Orphanides; John C. Williams
+Year: 2002
+Venue: Finance and Economics Discussion Series
+DOI: 10.17016/feds.2002.27",0,valid,10.17016/feds.2002.27,,,,genuine_traceable_seed,2026-10-15T13:26:52.548353+00:00,Crossref
+312,humanities_social_sciences,"Title: ""Asymmetric information and misaligned inflation expectations""
+Authors: Zhao Han
+Year: 2024
+Venue: Journal of Monetary Economics
+DOI: 10.1016/j.jmoneco.2023.10.010",0,valid,10.1016/j.jmoneco.2023.10.010,,,,genuine_traceable_seed,2026-10-15T13:26:52.611089+00:00,Crossref
+313,humanities_social_sciences,"Title: ""DETERMINING OUTPUT AND INFLATION VARIABILITY: ARE THE PHILLIPS CURVE AND THE MONETARY POLICY REACTION FUNCTION RESPONSIBLE?""
+Authors: Takashi Senda
+Year: 2005
+Venue: Economic Inquiry
+DOI: 10.1093/ei/cbi030",0,valid,10.1093/ei/cbi030,,,,genuine_traceable_seed,2026-10-15T13:26:52.672050+00:00,Crossref
+314,humanities_social_sciences,"Title: ""Managing inflation expectations and the efficiency of monetary policy responses to energy crises""
+Authors: Umer Shahzad; Bianca Orsi; Gagan Deep Sharma
+Year: 2024
+Venue: Energy Economics
+DOI: 10.1016/j.eneco.2024.107474",0,valid,10.1016/j.eneco.2024.107474,,,,genuine_traceable_seed,2026-10-15T13:26:52.734640+00:00,Crossref
+315,humanities_social_sciences,"Title: ""Monetary policy surprises and the expectations hypothesis at the short end of the yield curve""
+Authors: Selva Demiralp
+Year: 2008
+Venue: Economics Letters
+DOI: 10.1016/j.econlet.2008.03.018",0,valid,10.1016/j.econlet.2008.03.018,,,,genuine_traceable_seed,2026-10-15T13:26:52.796393+00:00,Crossref
+316,humanities_social_sciences,"Title: ""Inflation Expectations and Monetary Policy Design: Evidence from the Laboratory""
+Authors: Damjan Pfajfar; Blaz Zakelj
+Year: 2015
+Venue: Finance and Economics Discussion Series
+DOI: 10.17016/feds.2015.045",0,valid,10.17016/feds.2015.045,,,,genuine_traceable_seed,2026-10-15T13:26:52.858775+00:00,Crossref
+317,humanities_social_sciences,"Title: ""Monetary policy and inflation expectations: impact and causal analysis of heterogeneous economic agents’ expectations in South Africa""
+Authors: Thobani Mlangeni; Eugene Msizi Buthelezi
+Year: 2023
+Venue: Journal of Applied Economics
+DOI: 10.1080/15140326.2023.2289724",0,valid,10.1080/15140326.2023.2289724,,,,genuine_traceable_seed,2026-10-15T13:26:52.920998+00:00,Crossref
+318,humanities_social_sciences,"Title: ""Estimating Unobservable Inflation Expectations in the New Keynesian Phillips Curve""
+Authors: Francesca Rondina
+Year: 2018
+Venue: Econometrics
+DOI: 10.3390/econometrics6010006",0,valid,10.3390/econometrics6010006,,,,genuine_traceable_seed,2026-10-15T13:26:52.984043+00:00,Crossref
+319,humanities_social_sciences,"Title: ""Cognitive load theory and its measurement: a study of secondary tasks in relation to working memory""
+Authors: Kevin Greenberg; Robert Zheng
+Year: 2022
+Venue: Journal of Cognitive Psychology
+DOI: 10.1080/20445911.2022.2026052",0,valid,10.1080/20445911.2022.2026052,,,,genuine_traceable_seed,2026-10-15T13:26:55.073196+00:00,Crossref
+320,humanities_social_sciences,"Title: ""Truth table task: Working memory load, latencies, and perceived relevance""
+Authors: Aline Sevenants; Kristien Dieussaert; Walter Schaeken
+Year: 2013
+Venue: Journal of Cognitive Psychology
+DOI: 10.1080/20445911.2013.775131",0,valid,10.1080/20445911.2013.775131,,,,genuine_traceable_seed,2026-10-15T13:26:55.132774+00:00,Crossref
+321,humanities_social_sciences,"Title: ""High working memory load leads to more Ebbinghaus illusion""
+Authors: Jan W. de Fockert; Si Wu
+Year: 2009
+Venue: European Journal of Cognitive Psychology
+DOI: 10.1080/09541440802689302",0,valid,10.1080/09541440802689302,,,,genuine_traceable_seed,2026-10-15T13:26:55.194752+00:00,Crossref
+322,humanities_social_sciences,"Title: ""Deception and Cognitive Load: Expanding Our Horizon with a Working Memory Model""
+Authors: Siegfried L. Sporer
+Year: 2016
+Venue: Frontiers in Psychology
+DOI: 10.3389/fpsyg.2016.00420",0,valid,10.3389/fpsyg.2016.00420,,,,genuine_traceable_seed,2026-10-15T13:26:55.257319+00:00,Crossref
+323,humanities_social_sciences,"Title: ""Role of working memory load on selective attention to affectively valent information""
+Authors: Anna Pecchinenda; Martin Heil
+Year: 2007
+Venue: European Journal of Cognitive Psychology
+DOI: 10.1080/09541440601095388",0,valid,10.1080/09541440601095388,,,,genuine_traceable_seed,2026-10-15T13:26:55.319314+00:00,Crossref
+324,humanities_social_sciences,"Title: ""More conservative go/no-go response criterion under high working memory load""
+Authors: Silviya P. Doneva; Jan W. De Fockert
+Year: 2013
+Venue: Journal of Cognitive Psychology
+DOI: 10.1080/20445911.2013.855780",0,valid,10.1080/20445911.2013.855780,,,,genuine_traceable_seed,2026-10-15T13:26:55.381369+00:00,Crossref
+325,humanities_social_sciences,"Title: ""Working Memory Load Effect on Negative Emotional Face Processing Depends on Individual Differences in Working Memory Capacity""
+Authors: ParkTaejin; 김정희
+Year: 2015
+Venue: Korean Journal of Cognitive and Biological Psychology
+DOI: 10.22172/cogbio.2015.27.1.003",0,valid,10.22172/cogbio.2015.27.1.003,,,,genuine_traceable_seed,2026-10-15T13:26:55.444083+00:00,Crossref
+326,humanities_social_sciences,"Title: ""Inflation Expectations, Uncertainty, the Phillips Curve, and Monetary Policy""
+Authors: Thomas Palley
+Year: 2009
+Venue: Finance and Economics Discussion Series
+DOI: 10.17016/feds.2009.15",1,corrupted_authors,10.17016/feds.2009.15,10.1016/j.strueco.2012.02.003,Michael T. Kiley,Thomas Palley,first_author_substitution (donor=10.1016/j.strueco.2012.02.003),2026-10-15T13:26:51.930401+00:00,Crossref
+327,humanities_social_sciences,"Title: ""Inflation Expectations, Uncertainty, the Phillips Curve, and Monetary Policy""
+Authors: Michael T. Kiley
+Year: 2009
+Venue: Structural Change and Economic Dynamics
+DOI: 10.17016/feds.2009.15",1,wrong_venue,10.17016/feds.2009.15,10.1016/j.strueco.2012.02.003,Finance and Economics Discussion Series,Structural Change and Economic Dynamics,venue_substitution (donor=10.1016/j.strueco.2012.02.003),2026-10-15T13:26:51.930401+00:00,Crossref
+328,humanities_social_sciences,"Title: ""Inflation Expectations, Uncertainty, the Phillips Curve, and Monetary Policy""
+Authors: Michael T. Kiley
+Year: 2004
+Venue: Finance and Economics Discussion Series
+DOI: 10.17016/feds.2009.15",1,wrong_year,10.17016/feds.2009.15,,2009,2004,year_shift_plus_minus_five,2026-10-15T13:26:51.930401+00:00,Crossref
+329,humanities_social_sciences,"Title: ""The economics of the Phillips curve: Formation of inflation expectations versus incorporation of inflation expectations""
+Authors: Thomas Palley
+Year: 2012
+Venue: Economics Letters
+DOI: 10.1016/j.strueco.2012.02.003",1,wrong_venue,10.1016/j.strueco.2012.02.003,10.1016/j.econlet.2016.07.011,Structural Change and Economic Dynamics,Economics Letters,venue_substitution (donor=10.1016/j.econlet.2016.07.011),2026-10-15T13:26:51.988529+00:00,Crossref
+330,humanities_social_sciences,"Title: ""The economics of the Phillips curve: Formation of inflation expectations versus incorporation of inflation expectations""
+Authors: Thomas Palley
+Year: 2017
+Venue: Structural Change and Economic Dynamics
+DOI: 10.1016/j.strueco.2012.02.003",1,wrong_year,10.1016/j.strueco.2012.02.003,,2012,2017,year_shift_plus_minus_five,2026-10-15T13:26:51.988529+00:00,Crossref
+331,humanities_social_sciences,"Title: ""The economics of the Phillips curve: Formation of inflation expectations versus incorporation of inflation expectations""
+Authors: Thomas Palley
+Year: 2012
+Venue: Structural Change and Economic Dynamics
+DOI: 10.1016/j.econlet.2016.07.011",1,doi_mismatch,10.1016/j.strueco.2012.02.003,10.1016/j.econlet.2016.07.011,10.1016/j.strueco.2012.02.003,10.1016/j.econlet.2016.07.011,doi_substitution (donor=10.1016/j.econlet.2016.07.011),2026-10-15T13:26:51.988529+00:00,Crossref
+332,humanities_social_sciences,"Title: ""Inflation expectations, disagreement, and monetary policy""
+Authors: Mathias Hoffmann; Patrick Hürtgen
+Year: 2021
+Venue: Economics Letters
+DOI: 10.1016/j.econlet.2016.07.011",1,wrong_year,10.1016/j.econlet.2016.07.011,,2016,2021,year_shift_plus_minus_five,2026-10-15T13:26:52.049688+00:00,Crossref
+333,humanities_social_sciences,"Title: ""Inflation expectations, disagreement, and monetary policy""
+Authors: Mathias Hoffmann; Patrick Hürtgen
+Year: 2016
+Venue: Economics Letters
+DOI: 10.1016/j.jmoneco.2019.08.018",1,doi_mismatch,10.1016/j.econlet.2016.07.011,10.1016/j.jmoneco.2019.08.018,10.1016/j.econlet.2016.07.011,10.1016/j.jmoneco.2019.08.018,doi_substitution (donor=10.1016/j.jmoneco.2019.08.018),2026-10-15T13:26:52.049688+00:00,Crossref
+334,humanities_social_sciences,"Title: ""Monetary Shocks, Heterogeneous Wealth Portfolios, and Inequality in Post-Crisis Economies""
+Authors: Julian Sterling; Mathilde Caron
+Year: 2021
+Venue: Quarterly Journal of Economics
+DOI: 10.9999/citeguard.holdout.humanities_social_sciences.001",1,plausible_fabricated,10.9999/citeguard.holdout.humanities_social_sciences.001,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:52.049688+00:00,synthetic_generation
+335,humanities_social_sciences,"Title: ""Disagreement about inflation expectations and monetary policy transmission""
+Authors: E. Falck; M. Hoffmann; P. Hürtgen
+Year: 2021
+Venue: Journal of Monetary Economics
+DOI: 10.1016/j.jmoneco.2024.103594",1,doi_mismatch,10.1016/j.jmoneco.2019.08.018,10.1016/j.jmoneco.2024.103594,10.1016/j.jmoneco.2019.08.018,10.1016/j.jmoneco.2024.103594,doi_substitution (donor=10.1016/j.jmoneco.2024.103594),2026-10-15T13:26:52.112499+00:00,Crossref
+336,humanities_social_sciences,"Title: ""Executive Function, Working Memory Depletion, and Moral Decision-Making across the Lifespan""
+Authors: Clara Van Der Meer; Richard Alvarez
+Year: 2022
+Venue: Cognitive Psychology
+DOI: 10.9999/citeguard.holdout.humanities_social_sciences.002",1,plausible_fabricated,10.9999/citeguard.holdout.humanities_social_sciences.002,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:52.112499+00:00,synthetic_generation
+337,humanities_social_sciences,"Title: ""Disagreement about inflation expectations and monetary policy transmission""
+Authors: Alexander M. Dietrich; M. Hoffmann; P. Hürtgen
+Year: 2021
+Venue: Journal of Monetary Economics
+DOI: 10.1016/j.jmoneco.2019.08.018",1,corrupted_authors,10.1016/j.jmoneco.2019.08.018,10.1016/j.jmoneco.2024.103594,E. Falck; M. Hoffmann; P. Hürtgen,Alexander M. Dietrich; M. Hoffmann; P. Hürtgen,first_author_substitution (donor=10.1016/j.jmoneco.2024.103594),2026-10-15T13:26:52.112499+00:00,Crossref
+338,humanities_social_sciences,"Title: ""Labor Market Polarization, Automation Vulnerability, and Populist Voting Behavior in Post-Industrial Regions""
+Authors: Stephen H. Miller; Annette Dubois
+Year: 2020
+Venue: American Sociological Review
+DOI: 10.9999/citeguard.holdout.humanities_social_sciences.003",1,plausible_fabricated,10.9999/citeguard.holdout.humanities_social_sciences.003,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:52.173348+00:00,synthetic_generation
+339,humanities_social_sciences,"Title: ""Consumption categories, household attention, and inflation expectations: Implications for optimal monetary policy""
+Authors: Richard K. Crump
+Year: 2024
+Venue: Journal of Monetary Economics
+DOI: 10.1016/j.jmoneco.2024.103594",1,corrupted_authors,10.1016/j.jmoneco.2024.103594,10.1016/j.jmoneco.2024.103580,Alexander M. Dietrich,Richard K. Crump,first_author_substitution (donor=10.1016/j.jmoneco.2024.103580),2026-10-15T13:26:52.173348+00:00,Crossref
+340,humanities_social_sciences,"Title: ""Consumption categories, household attention, and inflation expectations: Implications for optimal monetary policy""
+Authors: Alexander M. Dietrich
+Year: 2024
+Venue: Applied Economics Letters
+DOI: 10.1016/j.jmoneco.2024.103594",1,wrong_venue,10.1016/j.jmoneco.2024.103594,10.1080/13504850500425592,Journal of Monetary Economics,Applied Economics Letters,venue_substitution (donor=10.1080/13504850500425592),2026-10-15T13:26:52.173348+00:00,Crossref
+341,humanities_social_sciences,"Title: ""The unemployment–inflation trade-off revisited: The Phillips curve in COVID times""
+Authors: Olivier Musy; Stefano Eusepi; Marc Giannoni; Ayşegül Şahin
+Year: 2024
+Venue: Journal of Monetary Economics
+DOI: 10.1016/j.jmoneco.2024.103580",1,corrupted_authors,10.1016/j.jmoneco.2024.103580,10.1080/13504850500425592,Richard K. Crump; Stefano Eusepi; Marc Giannoni; Ayşegül Şahin,Olivier Musy; Stefano Eusepi; Marc Giannoni; Ayşegül Şahin,first_author_substitution (donor=10.1080/13504850500425592),2026-10-15T13:26:52.236111+00:00,Crossref
+342,humanities_social_sciences,"Title: ""The unemployment–inflation trade-off revisited: The Phillips curve in COVID times""
+Authors: Richard K. Crump; Stefano Eusepi; Marc Giannoni; Ayşegül Şahin
+Year: 2024
+Venue: Applied Economics Letters
+DOI: 10.1016/j.jmoneco.2024.103580",1,wrong_venue,10.1016/j.jmoneco.2024.103580,10.1080/13504850500425592,Journal of Monetary Economics,Applied Economics Letters,venue_substitution (donor=10.1080/13504850500425592),2026-10-15T13:26:52.236111+00:00,Crossref
+343,humanities_social_sciences,"Title: ""The unemployment–inflation trade-off revisited: The Phillips curve in COVID times""
+Authors: Richard K. Crump; Stefano Eusepi; Marc Giannoni; Ayşegül Şahin
+Year: 2018
+Venue: Journal of Monetary Economics
+DOI: 10.1016/j.jmoneco.2024.103580",1,wrong_year,10.1016/j.jmoneco.2024.103580,,2024,2018,year_shift_plus_minus_five,2026-10-15T13:26:52.236111+00:00,Crossref
+344,humanities_social_sciences,"Title: ""Inflation expectations and the structure of the New-Keynesian Phillips Curve""
+Authors: Olivier Musy; Sébastien Pommier
+Year: 2007
+Venue: Journal of Monetary Economics
+DOI: 10.1080/13504850500425592",1,wrong_venue,10.1080/13504850500425592,10.1016/j.jmoneco.2024.103576,Applied Economics Letters,Journal of Monetary Economics,venue_substitution (donor=10.1016/j.jmoneco.2024.103576),2026-10-15T13:26:52.298617+00:00,Crossref
+345,humanities_social_sciences,"Title: ""Inflation expectations and the structure of the New-Keynesian Phillips Curve""
+Authors: Olivier Musy; Sébastien Pommier
+Year: 2002
+Venue: Applied Economics Letters
+DOI: 10.1080/13504850500425592",1,wrong_year,10.1080/13504850500425592,,2007,2002,year_shift_plus_minus_five,2026-10-15T13:26:52.298617+00:00,Crossref
+346,humanities_social_sciences,"Title: ""Inflation expectations and the structure of the New-Keynesian Phillips Curve""
+Authors: Olivier Musy; Sébastien Pommier
+Year: 2007
+Venue: Applied Economics Letters
+DOI: 10.1016/j.jmoneco.2024.103576",1,doi_mismatch,10.1080/13504850500425592,10.1016/j.jmoneco.2024.103576,10.1080/13504850500425592,10.1016/j.jmoneco.2024.103576,doi_substitution (donor=10.1016/j.jmoneco.2024.103576),2026-10-15T13:26:52.298617+00:00,Crossref
+347,humanities_social_sciences,"Title: ""Abrupt monetary policy change and unanchoring of inflation expectations""
+Authors: Marco Bonomo; Carlos Carvalho; Stefano Eusepi; Marina Perrupato; Daniel Abib; João Ayres; Silvia Matos
+Year: 2018
+Venue: Journal of Monetary Economics
+DOI: 10.1016/j.jmoneco.2024.103576",1,wrong_year,10.1016/j.jmoneco.2024.103576,,2024,2018,year_shift_plus_minus_five,2026-10-15T13:26:52.362369+00:00,Crossref
+348,humanities_social_sciences,"Title: ""Abrupt monetary policy change and unanchoring of inflation expectations""
+Authors: Marco Bonomo; Carlos Carvalho; Stefano Eusepi; Marina Perrupato; Daniel Abib; João Ayres; Silvia Matos
+Year: 2024
+Venue: Journal of Monetary Economics
+DOI: 10.17016/feds.2008.03",1,doi_mismatch,10.1016/j.jmoneco.2024.103576,10.17016/feds.2008.03,10.1016/j.jmoneco.2024.103576,10.17016/feds.2008.03,doi_substitution (donor=10.17016/feds.2008.03),2026-10-15T13:26:52.362369+00:00,Crossref
+349,humanities_social_sciences,"Title: ""Phonological Salience and Morphosyntactic Restructuring in Contact-Induced Creolization""
+Authors: Valerie Beaumont; Kofi Mensah
+Year: 2021
+Venue: Language
+DOI: 10.9999/citeguard.holdout.humanities_social_sciences.004",1,plausible_fabricated,10.9999/citeguard.holdout.humanities_social_sciences.004,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:52.362369+00:00,synthetic_generation
+350,humanities_social_sciences,"Title: ""Monetary Policy Actions and Long-Run Inflation Expectations""
+Authors: Michael T. Kiley
+Year: 2007
+Venue: Finance and Economics Discussion Series
+DOI: 10.1016/s0165-1765(99)00265-7",1,doi_mismatch,10.17016/feds.2008.03,10.1016/s0165-1765(99)00265-7,10.17016/feds.2008.03,10.1016/s0165-1765(99)00265-7,doi_substitution (donor=10.1016/s0165-1765(99)00265-7),2026-10-15T13:26:52.424180+00:00,Crossref
+351,humanities_social_sciences,"Title: ""Institutional Persistence, Land Tenure Reform, and Long-Term Educational Attainment in Post-Colonial States""
+Authors: Carlos M. Ramirez; Gillian Fletcher
+Year: 2022
+Venue: Journal of Development Economics
+DOI: 10.9999/citeguard.holdout.humanities_social_sciences.005",1,plausible_fabricated,10.9999/citeguard.holdout.humanities_social_sciences.005,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:52.424180+00:00,synthetic_generation
+352,humanities_social_sciences,"Title: ""Monetary Policy Actions and Long-Run Inflation Expectations""
+Authors: A.R. Nobay
+Year: 2007
+Venue: Finance and Economics Discussion Series
+DOI: 10.17016/feds.2008.03",1,corrupted_authors,10.17016/feds.2008.03,10.1016/s0165-1765(99)00265-7,Michael T. Kiley,A.R. Nobay,first_author_substitution (donor=10.1016/s0165-1765(99)00265-7),2026-10-15T13:26:52.424180+00:00,Crossref
+353,humanities_social_sciences,"Title: ""Cognitive Biases in Algorithmic Decision-Making: Anchoring Effects in Judicial Risk Assessment Tools""
+Authors: Daphne Robinson; Nils Lindqvist
+Year: 2023
+Venue: Behavioral Science & Policy
+DOI: 10.9999/citeguard.holdout.humanities_social_sciences.006",1,plausible_fabricated,10.9999/citeguard.holdout.humanities_social_sciences.006,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:52.487544+00:00,synthetic_generation
+354,humanities_social_sciences,"Title: ""Optimal monetary policy with a nonlinear Phillips curve""
+Authors: Athanasios Orphanides; D.A. Peel
+Year: 2000
+Venue: Economics Letters
+DOI: 10.1016/s0165-1765(99)00265-7",1,corrupted_authors,10.1016/s0165-1765(99)00265-7,10.17016/feds.2002.27,A.R. Nobay; D.A. Peel,Athanasios Orphanides; D.A. Peel,first_author_substitution (donor=10.17016/feds.2002.27),2026-10-15T13:26:52.487544+00:00,Crossref
+355,humanities_social_sciences,"Title: ""Optimal monetary policy with a nonlinear Phillips curve""
+Authors: A.R. Nobay; D.A. Peel
+Year: 2000
+Venue: Finance and Economics Discussion Series
+DOI: 10.1016/s0165-1765(99)00265-7",1,wrong_venue,10.1016/s0165-1765(99)00265-7,10.17016/feds.2002.27,Economics Letters,Finance and Economics Discussion Series,venue_substitution (donor=10.17016/feds.2002.27),2026-10-15T13:26:52.487544+00:00,Crossref
+356,humanities_social_sciences,"Title: ""Imperfect Knowledge, Inflation Expectations, and Monetary Policy""
+Authors: Zhao Han; John C. Williams
+Year: 2002
+Venue: Finance and Economics Discussion Series
+DOI: 10.17016/feds.2002.27",1,corrupted_authors,10.17016/feds.2002.27,10.1016/j.jmoneco.2023.10.010,Athanasios Orphanides; John C. Williams,Zhao Han; John C. Williams,first_author_substitution (donor=10.1016/j.jmoneco.2023.10.010),2026-10-15T13:26:52.548353+00:00,Crossref
+357,humanities_social_sciences,"Title: ""Imperfect Knowledge, Inflation Expectations, and Monetary Policy""
+Authors: Athanasios Orphanides; John C. Williams
+Year: 2002
+Venue: Journal of Monetary Economics
+DOI: 10.17016/feds.2002.27",1,wrong_venue,10.17016/feds.2002.27,10.1016/j.jmoneco.2023.10.010,Finance and Economics Discussion Series,Journal of Monetary Economics,venue_substitution (donor=10.1016/j.jmoneco.2023.10.010),2026-10-15T13:26:52.548353+00:00,Crossref
+358,humanities_social_sciences,"Title: ""Imperfect Knowledge, Inflation Expectations, and Monetary Policy""
+Authors: Athanasios Orphanides; John C. Williams
+Year: 2007
+Venue: Finance and Economics Discussion Series
+DOI: 10.17016/feds.2002.27",1,wrong_year,10.17016/feds.2002.27,,2002,2007,year_shift_plus_minus_five,2026-10-15T13:26:52.548353+00:00,Crossref
+359,humanities_social_sciences,"Title: ""Asymmetric information and misaligned inflation expectations""
+Authors: Zhao Han
+Year: 2024
+Venue: Economic Inquiry
+DOI: 10.1016/j.jmoneco.2023.10.010",1,wrong_venue,10.1016/j.jmoneco.2023.10.010,10.1093/ei/cbi030,Journal of Monetary Economics,Economic Inquiry,venue_substitution (donor=10.1093/ei/cbi030),2026-10-15T13:26:52.611089+00:00,Crossref
+360,humanities_social_sciences,"Title: ""Asymmetric information and misaligned inflation expectations""
+Authors: Zhao Han
+Year: 2018
+Venue: Journal of Monetary Economics
+DOI: 10.1016/j.jmoneco.2023.10.010",1,wrong_year,10.1016/j.jmoneco.2023.10.010,,2024,2018,year_shift_plus_minus_five,2026-10-15T13:26:52.611089+00:00,Crossref
+361,humanities_social_sciences,"Title: ""Asymmetric information and misaligned inflation expectations""
+Authors: Zhao Han
+Year: 2024
+Venue: Journal of Monetary Economics
+DOI: 10.1093/ei/cbi030",1,doi_mismatch,10.1016/j.jmoneco.2023.10.010,10.1093/ei/cbi030,10.1016/j.jmoneco.2023.10.010,10.1093/ei/cbi030,doi_substitution (donor=10.1093/ei/cbi030),2026-10-15T13:26:52.611089+00:00,Crossref
+362,humanities_social_sciences,"Title: ""DETERMINING OUTPUT AND INFLATION VARIABILITY: ARE THE PHILLIPS CURVE AND THE MONETARY POLICY REACTION FUNCTION RESPONSIBLE?""
+Authors: Takashi Senda
+Year: 2000
+Venue: Economic Inquiry
+DOI: 10.1093/ei/cbi030",1,wrong_year,10.1093/ei/cbi030,,2005,2000,year_shift_plus_minus_five,2026-10-15T13:26:52.672050+00:00,Crossref
+363,humanities_social_sciences,"Title: ""DETERMINING OUTPUT AND INFLATION VARIABILITY: ARE THE PHILLIPS CURVE AND THE MONETARY POLICY REACTION FUNCTION RESPONSIBLE?""
+Authors: Takashi Senda
+Year: 2005
+Venue: Economic Inquiry
+DOI: 10.1016/j.eneco.2024.107474",1,doi_mismatch,10.1093/ei/cbi030,10.1016/j.eneco.2024.107474,10.1093/ei/cbi030,10.1016/j.eneco.2024.107474,doi_substitution (donor=10.1016/j.eneco.2024.107474),2026-10-15T13:26:52.672050+00:00,Crossref
+364,humanities_social_sciences,"Title: ""Social Capital Networks and Intergenerational Income Mobility in Metropolitan Statistical Areas""
+Authors: Jonathan P. Vance; Elena Rossi
+Year: 2020
+Venue: American Economic Journal: Applied Economics
+DOI: 10.9999/citeguard.holdout.humanities_social_sciences.007",1,plausible_fabricated,10.9999/citeguard.holdout.humanities_social_sciences.007,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:52.672050+00:00,synthetic_generation
+365,humanities_social_sciences,"Title: ""Managing inflation expectations and the efficiency of monetary policy responses to energy crises""
+Authors: Umer Shahzad; Bianca Orsi; Gagan Deep Sharma
+Year: 2024
+Venue: Energy Economics
+DOI: 10.1016/j.econlet.2008.03.018",1,doi_mismatch,10.1016/j.eneco.2024.107474,10.1016/j.econlet.2008.03.018,10.1016/j.eneco.2024.107474,10.1016/j.econlet.2008.03.018,doi_substitution (donor=10.1016/j.econlet.2008.03.018),2026-10-15T13:26:52.734640+00:00,Crossref
+366,humanities_social_sciences,"Title: ""The Rhetoric of Parliamentary Sovereign Immunity: Constitutional Discourse in Late-Eighteenth Century Britain""
+Authors: Alistair Ward; Madeleine Lefebvre
+Year: 2021
+Venue: The Historical Journal
+DOI: 10.9999/citeguard.holdout.humanities_social_sciences.008",1,plausible_fabricated,10.9999/citeguard.holdout.humanities_social_sciences.008,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:52.734640+00:00,synthetic_generation
+367,humanities_social_sciences,"Title: ""Managing inflation expectations and the efficiency of monetary policy responses to energy crises""
+Authors: Selva Demiralp; Bianca Orsi; Gagan Deep Sharma
+Year: 2024
+Venue: Energy Economics
+DOI: 10.1016/j.eneco.2024.107474",1,corrupted_authors,10.1016/j.eneco.2024.107474,10.1016/j.econlet.2008.03.018,Umer Shahzad; Bianca Orsi; Gagan Deep Sharma,Selva Demiralp; Bianca Orsi; Gagan Deep Sharma,first_author_substitution (donor=10.1016/j.econlet.2008.03.018),2026-10-15T13:26:52.734640+00:00,Crossref
+368,humanities_social_sciences,"Title: ""Grammatical Aspect and Event Representation: Cross-Linguistic Evidence from Eye-Tracking in Visual Narratives""
+Authors: Svetlana Popova; Marc Dupuis
+Year: 2022
+Venue: Journal of Memory and Language
+DOI: 10.9999/citeguard.holdout.humanities_social_sciences.009",1,plausible_fabricated,10.9999/citeguard.holdout.humanities_social_sciences.009,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:52.796393+00:00,synthetic_generation
+369,humanities_social_sciences,"Title: ""Monetary policy surprises and the expectations hypothesis at the short end of the yield curve""
+Authors: Damjan Pfajfar
+Year: 2008
+Venue: Economics Letters
+DOI: 10.1016/j.econlet.2008.03.018",1,corrupted_authors,10.1016/j.econlet.2008.03.018,10.17016/feds.2015.045,Selva Demiralp,Damjan Pfajfar,first_author_substitution (donor=10.17016/feds.2015.045),2026-10-15T13:26:52.796393+00:00,Crossref
+370,humanities_social_sciences,"Title: ""Monetary policy surprises and the expectations hypothesis at the short end of the yield curve""
+Authors: Selva Demiralp
+Year: 2008
+Venue: Finance and Economics Discussion Series
+DOI: 10.1016/j.econlet.2008.03.018",1,wrong_venue,10.1016/j.econlet.2008.03.018,10.17016/feds.2015.045,Economics Letters,Finance and Economics Discussion Series,venue_substitution (donor=10.17016/feds.2015.045),2026-10-15T13:26:52.796393+00:00,Crossref
+371,humanities_social_sciences,"Title: ""Inflation Expectations and Monetary Policy Design: Evidence from the Laboratory""
+Authors: Thobani Mlangeni; Blaz Zakelj
+Year: 2015
+Venue: Finance and Economics Discussion Series
+DOI: 10.17016/feds.2015.045",1,corrupted_authors,10.17016/feds.2015.045,10.1080/15140326.2023.2289724,Damjan Pfajfar; Blaz Zakelj,Thobani Mlangeni; Blaz Zakelj,first_author_substitution (donor=10.1080/15140326.2023.2289724),2026-10-15T13:26:52.858775+00:00,Crossref
+372,humanities_social_sciences,"Title: ""Inflation Expectations and Monetary Policy Design: Evidence from the Laboratory""
+Authors: Damjan Pfajfar; Blaz Zakelj
+Year: 2015
+Venue: Journal of Applied Economics
+DOI: 10.17016/feds.2015.045",1,wrong_venue,10.17016/feds.2015.045,10.1080/15140326.2023.2289724,Finance and Economics Discussion Series,Journal of Applied Economics,venue_substitution (donor=10.1080/15140326.2023.2289724),2026-10-15T13:26:52.858775+00:00,Crossref
+373,humanities_social_sciences,"Title: ""Inflation Expectations and Monetary Policy Design: Evidence from the Laboratory""
+Authors: Damjan Pfajfar; Blaz Zakelj
+Year: 2010
+Venue: Finance and Economics Discussion Series
+DOI: 10.17016/feds.2015.045",1,wrong_year,10.17016/feds.2015.045,,2015,2010,year_shift_plus_minus_five,2026-10-15T13:26:52.858775+00:00,Crossref
+374,humanities_social_sciences,"Title: ""Monetary policy and inflation expectations: impact and causal analysis of heterogeneous economic agents’ expectations in South Africa""
+Authors: Thobani Mlangeni; Eugene Msizi Buthelezi
+Year: 2023
+Venue: Econometrics
+DOI: 10.1080/15140326.2023.2289724",1,wrong_venue,10.1080/15140326.2023.2289724,10.3390/econometrics6010006,Journal of Applied Economics,Econometrics,venue_substitution (donor=10.3390/econometrics6010006),2026-10-15T13:26:52.920998+00:00,Crossref
+375,humanities_social_sciences,"Title: ""Monetary policy and inflation expectations: impact and causal analysis of heterogeneous economic agents’ expectations in South Africa""
+Authors: Thobani Mlangeni; Eugene Msizi Buthelezi
+Year: 2018
+Venue: Journal of Applied Economics
+DOI: 10.1080/15140326.2023.2289724",1,wrong_year,10.1080/15140326.2023.2289724,,2023,2018,year_shift_plus_minus_five,2026-10-15T13:26:52.920998+00:00,Crossref
+376,humanities_social_sciences,"Title: ""Monetary policy and inflation expectations: impact and causal analysis of heterogeneous economic agents’ expectations in South Africa""
+Authors: Thobani Mlangeni; Eugene Msizi Buthelezi
+Year: 2023
+Venue: Journal of Applied Economics
+DOI: 10.3390/econometrics6010006",1,doi_mismatch,10.1080/15140326.2023.2289724,10.3390/econometrics6010006,10.1080/15140326.2023.2289724,10.3390/econometrics6010006,doi_substitution (donor=10.3390/econometrics6010006),2026-10-15T13:26:52.920998+00:00,Crossref
+377,humanities_social_sciences,"Title: ""Estimating Unobservable Inflation Expectations in the New Keynesian Phillips Curve""
+Authors: Francesca Rondina
+Year: 2023
+Venue: Econometrics
+DOI: 10.3390/econometrics6010006",1,wrong_year,10.3390/econometrics6010006,,2018,2023,year_shift_plus_minus_five,2026-10-15T13:26:52.984043+00:00,Crossref
+378,humanities_social_sciences,"Title: ""Estimating Unobservable Inflation Expectations in the New Keynesian Phillips Curve""
+Authors: Francesca Rondina
+Year: 2018
+Venue: Econometrics
+DOI: 10.1080/20445911.2022.2026052",1,doi_mismatch,10.3390/econometrics6010006,10.1080/20445911.2022.2026052,10.3390/econometrics6010006,10.1080/20445911.2022.2026052,doi_substitution (donor=10.1080/20445911.2022.2026052),2026-10-15T13:26:52.984043+00:00,Crossref
+379,humanities_social_sciences,"Title: ""Bureaucratic Discretion and Welfare Sanctioning: An Audit Study of Frontline Caseworker Evaluations""
+Authors: Hanneke De Vries; Liam O'Connor
+Year: 2023
+Venue: Journal of Public Administration Research and Theory
+DOI: 10.9999/citeguard.holdout.humanities_social_sciences.010",1,plausible_fabricated,10.9999/citeguard.holdout.humanities_social_sciences.010,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:52.984043+00:00,synthetic_generation
+380,humanities_social_sciences,"Title: ""Cognitive load theory and its measurement: a study of secondary tasks in relation to working memory""
+Authors: Kevin Greenberg; Robert Zheng
+Year: 2022
+Venue: Journal of Cognitive Psychology
+DOI: 10.1080/20445911.2013.775131",1,doi_mismatch,10.1080/20445911.2022.2026052,10.1080/20445911.2013.775131,10.1080/20445911.2022.2026052,10.1080/20445911.2013.775131,doi_substitution (donor=10.1080/20445911.2013.775131),2026-10-15T13:26:55.073196+00:00,Crossref
+381,humanities_social_sciences,"Title: ""Spatial Sorting and Residential Segregation under Heterogeneous School Choice Mechanisms""
+Authors: Eduardo Silva; Miriam Cohen
+Year: 2020
+Venue: Journal of Urban Economics
+DOI: 10.9999/citeguard.holdout.humanities_social_sciences.011",1,plausible_fabricated,10.9999/citeguard.holdout.humanities_social_sciences.011,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:55.073196+00:00,synthetic_generation
+382,humanities_social_sciences,"Title: ""Cognitive load theory and its measurement: a study of secondary tasks in relation to working memory""
+Authors: Aline Sevenants; Robert Zheng
+Year: 2022
+Venue: Journal of Cognitive Psychology
+DOI: 10.1080/20445911.2022.2026052",1,corrupted_authors,10.1080/20445911.2022.2026052,10.1080/20445911.2013.775131,Kevin Greenberg; Robert Zheng,Aline Sevenants; Robert Zheng,first_author_substitution (donor=10.1080/20445911.2013.775131),2026-10-15T13:26:55.073196+00:00,Crossref
+383,humanities_social_sciences,"Title: ""The Psychological Consequences of Precarious Employment: A Ten-Year Multi-Wave Longitudinal Cohort Study""
+Authors: Brigitte Schneider; Aaron Patel
+Year: 2021
+Venue: Journal of Applied Psychology
+DOI: 10.9999/citeguard.holdout.humanities_social_sciences.012",1,plausible_fabricated,10.9999/citeguard.holdout.humanities_social_sciences.012,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:55.132774+00:00,synthetic_generation
+384,humanities_social_sciences,"Title: ""Truth table task: Working memory load, latencies, and perceived relevance""
+Authors: Jan W. de Fockert; Kristien Dieussaert; Walter Schaeken
+Year: 2013
+Venue: Journal of Cognitive Psychology
+DOI: 10.1080/20445911.2013.775131",1,corrupted_authors,10.1080/20445911.2013.775131,10.1080/09541440802689302,Aline Sevenants; Kristien Dieussaert; Walter Schaeken,Jan W. de Fockert; Kristien Dieussaert; Walter Schaeken,first_author_substitution (donor=10.1080/09541440802689302),2026-10-15T13:26:55.132774+00:00,Crossref
+385,humanities_social_sciences,"Title: ""Truth table task: Working memory load, latencies, and perceived relevance""
+Authors: Aline Sevenants; Kristien Dieussaert; Walter Schaeken
+Year: 2013
+Venue: European Journal of Cognitive Psychology
+DOI: 10.1080/20445911.2013.775131",1,wrong_venue,10.1080/20445911.2013.775131,10.1080/09541440802689302,Journal of Cognitive Psychology,European Journal of Cognitive Psychology,venue_substitution (donor=10.1080/09541440802689302),2026-10-15T13:26:55.132774+00:00,Crossref
+386,humanities_social_sciences,"Title: ""High working memory load leads to more Ebbinghaus illusion""
+Authors: Siegfried L. Sporer; Si Wu
+Year: 2009
+Venue: European Journal of Cognitive Psychology
+DOI: 10.1080/09541440802689302",1,corrupted_authors,10.1080/09541440802689302,10.3389/fpsyg.2016.00420,Jan W. de Fockert; Si Wu,Siegfried L. Sporer; Si Wu,first_author_substitution (donor=10.3389/fpsyg.2016.00420),2026-10-15T13:26:55.194752+00:00,Crossref
+387,humanities_social_sciences,"Title: ""High working memory load leads to more Ebbinghaus illusion""
+Authors: Jan W. de Fockert; Si Wu
+Year: 2009
+Venue: Frontiers in Psychology
+DOI: 10.1080/09541440802689302",1,wrong_venue,10.1080/09541440802689302,10.3389/fpsyg.2016.00420,European Journal of Cognitive Psychology,Frontiers in Psychology,venue_substitution (donor=10.3389/fpsyg.2016.00420),2026-10-15T13:26:55.194752+00:00,Crossref
+388,humanities_social_sciences,"Title: ""High working memory load leads to more Ebbinghaus illusion""
+Authors: Jan W. de Fockert; Si Wu
+Year: 2004
+Venue: European Journal of Cognitive Psychology
+DOI: 10.1080/09541440802689302",1,wrong_year,10.1080/09541440802689302,,2009,2004,year_shift_plus_minus_five,2026-10-15T13:26:55.194752+00:00,Crossref
+389,humanities_social_sciences,"Title: ""Deception and Cognitive Load: Expanding Our Horizon with a Working Memory Model""
+Authors: Siegfried L. Sporer
+Year: 2016
+Venue: European Journal of Cognitive Psychology
+DOI: 10.3389/fpsyg.2016.00420",1,wrong_venue,10.3389/fpsyg.2016.00420,10.1080/09541440601095388,Frontiers in Psychology,European Journal of Cognitive Psychology,venue_substitution (donor=10.1080/09541440601095388),2026-10-15T13:26:55.257319+00:00,Crossref
+390,humanities_social_sciences,"Title: ""Deception and Cognitive Load: Expanding Our Horizon with a Working Memory Model""
+Authors: Siegfried L. Sporer
+Year: 2021
+Venue: Frontiers in Psychology
+DOI: 10.3389/fpsyg.2016.00420",1,wrong_year,10.3389/fpsyg.2016.00420,,2016,2021,year_shift_plus_minus_five,2026-10-15T13:26:55.257319+00:00,Crossref
+391,humanities_social_sciences,"Title: ""Deception and Cognitive Load: Expanding Our Horizon with a Working Memory Model""
+Authors: Siegfried L. Sporer
+Year: 2016
+Venue: Frontiers in Psychology
+DOI: 10.1080/09541440601095388",1,doi_mismatch,10.3389/fpsyg.2016.00420,10.1080/09541440601095388,10.3389/fpsyg.2016.00420,10.1080/09541440601095388,doi_substitution (donor=10.1080/09541440601095388),2026-10-15T13:26:55.257319+00:00,Crossref
+392,humanities_social_sciences,"Title: ""Role of working memory load on selective attention to affectively valent information""
+Authors: Anna Pecchinenda; Martin Heil
+Year: 2002
+Venue: European Journal of Cognitive Psychology
+DOI: 10.1080/09541440601095388",1,wrong_year,10.1080/09541440601095388,,2007,2002,year_shift_plus_minus_five,2026-10-15T13:26:55.319314+00:00,Crossref
+393,humanities_social_sciences,"Title: ""Role of working memory load on selective attention to affectively valent information""
+Authors: Anna Pecchinenda; Martin Heil
+Year: 2007
+Venue: European Journal of Cognitive Psychology
+DOI: 10.1080/20445911.2013.855780",1,doi_mismatch,10.1080/09541440601095388,10.1080/20445911.2013.855780,10.1080/09541440601095388,10.1080/20445911.2013.855780,doi_substitution (donor=10.1080/20445911.2013.855780),2026-10-15T13:26:55.319314+00:00,Crossref
+394,humanities_social_sciences,"Title: ""Linguistic Distance, Trade Friction, and Cultural Affinity in Bilateral Services Offshoring""
+Authors: Pascal Girard; Chen-Yu Lin
+Year: 2022
+Venue: World Development
+DOI: 10.9999/citeguard.holdout.humanities_social_sciences.013",1,plausible_fabricated,10.9999/citeguard.holdout.humanities_social_sciences.013,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:55.319314+00:00,synthetic_generation
+395,humanities_social_sciences,"Title: ""More conservative go/no-go response criterion under high working memory load""
+Authors: Silviya P. Doneva; Jan W. De Fockert
+Year: 2013
+Venue: Journal of Cognitive Psychology
+DOI: 10.22172/cogbio.2015.27.1.003",1,doi_mismatch,10.1080/20445911.2013.855780,10.22172/cogbio.2015.27.1.003,10.1080/20445911.2013.855780,10.22172/cogbio.2015.27.1.003,doi_substitution (donor=10.22172/cogbio.2015.27.1.003),2026-10-15T13:26:55.381369+00:00,Crossref
+396,humanities_social_sciences,"Title: ""Collective Memory and Institutional Commemoration of Traumatic Historical Events in Transitional Societies""
+Authors: Teresa Mendez; Boris Krumov
+Year: 2023
+Venue: Theory and Society
+DOI: 10.9999/citeguard.holdout.humanities_social_sciences.014",1,plausible_fabricated,10.9999/citeguard.holdout.humanities_social_sciences.014,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:55.381369+00:00,synthetic_generation
+397,humanities_social_sciences,"Title: ""More conservative go/no-go response criterion under high working memory load""
+Authors: ParkTaejin; Jan W. De Fockert
+Year: 2013
+Venue: Journal of Cognitive Psychology
+DOI: 10.1080/20445911.2013.855780",1,corrupted_authors,10.1080/20445911.2013.855780,10.22172/cogbio.2015.27.1.003,Silviya P. Doneva; Jan W. De Fockert,ParkTaejin; Jan W. De Fockert,first_author_substitution (donor=10.22172/cogbio.2015.27.1.003),2026-10-15T13:26:55.381369+00:00,Crossref
+398,humanities_social_sciences,"Title: ""Temporal Discounting and Environmental Conservation Decisions under Knightian Uncertainty""
+Authors: Duncan Forbes; Yael Ben-David
+Year: 2020
+Venue: Journal of Environmental Economics and Management
+DOI: 10.9999/citeguard.holdout.humanities_social_sciences.015",1,plausible_fabricated,10.9999/citeguard.holdout.humanities_social_sciences.015,,,completely_fabricated_citation,discipline_tailored_plausible_fabrication,2026-10-15T13:26:55.444083+00:00,synthetic_generation
+399,humanities_social_sciences,"Title: ""Working Memory Load Effect on Negative Emotional Face Processing Depends on Individual Differences in Working Memory Capacity""
+Authors: Michael T. Kiley; 김정희
+Year: 2015
+Venue: Korean Journal of Cognitive and Biological Psychology
+DOI: 10.22172/cogbio.2015.27.1.003",1,corrupted_authors,10.22172/cogbio.2015.27.1.003,10.17016/feds.2009.15,ParkTaejin; 김정희,Michael T. Kiley; 김정희,first_author_substitution (donor=10.17016/feds.2009.15),2026-10-15T13:26:55.444083+00:00,Crossref
+400,humanities_social_sciences,"Title: ""Working Memory Load Effect on Negative Emotional Face Processing Depends on Individual Differences in Working Memory Capacity""
+Authors: ParkTaejin; 김정희
+Year: 2015
+Venue: Finance and Economics Discussion Series
+DOI: 10.22172/cogbio.2015.27.1.003",1,wrong_venue,10.22172/cogbio.2015.27.1.003,10.17016/feds.2009.15,Korean Journal of Cognitive and Biological Psychology,Finance and Economics Discussion Series,venue_substitution (donor=10.17016/feds.2009.15),2026-10-15T13:26:55.444083+00:00,Crossref

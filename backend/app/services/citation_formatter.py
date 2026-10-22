@@ -1,10 +1,18 @@
+from app.services.metadata_normalizer import canonicalize_verified_metadata
+
+
 def format_ieee(metadata):
     """
-    Convert verified metadata into IEEE-style citation.
+    Convert verified metadata into IEEE-style citation with a single canonical year.
     """
 
     if metadata is None:
         return None
+
+    # Ensure metadata is canonicalized (single year, clean venue and DOI)
+    norm = canonicalize_verified_metadata(metadata)
+    if norm:
+        metadata = norm
 
     authors = metadata.get("authors", [])
 
@@ -20,12 +28,12 @@ def format_ieee(metadata):
     else:
         author_text = ", ".join(authors[:-1]) + ", and " + authors[-1]
 
-    citation = (
-        f'{author_text}, '
-        f'"{metadata["title"]}", '
-        f'{metadata["venue"]}, '
-        f'{metadata["year"]}, '
-        f'DOI: {metadata["doi"]}'
-    )
+    parts = [author_text, f'"{metadata.get("title", "")}"']
+    if metadata.get("venue"):
+        parts.append(metadata["venue"])
+    if metadata.get("year"):
+        parts.append(str(metadata["year"]))
+    if metadata.get("doi"):
+        parts.append(f'DOI: {metadata["doi"]}')
 
-    return citation
+    return ", ".join(parts)

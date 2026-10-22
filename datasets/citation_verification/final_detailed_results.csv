@@ -1,0 +1,601 @@
+citation_id,ground_truth,error_type,current_citeguard_prediction,author_fix_prediction,venue_fix_prediction,combined_fix_prediction,hallucination_positive_prediction,title_similarity,author_similarity,venue_similarity,year_match,doi_match,final_reason
+307,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+258,1,corrupted_authors,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+6,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+591,1,plausible_fabricated,1,1,1,1,1,,,,,,
+275,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+97,0,valid,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+504,1,plausible_fabricated,1,1,1,1,1,,,,,,
+210,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+169,1,doi_mismatch,1,1,1,1,1,,,,,,
+151,1,doi_mismatch,1,1,1,1,1,,,,,,
+526,1,plausible_fabricated,1,1,1,1,1,,,,,,
+557,1,plausible_fabricated,1,1,1,1,1,,,,,,
+552,1,plausible_fabricated,1,1,1,1,1,,,,,,
+424,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+186,1,doi_mismatch,1,1,1,1,1,,,,,,
+252,1,corrupted_authors,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+211,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+592,1,plausible_fabricated,1,1,1,1,1,,,,,,
+174,1,doi_mismatch,0,1,0,1,1,95.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+523,1,plausible_fabricated,1,1,1,1,1,,,,,,
+476,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+551,1,plausible_fabricated,1,1,1,1,1,,,,,,
+144,1,doi_mismatch,1,1,1,1,1,,,,,,
+101,1,doi_mismatch,1,1,1,1,1,,,,,,
+466,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+506,1,plausible_fabricated,1,1,1,1,1,,,,,,
+222,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+154,1,doi_mismatch,1,1,1,1,1,,,,,,
+474,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+398,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+310,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+68,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+486,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+497,1,wrong_venue,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+263,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+107,1,doi_mismatch,1,1,1,1,1,,,,,,
+96,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+588,1,plausible_fabricated,1,1,1,1,1,,,,,,
+498,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+92,0,valid,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+18,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+439,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+303,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+214,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+35,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+593,1,plausible_fabricated,1,1,1,1,1,,,,,,
+396,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+454,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+320,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+328,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+583,1,plausible_fabricated,1,1,1,1,1,,,,,,
+257,1,corrupted_authors,0,1,0,1,1,100.0,50.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+51,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+17,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+512,1,plausible_fabricated,1,1,1,1,1,,,,,,
+380,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+161,1,doi_mismatch,1,1,1,1,1,,,,,,
+64,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+230,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+45,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+114,1,doi_mismatch,1,1,1,1,1,95.0,0.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year differs.; DOI verified.; Venue matches.
+171,1,doi_mismatch,1,1,1,1,1,,,,,,
+19,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+30,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+248,1,corrupted_authors,1,1,1,1,1,100.0,0.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year differs.; DOI verified.; Venue matches.
+444,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+61,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+503,1,plausible_fabricated,1,1,1,1,1,,,,,,
+269,1,corrupted_authors,0,1,0,1,1,100.0,66.67,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+491,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+365,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+469,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+139,1,doi_mismatch,1,1,1,1,1,,,,,,
+431,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+490,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+351,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+496,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+34,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+28,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+587,1,plausible_fabricated,1,1,1,1,1,,,,,,
+451,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+162,1,doi_mismatch,1,1,1,1,1,,,,,,
+225,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+515,1,plausible_fabricated,1,1,1,1,1,,,,,,
+192,1,doi_mismatch,1,1,1,1,1,,,,,,
+247,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+331,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+145,1,doi_mismatch,1,1,1,1,1,,,,,,
+375,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+283,1,corrupted_authors,1,1,1,1,1,100.0,0.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year differs.; DOI verified.; Venue matches.
+58,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+196,1,doi_mismatch,1,1,1,1,1,,,,,,
+206,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+541,1,plausible_fabricated,1,1,1,1,1,,,,,,
+80,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+77,0,valid,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+242,1,corrupted_authors,0,1,0,1,1,100.0,50.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+54,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+344,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+203,1,corrupted_authors,0,1,0,1,1,100.0,50.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+294,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+460,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+291,1,corrupted_authors,0,1,0,1,1,100.0,66.67,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+271,1,corrupted_authors,0,0,0,0,0,100.0,80.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+129,1,doi_mismatch,1,1,1,1,1,,,,,,
+265,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+488,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+20,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+517,1,plausible_fabricated,1,1,1,1,1,,,,,,
+273,1,corrupted_authors,0,1,0,1,1,100.0,50.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+217,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+74,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+301,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+393,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+52,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+9,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+599,1,plausible_fabricated,1,1,1,1,1,,,,,,
+334,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+232,1,corrupted_authors,0,1,0,1,1,100.0,50.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+590,1,plausible_fabricated,1,1,1,1,1,,,,,,
+415,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+401,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+400,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+501,1,plausible_fabricated,1,1,1,1,1,,,,,,
+468,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+179,1,doi_mismatch,1,1,1,1,1,,,,,,
+282,1,corrupted_authors,0,1,0,1,1,100.0,50.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+378,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+148,1,doi_mismatch,1,1,1,1,1,,,,,,
+549,1,plausible_fabricated,1,1,1,1,1,,,,,,
+299,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+569,1,plausible_fabricated,1,1,1,1,1,,,,,,
+539,1,plausible_fabricated,1,1,1,1,1,,,,,,
+75,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+343,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+12,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+150,1,doi_mismatch,1,1,1,1,1,,,,,,
+364,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+137,1,doi_mismatch,1,1,1,1,1,,,,,,
+348,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+371,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+349,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+253,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+550,1,plausible_fabricated,1,1,1,1,1,,,,,,
+201,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+324,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+315,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+73,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+135,1,doi_mismatch,1,1,1,1,1,,,,,,
+333,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+235,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+430,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+329,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+461,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+514,1,plausible_fabricated,1,1,1,1,1,,,,,,
+456,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+81,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+50,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+31,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+60,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+288,1,corrupted_authors,0,1,0,1,1,100.0,50.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+176,1,doi_mismatch,1,1,1,1,1,,,,,,
+302,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+117,1,doi_mismatch,1,1,1,1,1,,,,,,
+508,1,plausible_fabricated,1,1,1,1,1,,,,,,
+330,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+383,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+484,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+89,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+136,1,doi_mismatch,1,1,1,1,1,,,,,,
+388,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+187,1,doi_mismatch,0,0,0,0,0,87.86,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+95,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+149,1,doi_mismatch,1,1,1,1,1,,,,,,
+361,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+290,1,corrupted_authors,0,1,0,1,1,100.0,50.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+487,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+104,1,doi_mismatch,1,1,1,1,1,,,,,,
+57,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+432,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+450,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+5,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+485,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+191,1,doi_mismatch,1,1,1,1,1,,,,,,
+538,1,plausible_fabricated,1,1,1,1,1,,,,,,
+166,1,doi_mismatch,1,1,1,1,1,,,,,,
+122,1,doi_mismatch,1,1,1,1,1,,,,,,
+177,1,doi_mismatch,1,1,1,1,1,,,,,,
+194,1,doi_mismatch,1,1,1,1,1,100.0,0.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year differs.; DOI verified.; Venue matches.
+543,1,plausible_fabricated,1,1,1,1,1,,,,,,
+449,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+105,1,doi_mismatch,1,1,1,1,1,,,,,,
+185,1,doi_mismatch,1,1,1,1,1,,,,,,
+404,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+513,1,plausible_fabricated,1,1,1,1,1,,,,,,
+49,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+562,1,plausible_fabricated,1,1,1,1,1,,,,,,
+429,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+306,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+372,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+298,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+478,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+223,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+88,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+67,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+434,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+567,1,plausible_fabricated,1,1,1,1,1,,,,,,
+580,1,plausible_fabricated,1,1,1,1,1,,,,,,
+270,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+47,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+279,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+293,1,corrupted_authors,0,1,0,1,1,100.0,50.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+8,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+470,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+98,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+376,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+157,1,doi_mismatch,1,1,1,1,1,,,,,,
+467,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+370,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+326,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+382,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+455,1,wrong_venue,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+519,1,plausible_fabricated,1,1,1,1,1,,,,,,
+23,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+518,1,plausible_fabricated,1,1,1,1,1,,,,,,
+414,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+425,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+83,0,valid,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+421,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+509,1,plausible_fabricated,1,1,1,1,1,,,,,,
+534,1,plausible_fabricated,1,1,1,1,1,,,,,,
+212,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+435,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+120,1,doi_mismatch,1,1,1,1,1,,,,,,
+124,1,doi_mismatch,1,1,1,1,1,,,,,,
+199,1,doi_mismatch,1,1,1,1,1,,,,,,
+138,1,doi_mismatch,1,1,1,1,1,,,,,,
+236,1,corrupted_authors,0,1,0,1,1,100.0,50.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+511,1,plausible_fabricated,1,1,1,1,1,,,,,,
+158,1,doi_mismatch,1,1,1,1,1,,,,,,
+499,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+573,1,plausible_fabricated,1,1,1,1,1,,,,,,
+402,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+188,1,doi_mismatch,1,1,1,1,1,,,,,,
+525,1,plausible_fabricated,1,1,1,1,1,,,,,,
+285,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+492,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue differs.
+572,1,plausible_fabricated,1,1,1,1,1,,,,,,
+118,1,doi_mismatch,1,1,1,1,1,,,,,,
+358,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+397,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+405,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+93,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+246,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+563,1,plausible_fabricated,1,1,1,1,1,,,,,,
+426,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+251,1,corrupted_authors,0,1,0,1,1,100.0,66.67,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+406,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+7,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+175,1,doi_mismatch,0,1,0,1,1,95.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+260,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+296,1,corrupted_authors,0,0,0,0,0,100.0,90.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+190,1,doi_mismatch,1,1,1,1,1,,,,,,
+389,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+178,1,doi_mismatch,1,1,1,1,1,,,,,,
+22,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+62,0,valid,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+495,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+53,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+433,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+39,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+453,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+204,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+193,1,doi_mismatch,1,1,1,1,1,100.0,0.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year differs.; DOI verified.; Venue matches.
+545,1,plausible_fabricated,1,1,1,1,1,,,,,,
+391,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+56,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+160,1,doi_mismatch,1,1,1,1,1,,,,,,
+84,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+416,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+86,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+189,1,doi_mismatch,1,1,1,1,1,75.43,0.0,True,False,True,Paper found in scholarly databases.; Paper title differs.; Authors differ.; Publication year differs.; DOI verified.; Venue matches.
+132,1,doi_mismatch,1,1,1,1,1,,,,,,
+556,1,plausible_fabricated,1,1,1,1,1,,,,,,
+535,1,plausible_fabricated,1,1,1,1,1,,,,,,
+59,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+475,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+65,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+500,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+582,1,plausible_fabricated,1,1,1,1,1,,,,,,
+352,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+103,1,doi_mismatch,1,1,1,1,1,,,,,,
+390,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+16,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+21,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+36,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+596,1,plausible_fabricated,1,1,1,1,1,,,,,,
+180,1,doi_mismatch,1,1,1,1,1,,,,,,
+27,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+584,1,plausible_fabricated,1,1,1,1,1,,,,,,
+597,1,plausible_fabricated,1,1,1,1,1,,,,,,
+241,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+521,1,plausible_fabricated,1,1,1,1,1,,,,,,
+130,1,doi_mismatch,1,1,1,1,1,,,,,,
+355,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+143,1,doi_mismatch,1,1,1,1,1,,,,,,
+530,1,plausible_fabricated,1,1,1,1,1,,,,,,
+332,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+312,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+233,1,corrupted_authors,0,1,0,1,1,100.0,50.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+109,1,doi_mismatch,1,1,1,1,1,,,,,,
+168,1,doi_mismatch,1,1,1,1,1,,,,,,
+350,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+134,1,doi_mismatch,1,1,1,1,1,95.0,0.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year differs.; DOI verified.; Venue matches.
+576,1,plausible_fabricated,1,1,1,1,1,,,,,,
+94,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+237,1,corrupted_authors,0,1,0,1,1,100.0,66.67,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+70,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+220,1,corrupted_authors,0,1,0,1,1,100.0,50.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+586,1,plausible_fabricated,1,1,1,1,1,,,,,,
+464,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+289,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+304,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+544,1,plausible_fabricated,1,1,1,1,1,,,,,,
+14,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+600,1,plausible_fabricated,1,1,1,1,1,,,,,,
+319,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+507,1,plausible_fabricated,1,1,1,1,1,,,,,,
+240,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+85,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+494,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+173,1,doi_mismatch,1,1,1,1,1,,,,,,
+457,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+15,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+386,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+224,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+471,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+465,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+250,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+571,1,plausible_fabricated,1,1,1,1,1,,,,,,
+309,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+280,1,corrupted_authors,0,1,0,1,1,100.0,50.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+276,1,corrupted_authors,0,1,0,1,1,100.0,66.67,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+215,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+533,1,plausible_fabricated,1,1,1,1,1,,,,,,
+594,1,plausible_fabricated,1,1,1,1,1,,,,,,
+181,1,doi_mismatch,1,1,1,1,1,,,,,,
+4,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+245,1,corrupted_authors,0,1,0,1,1,100.0,50.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+502,1,plausible_fabricated,1,1,1,1,1,,,,,,
+440,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+11,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+300,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+200,1,doi_mismatch,1,1,1,1,1,,,,,,
+505,1,plausible_fabricated,1,1,1,1,1,,,,,,
+579,1,plausible_fabricated,1,1,1,1,1,,,,,,
+32,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+578,1,plausible_fabricated,1,1,1,1,1,,,,,,
+481,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+278,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+170,1,doi_mismatch,1,1,1,1,1,,,,,,
+209,1,corrupted_authors,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+520,1,plausible_fabricated,1,1,1,1,1,,,,,,
+33,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+477,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue differs.
+362,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+79,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+356,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+446,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+529,1,plausible_fabricated,1,1,1,1,1,,,,,,
+595,1,plausible_fabricated,1,1,1,1,1,,,,,,
+71,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+42,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+277,1,corrupted_authors,1,1,1,1,1,100.0,0.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year differs.; DOI verified.; Venue matches.
+564,1,plausible_fabricated,1,1,1,1,1,,,,,,
+473,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+140,1,doi_mismatch,1,1,1,1,1,,,,,,
+458,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+489,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+366,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+536,1,plausible_fabricated,1,1,1,1,1,,,,,,
+226,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+141,1,doi_mismatch,1,1,1,1,1,,,,,,
+123,1,doi_mismatch,1,1,1,1,1,,,,,,
+321,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+249,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+267,1,corrupted_authors,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+142,1,doi_mismatch,1,1,1,1,1,,,,,,
+327,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+127,1,doi_mismatch,1,1,1,1,1,,,,,,
+428,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+133,1,doi_mismatch,1,1,1,1,1,95.0,0.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year differs.; DOI verified.; Venue matches.
+231,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+448,1,wrong_venue,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+381,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+82,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+553,1,plausible_fabricated,1,1,1,1,1,,,,,,
+493,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+219,1,corrupted_authors,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+259,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+369,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+314,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+479,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+387,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+163,1,doi_mismatch,1,1,1,1,1,,,,,,
+305,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+287,1,corrupted_authors,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+537,1,plausible_fabricated,1,1,1,1,1,,,,,,
+342,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+418,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+411,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+69,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+443,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+63,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+516,1,plausible_fabricated,1,1,1,1,1,,,,,,
+546,1,plausible_fabricated,1,1,1,1,1,,,,,,
+570,1,plausible_fabricated,1,1,1,1,1,,,,,,
+238,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+266,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+437,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+412,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+91,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+113,1,doi_mismatch,1,1,1,1,1,95.0,0.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year differs.; DOI verified.; Venue matches.
+218,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+399,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+55,0,valid,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+528,1,plausible_fabricated,1,1,1,1,1,,,,,,
+459,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+3,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+353,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+483,1,wrong_venue,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+452,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+125,1,doi_mismatch,1,1,1,1,1,,,,,,
+558,1,plausible_fabricated,1,1,1,1,1,,,,,,
+254,1,corrupted_authors,0,1,0,1,1,100.0,50.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+197,1,doi_mismatch,1,1,1,1,1,95.0,0.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year differs.; DOI verified.; Venue matches.
+510,1,plausible_fabricated,1,1,1,1,1,,,,,,
+368,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+100,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+295,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+323,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+213,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+554,1,plausible_fabricated,1,1,1,1,1,,,,,,
+38,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+394,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+436,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+555,1,plausible_fabricated,1,1,1,1,1,,,,,,
+244,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+126,1,doi_mismatch,1,1,1,1,1,,,,,,
+24,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+13,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+76,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+102,1,doi_mismatch,1,1,1,1,1,,,,,,
+413,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+116,1,doi_mismatch,1,1,1,1,1,,,,,,
+598,1,plausible_fabricated,1,1,1,1,1,,,,,,
+345,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+121,1,doi_mismatch,1,1,1,1,1,95.69,0.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year differs.; DOI verified.; Venue matches.
+385,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+420,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+48,0,valid,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+172,1,doi_mismatch,1,1,1,1,1,,,,,,
+318,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+325,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+542,1,plausible_fabricated,1,1,1,1,1,,,,,,
+264,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+146,1,doi_mismatch,1,1,1,1,1,,,,,,
+44,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+338,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+87,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+377,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+408,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+462,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue differs.
+407,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+577,1,plausible_fabricated,1,1,1,1,1,,,,,,
+262,1,corrupted_authors,1,1,1,1,1,100.0,0.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year differs.; DOI verified.; Venue matches.
+110,1,doi_mismatch,1,1,1,1,1,,,,,,
+346,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+480,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+227,1,corrupted_authors,0,1,0,1,1,100.0,50.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+239,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+165,1,doi_mismatch,1,1,1,1,1,,,,,,
+336,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+311,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+297,1,corrupted_authors,1,1,1,1,1,100.0,0.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year differs.; DOI verified.; Venue matches.
+403,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+221,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+108,1,doi_mismatch,1,1,1,1,1,,,,,,
+147,1,doi_mismatch,1,1,1,1,1,,,,,,
+156,1,doi_mismatch,1,1,1,1,1,,,,,,
+1,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+427,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+281,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+208,1,corrupted_authors,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+155,1,doi_mismatch,1,1,1,1,1,,,,,,
+292,1,corrupted_authors,1,1,1,1,1,100.0,0.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year differs.; DOI verified.; Venue matches.
+585,1,plausible_fabricated,1,1,1,1,1,,,,,,
+90,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+463,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+384,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+347,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+527,1,plausible_fabricated,1,1,1,1,1,,,,,,
+560,1,plausible_fabricated,1,1,1,1,1,,,,,,
+568,1,plausible_fabricated,1,1,1,1,1,,,,,,
+581,1,plausible_fabricated,1,1,1,1,1,,,,,,
+99,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+66,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+284,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+589,1,plausible_fabricated,1,1,1,1,1,,,,,,
+357,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+207,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+335,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+419,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+317,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+308,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+128,1,doi_mismatch,1,1,1,1,1,95.0,0.0,False,False,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year differs.; DOI verified.; Venue differs.
+532,1,plausible_fabricated,1,1,1,1,1,,,,,,
+339,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+547,1,plausible_fabricated,1,1,1,1,1,,,,,,
+442,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+373,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+202,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+2,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+531,1,plausible_fabricated,1,1,1,1,1,,,,,,
+46,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+261,1,corrupted_authors,0,1,0,1,1,100.0,50.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+195,1,doi_mismatch,1,1,1,1,1,95.0,0.0,False,False,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year differs.; DOI verified.; Venue differs.
+395,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+540,1,plausible_fabricated,1,1,1,1,1,,,,,,
+524,1,plausible_fabricated,1,1,1,1,1,,,,,,
+447,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+322,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+354,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+445,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+112,1,doi_mismatch,1,1,1,1,1,,,,,,
+561,1,plausible_fabricated,1,1,1,1,1,,,,,,
+272,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+183,1,doi_mismatch,1,1,1,1,1,,,,,,
+268,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+119,1,doi_mismatch,1,1,1,1,1,,,,,,
+29,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+340,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+410,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+522,1,plausible_fabricated,1,1,1,1,1,,,,,,
+360,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+548,1,plausible_fabricated,1,1,1,1,1,,,,,,
+72,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+286,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+337,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+409,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+198,1,doi_mismatch,1,1,1,1,1,95.0,0.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year differs.; DOI verified.; Venue matches.
+25,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+229,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+234,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+313,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+359,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+472,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+205,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+228,1,corrupted_authors,0,1,0,1,1,100.0,50.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+482,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+40,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+392,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+111,1,doi_mismatch,1,1,1,1,1,,,,,,
+164,1,doi_mismatch,1,1,1,1,1,,,,,,
+274,1,corrupted_authors,0,1,0,1,1,100.0,66.67,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+255,1,corrupted_authors,1,1,1,1,1,100.0,0.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year differs.; DOI verified.; Venue matches.
+422,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+341,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+184,1,doi_mismatch,1,1,1,1,1,,,,,,
+26,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+423,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+182,1,doi_mismatch,1,1,1,1,1,,,,,,
+167,1,doi_mismatch,1,1,1,1,1,97.45,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+243,1,corrupted_authors,0,1,0,1,1,100.0,66.67,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+159,1,doi_mismatch,1,1,1,1,1,,,,,,
+417,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+574,1,plausible_fabricated,1,1,1,1,1,,,,,,
+363,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+106,1,doi_mismatch,1,1,1,1,1,,,,,,
+256,1,corrupted_authors,0,1,0,1,1,100.0,0.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+216,1,corrupted_authors,0,1,0,1,1,100.0,66.67,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors differ.; Publication year matches.; DOI verified.; Venue matches.
+367,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+41,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+374,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+316,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+43,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+131,1,doi_mismatch,1,1,1,1,1,,,,,,
+441,1,wrong_venue,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+152,1,doi_mismatch,1,1,1,1,1,,,,,,
+566,1,plausible_fabricated,1,1,1,1,1,,,,,,
+379,1,wrong_year,1,1,1,1,1,100.0,100.0,True,False,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year differs.; DOI verified.; Venue matches.
+37,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+559,1,plausible_fabricated,1,1,1,1,1,,,,,,
+153,1,doi_mismatch,1,1,1,1,1,,,,,,
+78,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+115,1,doi_mismatch,1,1,1,1,1,,,,,,
+10,0,valid,0,0,0,0,0,100.0,100.0,True,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue matches.
+575,1,plausible_fabricated,1,1,1,1,1,,,,,,
+438,1,wrong_venue,1,1,1,1,1,100.0,100.0,False,True,True,Paper found in scholarly databases.; Paper title matches.; Authors match.; Publication year matches.; DOI verified.; Venue differs.
+565,1,plausible_fabricated,1,1,1,1,1,,,,,,

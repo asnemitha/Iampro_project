@@ -18,30 +18,43 @@ export default function Home() {
 
     async function analyze() {
 
-        if (!prompt.trim()) return;
+        const currentPrompt = prompt.trim();
+        if (!currentPrompt) return;
 
+        // Clear any previous analysis result immediately to prevent stale state display
+        setResult(null);
         setLoading(true);
+
+        console.log("SUBMITTING CURRENT PROMPT:", currentPrompt);
+        console.log("REQUEST BODY:", {
+            prompt: currentPrompt
+        });
 
         try {
 
             const response = await api.post("/analyze", {
-                prompt
+                prompt: currentPrompt
             });
 
+            console.log("RECEIVED RESPONSE:", response.data);
             setResult(response.data);
 
         } catch (err) {
 
-    console.error(err);
+            console.error(err);
+            setResult(null);
 
-    if (err.response) {
-        alert(`API Error ${err.response.status}: ${JSON.stringify(err.response.data)}`);
-    } else {
-        alert(err.message);
-    }
-}
+            if (err.response) {
+                alert(`API Error ${err.response.status}: ${JSON.stringify(err.response.data)}`);
+            } else {
+                alert(err.message);
+            }
 
-        setLoading(false);
+        } finally {
+
+            setLoading(false);
+
+        }
     }
 
     return (

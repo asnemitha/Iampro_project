@@ -1,0 +1,64 @@
+{
+  "benchmark_name": "CiteGuard Independent Multidisciplinary Holdout Benchmark",
+  "version": "1.0-holdout",
+  "created_at": "2026-10-15T19:00:00Z",
+  "status": "FROZEN",
+  "design_specifications": {
+    "total_citations": 400,
+    "genuine_citations": 100,
+    "perturbed_citations": 300,
+    "stratification": {
+      "disciplines": [
+        "computer_science",
+        "medicine_biomedical",
+        "natural_sciences",
+        "humanities_social_sciences"
+      ],
+      "citations_per_discipline": 100,
+      "genuine_per_discipline": 25,
+      "perturbed_per_discipline": 75,
+      "error_categories": {
+        "valid": 100,
+        "corrupted_authors": 60,
+        "wrong_venue": 60,
+        "wrong_year": 60,
+        "doi_mismatch": 60,
+        "plausible_fabricated": 60
+      }
+    }
+  },
+  "leakage_prevention": {
+    "disjointness_enforced": true,
+    "protected_v1_v2_seed_dois_count": 100,
+    "protected_v1_v2_titles_count": 328,
+    "overlapping_dois": 0,
+    "overlapping_titles": 0,
+    "overlapping_citations": 0
+  },
+  "citeguard_evaluation_parameters": {
+    "similarity_thresholds": {
+      "title_threshold": 80.0,
+      "author_threshold": 70.0,
+      "venue_threshold": 70.0
+    },
+    "candidate_ranking_weights": {
+      "title_weight": 0.50,
+      "author_weight": 0.25,
+      "year_weight": 0.15,
+      "venue_weight": 0.10
+    },
+    "existence_score_threshold": 60.0,
+    "execution_mode": "offline_content_addressed_cache"
+  },
+  "artifact_hashes_sha256": {
+    "independent_holdout_dataset.csv": "08df6cff595ed576e38ea508c6b6463782702c1527d96af085cdad708bfe7aee",
+    "multidisciplinary_seed_papers.json": "2788d54ea4894e2b2e858103a284f7592298a1f3122da5c9e5bb26cf20d2cacb",
+    "reproducible_api_cache_holdout.json": "023b9bcb2e6eb642719b8954ed6000146be0b2473d29f3881f0d7dbae5b3178d",
+    "generate_holdout_dataset.py": "1682253e301b4b6f517536bfa77fcf99da26b15b5e71545b82cc27c565275414",
+    "validate_holdout.py": "e11b09bf9f956c0c100cb893393620cdbb844644700d351e8b4ecef704e0df04",
+    "run_evaluation_holdout.py": "fc56f35082a01adee921079feb4d14619b556ff22b8e1d804bf976a983de895d",
+    "holdout_results.csv": "8a9050466777bcfbc26ce2d31955b238932ef4710bff197ed2f01d67709c8b4f",
+    "holdout_detailed_results.csv": "8ec9bb3b34ebc1e145e34e8515bdc53d57450328cce884c075d7ab70a21b88df",
+    "holdout_summary.json": "2b177f322caeacd0324dd5b1bc3c6ab9e085ee4e27f564863d686aecccbc5c8d"
+  }
+}

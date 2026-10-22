@@ -1,0 +1,3001 @@
+id,citation,ground_truth,error_type,source_doi,donor_doi,original_field_value,mutated_field_value,mutation_rule
+1,"Title: ""Machine Learning and Qualitative Reasoning""
+Authors: Ivan Bratko
+Year: 1995
+Venue: Machine Learning
+DOI: 10.1023/a:1022661713654",1,wrong_year,10.1023/a:1022661713654,,1994,1995,alternating_year_plus_minus_one
+2,"Title: ""Deep Learning with PyTorch for Classification""
+Authors: Mehdi Ghayoumi
+Year: 2024
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1007/979-8-8688-1017-6_6",1,corrupted_authors,10.1007/979-8-8688-1017-6_6,10.1201/9781032690742-9,Abdelaziz Testas,Mehdi Ghayoumi,first_author_substitution (offset=2)
+3,"Title: ""Editorial: Human and Machine Learning""
+Authors: Pat Langley
+Year: 1986
+Venue: Machine Learning
+DOI: 10.1023/a:1022854429410",0,valid,10.1023/a:1022854429410,,,,unmodified_valid_seed
+4,"Title: ""Context Aware Verification of Automatically Generated Citations (91)""
+Authors: David Wilson; Olivia Martin
+Year: 2024
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0091",1,plausible_fabricated,,,,,synthetic_template_generation
+5,"Title: ""Natural Language Processing""
+Authors: Tayyaba Hussain
+Year: 2025
+Venue: Natural Language Processing
+DOI: 10.1007/978-981-96-3208-4_1",1,corrupted_authors,10.1007/978-981-96-3208-4_1,10.1016/j.nlp.2025.100149,Raymond Lee,Tayyaba Hussain,first_author_substitution (offset=1)
+6,"Title: ""Artificial intelligence and folklore: Artificial intelligence technologies derived from folklore""
+Authors: Valeh Hikmet Guliyev
+Year: 2024
+Venue: Artificial Intelligence and Digital Development
+DOI: 10.59849/aidd.2024.54",0,valid,10.59849/aidd.2024.54,,,,unmodified_valid_seed
+7,"Title: ""A Unified Framework for Reliable Citation Verification (4)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2018
+Venue: International Journal of Computer Vision
+DOI: 10.9999/citeguard.synthetic.0004",1,plausible_fabricated,,,,,synthetic_template_generation
+8,"Title: ""Editorial: The Terminology of Machine Learning""
+Authors: David Haussler
+Year: 1986
+Venue: Machine Learning
+DOI: 10.1023/a:1022840627593",1,corrupted_authors,10.1023/a:1022840627593,10.1023/a:1022817027844,Pat Langley,David Haussler,first_author_substitution (offset=1)
+9,"Title: ""Vision, status, and research topics of Natural Language Processing""
+Authors: Xieling Chen; Haoran Xie; Xiaohui Tao
+Year: 2022
+Venue: Natural Language Processing Journal
+DOI: 10.32614/cran.package.nlputils",1,doi_mismatch,10.1016/j.nlp.2022.100001,10.32614/cran.package.nlputils,10.1016/j.nlp.2022.100001,10.32614/cran.package.nlputils,doi_substitution (offset=1)
+10,"Title: ""Detection of alternative splicing: deep sequencing or deep learning""
+Authors: Lena Maria Hackl; Jan Baumbach; Olga Tsoy
+Year: 2023
+Venue: Detection of alternative splicing: deep sequencing or deep learning
+DOI: 10.1007/978-1-4842-6431-7_2",1,doi_mismatch,10.14293/gof.23.032,10.1007/978-1-4842-6431-7_2,10.14293/gof.23.032,10.1007/978-1-4842-6431-7_2,doi_substitution (offset=1)
+11,"Title: ""Neural Verification of Automatically Generated Scholarly References (26)""
+Authors: Robert Miller; Emma Thompson
+Year: 2019
+Venue: ACM Transactions on Intelligent Systems and Technology
+DOI: 10.9999/citeguard.synthetic.0026",1,plausible_fabricated,,,,,synthetic_template_generation
+12,"Title: ""Automated Detection of Fabricated Academic References (57)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2022
+Venue: International Journal of Computer Vision
+DOI: 10.9999/citeguard.synthetic.0057",1,plausible_fabricated,,,,,synthetic_template_generation
+13,"Title: ""Reliable Citation Grounding for Large Language Models (52)""
+Authors: Andrew Johnson; Emily Davis
+Year: 2021
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0052",1,plausible_fabricated,,,,,synthetic_template_generation
+14,"Title: ""Machine Learning for Information Extraction in Informal Domains""
+Authors: Dayne Freitag
+Year: 2000
+Venue: Machine Learning with Applications
+DOI: 10.1023/a:1007601113994",1,wrong_venue,10.1023/a:1007601113994,10.1016/j.mlwa.2022.100435,Machine Learning,Machine Learning with Applications,venue_substitution (offset=1)
+15,"Title: ""Design of Efficient Unification for Natural Language""
+Authors: Hideto Tomabechi
+Year: 1995
+Venue: Journal of Natural Language Processing
+DOI: 10.1007/978-981-97-9739-4_20",1,doi_mismatch,10.5715/jnlp.2.2_23,10.1007/978-981-97-9739-4_20,10.5715/jnlp.2.2_23,10.1007/978-981-97-9739-4_20,doi_substitution (offset=1)
+16,"Title: ""Where to Start Your Deep Learning""
+Authors: Nikhil Ketkar
+Year: 2021
+Venue: Deep Learning on Windows
+DOI: 10.1007/978-1-4842-6431-7_2",1,corrupted_authors,10.1007/978-1-4842-6431-7_2,10.1007/978-1-4842-5364-9_8,Thimira Amaratunga,Nikhil Ketkar,first_author_substitution (offset=2)
+17,"Title: ""New Theoretical Directions In Machine Learning""
+Authors: Pat Langley
+Year: 1988
+Venue: Machine Learning
+DOI: 10.1023/a:1022817027844",1,corrupted_authors,10.1023/a:1022817027844,10.1023/a:1022623814640,David Haussler,Pat Langley,first_author_substitution (offset=1)
+18,"Title: ""Semantic Verification of Research Citations Generated by Language Models (92)""
+Authors: Andrew Johnson; Emily Davis
+Year: 2024
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0092",1,plausible_fabricated,,,,,synthetic_template_generation
+19,"Title: ""Bibliometric analysis of natural language processing using CiteSpace and VOSviewer""
+Authors: Xiuming Chen; Wenjie Tian; Haoyun Fang
+Year: 2025
+Venue: Natural Language Processing Journal
+DOI: 10.1007/978-981-96-3208-4_1",1,doi_mismatch,10.1016/j.nlp.2024.100123,10.1007/978-981-96-3208-4_1,10.1016/j.nlp.2024.100123,10.1007/978-981-96-3208-4_1,doi_substitution (offset=1)
+20,"Title: ""A Robust Method for Scholarly Reference Validation (23)""
+Authors: Robert Miller; Emma Thompson
+Year: 2024
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0023",1,plausible_fabricated,,,,,synthetic_template_generation
+21,"Title: ""A novel Data Extraction Framework Using Natural Language Processing (DEFNLP) techniques""
+Authors: Tayyaba Hussain; Muhammad Usman Akram; Anum Abdul Salam
+Year: 2025
+Venue: 2005 International Conference on Natural Language Processing and Knowledge Engineering
+DOI: 10.1016/j.nlp.2025.100149",1,wrong_venue,10.1016/j.nlp.2025.100149,10.1109/nlpke.2005.1598694,Natural Language Processing Journal,2005 International Conference on Natural Language Processing and Knowledge Engineering,venue_substitution (offset=1)
+22,"Title: ""A Robust Method for Scholarly Reference Validation (51)""
+Authors: Robert Miller; Emma Thompson
+Year: 2021
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0051",1,plausible_fabricated,,,,,synthetic_template_generation
+23,"Title: ""Introduction to deep learning""
+Authors: Habib Izadkhah
+Year: 2022
+Venue: Deep Learning in Bioinformatics
+DOI: 10.1007/978-1-4842-5364-9_4",1,doi_mismatch,10.1016/b978-0-12-823822-6.00014-7,10.1007/978-1-4842-5364-9_4,10.1016/b978-0-12-823822-6.00014-7,10.1007/978-1-4842-5364-9_4,doi_substitution (offset=1)
+24,"Title: ""Machine learning with sklearn""
+Authors: Thomas P. Trappenberg
+Year: 2019
+Venue: Fundamentals of Machine Learning
+DOI: 10.1023/a:1022808826027",1,doi_mismatch,10.1093/oso/9780198828044.003.0003,10.1023/a:1022808826027,10.1093/oso/9780198828044.003.0003,10.1023/a:1022808826027,doi_substitution (offset=1)
+25,"Title: ""COMPUTER VISION IN INTERVENTIONAL CARDIOLOGY""
+Authors: Kendall R. Waters
+Year: 2014
+Venue: Computer Vision and Image Understanding
+DOI: 10.1142/9789814460941_0015",1,wrong_venue,10.1142/9789814460941_0015,10.1006/cviu.2000.0835,Series in Computer Vision,Computer Vision and Image Understanding,venue_substitution (offset=1)
+26,"Title: ""A Deep Learning Framework for Academic Citation Validation (6)""
+Authors: Sophia Williams; James Carter
+Year: 2023
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0006",1,plausible_fabricated,,,,,synthetic_template_generation
+27,"Title: ""Machine Learning: An Overview""
+Authors: Thomas P. Trappenberg
+Year: 2023
+Venue: Machine Learning, Animated
+DOI: 10.1201/b23383-3",1,corrupted_authors,10.1201/b23383-3,10.1093/oso/9780198828044.003.0010,Mark Liu,Thomas P. Trappenberg,first_author_substitution (offset=1)
+28,"Title: ""Recent Advances in Deep Learning""
+Authors: Nikhil Ketkar; Jojo Moolayil
+Year: 2021
+Venue: Deep Learning with Python
+DOI: 10.20868/upm.thesis.90828",1,doi_mismatch,10.1007/978-1-4842-5364-9_8,10.20868/upm.thesis.90828,10.1007/978-1-4842-5364-9_8,10.20868/upm.thesis.90828,doi_substitution (offset=1)
+29,"Title: ""Bibliometric analysis of natural language processing using CiteSpace and VOSviewer""
+Authors: Xiuming Chen; Wenjie Tian; Haoyun Fang
+Year: 2025
+Venue: Natural Language Processing
+DOI: 10.1016/j.nlp.2024.100123",1,wrong_venue,10.1016/j.nlp.2024.100123,10.1007/978-981-96-3208-4_1,Natural Language Processing Journal,Natural Language Processing,venue_substitution (offset=1)
+30,"Title: ""Artificial intelligence""
+Authors: Stuart C. Shapiro
+Year: 1977
+Venue: Artificial Intelligence
+DOI: 10.1016/0004-3702(76)90004-7",1,wrong_year,10.1016/0004-3702(76)90004-7,,1976,1977,alternating_year_plus_minus_one
+31,"Title: ""Editorial: The Terminology of Machine Learning""
+Authors: Pat Langley
+Year: 1987
+Venue: Machine Learning
+DOI: 10.1023/a:1022840627593",1,wrong_year,10.1023/a:1022840627593,,1986,1987,alternating_year_plus_minus_one
+32,"Title: ""Image Analysis and Computer Vision: 1998""
+Authors: Azriel Rosenfeld
+Year: 1999
+Venue: Computer Vision and Image Understanding
+DOI: 10.1006/cviu.1999.0746",0,valid,10.1006/cviu.1999.0746,,,,unmodified_valid_seed
+33,"Title: ""Design of Efficient Unification for Natural Language""
+Authors: Hideto Tomabechi
+Year: 1995
+Venue: Natural Language Processing and Applications
+DOI: 10.5715/jnlp.2.2_23",1,wrong_venue,10.5715/jnlp.2.2_23,10.1007/978-981-97-9739-4_20,Journal of Natural Language Processing,Natural Language Processing and Applications,venue_substitution (offset=1)
+34,"Title: ""Artificial intelligence and folklore: Artificial intelligence technologies derived from folklore""
+Authors: Valeh Hikmet Guliyev
+Year: 2024
+Venue: Artificial Intelligence
+DOI: 10.59849/aidd.2024.54",1,wrong_venue,10.59849/aidd.2024.54,10.1016/0004-3702(76)90004-7,Artificial Intelligence and Digital Development,Artificial Intelligence,venue_substitution (offset=1)
+35,"Title: ""12th Asian conference on computer vision""
+Authors: Mariella Dimiccoli
+Year: 2016
+Venue: Computer Vision and Image Understanding
+DOI: 10.1016/j.cviu.2016.03.016",1,corrupted_authors,10.1016/j.cviu.2016.03.016,10.1016/b978-0-12-813445-0.00007-1,Ian Reid,Mariella Dimiccoli,first_author_substitution (offset=1)
+36,"Title: ""Machine Learning and Qualitative Reasoning""
+Authors: Ivan Bratko
+Year: 1994
+Venue: Machine Learning
+DOI: 10.1023/a:1022603230145",1,doi_mismatch,10.1023/a:1022661713654,10.1023/a:1022603230145,10.1023/a:1022661713654,10.1023/a:1022603230145,doi_substitution (offset=1)
+37,"Title: ""DeepMPTB: a vaginal microbiome-based deep neural network as artificial intelligence strategy for efficient preterm birth prediction""
+Authors: Oshma Chakoory; Vincent Barra; Emmanuelle Rochette; Loïc Blanchon; Vincent Sapin; Etienne Merlin; Maguelonne Pons; Denis Gallot; Sophie Comtet-Marre; Pierre Peyret
+Year: 2024
+Venue: Biomarker Research
+DOI: 10.1186/s40364-024-00557-1",0,valid,10.1186/s40364-024-00557-1,,,,unmodified_valid_seed
+38,"Title: ""Detecting Hallucinated References in Neural Language Models (88)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2022
+Venue: International Journal of Computer Vision
+DOI: 10.9999/citeguard.synthetic.0088",1,plausible_fabricated,,,,,synthetic_template_generation
+39,"Title: ""Artificial intelligence""
+Authors: Stuart C. Shapiro
+Year: 1976
+Venue: Fundamentals of Machine Learning
+DOI: 10.1016/0004-3702(76)90004-7",1,wrong_venue,10.1016/0004-3702(76)90004-7,10.1093/oso/9780198828044.003.0003,Artificial Intelligence,Fundamentals of Machine Learning,venue_substitution (offset=3)
+40,"Title: ""Thesauruses for natural language processing""
+Authors: A. Kilgarriff
+Year: 2004
+Venue: International Conference on Natural Language Processing and Knowledge Engineering, 2003. Proceedings. 2003
+DOI: 10.1109/nlpke.2003.1275859",0,valid,10.1109/nlpke.2003.1275859,,,,unmodified_valid_seed
+41,"Title: ""Introduction to Machine Learning and Supervised Learning""
+Authors: Hang Li
+Year: 2024
+Venue: Machine Learning Methods
+DOI: 10.1007/978-981-99-3917-6_1",0,valid,10.1007/978-981-99-3917-6_1,,,,unmodified_valid_seed
+42,"Title: ""Deep Learning with PyTorch for Regression""
+Authors: Abdelaziz Testas
+Year: 2024
+Venue: International Journal of Science and Research (IJSR)
+DOI: 10.1007/979-8-8688-1017-6_4",1,wrong_venue,10.1007/979-8-8688-1017-6_4,10.21275/sr24805160228,Building Scalable Deep Learning Pipelines on AWS,International Journal of Science and Research (IJSR),venue_substitution (offset=1)
+43,"Title: ""Why Use Automated Machine Learning?""
+Authors: Kai R. Larsen; Daniel S. Becker
+Year: 2020
+Venue: Automated Machine Learning for Business
+DOI: 10.1093/oso/9780190941659.003.0001",1,wrong_year,10.1093/oso/9780190941659.003.0001,,2021,2020,alternating_year_plus_minus_one
+44,"Title: ""Machine Learning""
+Authors: Thomas Bartz-Beielstein
+Year: 2014
+Venue: Quantum Machine Learning
+DOI: 10.1016/b978-0-12-800953-6.00002-5",1,corrupted_authors,10.1016/b978-0-12-800953-6.00002-5,10.1007/978-3-658-42505-0_1,Peter Wittek,Thomas Bartz-Beielstein,first_author_substitution (offset=1)
+45,"Title: ""What Is Deep Learning?""
+Authors: Thimira Amaratunga
+Year: 2021
+Venue: Deep Learning on Windows
+DOI: 10.1007/978-1-4842-6431-7_1",0,valid,10.1007/978-1-4842-6431-7_1,,,,unmodified_valid_seed
+46,"Title: ""A Unified Framework for Reliable Citation Verification (93)""
+Authors: Andrew Johnson; Emily Davis
+Year: 2020
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0093",1,plausible_fabricated,,,,,synthetic_template_generation
+47,"Title: ""DeepMPTB: a vaginal microbiome-based deep neural network as artificial intelligence strategy for efficient preterm birth prediction""
+Authors: Oshma Chakoory; Vincent Barra; Emmanuelle Rochette; Loïc Blanchon; Vincent Sapin; Etienne Merlin; Maguelonne Pons; Denis Gallot; Sophie Comtet-Marre; Pierre Peyret
+Year: 2025
+Venue: Biomarker Research
+DOI: 10.1186/s40364-024-00557-1",1,wrong_year,10.1186/s40364-024-00557-1,,2024,2025,alternating_year_plus_minus_one
+48,"Title: ""Recent Advances in Deep Learning""
+Authors: Nikhil Ketkar; Jojo Moolayil
+Year: 2021
+Venue: Universidad Politecnica de Madrid - University Library
+DOI: 10.1007/978-1-4842-5364-9_8",1,wrong_venue,10.1007/978-1-4842-5364-9_8,10.20868/upm.thesis.90828,Deep Learning with Python,Universidad Politecnica de Madrid - University Library,venue_substitution (offset=1)
+49,"Title: ""Editorial: Machine Learning and Discovery""
+Authors: Pat Langley; Ryszard S. Michalski
+Year: 1987
+Venue: Machine Learning
+DOI: 10.1023/a:1022814715297",1,wrong_year,10.1023/a:1022814715297,,1986,1987,alternating_year_plus_minus_one
+50,"Title: ""paws.machine.learning: 'Amazon Web Services' Machine Learning Services""
+Authors: David Kretch; Adam Banker
+Year: 2018
+Venue: CRAN: Contributed Packages
+DOI: 10.32614/cran.package.paws.machine.learning",1,wrong_year,10.32614/cran.package.paws.machine.learning,,2019,2018,alternating_year_plus_minus_one
+51,"Title: ""Neural Verification of Automatically Generated Scholarly References (83)""
+Authors: Andrew Johnson; Emily Davis
+Year: 2020
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0083",1,plausible_fabricated,,,,,synthetic_template_generation
+52,"Title: ""Frontiers of deep learning""
+Authors: Abdelaziz Testas; Gang Xu
+Year: 2025
+Venue: Deep Learning
+DOI: 10.1016/b978-0-443-43954-4.00006-8",1,corrupted_authors,10.1016/b978-0-443-43954-4.00006-8,10.1007/979-8-8688-1017-6_6,Shuhao Wang; Gang Xu,Abdelaziz Testas; Gang Xu,first_author_substitution (offset=1)
+53,"Title: ""Detection of alternative splicing: deep sequencing or deep learning""
+Authors: Lena Maria Hackl; Jan Baumbach; Olga Tsoy
+Year: 2023
+Venue: Detection of alternative splicing: deep sequencing or deep learning
+DOI: 10.14293/gof.23.032",0,valid,10.14293/gof.23.032,,,,unmodified_valid_seed
+54,"Title: ""Einleitung: Vom Batch Machine Learning zum Online Machine Learning""
+Authors: Thomas Bartz-Beielstein
+Year: 2024
+Venue: Online Machine Learning
+DOI: 10.1007/978-3-658-46162-1_1",0,valid,10.1007/978-3-658-46162-1_1,,,,unmodified_valid_seed
+55,"Title: ""Neural Verification of Automatically Generated Scholarly References (12)""
+Authors: Robert Miller; Emma Thompson
+Year: 2024
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0012",1,plausible_fabricated,,,,,synthetic_template_generation
+56,"Title: ""Semantic mediation in audio and music intelligence through natural language processing a systematic literature review""
+Authors: Novia Ratnasari; Aji Prasetya Wibawa
+Year: 2027
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2026.100225",1,wrong_year,10.1016/j.nlp.2026.100225,,2026,2027,alternating_year_plus_minus_one
+57,"Title: ""Distributed deep learning systems""
+Authors: Shuhao Wang; Gang Xu
+Year: 2025
+Venue: Deep Learning
+DOI: 10.1007/978-3-540-76390-1_73",1,doi_mismatch,10.1016/b978-0-443-43954-4.00005-6,10.1007/978-3-540-76390-1_73,10.1016/b978-0-443-43954-4.00005-6,10.1007/978-3-540-76390-1_73,doi_substitution (offset=1)
+58,"Title: ""Computer Vision for Egocentric (First-Person) Vision""
+Authors: Mariella Dimiccoli
+Year: 2018
+Venue: Computer Vision for Assistive Healthcare
+DOI: 10.1016/b978-0-12-813445-0.00007-1",0,valid,10.1016/b978-0-12-813445-0.00007-1,,,,unmodified_valid_seed
+59,"Title: ""Computer Vision, Deep Learning, Deep Reinforcement Learning""
+Authors: Harsh Bhasin
+Year: 2019
+Venue: ScienceOpen
+DOI: 10.14293/s2199-1006.1.sor-uncat.clzwyuz.v1",1,corrupted_authors,10.14293/s2199-1006.1.sor-uncat.clzwyuz.v1,10.1007/979-8-8688-1035-0_2,Farshid PirahanSiah,Harsh Bhasin,first_author_substitution (offset=1)
+60,"Title: ""Automatic Differentiation in Deep Learning""
+Authors: Nikhil Ketkar; Jojo Moolayil
+Year: 2021
+Venue: Deep Learning with Python
+DOI: 10.1007/978-1-4842-5364-9_4",0,valid,10.1007/978-1-4842-5364-9_4,,,,unmodified_valid_seed
+61,"Title: ""Machine Learning""
+Authors: Peter Wittek
+Year: 2014
+Venue: Quantum Machine Learning
+DOI: 10.1007/978-3-658-42505-0_1",1,doi_mismatch,10.1016/b978-0-12-800953-6.00002-5,10.1007/978-3-658-42505-0_1,10.1016/b978-0-12-800953-6.00002-5,10.1007/978-3-658-42505-0_1,doi_substitution (offset=1)
+62,"Title: ""Automatic language ability assessment method based on natural language processing""
+Authors: Nonso Nnamoko; Themis Karaminis; Jack Procter; Joseph Barrowclough; Ioannis Korkontzelos
+Year: 2024
+Venue: Natural Language Processing Journal
+DOI: 10.1007/978-1-4842-3733-5_1",1,doi_mismatch,10.1016/j.nlp.2024.100094,10.1007/978-1-4842-3733-5_1,10.1016/j.nlp.2024.100094,10.1007/978-1-4842-3733-5_1,doi_substitution (offset=1)
+63,"Title: ""Toward a Unified Science of Machine Learning""
+Authors: Pat Langley
+Year: 1989
+Venue: Machine Learning
+DOI: 10.1023/a:1022689616458",0,valid,10.1023/a:1022689616458,,,,unmodified_valid_seed
+64,"Title: ""Computer Vision, Deep Learning, Deep Reinforcement Learning""
+Authors: Farshid PirahanSiah
+Year: 2019
+Venue: ScienceOpen
+DOI: 10.14293/s2199-1006.1.sor-uncat.clzwyuz.v1",0,valid,10.14293/s2199-1006.1.sor-uncat.clzwyuz.v1,,,,unmodified_valid_seed
+65,"Title: ""Designing adversarial signals against three deep learning and non-deep learning methods""
+Authors: Abdelaziz Testas
+Year: 2021
+Venue: Nanyang Technological University
+DOI: 10.32657/10356/151718",1,corrupted_authors,10.32657/10356/151718,10.1007/979-8-8688-1017-6_10,Yi Huang,Abdelaziz Testas,first_author_substitution (offset=1)
+66,"Title: ""Introduction to deep learning""
+Authors: Habib Izadkhah
+Year: 2022
+Venue: Deep Learning with Python
+DOI: 10.1016/b978-0-12-823822-6.00014-7",1,wrong_venue,10.1016/b978-0-12-823822-6.00014-7,10.1007/978-1-4842-5364-9_4,Deep Learning in Bioinformatics,Deep Learning with Python,venue_substitution (offset=1)
+67,"Title: ""Distributed deep learning systems""
+Authors: Shuhao Wang; Gang Xu
+Year: 2025
+Venue: Deep Learning
+DOI: 10.1016/b978-0-443-43954-4.00005-6",0,valid,10.1016/b978-0-443-43954-4.00005-6,,,,unmodified_valid_seed
+68,"Title: ""A Deep Learning Framework for Academic Citation Validation (3)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2022
+Venue: ACM Transactions on Intelligent Systems and Technology
+DOI: 10.9999/citeguard.synthetic.0003",1,plausible_fabricated,,,,,synthetic_template_generation
+69,"Title: ""Vision, status, and research topics of Natural Language Processing""
+Authors: Kurt Hornik; Haoran Xie; Xiaohui Tao
+Year: 2022
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2022.100001",1,corrupted_authors,10.1016/j.nlp.2022.100001,10.32614/cran.package.nlputils,Xieling Chen; Haoran Xie; Xiaohui Tao,Kurt Hornik; Haoran Xie; Xiaohui Tao,first_author_substitution (offset=1)
+70,"Title: ""Language Processing for Finance and Economics""
+Authors: Hiroki Sakaji; Kiyoshi Izumi; Hiroyuki Sakai
+Year: 2020
+Venue: International Conference on Natural Language Processing and Knowledge Engineering, 2003. Proceedings. 2003
+DOI: 10.5715/jnlp.27.951",1,wrong_venue,10.5715/jnlp.27.951,10.1109/nlpke.2003.1275859,Journal of Natural Language Processing,"International Conference on Natural Language Processing and Knowledge Engineering, 2003. Proceedings. 2003",venue_substitution (offset=1)
+71,"Title: ""Image Analysis and Computer Vision: 1997""
+Authors: Azriel Rosenfeld
+Year: 1999
+Venue: Computer Vision and Image Understanding
+DOI: 10.1006/cviu.1998.0697",1,wrong_year,10.1006/cviu.1998.0697,,1998,1999,alternating_year_plus_minus_one
+72,"Title: ""Vision, status, and research topics of Natural Language Processing""
+Authors: Xieling Chen; Haoran Xie; Xiaohui Tao
+Year: 2022
+Venue: CRAN: Contributed Packages
+DOI: 10.1016/j.nlp.2022.100001",1,wrong_venue,10.1016/j.nlp.2022.100001,10.32614/cran.package.nlputils,Natural Language Processing Journal,CRAN: Contributed Packages,venue_substitution (offset=1)
+73,"Title: ""Deep Learning with PyTorch for Regression""
+Authors: Abdelaziz Testas
+Year: 2024
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.21275/sr24805160228",1,doi_mismatch,10.1007/979-8-8688-1017-6_4,10.21275/sr24805160228,10.1007/979-8-8688-1017-6_4,10.21275/sr24805160228,doi_substitution (offset=1)
+74,"Title: ""Introduction to Deep Learning""
+Authors: Harsh Bhasin
+Year: 2024
+Venue: Deep Learning Pipeline
+DOI: 10.1007/979-8-8688-1035-0_2",1,wrong_venue,10.1007/979-8-8688-1035-0_2,10.1007/978-1-4842-5349-6_9,Hands-on Deep Learning,Deep Learning Pipeline,venue_substitution (offset=1)
+75,"Title: ""Biomedical Natural Language Processing""
+Authors: Kevin Bretonnel Cohen; Dina Demner-Fushman
+Year: 2014
+Venue: Journal of Natural Language Processing
+DOI: 10.1075/nlp.11",1,wrong_venue,10.1075/nlp.11,10.5715/jnlp.27.951,Natural Language Processing,Journal of Natural Language Processing,venue_substitution (offset=1)
+76,"Title: ""Detection of alternative splicing: deep sequencing or deep learning""
+Authors: Lena Maria Hackl; Jan Baumbach; Olga Tsoy
+Year: 2022
+Venue: Detection of alternative splicing: deep sequencing or deep learning
+DOI: 10.14293/gof.23.032",1,wrong_year,10.14293/gof.23.032,,2023,2022,alternating_year_plus_minus_one
+77,"Title: ""DeepMPTB: a vaginal microbiome-based deep neural network as artificial intelligence strategy for efficient preterm birth prediction""
+Authors: Oshma Chakoory; Vincent Barra; Emmanuelle Rochette; Loïc Blanchon; Vincent Sapin; Etienne Merlin; Maguelonne Pons; Denis Gallot; Sophie Comtet-Marre; Pierre Peyret
+Year: 2024
+Venue: Artificial Intelligence and Digital Development
+DOI: 10.1186/s40364-024-00557-1",1,wrong_venue,10.1186/s40364-024-00557-1,10.59849/aidd.2024.54,Biomarker Research,Artificial Intelligence and Digital Development,venue_substitution (offset=1)
+78,"Title: ""Deep Learning""
+Authors: Phil Kim
+Year: 2017
+Venue: MATLAB Deep Learning
+DOI: 10.1007/978-1-4842-2845-6_5",0,valid,10.1007/978-1-4842-2845-6_5,,,,unmodified_valid_seed
+79,"Title: ""paws.machine.learning: 'Amazon Web Services' Machine Learning Services""
+Authors: David Kretch; Adam Banker
+Year: 2019
+Venue: CRAN: Contributed Packages
+DOI: 10.32614/cran.package.paws.machine.learning",0,valid,10.32614/cran.package.paws.machine.learning,,,,unmodified_valid_seed
+80,"Title: ""A Unified Framework for Reliable Citation Verification (87)""
+Authors: David Wilson; Olivia Martin
+Year: 2022
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0087",1,plausible_fabricated,,,,,synthetic_template_generation
+81,"Title: ""Detection of alternative splicing: deep sequencing or deep learning""
+Authors: Lena Maria Hackl; Jan Baumbach; Olga Tsoy
+Year: 2023
+Venue: Deep Learning on Windows
+DOI: 10.14293/gof.23.032",1,wrong_venue,10.14293/gof.23.032,10.1007/978-1-4842-6431-7_2,Detection of alternative splicing: deep sequencing or deep learning,Deep Learning on Windows,venue_substitution (offset=1)
+82,"Title: ""Crystal Vision-Applications of Point Groups in Computer Vision""
+Authors: Reiner Lenz
+Year: 2007
+Venue: Lecture Notes in Computer Science
+DOI: 10.1016/j.cviu.2016.03.016",1,doi_mismatch,10.1007/978-3-540-76390-1_73,10.1016/j.cviu.2016.03.016,10.1007/978-3-540-76390-1_73,10.1016/j.cviu.2016.03.016,doi_substitution (offset=1)
+83,"Title: ""Applications of Machine Learning in cricket: A systematic review""
+Authors: Claudia Perlich
+Year: 2022
+Venue: Machine Learning with Applications
+DOI: 10.1016/j.mlwa.2022.100435",1,corrupted_authors,10.1016/j.mlwa.2022.100435,10.1007/978-0-387-30164-8_452,Indika Wickramasinghe,Claudia Perlich,first_author_substitution (offset=1)
+84,"Title: ""Automated Detection of Fabricated Academic References (15)""
+Authors: Andrew Johnson; Emily Davis
+Year: 2019
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0015",1,plausible_fabricated,,,,,synthetic_template_generation
+85,"Title: ""Thesauruses for natural language processing""
+Authors: A. Kilgarriff
+Year: 2004
+Venue: International Conference on Natural Language Processing and Knowledge Engineering, 2003. Proceedings. 2003
+DOI: 10.1093/hesc/9780198557364.003.0001",1,doi_mismatch,10.1109/nlpke.2003.1275859,10.1093/hesc/9780198557364.003.0001,10.1109/nlpke.2003.1275859,10.1093/hesc/9780198557364.003.0001,doi_substitution (offset=1)
+86,"Title: ""AI, Machine Learning &amp; Deep Learning Risk Management &amp; Controls: Beyond Deep Learning and Generative Adversarial Networks: Model Risk Management in AI, Machine Learning &amp; Deep Learning""
+Authors: Yi Huang
+Year: 2018
+Venue: SSRN Electronic Journal
+DOI: 10.2139/ssrn.3193693",1,corrupted_authors,10.2139/ssrn.3193693,10.32657/10356/151718,Yogesh Malhotra,Yi Huang,first_author_substitution (offset=1)
+87,"Title: ""Introduction to Deep Learning""
+Authors: Harsh Bhasin
+Year: 2025
+Venue: Hands-on Deep Learning
+DOI: 10.1007/979-8-8688-1035-0_2",1,wrong_year,10.1007/979-8-8688-1035-0_2,,2024,2025,alternating_year_plus_minus_one
+88,"Title: ""Automatic Differentiation in Deep Learning""
+Authors: Nikhil Ketkar; Jojo Moolayil
+Year: 2021
+Venue: Deep Learning with Python
+DOI: 10.1007/978-3-031-32879-4_6",1,doi_mismatch,10.1007/978-1-4842-5364-9_4,10.1007/978-3-031-32879-4_6,10.1007/978-1-4842-5364-9_4,10.1007/978-3-031-32879-4_6,doi_substitution (offset=1)
+89,"Title: ""Natural Language Processing""
+Authors: Raymond Lee
+Year: 2024
+Venue: Natural Language Processing
+DOI: 10.1007/978-981-96-3208-4_1",1,wrong_year,10.1007/978-981-96-3208-4_1,,2025,2024,alternating_year_plus_minus_one
+90,"Title: ""Shallow Language Processing, Deep Language Processing and Domain Ontologies""
+Authors: Dietram Efrem Mgeni
+Year: 2006
+Venue: 2005 International Conference on Natural Language Processing and Knowledge Engineering
+DOI: 10.1109/nlpke.2005.1598697",1,corrupted_authors,10.1109/nlpke.2005.1598697,10.1016/j.nlp.2026.100209,H. Uszkoreit,Dietram Efrem Mgeni,first_author_substitution (offset=1)
+91,"Title: ""Deep Learning with PyTorch for Classification""
+Authors: Abdelaziz Testas
+Year: 2024
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1007/979-8-8688-1017-6_6",0,valid,10.1007/979-8-8688-1017-6_6,,,,unmodified_valid_seed
+92,"Title: ""DeepMPTB: a vaginal microbiome-based deep neural network as artificial intelligence strategy for efficient preterm birth prediction""
+Authors: Oshma Chakoory; Vincent Barra; Emmanuelle Rochette; Loïc Blanchon; Vincent Sapin; Etienne Merlin; Maguelonne Pons; Denis Gallot; Sophie Comtet-Marre; Pierre Peyret
+Year: 2024
+Venue: Biomarker Research
+DOI: 10.59849/aidd.2024.54",1,doi_mismatch,10.1186/s40364-024-00557-1,10.59849/aidd.2024.54,10.1186/s40364-024-00557-1,10.59849/aidd.2024.54,doi_substitution (offset=1)
+93,"Title: ""Editorial: Human and Machine Learning""
+Authors: Ivan Bratko
+Year: 1986
+Venue: Machine Learning
+DOI: 10.1023/a:1022854429410",1,corrupted_authors,10.1023/a:1022854429410,10.1023/a:1022661713654,Pat Langley,Ivan Bratko,first_author_substitution (offset=1)
+94,"Title: ""Semantic Verification of Research Citations Generated by Language Models (41)""
+Authors: Andrew Johnson; Emily Davis
+Year: 2022
+Venue: International Journal of Computer Vision
+DOI: 10.9999/citeguard.synthetic.0041",1,plausible_fabricated,,,,,synthetic_template_generation
+95,"Title: ""Semantic mediation in audio and music intelligence through natural language processing a systematic literature review""
+Authors: Novia Ratnasari; Aji Prasetya Wibawa
+Year: 2026
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2026.100225",0,valid,10.1016/j.nlp.2026.100225,,,,unmodified_valid_seed
+96,"Title: ""Natural Language Processing and Knowledge""
+Authors: M. Nagao
+Year: 2006
+Venue: 2005 International Conference on Natural Language Processing and Knowledge Engineering
+DOI: 10.1109/nlpke.2005.1598694",0,valid,10.1109/nlpke.2005.1598694,,,,unmodified_valid_seed
+97,"Title: ""Deep Chinese Teaching and Learning Model Based on Deep Learning""
+Authors: Deep Ray; Stuart Perrin
+Year: 2024
+Venue: International Journal of Languages, Literature and Linguistics
+DOI: 10.18178/ijlll.2024.10.1.479",1,corrupted_authors,10.18178/ijlll.2024.10.1.479,10.1007/978-3-031-59345-1_7,Yipu Wang; Stuart Perrin,Deep Ray; Stuart Perrin,first_author_substitution (offset=1)
+98,"Title: ""Recent Advances in Deep Learning""
+Authors: Nikhil Ketkar; Jojo Moolayil
+Year: 2021
+Venue: Deep Learning with Python
+DOI: 10.1007/978-1-4842-5364-9_8",0,valid,10.1007/978-1-4842-5364-9_8,,,,unmodified_valid_seed
+99,"Title: ""Introduction to deep learning""
+Authors: Habib Izadkhah
+Year: 2023
+Venue: Deep Learning in Bioinformatics
+DOI: 10.1016/b978-0-12-823822-6.00014-7",1,wrong_year,10.1016/b978-0-12-823822-6.00014-7,,2022,2023,alternating_year_plus_minus_one
+100,"Title: ""Why Use Automated Machine Learning?""
+Authors: Pat Langley; Daniel S. Becker
+Year: 2021
+Venue: Automated Machine Learning for Business
+DOI: 10.1093/oso/9780190941659.003.0001",1,corrupted_authors,10.1093/oso/9780190941659.003.0001,10.1023/a:1022896407371,Kai R. Larsen; Daniel S. Becker,Pat Langley; Daniel S. Becker,first_author_substitution (offset=1)
+101,"Title: ""Artificial intelligence""
+Authors: Donna Reese
+Year: 1986
+Venue: Artificial Intelligence
+DOI: 10.1016/0004-3702(86)90034-2",1,corrupted_authors,10.1016/0004-3702(86)90034-2,10.1016/0004-3702(85)90088-8,Roy Rada,Donna Reese,first_author_substitution (offset=1)
+102,"Title: ""Topology in Deep Learning""
+Authors: Mehdi Ghayoumi
+Year: 2025
+Venue: Deep Learning
+DOI: 10.1201/9781032690742-9",1,wrong_venue,10.1201/9781032690742-9,10.1016/b978-0-443-43954-4.00005-6,Mathematical Foundations for Deep Learning,Deep Learning,venue_substitution (offset=1)
+103,"Title: ""Language Processing for Finance and Economics""
+Authors: A. Kilgarriff; Kiyoshi Izumi; Hiroyuki Sakai
+Year: 2020
+Venue: Journal of Natural Language Processing
+DOI: 10.5715/jnlp.27.951",1,corrupted_authors,10.5715/jnlp.27.951,10.1109/nlpke.2003.1275859,Hiroki Sakaji; Kiyoshi Izumi; Hiroyuki Sakai,A. Kilgarriff; Kiyoshi Izumi; Hiroyuki Sakai,first_author_substitution (offset=1)
+104,"Title: ""Automatic language ability assessment method based on natural language processing""
+Authors: Taweh Beysolow II; Themis Karaminis; Jack Procter; Joseph Barrowclough; Ioannis Korkontzelos
+Year: 2024
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2024.100094",1,corrupted_authors,10.1016/j.nlp.2024.100094,10.1007/978-1-4842-3733-5_1,Nonso Nnamoko; Themis Karaminis; Jack Procter; Joseph Barrowclough; Ioannis Korkontzelos,Taweh Beysolow II; Themis Karaminis; Jack Procter; Joseph Barrowclough; Ioannis Korkontzelos,first_author_substitution (offset=1)
+105,"Title: ""Machine Learning""
+Authors: S. Sowmyayani
+Year: 2022
+Venue: Prediction and Analysis for Knowledge Representation and Machine Learning
+DOI: 10.14293/s2199-1006.1.sor-uncat.clzwyuz.v1",1,doi_mismatch,10.1201/9781003126898-1,10.14293/s2199-1006.1.sor-uncat.clzwyuz.v1,10.1201/9781003126898-1,10.14293/s2199-1006.1.sor-uncat.clzwyuz.v1,doi_substitution (offset=1)
+106,"Title: ""Image Analysis and Computer Vision: 1997""
+Authors: Kendall R. Waters
+Year: 1998
+Venue: Computer Vision and Image Understanding
+DOI: 10.1006/cviu.1998.0697",1,corrupted_authors,10.1006/cviu.1998.0697,10.1142/9789814460941_0015,Azriel Rosenfeld,Kendall R. Waters,first_author_substitution (offset=1)
+107,"Title: ""Natural Language Processing Application Projects""
+Authors: Huaping Zhang; Jianyun Shang
+Year: 2025
+Venue: Journal of Natural Language Processing
+DOI: 10.1007/978-981-97-9739-4_19",1,wrong_venue,10.1007/978-981-97-9739-4_19,10.5715/jnlp.27.963,Natural Language Processing and Applications,Journal of Natural Language Processing,venue_substitution (offset=1)
+108,"Title: ""Editorial: Machine Learning and Discovery""
+Authors: Pat Langley; Ryszard S. Michalski
+Year: 1986
+Venue: Machine Learning
+DOI: 10.1023/a:1022814715297",0,valid,10.1023/a:1022814715297,,,,unmodified_valid_seed
+109,"Title: ""Detecting Hallucinated References in Neural Language Models (17)""
+Authors: Sophia Williams; James Carter
+Year: 2024
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0017",1,plausible_fabricated,,,,,synthetic_template_generation
+110,"Title: ""Natural Language Processing Application to the Chemical Domain""
+Authors: Xiuming Chen; Hiyori Yoshikawa
+Year: 2020
+Venue: Journal of Natural Language Processing
+DOI: 10.5715/jnlp.27.969",1,corrupted_authors,10.5715/jnlp.27.969,10.1016/j.nlp.2024.100123,Tomoya Iwakura; Hiyori Yoshikawa,Xiuming Chen; Hiyori Yoshikawa,first_author_substitution (offset=1)
+111,"Title: ""Einleitung: Vom Batch Machine Learning zum Online Machine Learning""
+Authors: Hang Li
+Year: 2024
+Venue: Online Machine Learning
+DOI: 10.1007/978-3-658-46162-1_1",1,corrupted_authors,10.1007/978-3-658-46162-1_1,10.1007/978-981-99-3917-6_1,Thomas Bartz-Beielstein,Hang Li,first_author_substitution (offset=1)
+112,"Title: ""Bibliometric analysis of natural language processing using CiteSpace and VOSviewer""
+Authors: Xiuming Chen; Wenjie Tian; Haoyun Fang
+Year: 2025
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2024.100123",0,valid,10.1016/j.nlp.2024.100123,,,,unmodified_valid_seed
+113,"Title: ""Machine learning with sklearn""
+Authors: Thomas P. Trappenberg
+Year: 2018
+Venue: Fundamentals of Machine Learning
+DOI: 10.1093/oso/9780198828044.003.0003",1,wrong_year,10.1093/oso/9780198828044.003.0003,,2019,2018,alternating_year_plus_minus_one
+114,"Title: ""Artificial intelligence""
+Authors: Gillian Pocock; Hugh M
+Year: 1992
+Venue: Applications of Artificial Intelligence in Chemistry
+DOI: 10.1093/hesc/9780198557364.003.0001",1,wrong_year,10.1093/hesc/9780198557364.003.0001,,1993,1992,alternating_year_plus_minus_one
+115,"Title: ""Where to Start Your Deep Learning""
+Authors: Thimira Amaratunga
+Year: 2021
+Venue: Deep Learning on Windows
+DOI: 10.1007/978-1-4842-6431-7_2",0,valid,10.1007/978-1-4842-6431-7_2,,,,unmodified_valid_seed
+116,"Title: ""Editorial: Advice to Machine Learning Authors""
+Authors: Pat Langley
+Year: 1990
+Venue: Machine Learning
+DOI: 10.1023/a:1022647305786",0,valid,10.1023/a:1022647305786,,,,unmodified_valid_seed
+117,"Title: ""Semantic Verification of Research Citations Generated by Language Models (99)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2018
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0099",1,plausible_fabricated,,,,,synthetic_template_generation
+118,"Title: ""Deep Learning""
+Authors: Phil Kim
+Year: 2016
+Venue: MATLAB Deep Learning
+DOI: 10.1007/978-1-4842-2845-6_5",1,wrong_year,10.1007/978-1-4842-2845-6_5,,2017,2016,alternating_year_plus_minus_one
+119,"Title: ""Deep Learning Fundamentals""
+Authors: Tannu Kumari; Mahmoud Hamdy
+Year: 2020
+Venue: Deep Learning Pipeline
+DOI: 10.1007/978-1-4842-5349-6_9",1,corrupted_authors,10.1007/978-1-4842-5349-6_9,10.1201/9780367854737-12,Hisham El-Amir; Mahmoud Hamdy,Tannu Kumari; Mahmoud Hamdy,first_author_substitution (offset=1)
+120,"Title: ""Detecting Hallucinated References in Neural Language Models (90)""
+Authors: Sophia Williams; James Carter
+Year: 2020
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0090",1,plausible_fabricated,,,,,synthetic_template_generation
+121,"Title: ""Einleitung: Vom Batch Machine Learning zum Online Machine Learning""
+Authors: Thomas Bartz-Beielstein
+Year: 2024
+Venue: Machine Learning with Applications
+DOI: 10.1007/978-3-658-42505-0_1",1,wrong_venue,10.1007/978-3-658-42505-0_1,10.1016/j.mlwa.2021.100186,Online Machine Learning,Machine Learning with Applications,venue_substitution (offset=1)
+122,"Title: ""Machine learning with sklearn""
+Authors: Thomas P. Trappenberg
+Year: 2019
+Venue: Machine Learning
+DOI: 10.1093/oso/9780198828044.003.0003",1,wrong_venue,10.1093/oso/9780198828044.003.0003,10.1023/a:1022808826027,Fundamentals of Machine Learning,Machine Learning,venue_substitution (offset=1)
+123,"Title: ""Artificial intelligence and robotics""
+Authors: Michael Brady
+Year: 1984
+Venue: Artificial Intelligence
+DOI: 10.1016/0004-3702(85)90013-x",1,wrong_year,10.1016/0004-3702(85)90013-x,,1985,1984,alternating_year_plus_minus_one
+124,"Title: ""Detecting Hallucinated References in Neural Language Models (1)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2023
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0001",1,plausible_fabricated,,,,,synthetic_template_generation
+125,"Title: ""Image Analysis and Computer Vision: 1998""
+Authors: Azriel Rosenfeld
+Year: 1999
+Venue: Natural Language Processing Journal
+DOI: 10.1006/cviu.1999.0746",1,wrong_venue,10.1006/cviu.1999.0746,10.1016/j.nlp.2022.100001,Computer Vision and Image Understanding,Natural Language Processing Journal,venue_substitution (offset=1)
+126,"Title: ""AI Linguistics""
+Authors: Guosheng Zhang
+Year: 2025
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2026.100225",1,doi_mismatch,10.1016/j.nlp.2025.100137,10.1016/j.nlp.2026.100225,10.1016/j.nlp.2025.100137,10.1016/j.nlp.2026.100225,doi_substitution (offset=1)
+127,"Title: ""Applying Natural Language Processing in a Cloud-based Business Card Management Service""
+Authors: H. Uszkoreit; Tomonori Manabe
+Year: 2021
+Venue: Journal of Natural Language Processing
+DOI: 10.5715/jnlp.28.297",1,corrupted_authors,10.5715/jnlp.28.297,10.1109/nlpke.2005.1598697,Kanji Takahashi; Tomonori Manabe,H. Uszkoreit; Tomonori Manabe,first_author_substitution (offset=1)
+128,"Title: ""NLP: Natural Language Processing Infrastructure""
+Authors: Kurt Hornik
+Year: 2012
+Venue: CRAN: Contributed Packages
+DOI: 10.32614/cran.package.nlp",1,wrong_year,10.32614/cran.package.nlp,,2013,2012,alternating_year_plus_minus_one
+129,"Title: ""Designing adversarial signals against three deep learning and non-deep learning methods""
+Authors: Yi Huang
+Year: 2021
+Venue: Nanyang Technological University
+DOI: 10.1007/979-8-8688-1017-6_10",1,doi_mismatch,10.32657/10356/151718,10.1007/979-8-8688-1017-6_10,10.32657/10356/151718,10.1007/979-8-8688-1017-6_10,doi_substitution (offset=1)
+130,"Title: ""A Deep Learning Framework for Academic Citation Validation (49)""
+Authors: Sophia Williams; James Carter
+Year: 2020
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0049",1,plausible_fabricated,,,,,synthetic_template_generation
+131,"Title: ""Embodied artificial intelligence""
+Authors: Michael Brady
+Year: 2003
+Venue: Artificial Intelligence
+DOI: 10.1016/s0004-3702(03)00055-9",1,corrupted_authors,10.1016/s0004-3702(03)00055-9,10.1016/0004-3702(85)90013-x,Ron Chrisley,Michael Brady,first_author_substitution (offset=1)
+132,"Title: ""A Unified Framework for Reliable Citation Verification (69)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2024
+Venue: International Journal of Computer Vision
+DOI: 10.9999/citeguard.synthetic.0069",1,plausible_fabricated,,,,,synthetic_template_generation
+133,"Title: ""Reliable Citation Grounding for Large Language Models (39)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2023
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0039",1,plausible_fabricated,,,,,synthetic_template_generation
+134,"Title: ""Natural Language Processing""
+Authors: Raymond Lee
+Year: 2025
+Venue: Natural Language Processing
+DOI: 10.1007/978-981-96-3208-4_1",0,valid,10.1007/978-981-96-3208-4_1,,,,unmodified_valid_seed
+135,"Title: ""Generative Deep Learning""
+Authors: Deep Ray; Orazio Pinti; Assad A. Oberai
+Year: 2025
+Venue: Deep Learning and Computational Physics
+DOI: 10.1007/978-3-031-59345-1_7",1,wrong_year,10.1007/978-3-031-59345-1_7,,2024,2025,alternating_year_plus_minus_one
+136,"Title: ""Machine Learning as an Experimental Science""
+Authors: Pat Langley
+Year: 1988
+Venue: Machine Learning
+DOI: 10.1023/a:1022623814640",0,valid,10.1023/a:1022623814640,,,,unmodified_valid_seed
+137,"Title: ""Genomics with Deep Learning""
+Authors: X. Chen
+Year: 2021
+Venue: Deep Learning for Biomedical Applications
+DOI: 10.14293/gof.23.032",1,doi_mismatch,10.1201/9780367855611-9,10.14293/gof.23.032,10.1201/9780367855611-9,10.14293/gof.23.032,doi_substitution (offset=1)
+138,"Title: ""Computer Vision for Egocentric (First-Person) Vision""
+Authors: Mariella Dimiccoli
+Year: 2019
+Venue: Computer Vision for Assistive Healthcare
+DOI: 10.1016/b978-0-12-813445-0.00007-1",1,wrong_year,10.1016/b978-0-12-813445-0.00007-1,,2018,2019,alternating_year_plus_minus_one
+139,"Title: ""Machine Learning and Deep Learning in Deep Brain Stimulation Targeting for Parkinson's Disease""
+Authors: Vikash Agarwal; M Swarna; Dolly Mushahary
+Year: 2024
+Venue: Machine Learning and Deep Learning in Neuroimaging Data Analysis
+DOI: 10.1007/978-1-4842-7413-2_7",1,doi_mismatch,10.1201/9781003264767-7,10.1007/978-1-4842-7413-2_7,10.1201/9781003264767-7,10.1007/978-1-4842-7413-2_7,doi_substitution (offset=1)
+140,"Title: ""Designing adversarial signals against three deep learning and non-deep learning methods""
+Authors: Yi Huang
+Year: 2020
+Venue: Nanyang Technological University
+DOI: 10.32657/10356/151718",1,wrong_year,10.32657/10356/151718,,2021,2020,alternating_year_plus_minus_one
+141,"Title: ""Automatic language ability assessment method based on natural language processing""
+Authors: Nonso Nnamoko; Themis Karaminis; Jack Procter; Joseph Barrowclough; Ioannis Korkontzelos
+Year: 2025
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2024.100094",1,wrong_year,10.1016/j.nlp.2024.100094,,2024,2025,alternating_year_plus_minus_one
+142,"Title: ""Deploying and Monitoring Deep Learning Models""
+Authors: Abdelaziz Testas
+Year: 2025
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1007/979-8-8688-1017-6_10",1,wrong_year,10.1007/979-8-8688-1017-6_10,,2024,2025,alternating_year_plus_minus_one
+143,"Title: ""Building Your First Deep Learning Model""
+Authors: Nikhil Ketkar
+Year: 2021
+Venue: Deep Learning on Windows
+DOI: 10.1007/978-1-4842-6431-7_4",1,corrupted_authors,10.1007/978-1-4842-6431-7_4,10.1007/978-1-4842-5364-9_8,Thimira Amaratunga,Nikhil Ketkar,first_author_substitution (offset=1)
+144,"Title: ""Neural Verification of Automatically Generated Scholarly References (50)""
+Authors: David Wilson; Olivia Martin
+Year: 2019
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0050",1,plausible_fabricated,,,,,synthetic_template_generation
+145,"Title: ""Machine learning with sklearn""
+Authors: Pat Langely
+Year: 2019
+Venue: Fundamentals of Machine Learning
+DOI: 10.1093/oso/9780198828044.003.0003",1,corrupted_authors,10.1093/oso/9780198828044.003.0003,10.1023/a:1022808826027,Thomas P. Trappenberg,Pat Langely,first_author_substitution (offset=1)
+146,"Title: ""Machine Learning for Information Extraction in Informal Domains""
+Authors: Dayne Freitag
+Year: 2001
+Venue: Machine Learning
+DOI: 10.1023/a:1007601113994",1,wrong_year,10.1023/a:1007601113994,,2000,2001,alternating_year_plus_minus_one
+147,"Title: ""Einleitung: Vom Batch Machine Learning zum Online Machine Learning""
+Authors: Thomas Bartz-Beielstein
+Year: 2025
+Venue: Online Machine Learning
+DOI: 10.1007/978-3-658-42505-0_1",1,wrong_year,10.1007/978-3-658-42505-0_1,,2024,2025,alternating_year_plus_minus_one
+148,"Title: ""Natural Language Processing Application to the Chemical Domain""
+Authors: Tomoya Iwakura; Hiyori Yoshikawa
+Year: 2020
+Venue: Journal of Natural Language Processing
+DOI: 10.5715/jnlp.27.969",0,valid,10.5715/jnlp.27.969,,,,unmodified_valid_seed
+149,"Title: ""What Is Deep Learning?""
+Authors: Thimira Amaratunga
+Year: 2021
+Venue: Deep Learning on Windows
+DOI: 10.1007/978-1-4842-5364-9_1",1,doi_mismatch,10.1007/978-1-4842-6431-7_1,10.1007/978-1-4842-5364-9_1,10.1007/978-1-4842-6431-7_1,10.1007/978-1-4842-5364-9_1,doi_substitution (offset=1)
+150,"Title: ""Deep Networks and Deep Learning Algorithms""
+Authors: Tannu Kumari; Anjana Mishra
+Year: 2021
+Venue: Artificial Intelligence Trends for Data Analytics Using Machine Learning and Deep Learning Approaches
+DOI: 10.1201/9780367854737-12",1,wrong_year,10.1201/9780367854737-12,,2020,2021,alternating_year_plus_minus_one
+151,"Title: ""What Is Deep Learning?""
+Authors: Nikhil Ketkar
+Year: 2021
+Venue: Deep Learning on Windows
+DOI: 10.1007/978-1-4842-6431-7_1",1,corrupted_authors,10.1007/978-1-4842-6431-7_1,10.1007/978-1-4842-5364-9_1,Thimira Amaratunga,Nikhil Ketkar,first_author_substitution (offset=1)
+152,"Title: ""Computer Vision, Deep Learning, Deep Reinforcement Learning""
+Authors: Farshid PirahanSiah
+Year: 2019
+Venue: Hands-on Deep Learning
+DOI: 10.14293/s2199-1006.1.sor-uncat.clzwyuz.v1",1,wrong_venue,10.14293/s2199-1006.1.sor-uncat.clzwyuz.v1,10.1007/979-8-8688-1035-0_2,ScienceOpen,Hands-on Deep Learning,venue_substitution (offset=1)
+153,"Title: ""Machine Learning""
+Authors: S. Sowmyayani
+Year: 2023
+Venue: Prediction and Analysis for Knowledge Representation and Machine Learning
+DOI: 10.1201/9781003126898-1",1,wrong_year,10.1201/9781003126898-1,,2022,2023,alternating_year_plus_minus_one
+154,"Title: ""Distributed deep learning systems""
+Authors: Shuhao Wang; Gang Xu
+Year: 2025
+Venue: Lecture Notes in Computer Science
+DOI: 10.1016/b978-0-443-43954-4.00005-6",1,wrong_venue,10.1016/b978-0-443-43954-4.00005-6,10.1007/978-3-540-76390-1_73,Deep Learning,Lecture Notes in Computer Science,venue_substitution (offset=1)
+155,"Title: ""Detecting Hallucinated References in Neural Language Models (14)""
+Authors: Andrew Johnson; Emily Davis
+Year: 2020
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0014",1,plausible_fabricated,,,,,synthetic_template_generation
+156,"Title: ""Deep Learning with TensorFlow for Classification""
+Authors: Abdelaziz Testas
+Year: 2024
+Venue: Deep Learning
+DOI: 10.1007/979-8-8688-1017-6_7",1,wrong_venue,10.1007/979-8-8688-1017-6_7,10.1016/b978-0-443-43954-4.00006-8,Building Scalable Deep Learning Pipelines on AWS,Deep Learning,venue_substitution (offset=1)
+157,"Title: ""Natural Language Processing in Computer-Assisted Language Learning""
+Authors: John Nerbonne
+Year: 2012
+Venue: Oxford Handbooks Online
+DOI: 10.1093/oxfordhb/9780199276349.013.0037",0,valid,10.1093/oxfordhb/9780199276349.013.0037,,,,unmodified_valid_seed
+158,"Title: ""Genomics with Deep Learning""
+Authors: X. Chen
+Year: 2021
+Venue: Deep Learning for Biomedical Applications
+DOI: 10.1201/9780367855611-9",0,valid,10.1201/9780367855611-9,,,,unmodified_valid_seed
+159,"Title: ""Introduction to Deep Learning""
+Authors: Harsh Bhasin
+Year: 2024
+Venue: Hands-on Deep Learning
+DOI: 10.1007/979-8-8688-1035-0_2",0,valid,10.1007/979-8-8688-1035-0_2,,,,unmodified_valid_seed
+160,"Title: ""Topology in Deep Learning""
+Authors: Mehdi Ghayoumi
+Year: 2025
+Venue: Mathematical Foundations for Deep Learning
+DOI: 10.1201/9781032690742-9",0,valid,10.1201/9781032690742-9,,,,unmodified_valid_seed
+161,"Title: ""Natural Language Processing Application Projects""
+Authors: Daichi Mochihashi; Jianyun Shang
+Year: 2025
+Venue: Natural Language Processing and Applications
+DOI: 10.1007/978-981-97-9739-4_19",1,corrupted_authors,10.1007/978-981-97-9739-4_19,10.5715/jnlp.27.963,Huaping Zhang; Jianyun Shang,Daichi Mochihashi; Jianyun Shang,first_author_substitution (offset=1)
+162,"Title: ""A novel Data Extraction Framework Using Natural Language Processing (DEFNLP) techniques""
+Authors: Tayyaba Hussain; Muhammad Usman Akram; Anum Abdul Salam
+Year: 2025
+Venue: Natural Language Processing Journal
+DOI: 10.1109/nlpke.2005.1598694",1,doi_mismatch,10.1016/j.nlp.2025.100149,10.1109/nlpke.2005.1598694,10.1016/j.nlp.2025.100149,10.1109/nlpke.2005.1598694,doi_substitution (offset=1)
+163,"Title: ""Machine Learning and Grammar Induction""
+Authors: Pat Langely
+Year: 1986
+Venue: Machine Learning
+DOI: 10.1023/a:1022808826027",1,wrong_year,10.1023/a:1022808826027,,1987,1986,alternating_year_plus_minus_one
+164,"Title: ""Einleitung: Vom Batch Machine Learning zum Online Machine Learning""
+Authors: Thomas Bartz-Beielstein
+Year: 2024
+Venue: Online Machine Learning
+DOI: 10.1007/978-981-99-3917-6_1",1,doi_mismatch,10.1007/978-3-658-46162-1_1,10.1007/978-981-99-3917-6_1,10.1007/978-3-658-46162-1_1,10.1007/978-981-99-3917-6_1,doi_substitution (offset=1)
+165,"Title: ""Semantic Verification of Research Citations Generated by Language Models (8)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2024
+Venue: International Journal of Computer Vision
+DOI: 10.9999/citeguard.synthetic.0008",1,plausible_fabricated,,,,,synthetic_template_generation
+166,"Title: ""Computer Vision, Deep Learning, Deep Reinforcement Learning""
+Authors: Farshid PirahanSiah
+Year: 2018
+Venue: ScienceOpen
+DOI: 10.14293/s2199-1006.1.sor-uncat.clzwyuz.v1",1,wrong_year,10.14293/s2199-1006.1.sor-uncat.clzwyuz.v1,,2019,2018,alternating_year_plus_minus_one
+167,"Title: ""Shallow Language Processing, Deep Language Processing and Domain Ontologies""
+Authors: H. Uszkoreit
+Year: 2007
+Venue: 2005 International Conference on Natural Language Processing and Knowledge Engineering
+DOI: 10.1109/nlpke.2005.1598697",1,wrong_year,10.1109/nlpke.2005.1598697,,2006,2007,alternating_year_plus_minus_one
+168,"Title: ""Employing large language models in Swahili, a low-resource language""
+Authors: Dietram Efrem Mgeni
+Year: 2026
+Venue: 2007 International Conference on Natural Language Processing and Knowledge Engineering
+DOI: 10.1016/j.nlp.2026.100209",1,wrong_venue,10.1016/j.nlp.2026.100209,10.1109/nlpke.2007.4368002,Natural Language Processing Journal,2007 International Conference on Natural Language Processing and Knowledge Engineering,venue_substitution (offset=1)
+169,"Title: ""Robotics, Grounding and Natural Language Processing""
+Authors: Daichi Mochihashi
+Year: 2020
+Venue: Journal of Natural Language Processing
+DOI: 10.5715/jnlp.27.963",0,valid,10.5715/jnlp.27.963,,,,unmodified_valid_seed
+170,"Title: ""Introduction to Machine Learning and Deep Learning""
+Authors: Nikhil Ketkar; Jojo Moolayil
+Year: 2021
+Venue: Deep Learning with Python
+DOI: 10.1201/9781003264767-7",1,doi_mismatch,10.1007/978-1-4842-5364-9_1,10.1201/9781003264767-7,10.1007/978-1-4842-5364-9_1,10.1201/9781003264767-7,doi_substitution (offset=1)
+171,"Title: ""Natural Language Processing Application Projects""
+Authors: Huaping Zhang; Jianyun Shang
+Year: 2024
+Venue: Natural Language Processing and Applications
+DOI: 10.1007/978-981-97-9739-4_19",1,wrong_year,10.1007/978-981-97-9739-4_19,,2025,2024,alternating_year_plus_minus_one
+172,"Title: ""Natural Language Processing Application Cases""
+Authors: Huaping Zhang; Jianyun Shang
+Year: 2025
+Venue: Natural Language Processing and Applications
+DOI: 10.1007/978-981-97-9739-4_19",1,doi_mismatch,10.1007/978-981-97-9739-4_20,10.1007/978-981-97-9739-4_19,10.1007/978-981-97-9739-4_20,10.1007/978-981-97-9739-4_19,doi_substitution (offset=1)
+173,"Title: ""Artificial intelligence""
+Authors: Donna Reese
+Year: 1985
+Venue: Artificial Intelligence
+DOI: 10.1016/0004-3702(85)90088-8",0,valid,10.1016/0004-3702(85)90088-8,,,,unmodified_valid_seed
+174,"Title: ""Deploying and Monitoring Deep Learning Models""
+Authors: Abdelaziz Testas
+Year: 2024
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1201/9780367855611-9",1,doi_mismatch,10.1007/979-8-8688-1017-6_10,10.1201/9780367855611-9,10.1007/979-8-8688-1017-6_10,10.1201/9780367855611-9,doi_substitution (offset=1)
+175,"Title: ""Distributed deep learning systems""
+Authors: Shuhao Wang; Gang Xu
+Year: 2024
+Venue: Deep Learning
+DOI: 10.1016/b978-0-443-43954-4.00005-6",1,wrong_year,10.1016/b978-0-443-43954-4.00005-6,,2025,2024,alternating_year_plus_minus_one
+176,"Title: ""Biomedical Natural Language Processing""
+Authors: Hiroki Sakaji; Dina Demner-Fushman
+Year: 2014
+Venue: Natural Language Processing
+DOI: 10.1075/nlp.11",1,corrupted_authors,10.1075/nlp.11,10.5715/jnlp.27.951,Kevin Bretonnel Cohen; Dina Demner-Fushman,Hiroki Sakaji; Dina Demner-Fushman,first_author_substitution (offset=1)
+177,"Title: ""Natural Language Processing Application Cases""
+Authors: Huaping Zhang; Jianyun Shang
+Year: 2025
+Venue: Journal of Natural Language Processing
+DOI: 10.1007/978-981-97-9739-4_20",1,wrong_venue,10.1007/978-981-97-9739-4_20,10.5715/jnlp.27.963,Natural Language Processing and Applications,Journal of Natural Language Processing,venue_substitution (offset=2)
+178,"Title: ""Machine Learning and Concept Formation""
+Authors: Pat Langley
+Year: 1987
+Venue: Machine Learning
+DOI: 10.1023/a:1022665512030",1,doi_mismatch,10.1023/a:1022896407371,10.1023/a:1022665512030,10.1023/a:1022896407371,10.1023/a:1022665512030,doi_substitution (offset=1)
+179,"Title: ""Frontiers of deep learning""
+Authors: Shuhao Wang; Gang Xu
+Year: 2025
+Venue: Deep Learning
+DOI: 10.1016/b978-0-443-43954-4.00006-8",0,valid,10.1016/b978-0-443-43954-4.00006-8,,,,unmodified_valid_seed
+180,"Title: ""Deep Learning Fundamentals""
+Authors: Hisham El-Amir; Mahmoud Hamdy
+Year: 2020
+Venue: Artificial Intelligence Trends for Data Analytics Using Machine Learning and Deep Learning Approaches
+DOI: 10.1007/978-1-4842-5349-6_9",1,wrong_venue,10.1007/978-1-4842-5349-6_9,10.1201/9780367854737-12,Deep Learning Pipeline,Artificial Intelligence Trends for Data Analytics Using Machine Learning and Deep Learning Approaches,venue_substitution (offset=1)
+181,"Title: ""Genomics with Deep Learning""
+Authors: X. Chen
+Year: 2021
+Venue: Detection of alternative splicing: deep sequencing or deep learning
+DOI: 10.1201/9780367855611-9",1,wrong_venue,10.1201/9780367855611-9,10.14293/gof.23.032,Deep Learning for Biomedical Applications,Detection of alternative splicing: deep sequencing or deep learning,venue_substitution (offset=1)
+182,"Title: ""Machine Learning: A Maturing Field""
+Authors: Jaime Carbonell
+Year: 1992
+Venue: Machine Learning
+DOI: 10.1023/a:1022665512030",0,valid,10.1023/a:1022665512030,,,,unmodified_valid_seed
+183,"Title: ""Resource-based Natural Language Processing""
+Authors: Hitoshi Isahara
+Year: 2007
+Venue: Journal of Natural Language Processing
+DOI: 10.1109/nlpke.2007.4368002",1,wrong_venue,10.1109/nlpke.2007.4368002,10.5715/jnlp.2.2_23,2007 International Conference on Natural Language Processing and Knowledge Engineering,Journal of Natural Language Processing,venue_substitution (offset=1)
+184,"Title: ""Language Processing for Finance and Economics""
+Authors: Hiroki Sakaji; Kiyoshi Izumi; Hiroyuki Sakai
+Year: 2020
+Venue: Journal of Natural Language Processing
+DOI: 10.1109/nlpke.2003.1275859",1,doi_mismatch,10.5715/jnlp.27.951,10.1109/nlpke.2003.1275859,10.5715/jnlp.27.951,10.1109/nlpke.2003.1275859,doi_substitution (offset=1)
+185,"Title: ""Detecting Hallucinated References in Neural Language Models (38)""
+Authors: Robert Miller; Emma Thompson
+Year: 2021
+Venue: International Journal of Computer Vision
+DOI: 10.9999/citeguard.synthetic.0038",1,plausible_fabricated,,,,,synthetic_template_generation
+186,"Title: ""COMPUTER VISION IN INTERVENTIONAL CARDIOLOGY""
+Authors: Kendall R. Waters
+Year: 2014
+Venue: Series in Computer Vision
+DOI: 10.1006/cviu.2000.0835",1,doi_mismatch,10.1142/9789814460941_0015,10.1006/cviu.2000.0835,10.1142/9789814460941_0015,10.1006/cviu.2000.0835,doi_substitution (offset=1)
+187,"Title: ""Machine Learning: An Overview""
+Authors: Mark Liu
+Year: 2023
+Venue: Machine Learning, Animated
+DOI: 10.1093/oso/9780198828044.003.0010",1,doi_mismatch,10.1201/b23383-3,10.1093/oso/9780198828044.003.0010,10.1201/b23383-3,10.1093/oso/9780198828044.003.0010,doi_substitution (offset=1)
+188,"Title: ""Natural Language Processing and Knowledge""
+Authors: M. Nagao
+Year: 2006
+Venue: 2005 International Conference on Natural Language Processing and Knowledge Engineering
+DOI: 10.32614/cran.package.nlp",1,doi_mismatch,10.1109/nlpke.2005.1598694,10.32614/cran.package.nlp,10.1109/nlpke.2005.1598694,10.32614/cran.package.nlp,doi_substitution (offset=1)
+189,"Title: ""Artificial intelligence""
+Authors: Roy Rada
+Year: 1986
+Venue: Artificial Intelligence
+DOI: 10.1016/0004-3702(85)90088-8",1,doi_mismatch,10.1016/0004-3702(86)90034-2,10.1016/0004-3702(85)90088-8,10.1016/0004-3702(86)90034-2,10.1016/0004-3702(85)90088-8,doi_substitution (offset=1)
+190,"Title: ""A Deep Learning Framework for Academic Citation Validation (43)""
+Authors: Andrew Johnson; Emily Davis
+Year: 2018
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0043",1,plausible_fabricated,,,,,synthetic_template_generation
+191,"Title: ""Deploying and Monitoring Deep Learning Models""
+Authors: Abdelaziz Testas
+Year: 2024
+Venue: Deep Learning for Biomedical Applications
+DOI: 10.1007/979-8-8688-1017-6_10",1,wrong_venue,10.1007/979-8-8688-1017-6_10,10.1201/9780367855611-9,Building Scalable Deep Learning Pipelines on AWS,Deep Learning for Biomedical Applications,venue_substitution (offset=1)
+192,"Title: ""Machine Learning: A Maturing Field""
+Authors: Jaime Carbonell
+Year: 1992
+Venue: Machine Learning
+DOI: 10.1023/a:1022854429410",1,doi_mismatch,10.1023/a:1022665512030,10.1023/a:1022854429410,10.1023/a:1022665512030,10.1023/a:1022854429410,doi_substitution (offset=1)
+193,"Title: ""Resource-based Natural Language Processing""
+Authors: Hitoshi Isahara
+Year: 2007
+Venue: 2007 International Conference on Natural Language Processing and Knowledge Engineering
+DOI: 10.5715/jnlp.2.2_23",1,doi_mismatch,10.1109/nlpke.2007.4368002,10.5715/jnlp.2.2_23,10.1109/nlpke.2007.4368002,10.5715/jnlp.2.2_23,doi_substitution (offset=1)
+194,"Title: ""Machine Learning and Concept Formation""
+Authors: Pat Langley
+Year: 1987
+Venue: Soft Computing and Machine Learning
+DOI: 10.1023/a:1022896407371",1,wrong_venue,10.1023/a:1022896407371,10.1201/9781003606055-5,Machine Learning,Soft Computing and Machine Learning,venue_substitution (offset=9)
+195,"Title: ""Reliable Citation Grounding for Large Language Models (13)""
+Authors: Andrew Johnson; Emily Davis
+Year: 2018
+Venue: ACM Transactions on Intelligent Systems and Technology
+DOI: 10.9999/citeguard.synthetic.0013",1,plausible_fabricated,,,,,synthetic_template_generation
+196,"Title: ""Deploying and Monitoring Deep Learning Models""
+Authors: Abdelaziz Testas
+Year: 2024
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1007/979-8-8688-1017-6_10",0,valid,10.1007/979-8-8688-1017-6_10,,,,unmodified_valid_seed
+197,"Title: ""Automated Detection of Fabricated Academic References (62)""
+Authors: David Wilson; Olivia Martin
+Year: 2021
+Venue: ACM Transactions on Intelligent Systems and Technology
+DOI: 10.9999/citeguard.synthetic.0062",1,plausible_fabricated,,,,,synthetic_template_generation
+198,"Title: ""Machine Learning""
+Authors: S. Sowmyayani
+Year: 2022
+Venue: ScienceOpen
+DOI: 10.1201/9781003126898-1",1,wrong_venue,10.1201/9781003126898-1,10.14293/s2199-1006.1.sor-uncat.clzwyuz.v1,Prediction and Analysis for Knowledge Representation and Machine Learning,ScienceOpen,venue_substitution (offset=1)
+199,"Title: ""Editorial: Human and Machine Learning""
+Authors: Pat Langley
+Year: 1987
+Venue: Machine Learning
+DOI: 10.1023/a:1022854429410",1,wrong_year,10.1023/a:1022854429410,,1986,1987,alternating_year_plus_minus_one
+200,"Title: ""What Is Natural Language Processing?""
+Authors: Taweh Beysolow II
+Year: 2019
+Venue: Applied Natural Language Processing with Python
+DOI: 10.1007/978-1-4842-3733-5_1",1,wrong_year,10.1007/978-1-4842-3733-5_1,,2018,2019,alternating_year_plus_minus_one
+201,"Title: ""Artificial intelligence""
+Authors: Ron Chrisley
+Year: 1976
+Venue: Artificial Intelligence
+DOI: 10.1016/0004-3702(76)90004-7",1,corrupted_authors,10.1016/0004-3702(76)90004-7,10.1016/s0004-3702(03)00055-9,Stuart C. Shapiro,Ron Chrisley,first_author_substitution (offset=1)
+202,"Title: ""NLP: Natural Language Processing Infrastructure""
+Authors: Kurt Hornik
+Year: 2013
+Venue: Natural Language Processing Journal
+DOI: 10.32614/cran.package.nlp",1,wrong_venue,10.32614/cran.package.nlp,10.1016/j.nlp.2025.100137,CRAN: Contributed Packages,Natural Language Processing Journal,venue_substitution (offset=1)
+203,"Title: ""Reinforcement learning""
+Authors: Dayne Freitag
+Year: 2019
+Venue: Fundamentals of Machine Learning
+DOI: 10.1093/oso/9780198828044.003.0010",1,corrupted_authors,10.1093/oso/9780198828044.003.0010,10.1023/a:1007601113994,Thomas P. Trappenberg,Dayne Freitag,first_author_substitution (offset=1)
+204,"Title: ""Natural Language Processing Application Projects""
+Authors: Huaping Zhang; Jianyun Shang
+Year: 2025
+Venue: Natural Language Processing and Applications
+DOI: 10.1007/978-981-97-9739-4_19",0,valid,10.1007/978-981-97-9739-4_19,,,,unmodified_valid_seed
+205,"Title: ""Image Analysis and Computer Vision: 1999""
+Authors: Azriel Rosenfeld
+Year: 2000
+Venue: Computer Vision and Image Understanding
+DOI: 10.1006/cviu.2000.0835",0,valid,10.1006/cviu.2000.0835,,,,unmodified_valid_seed
+206,"Title: ""Deep Learning""
+Authors: Phil Kim
+Year: 2017
+Venue: Deep Learning on Windows
+DOI: 10.1007/978-1-4842-2845-6_5",1,wrong_venue,10.1007/978-1-4842-2845-6_5,10.1007/978-1-4842-6431-7_1,MATLAB Deep Learning,Deep Learning on Windows,venue_substitution (offset=1)
+207,"Title: ""A Robust Method for Scholarly Reference Validation (67)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2021
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0067",1,plausible_fabricated,,,,,synthetic_template_generation
+208,"Title: ""A Robust Method for Scholarly Reference Validation (80)""
+Authors: David Wilson; Olivia Martin
+Year: 2018
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0080",1,plausible_fabricated,,,,,synthetic_template_generation
+209,"Title: ""NLPutils: Natural Language Processing Utilities""
+Authors: Nonso Nnamoko
+Year: 2014
+Venue: CRAN: Contributed Packages
+DOI: 10.32614/cran.package.nlputils",1,corrupted_authors,10.32614/cran.package.nlputils,10.1016/j.nlp.2024.100094,Kurt Hornik,Nonso Nnamoko,first_author_substitution (offset=1)
+210,"Title: ""AI, Machine Learning &amp; Deep Learning Risk Management &amp; Controls: Beyond Deep Learning and Generative Adversarial Networks: Model Risk Management in AI, Machine Learning &amp; Deep Learning""
+Authors: Yogesh Malhotra
+Year: 2018
+Venue: SSRN Electronic Journal
+DOI: 10.2139/ssrn.3193693",0,valid,10.2139/ssrn.3193693,,,,unmodified_valid_seed
+211,"Title: ""AI Linguistics""
+Authors: Novia Ratnasari
+Year: 2025
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2025.100137",1,corrupted_authors,10.1016/j.nlp.2025.100137,10.1016/j.nlp.2026.100225,Guosheng Zhang,Novia Ratnasari,first_author_substitution (offset=1)
+212,"Title: ""Artificial intelligence""
+Authors: Roy Rada; Hugh M
+Year: 1993
+Venue: Applications of Artificial Intelligence in Chemistry
+DOI: 10.1093/hesc/9780198557364.003.0001",1,corrupted_authors,10.1093/hesc/9780198557364.003.0001,10.1016/0004-3702(86)90034-2,Gillian Pocock; Hugh M,Roy Rada; Hugh M,first_author_substitution (offset=1)
+213,"Title: ""Research Papers in Machine Learning""
+Authors: Pat Langley
+Year: 1987
+Venue: Machine Learning
+DOI: 10.1023/a:1022603230145",0,valid,10.1023/a:1022603230145,,,,unmodified_valid_seed
+214,"Title: ""NLPutils: Natural Language Processing Utilities""
+Authors: Kurt Hornik
+Year: 2014
+Venue: Natural Language Processing Journal
+DOI: 10.32614/cran.package.nlputils",1,wrong_venue,10.32614/cran.package.nlputils,10.1016/j.nlp.2024.100094,CRAN: Contributed Packages,Natural Language Processing Journal,venue_substitution (offset=1)
+215,"Title: ""Artificial intelligence""
+Authors: Stuart C. Shapiro
+Year: 1976
+Venue: Artificial Intelligence
+DOI: 10.1016/0004-3702(76)90004-7",0,valid,10.1016/0004-3702(76)90004-7,,,,unmodified_valid_seed
+216,"Title: ""A novel Data Extraction Framework Using Natural Language Processing (DEFNLP) techniques""
+Authors: Tayyaba Hussain; Muhammad Usman Akram; Anum Abdul Salam
+Year: 2024
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2025.100149",1,wrong_year,10.1016/j.nlp.2025.100149,,2025,2024,alternating_year_plus_minus_one
+217,"Title: ""Frontiers of deep learning""
+Authors: Shuhao Wang; Gang Xu
+Year: 2025
+Venue: Deep Learning
+DOI: 10.1007/979-8-8688-1017-6_6",1,doi_mismatch,10.1016/b978-0-443-43954-4.00006-8,10.1007/979-8-8688-1017-6_6,10.1016/b978-0-443-43954-4.00006-8,10.1007/979-8-8688-1017-6_6,doi_substitution (offset=1)
+218,"Title: ""Image Analysis and Computer Vision: 1999""
+Authors: Azriel Rosenfeld
+Year: 2000
+Venue: Natural Language Processing Journal
+DOI: 10.1006/cviu.2000.0835",1,wrong_venue,10.1006/cviu.2000.0835,10.1016/j.nlp.2022.100001,Computer Vision and Image Understanding,Natural Language Processing Journal,venue_substitution (offset=2)
+219,"Title: ""NLPutils: Natural Language Processing Utilities""
+Authors: Kurt Hornik
+Year: 2015
+Venue: CRAN: Contributed Packages
+DOI: 10.32614/cran.package.nlputils",1,wrong_year,10.32614/cran.package.nlputils,,2014,2015,alternating_year_plus_minus_one
+220,"Title: ""Learning Curves in Machine Learning""
+Authors: Claudia Perlich
+Year: 2010
+Venue: Encyclopedia of Machine Learning
+DOI: 10.1007/978-0-387-30164-8_452",1,wrong_year,10.1007/978-0-387-30164-8_452,,2011,2010,alternating_year_plus_minus_one
+221,"Title: ""Applying Natural Language Processing in a Cloud-based Business Card Management Service""
+Authors: Kanji Takahashi; Tomonori Manabe
+Year: 2020
+Venue: Journal of Natural Language Processing
+DOI: 10.5715/jnlp.28.297",1,wrong_year,10.5715/jnlp.28.297,,2021,2020,alternating_year_plus_minus_one
+222,"Title: ""Observatorio virtual sonoro basado en Deep Learning = Deep Learning Auditory Virtual Observatory""
+Authors: Adrián García Riber
+Year: 2025
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.20868/upm.thesis.90828",1,wrong_venue,10.20868/upm.thesis.90828,10.1007/979-8-8688-1017-6_7,Universidad Politecnica de Madrid - University Library,Building Scalable Deep Learning Pipelines on AWS,venue_substitution (offset=1)
+223,"Title: ""Context Aware Verification of Automatically Generated Citations (19)""
+Authors: Robert Miller; Emma Thompson
+Year: 2020
+Venue: International Journal of Computer Vision
+DOI: 10.9999/citeguard.synthetic.0019",1,plausible_fabricated,,,,,synthetic_template_generation
+224,"Title: ""Reinforcement learning""
+Authors: Thomas P. Trappenberg
+Year: 2019
+Venue: Fundamentals of Machine Learning
+DOI: 10.1093/oso/9780198828044.003.0010",0,valid,10.1093/oso/9780198828044.003.0010,,,,unmodified_valid_seed
+225,"Title: ""Multi Source Verification of AI Generated Bibliographic Information (18)""
+Authors: Robert Miller; Emma Thompson
+Year: 2021
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0018",1,plausible_fabricated,,,,,synthetic_template_generation
+226,"Title: ""Machine Learning""
+Authors: Peter Wittek
+Year: 2014
+Venue: Online Machine Learning
+DOI: 10.1016/b978-0-12-800953-6.00002-5",1,wrong_venue,10.1016/b978-0-12-800953-6.00002-5,10.1007/978-3-658-42505-0_1,Quantum Machine Learning,Online Machine Learning,venue_substitution (offset=1)
+227,"Title: ""Applications of Machine Learning in cricket: A systematic review""
+Authors: Indika Wickramasinghe
+Year: 2022
+Venue: Encyclopedia of Machine Learning
+DOI: 10.1016/j.mlwa.2022.100435",1,wrong_venue,10.1016/j.mlwa.2022.100435,10.1007/978-0-387-30164-8_452,Machine Learning with Applications,Encyclopedia of Machine Learning,venue_substitution (offset=1)
+228,"Title: ""Shallow Language Processing, Deep Language Processing and Domain Ontologies""
+Authors: H. Uszkoreit
+Year: 2006
+Venue: 2005 International Conference on Natural Language Processing and Knowledge Engineering
+DOI: 10.1109/nlpke.2005.1598697",0,valid,10.1109/nlpke.2005.1598697,,,,unmodified_valid_seed
+229,"Title: ""Machine Learning Overview""
+Authors: Taiwo Oladipupo
+Year: 2010
+Venue: Machine Learning, Animated
+DOI: 10.5772/9374",1,wrong_venue,10.5772/9374,10.1201/b23383-3,New Advances in Machine Learning,"Machine Learning, Animated",venue_substitution (offset=1)
+230,"Title: ""Multi Source Verification of AI Generated Bibliographic Information (9)""
+Authors: Robert Miller; Emma Thompson
+Year: 2020
+Venue: International Journal of Computer Vision
+DOI: 10.9999/citeguard.synthetic.0009",1,plausible_fabricated,,,,,synthetic_template_generation
+231,"Title: ""Neural Verification of Automatically Generated Scholarly References (34)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2021
+Venue: ACM Transactions on Intelligent Systems and Technology
+DOI: 10.9999/citeguard.synthetic.0034",1,plausible_fabricated,,,,,synthetic_template_generation
+232,"Title: ""Machine Learning as an Experimental Science""
+Authors: Shabbir Hassan
+Year: 1988
+Venue: Machine Learning
+DOI: 10.1023/a:1022623814640",1,corrupted_authors,10.1023/a:1022623814640,10.1201/9781003606055-5,Pat Langley,Shabbir Hassan,first_author_substitution (offset=1)
+233,"Title: ""What Is Deep Learning?""
+Authors: Thimira Amaratunga
+Year: 2021
+Venue: Deep Learning with Python
+DOI: 10.1007/978-1-4842-6431-7_1",1,wrong_venue,10.1007/978-1-4842-6431-7_1,10.1007/978-1-4842-5364-9_1,Deep Learning on Windows,Deep Learning with Python,venue_substitution (offset=1)
+234,"Title: ""Editorial: Machine Learning and Discovery""
+Authors: Pat Langley; Ryszard S. Michalski
+Year: 1986
+Venue: Machine Learning
+DOI: 10.5772/9374",1,doi_mismatch,10.1023/a:1022814715297,10.5772/9374,10.1023/a:1022814715297,10.5772/9374,doi_substitution (offset=1)
+235,"Title: ""Machine Learning for Information Extraction in Informal Domains""
+Authors: Dayne Freitag
+Year: 2000
+Venue: Machine Learning
+DOI: 10.1016/j.mlwa.2022.100435",1,doi_mismatch,10.1023/a:1007601113994,10.1016/j.mlwa.2022.100435,10.1023/a:1007601113994,10.1016/j.mlwa.2022.100435,doi_substitution (offset=1)
+236,"Title: ""Embodied artificial intelligence""
+Authors: Ron Chrisley
+Year: 2003
+Venue: Artificial Intelligence
+DOI: 10.1016/0004-3702(85)90013-x",1,doi_mismatch,10.1016/s0004-3702(03)00055-9,10.1016/0004-3702(85)90013-x,10.1016/s0004-3702(03)00055-9,10.1016/0004-3702(85)90013-x,doi_substitution (offset=1)
+237,"Title: ""Reframing Difficult Deep Learning Problems""
+Authors: Andre Ye
+Year: 2022
+Venue: Modern Deep Learning Design and Application Development
+DOI: 10.1007/979-8-8688-1017-6_4",1,doi_mismatch,10.1007/978-1-4842-7413-2_7,10.1007/979-8-8688-1017-6_4,10.1007/978-1-4842-7413-2_7,10.1007/979-8-8688-1017-6_4,doi_substitution (offset=1)
+238,"Title: ""Introduction to Machine Learning and Deep Learning""
+Authors: Vikash Agarwal; Jojo Moolayil
+Year: 2021
+Venue: Deep Learning with Python
+DOI: 10.1007/978-1-4842-5364-9_1",1,corrupted_authors,10.1007/978-1-4842-5364-9_1,10.1201/9781003264767-7,Nikhil Ketkar; Jojo Moolayil,Vikash Agarwal; Jojo Moolayil,first_author_substitution (offset=1)
+239,"Title: ""Multi Source Verification of AI Generated Bibliographic Information (11)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2020
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0011",1,plausible_fabricated,,,,,synthetic_template_generation
+240,"Title: ""Deep Learning with PyTorch for Classification""
+Authors: Abdelaziz Testas
+Year: 2024
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1007/979-8-8688-1017-6_5",1,doi_mismatch,10.1007/979-8-8688-1017-6_6,10.1007/979-8-8688-1017-6_5,10.1007/979-8-8688-1017-6_6,10.1007/979-8-8688-1017-6_5,doi_substitution (offset=1)
+241,"Title: ""Embodied artificial intelligence""
+Authors: Ron Chrisley
+Year: 2003
+Venue: Fundamentals of Machine Learning
+DOI: 10.1016/s0004-3702(03)00055-9",1,wrong_venue,10.1016/s0004-3702(03)00055-9,10.1093/oso/9780198828044.003.0003,Artificial Intelligence,Fundamentals of Machine Learning,venue_substitution (offset=2)
+242,"Title: ""Reliable Citation Grounding for Large Language Models (73)""
+Authors: Robert Miller; Emma Thompson
+Year: 2021
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0073",1,plausible_fabricated,,,,,synthetic_template_generation
+243,"Title: ""Machine Learning and Grammar Induction""
+Authors: Pat Langely
+Year: 1987
+Venue: Automated Machine Learning for Business
+DOI: 10.1023/a:1022808826027",1,wrong_venue,10.1023/a:1022808826027,10.1093/oso/9780190941659.003.0001,Machine Learning,Automated Machine Learning for Business,venue_substitution (offset=1)
+244,"Title: ""Natural Language Processing Application Projects""
+Authors: Huaping Zhang; Jianyun Shang
+Year: 2025
+Venue: Natural Language Processing and Applications
+DOI: 10.5715/jnlp.27.963",1,doi_mismatch,10.1007/978-981-97-9739-4_19,10.5715/jnlp.27.963,10.1007/978-981-97-9739-4_19,10.5715/jnlp.27.963,doi_substitution (offset=1)
+245,"Title: ""Multi Source Verification of AI Generated Bibliographic Information (25)""
+Authors: Robert Miller; Emma Thompson
+Year: 2018
+Venue: International Journal of Computer Vision
+DOI: 10.9999/citeguard.synthetic.0025",1,plausible_fabricated,,,,,synthetic_template_generation
+246,"Title: ""Resource-based Natural Language Processing""
+Authors: Hideto Tomabechi
+Year: 2007
+Venue: 2007 International Conference on Natural Language Processing and Knowledge Engineering
+DOI: 10.1109/nlpke.2007.4368002",1,corrupted_authors,10.1109/nlpke.2007.4368002,10.5715/jnlp.2.2_23,Hitoshi Isahara,Hideto Tomabechi,first_author_substitution (offset=1)
+247,"Title: ""Thesauruses for natural language processing""
+Authors: A. Kilgarriff
+Year: 2004
+Venue: Applications of Artificial Intelligence in Chemistry
+DOI: 10.1109/nlpke.2003.1275859",1,wrong_venue,10.1109/nlpke.2003.1275859,10.1093/hesc/9780198557364.003.0001,"International Conference on Natural Language Processing and Knowledge Engineering, 2003. Proceedings. 2003",Applications of Artificial Intelligence in Chemistry,venue_substitution (offset=1)
+248,"Title: ""Multi Source Verification of AI Generated Bibliographic Information (72)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2021
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0072",1,plausible_fabricated,,,,,synthetic_template_generation
+249,"Title: ""Introduction to Machine Learning and Supervised Learning""
+Authors: Hang Li
+Year: 2024
+Venue: Machine Learning Methods
+DOI: 10.1023/a:1022689616458",1,doi_mismatch,10.1007/978-981-99-3917-6_1,10.1023/a:1022689616458,10.1007/978-981-99-3917-6_1,10.1023/a:1022689616458,doi_substitution (offset=1)
+250,"Title: ""Deep Learning with PyTorch for Classification""
+Authors: Abdelaziz Testas
+Year: 2025
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1007/979-8-8688-1017-6_6",1,wrong_year,10.1007/979-8-8688-1017-6_6,,2024,2025,alternating_year_plus_minus_one
+251,"Title: ""Artificial intelligence and folklore: Artificial intelligence technologies derived from folklore""
+Authors: Valeh Hikmet Guliyev
+Year: 2025
+Venue: Artificial Intelligence and Digital Development
+DOI: 10.59849/aidd.2024.54",1,wrong_year,10.59849/aidd.2024.54,,2024,2025,alternating_year_plus_minus_one
+252,"Title: ""Machine Learning: A Maturing Field""
+Authors: Jaime Carbonell
+Year: 1992
+Venue: Soft Computing and Machine Learning
+DOI: 10.1023/a:1022665512030",1,wrong_venue,10.1023/a:1022665512030,10.1201/9781003606055-5,Machine Learning,Soft Computing and Machine Learning,venue_substitution (offset=8)
+253,"Title: ""Artificial intelligence""
+Authors: Gillian Pocock; Hugh M
+Year: 1993
+Venue: Applications of Artificial Intelligence in Chemistry
+DOI: 10.1093/hesc/9780198557364.003.0001",0,valid,10.1093/hesc/9780198557364.003.0001,,,,unmodified_valid_seed
+254,"Title: ""Deep Probabilistic Learning""
+Authors: Yogesh Malhotra
+Year: 2023
+Venue: Deep Learning Foundations
+DOI: 10.1007/978-3-031-32879-4_6",1,corrupted_authors,10.1007/978-3-031-32879-4_6,10.2139/ssrn.3193693,Taeho Jo,Yogesh Malhotra,first_author_substitution (offset=1)
+255,"Title: ""A Unified Framework for Reliable Citation Verification (63)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2018
+Venue: ACM Transactions on Intelligent Systems and Technology
+DOI: 10.9999/citeguard.synthetic.0063",1,plausible_fabricated,,,,,synthetic_template_generation
+256,"Title: ""Learning Curves in Machine Learning""
+Authors: Claudia Perlich
+Year: 2011
+Venue: Encyclopedia of Data Science and Machine Learning
+DOI: 10.1007/978-0-387-30164-8_452",1,wrong_venue,10.1007/978-0-387-30164-8_452,10.4018/978-1-7998-9220-5.ch097,Encyclopedia of Machine Learning,Encyclopedia of Data Science and Machine Learning,venue_substitution (offset=1)
+257,"Title: ""Detection of alternative splicing: deep sequencing or deep learning""
+Authors: Thimira Amaratunga; Jan Baumbach; Olga Tsoy
+Year: 2023
+Venue: Detection of alternative splicing: deep sequencing or deep learning
+DOI: 10.14293/gof.23.032",1,corrupted_authors,10.14293/gof.23.032,10.1007/978-1-4842-6431-7_2,Lena Maria Hackl; Jan Baumbach; Olga Tsoy,Thimira Amaratunga; Jan Baumbach; Olga Tsoy,first_author_substitution (offset=1)
+258,"Title: ""Editorial: Human and Machine Learning""
+Authors: Pat Langley
+Year: 1986
+Venue: Soft Computing and Machine Learning
+DOI: 10.1023/a:1022854429410",1,wrong_venue,10.1023/a:1022854429410,10.1201/9781003606055-5,Machine Learning,Soft Computing and Machine Learning,venue_substitution (offset=7)
+259,"Title: ""Machine Learning and Qualitative Reasoning""
+Authors: Ivan Bratko
+Year: 1994
+Venue: Machine Learning
+DOI: 10.1023/a:1022661713654",0,valid,10.1023/a:1022661713654,,,,unmodified_valid_seed
+260,"Title: ""Natural Language Processing""
+Authors: Raymond Lee
+Year: 2025
+Venue: Natural Language Processing
+DOI: 10.1016/j.nlp.2025.100149",1,doi_mismatch,10.1007/978-981-96-3208-4_1,10.1016/j.nlp.2025.100149,10.1007/978-981-96-3208-4_1,10.1016/j.nlp.2025.100149,doi_substitution (offset=1)
+261,"Title: ""Topology in Deep Learning""
+Authors: Shuhao Wang
+Year: 2025
+Venue: Mathematical Foundations for Deep Learning
+DOI: 10.1201/9781032690742-9",1,corrupted_authors,10.1201/9781032690742-9,10.1016/b978-0-443-43954-4.00005-6,Mehdi Ghayoumi,Shuhao Wang,first_author_substitution (offset=1)
+262,"Title: ""DeepMPTB: a vaginal microbiome-based deep neural network as artificial intelligence strategy for efficient preterm birth prediction""
+Authors: Valeh Hikmet Guliyev; Vincent Barra; Emmanuelle Rochette; Loïc Blanchon; Vincent Sapin; Etienne Merlin; Maguelonne Pons; Denis Gallot; Sophie Comtet-Marre; Pierre Peyret
+Year: 2024
+Venue: Biomarker Research
+DOI: 10.1186/s40364-024-00557-1",1,corrupted_authors,10.1186/s40364-024-00557-1,10.59849/aidd.2024.54,Oshma Chakoory; Vincent Barra; Emmanuelle Rochette; Loïc Blanchon; Vincent Sapin; Etienne Merlin; Maguelonne Pons; Denis Gallot; Sophie Comtet-Marre; Pierre Peyret,Valeh Hikmet Guliyev; Vincent Barra; Emmanuelle Rochette; Loïc Blanchon; Vincent Sapin; Etienne Merlin; Maguelonne Pons; Denis Gallot; Sophie Comtet-Marre; Pierre Peyret,first_author_substitution (offset=1)
+263,"Title: ""Biomedical Natural Language Processing""
+Authors: Kevin Bretonnel Cohen; Dina Demner-Fushman
+Year: 2014
+Venue: Natural Language Processing
+DOI: 10.5715/jnlp.27.951",1,doi_mismatch,10.1075/nlp.11,10.5715/jnlp.27.951,10.1075/nlp.11,10.5715/jnlp.27.951,doi_substitution (offset=1)
+264,"Title: ""Robotics, Grounding and Natural Language Processing""
+Authors: Daichi Mochihashi
+Year: 2021
+Venue: Journal of Natural Language Processing
+DOI: 10.5715/jnlp.27.963",1,wrong_year,10.5715/jnlp.27.963,,2020,2021,alternating_year_plus_minus_one
+265,"Title: ""NLP: Natural Language Processing Infrastructure""
+Authors: Kurt Hornik
+Year: 2013
+Venue: CRAN: Contributed Packages
+DOI: 10.1016/j.nlp.2025.100137",1,doi_mismatch,10.32614/cran.package.nlp,10.1016/j.nlp.2025.100137,10.32614/cran.package.nlp,10.1016/j.nlp.2025.100137,doi_substitution (offset=1)
+266,"Title: ""Machine Learning: An Overview""
+Authors: Mark Liu
+Year: 2023
+Venue: Machine Learning, Animated
+DOI: 10.1201/b23383-3",0,valid,10.1201/b23383-3,,,,unmodified_valid_seed
+267,"Title: ""Crystal Vision-Applications of Point Groups in Computer Vision""
+Authors: Reiner Lenz
+Year: 2007
+Venue: Lecture Notes in Computer Science
+DOI: 10.1007/978-3-540-76390-1_73",0,valid,10.1007/978-3-540-76390-1_73,,,,unmodified_valid_seed
+268,"Title: ""Artificial intelligence""
+Authors: Donna Reese
+Year: 1985
+Venue: Biomarker Research
+DOI: 10.1016/0004-3702(85)90088-8",1,wrong_venue,10.1016/0004-3702(85)90088-8,10.1186/s40364-024-00557-1,Artificial Intelligence,Biomarker Research,venue_substitution (offset=1)
+269,"Title: ""Building Your First Deep Learning Model""
+Authors: Thimira Amaratunga
+Year: 2021
+Venue: Deep Learning on Windows
+DOI: 10.1007/978-1-4842-6431-7_4",0,valid,10.1007/978-1-4842-6431-7_4,,,,unmodified_valid_seed
+270,"Title: ""Deep Networks and Deep Learning Algorithms""
+Authors: Tannu Kumari; Anjana Mishra
+Year: 2020
+Venue: MATLAB Deep Learning
+DOI: 10.1201/9780367854737-12",1,wrong_venue,10.1201/9780367854737-12,10.1007/978-1-4842-2845-6_5,Artificial Intelligence Trends for Data Analytics Using Machine Learning and Deep Learning Approaches,MATLAB Deep Learning,venue_substitution (offset=1)
+271,"Title: ""Deep Learning with PyTorch for Regression""
+Authors: Abdelaziz Testas
+Year: 2024
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1007/979-8-8688-1017-6_4",0,valid,10.1007/979-8-8688-1017-6_4,,,,unmodified_valid_seed
+272,"Title: ""Building Your First Deep Learning Model""
+Authors: Thimira Amaratunga
+Year: 2021
+Venue: Deep Learning with Python
+DOI: 10.1007/978-1-4842-6431-7_4",1,wrong_venue,10.1007/978-1-4842-6431-7_4,10.1007/978-1-4842-5364-9_8,Deep Learning on Windows,Deep Learning with Python,venue_substitution (offset=1)
+273,"Title: ""Machine Learning and Concept Formation""
+Authors: Jaime Carbonell
+Year: 1987
+Venue: Machine Learning
+DOI: 10.1023/a:1022896407371",1,corrupted_authors,10.1023/a:1022896407371,10.1023/a:1022665512030,Pat Langley,Jaime Carbonell,first_author_substitution (offset=1)
+274,"Title: ""Artificial intelligence""
+Authors: Gillian Pocock; Hugh M
+Year: 1993
+Venue: Applications of Artificial Intelligence in Chemistry
+DOI: 10.1016/0004-3702(86)90034-2",1,doi_mismatch,10.1093/hesc/9780198557364.003.0001,10.1016/0004-3702(86)90034-2,10.1093/hesc/9780198557364.003.0001,10.1016/0004-3702(86)90034-2,doi_substitution (offset=1)
+275,"Title: ""Automated Detection of Fabricated Academic References (45)""
+Authors: Robert Miller; Emma Thompson
+Year: 2019
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0045",1,plausible_fabricated,,,,,synthetic_template_generation
+276,"Title: ""Language Processing for Finance and Economics""
+Authors: Hiroki Sakaji; Kiyoshi Izumi; Hiroyuki Sakai
+Year: 2021
+Venue: Journal of Natural Language Processing
+DOI: 10.5715/jnlp.27.951",1,wrong_year,10.5715/jnlp.27.951,,2020,2021,alternating_year_plus_minus_one
+277,"Title: ""Deep Learning with TensorFlow for Classification""
+Authors: Abdelaziz Testas
+Year: 2024
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1007/979-8-8688-1017-6_7",0,valid,10.1007/979-8-8688-1017-6_7,,,,unmodified_valid_seed
+278,"Title: ""Topology in Deep Learning""
+Authors: Mehdi Ghayoumi
+Year: 2025
+Venue: Mathematical Foundations for Deep Learning
+DOI: 10.1016/b978-0-443-43954-4.00005-6",1,doi_mismatch,10.1201/9781032690742-9,10.1016/b978-0-443-43954-4.00005-6,10.1201/9781032690742-9,10.1016/b978-0-443-43954-4.00005-6,doi_substitution (offset=1)
+279,"Title: ""Employing large language models in Swahili, a low-resource language""
+Authors: Dietram Efrem Mgeni
+Year: 2026
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2026.100209",0,valid,10.1016/j.nlp.2026.100209,,,,unmodified_valid_seed
+280,"Title: ""Application of machine learning algorithms for prediction of sinter machine productivity""
+Authors: Arpit Mallick; Subhra Dhara; Sushant Rath
+Year: 2021
+Venue: Online Machine Learning
+DOI: 10.1016/j.mlwa.2021.100186",1,wrong_venue,10.1016/j.mlwa.2021.100186,10.1007/978-3-658-46162-1_1,Machine Learning with Applications,Online Machine Learning,venue_substitution (offset=1)
+281,"Title: ""Design of Efficient Unification for Natural Language""
+Authors: Hideto Tomabechi
+Year: 1995
+Venue: Journal of Natural Language Processing
+DOI: 10.5715/jnlp.2.2_23",0,valid,10.5715/jnlp.2.2_23,,,,unmodified_valid_seed
+282,"Title: ""Robotics, Grounding and Natural Language Processing""
+Authors: Daichi Mochihashi
+Year: 2020
+Venue: Journal of Natural Language Processing
+DOI: 10.1075/nlp.11",1,doi_mismatch,10.5715/jnlp.27.963,10.1075/nlp.11,10.5715/jnlp.27.963,10.1075/nlp.11,doi_substitution (offset=1)
+283,"Title: ""Deep Learning Fundamentals""
+Authors: Hisham El-Amir; Mahmoud Hamdy
+Year: 2020
+Venue: Deep Learning Pipeline
+DOI: 10.1201/9780367854737-12",1,doi_mismatch,10.1007/978-1-4842-5349-6_9,10.1201/9780367854737-12,10.1007/978-1-4842-5349-6_9,10.1201/9780367854737-12,doi_substitution (offset=1)
+284,"Title: ""A Unified Framework for Reliable Citation Verification (56)""
+Authors: Sophia Williams; James Carter
+Year: 2018
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0056",1,plausible_fabricated,,,,,synthetic_template_generation
+285,"Title: ""Neural Verification of Automatically Generated Scholarly References (35)""
+Authors: David Wilson; Olivia Martin
+Year: 2022
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0035",1,plausible_fabricated,,,,,synthetic_template_generation
+286,"Title: ""Deep Learning with TensorFlow for Regression""
+Authors: Abdelaziz Testas
+Year: 2024
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1007/979-8-8688-1017-6_5",0,valid,10.1007/979-8-8688-1017-6_5,,,,unmodified_valid_seed
+287,"Title: ""Natural Language Processing""
+Authors: Raymond Lee
+Year: 2025
+Venue: Natural Language Processing Journal
+DOI: 10.1007/978-981-96-3208-4_1",1,wrong_venue,10.1007/978-981-96-3208-4_1,10.1016/j.nlp.2025.100149,Natural Language Processing,Natural Language Processing Journal,venue_substitution (offset=1)
+288,"Title: ""Image Analysis and Computer Vision: 1997""
+Authors: Azriel Rosenfeld
+Year: 1998
+Venue: Computer Vision and Image Understanding
+DOI: 10.1006/cviu.1998.0697",0,valid,10.1006/cviu.1998.0697,,,,unmodified_valid_seed
+289,"Title: ""Artificial intelligence and robotics""
+Authors: Michael Brady
+Year: 1985
+Venue: Fundamentals of Machine Learning
+DOI: 10.1016/0004-3702(85)90013-x",1,wrong_venue,10.1016/0004-3702(85)90013-x,10.1093/oso/9780198828044.003.0003,Artificial Intelligence,Fundamentals of Machine Learning,venue_substitution (offset=1)
+290,"Title: ""Neural Verification of Automatically Generated Scholarly References (82)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2021
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0082",1,plausible_fabricated,,,,,synthetic_template_generation
+291,"Title: ""Where to Start Your Deep Learning""
+Authors: Thimira Amaratunga
+Year: 2020
+Venue: Deep Learning on Windows
+DOI: 10.1007/978-1-4842-6431-7_2",1,wrong_year,10.1007/978-1-4842-6431-7_2,,2021,2020,alternating_year_plus_minus_one
+292,"Title: ""Why Use Automated Machine Learning?""
+Authors: Kai R. Larsen; Daniel S. Becker
+Year: 2021
+Venue: Automated Machine Learning for Business
+DOI: 10.1023/a:1022896407371",1,doi_mismatch,10.1093/oso/9780190941659.003.0001,10.1023/a:1022896407371,10.1093/oso/9780190941659.003.0001,10.1023/a:1022896407371,doi_substitution (offset=1)
+293,"Title: ""Biomedical Natural Language Processing""
+Authors: Kevin Bretonnel Cohen; Dina Demner-Fushman
+Year: 2015
+Venue: Natural Language Processing
+DOI: 10.1075/nlp.11",1,wrong_year,10.1075/nlp.11,,2014,2015,alternating_year_plus_minus_one
+294,"Title: ""Application of machine learning algorithms for prediction of sinter machine productivity""
+Authors: Arpit Mallick; Subhra Dhara; Sushant Rath
+Year: 2021
+Venue: Machine Learning with Applications
+DOI: 10.1016/j.mlwa.2021.100186",0,valid,10.1016/j.mlwa.2021.100186,,,,unmodified_valid_seed
+295,"Title: ""Machine Learning Overview""
+Authors: Taiwo Oladipupo
+Year: 2010
+Venue: New Advances in Machine Learning
+DOI: 10.5772/9374",0,valid,10.5772/9374,,,,unmodified_valid_seed
+296,"Title: ""Introduction to Machine Learning and Deep Learning""
+Authors: Nikhil Ketkar; Jojo Moolayil
+Year: 2021
+Venue: Deep Learning with Python
+DOI: 10.1007/978-1-4842-5364-9_1",0,valid,10.1007/978-1-4842-5364-9_1,,,,unmodified_valid_seed
+297,"Title: ""Neural Verification of Automatically Generated Scholarly References (96)""
+Authors: Sophia Williams; James Carter
+Year: 2023
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0096",1,plausible_fabricated,,,,,synthetic_template_generation
+298,"Title: ""Semantic mediation in audio and music intelligence through natural language processing a systematic literature review""
+Authors: Novia Ratnasari; Aji Prasetya Wibawa
+Year: 2026
+Venue: Natural Language Processing Journal
+DOI: 10.1093/oxfordhb/9780199276349.013.0037",1,doi_mismatch,10.1016/j.nlp.2026.100225,10.1093/oxfordhb/9780199276349.013.0037,10.1016/j.nlp.2026.100225,10.1093/oxfordhb/9780199276349.013.0037,doi_substitution (offset=1)
+299,"Title: ""Developing Machine Learning Skills With No-Code Machine Learning Tools""
+Authors: Emmanuel Djaba; Joseph Budu
+Year: 2023
+Venue: Encyclopedia of Data Science and Machine Learning
+DOI: 10.4018/978-1-7998-9220-5.ch097",0,valid,10.4018/978-1-7998-9220-5.ch097,,,,unmodified_valid_seed
+300,"Title: ""A Robust Method for Scholarly Reference Validation (84)""
+Authors: Robert Miller; Emma Thompson
+Year: 2019
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0084",1,plausible_fabricated,,,,,synthetic_template_generation
+301,"Title: ""A Robust Method for Scholarly Reference Validation (97)""
+Authors: Robert Miller; Emma Thompson
+Year: 2022
+Venue: ACM Transactions on Intelligent Systems and Technology
+DOI: 10.9999/citeguard.synthetic.0097",1,plausible_fabricated,,,,,synthetic_template_generation
+302,"Title: ""Is Online Learning Killing Deep Learning? LMS-centred Online Learning Practices, Deep Approaches to Learning and PLE Development""
+Authors: Yipu Wang
+Year: 2026
+Venue: Center for Open Science
+DOI: 10.35542/osf.io/arn3h_v1",1,corrupted_authors,10.35542/osf.io/arn3h_v1,10.18178/ijlll.2024.10.1.479,Paul Albinson,Yipu Wang,first_author_substitution (offset=1)
+303,"Title: ""A Deep Learning Framework for Academic Citation Validation (21)""
+Authors: Sophia Williams; James Carter
+Year: 2019
+Venue: ACM Transactions on Intelligent Systems and Technology
+DOI: 10.9999/citeguard.synthetic.0021",1,plausible_fabricated,,,,,synthetic_template_generation
+304,"Title: ""Computer Vision, Deep Learning, Deep Reinforcement Learning""
+Authors: Farshid PirahanSiah
+Year: 2019
+Venue: ScienceOpen
+DOI: 10.1007/979-8-8688-1035-0_2",1,doi_mismatch,10.14293/s2199-1006.1.sor-uncat.clzwyuz.v1,10.1007/979-8-8688-1035-0_2,10.14293/s2199-1006.1.sor-uncat.clzwyuz.v1,10.1007/979-8-8688-1035-0_2,doi_substitution (offset=1)
+305,"Title: ""Observatorio virtual sonoro basado en Deep Learning = Deep Learning Auditory Virtual Observatory""
+Authors: Adrián García Riber
+Year: 2024
+Venue: Universidad Politecnica de Madrid - University Library
+DOI: 10.20868/upm.thesis.90828",1,wrong_year,10.20868/upm.thesis.90828,,2025,2024,alternating_year_plus_minus_one
+306,"Title: ""Generative Deep Learning""
+Authors: Deep Ray; Orazio Pinti; Assad A. Oberai
+Year: 2024
+Venue: Deep Learning and Computational Physics
+DOI: 10.1016/b978-0-12-823822-6.00014-7",1,doi_mismatch,10.1007/978-3-031-59345-1_7,10.1016/b978-0-12-823822-6.00014-7,10.1007/978-3-031-59345-1_7,10.1016/b978-0-12-823822-6.00014-7,doi_substitution (offset=1)
+307,"Title: ""Multi Source Verification of AI Generated Bibliographic Information (30)""
+Authors: Andrew Johnson; Emily Davis
+Year: 2021
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0030",1,plausible_fabricated,,,,,synthetic_template_generation
+308,"Title: ""Deep Learning Fundamentals""
+Authors: Hisham El-Amir; Mahmoud Hamdy
+Year: 2021
+Venue: Deep Learning Pipeline
+DOI: 10.1007/978-1-4842-5349-6_9",1,wrong_year,10.1007/978-1-4842-5349-6_9,,2020,2021,alternating_year_plus_minus_one
+309,"Title: ""Machine Learning as an Experimental Science""
+Authors: Pat Langley
+Year: 1989
+Venue: Machine Learning
+DOI: 10.1023/a:1022623814640",1,wrong_year,10.1023/a:1022623814640,,1988,1989,alternating_year_plus_minus_one
+310,"Title: ""Deep Networks and Deep Learning Algorithms""
+Authors: Phil Kim; Anjana Mishra
+Year: 2020
+Venue: Artificial Intelligence Trends for Data Analytics Using Machine Learning and Deep Learning Approaches
+DOI: 10.1201/9780367854737-12",1,corrupted_authors,10.1201/9780367854737-12,10.1007/978-1-4842-2845-6_5,Tannu Kumari; Anjana Mishra,Phil Kim; Anjana Mishra,first_author_substitution (offset=1)
+311,"Title: ""Editorial: Advice to Machine Learning Authors""
+Authors: Pat Langley
+Year: 1990
+Venue: Machine Learning
+DOI: 10.1023/a:1022840627593",1,doi_mismatch,10.1023/a:1022647305786,10.1023/a:1022840627593,10.1023/a:1022647305786,10.1023/a:1022840627593,doi_substitution (offset=1)
+312,"Title: ""Image Analysis and Computer Vision: 1998""
+Authors: Azriel Rosenfeld
+Year: 1999
+Venue: Computer Vision and Image Understanding
+DOI: 10.1016/j.nlp.2022.100001",1,doi_mismatch,10.1006/cviu.1999.0746,10.1016/j.nlp.2022.100001,10.1006/cviu.1999.0746,10.1016/j.nlp.2022.100001,doi_substitution (offset=1)
+313,"Title: ""Genomics with Deep Learning""
+Authors: X. Chen
+Year: 2020
+Venue: Deep Learning for Biomedical Applications
+DOI: 10.1201/9780367855611-9",1,wrong_year,10.1201/9780367855611-9,,2021,2020,alternating_year_plus_minus_one
+314,"Title: ""Deep Learning""
+Authors: Phil Kim
+Year: 2017
+Venue: MATLAB Deep Learning
+DOI: 10.1007/978-1-4842-6431-7_1",1,doi_mismatch,10.1007/978-1-4842-2845-6_5,10.1007/978-1-4842-6431-7_1,10.1007/978-1-4842-2845-6_5,10.1007/978-1-4842-6431-7_1,doi_substitution (offset=1)
+315,"Title: ""A Unified Framework for Reliable Citation Verification (76)""
+Authors: Robert Miller; Emma Thompson
+Year: 2018
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0076",1,plausible_fabricated,,,,,synthetic_template_generation
+316,"Title: ""Artificial intelligence""
+Authors: Roy Rada
+Year: 1986
+Venue: Artificial Intelligence
+DOI: 10.1016/0004-3702(86)90034-2",0,valid,10.1016/0004-3702(86)90034-2,,,,unmodified_valid_seed
+317,"Title: ""Machine Learning and Deep Learning in Deep Brain Stimulation Targeting for Parkinson's Disease""
+Authors: Andre Ye; M Swarna; Dolly Mushahary
+Year: 2024
+Venue: Machine Learning and Deep Learning in Neuroimaging Data Analysis
+DOI: 10.1201/9781003264767-7",1,corrupted_authors,10.1201/9781003264767-7,10.1007/978-1-4842-7413-2_7,Vikash Agarwal; M Swarna; Dolly Mushahary,Andre Ye; M Swarna; Dolly Mushahary,first_author_substitution (offset=1)
+318,"Title: ""NLPutils: Natural Language Processing Utilities""
+Authors: Kurt Hornik
+Year: 2014
+Venue: CRAN: Contributed Packages
+DOI: 10.32614/cran.package.nlputils",0,valid,10.32614/cran.package.nlputils,,,,unmodified_valid_seed
+319,"Title: ""Editorial: Machine Learning and Discovery""
+Authors: Taiwo Oladipupo; Ryszard S. Michalski
+Year: 1986
+Venue: Machine Learning
+DOI: 10.1023/a:1022814715297",1,corrupted_authors,10.1023/a:1022814715297,10.5772/9374,Pat Langley; Ryszard S. Michalski,Taiwo Oladipupo; Ryszard S. Michalski,first_author_substitution (offset=1)
+320,"Title: ""Reliable Citation Grounding for Large Language Models (86)""
+Authors: Robert Miller; Emma Thompson
+Year: 2024
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0086",1,plausible_fabricated,,,,,synthetic_template_generation
+321,"Title: ""Computer Vision for Egocentric (First-Person) Vision""
+Authors: Mariella Dimiccoli
+Year: 2018
+Venue: Computer Vision and Image Understanding
+DOI: 10.1016/b978-0-12-813445-0.00007-1",1,wrong_venue,10.1016/b978-0-12-813445-0.00007-1,10.1006/cviu.1998.0697,Computer Vision for Assistive Healthcare,Computer Vision and Image Understanding,venue_substitution (offset=1)
+322,"Title: ""Robotics, Grounding and Natural Language Processing""
+Authors: Kevin Bretonnel Cohen
+Year: 2020
+Venue: Journal of Natural Language Processing
+DOI: 10.5715/jnlp.27.963",1,corrupted_authors,10.5715/jnlp.27.963,10.1075/nlp.11,Daichi Mochihashi,Kevin Bretonnel Cohen,first_author_substitution (offset=1)
+323,"Title: ""Machine Learning and Concept Formation""
+Authors: Pat Langley
+Year: 1986
+Venue: Machine Learning
+DOI: 10.1023/a:1022896407371",1,wrong_year,10.1023/a:1022896407371,,1987,1986,alternating_year_plus_minus_one
+324,"Title: ""Automated Detection of Fabricated Academic References (44)""
+Authors: David Wilson; Olivia Martin
+Year: 2018
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0044",1,plausible_fabricated,,,,,synthetic_template_generation
+325,"Title: ""Machine Learning""
+Authors: Peter Wittek
+Year: 2014
+Venue: Quantum Machine Learning
+DOI: 10.1016/b978-0-12-800953-6.00002-5",0,valid,10.1016/b978-0-12-800953-6.00002-5,,,,unmodified_valid_seed
+326,"Title: ""Context Aware Verification of Automatically Generated Citations (100)""
+Authors: Robert Miller; Emma Thompson
+Year: 2019
+Venue: ACM Transactions on Intelligent Systems and Technology
+DOI: 10.9999/citeguard.synthetic.0100",1,plausible_fabricated,,,,,synthetic_template_generation
+327,"Title: ""Toward a Unified Science of Machine Learning""
+Authors: Pat Langley
+Year: 1988
+Venue: Machine Learning
+DOI: 10.1023/a:1022689616458",1,wrong_year,10.1023/a:1022689616458,,1989,1988,alternating_year_plus_minus_one
+328,"Title: ""Multi Source Verification of AI Generated Bibliographic Information (7)""
+Authors: Sophia Williams; James Carter
+Year: 2021
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0007",1,plausible_fabricated,,,,,synthetic_template_generation
+329,"Title: ""Deep Learning - Based Diabetic Retinopathy Detection: A Survey on Deep Learning Architectures""
+Authors: Paul Albinson
+Year: 2024
+Venue: International Journal of Science and Research (IJSR)
+DOI: 10.21275/sr24805160228",1,corrupted_authors,10.21275/sr24805160228,10.35542/osf.io/arn3h_v1,Srinidhi G A,Paul Albinson,first_author_substitution (offset=1)
+330,"Title: ""Resource-based Natural Language Processing""
+Authors: Hitoshi Isahara
+Year: 2007
+Venue: 2007 International Conference on Natural Language Processing and Knowledge Engineering
+DOI: 10.1109/nlpke.2007.4368002",0,valid,10.1109/nlpke.2007.4368002,,,,unmodified_valid_seed
+331,"Title: ""Artificial intelligence""
+Authors: Roy Rada
+Year: 1986
+Venue: Biomarker Research
+DOI: 10.1016/0004-3702(86)90034-2",1,wrong_venue,10.1016/0004-3702(86)90034-2,10.1186/s40364-024-00557-1,Artificial Intelligence,Biomarker Research,venue_substitution (offset=2)
+332,"Title: ""Natural Language Processing Application to the Chemical Domain""
+Authors: Tomoya Iwakura; Hiyori Yoshikawa
+Year: 2020
+Venue: Journal of Natural Language Processing
+DOI: 10.1016/j.nlp.2024.100123",1,doi_mismatch,10.5715/jnlp.27.969,10.1016/j.nlp.2024.100123,10.5715/jnlp.27.969,10.1016/j.nlp.2024.100123,doi_substitution (offset=1)
+333,"Title: ""Frontiers of deep learning""
+Authors: Shuhao Wang; Gang Xu
+Year: 2025
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1016/b978-0-443-43954-4.00006-8",1,wrong_venue,10.1016/b978-0-443-43954-4.00006-8,10.1007/979-8-8688-1017-6_6,Deep Learning,Building Scalable Deep Learning Pipelines on AWS,venue_substitution (offset=1)
+334,"Title: ""Einleitung: Vom Batch Machine Learning zum Online Machine Learning""
+Authors: Thomas Bartz-Beielstein
+Year: 2024
+Venue: Online Machine Learning
+DOI: 10.1007/978-3-658-42505-0_1",0,valid,10.1007/978-3-658-42505-0_1,,,,unmodified_valid_seed
+335,"Title: ""Design of Efficient Unification for Natural Language""
+Authors: Hideto Tomabechi
+Year: 1994
+Venue: Journal of Natural Language Processing
+DOI: 10.5715/jnlp.2.2_23",1,wrong_year,10.5715/jnlp.2.2_23,,1995,1994,alternating_year_plus_minus_one
+336,"Title: ""Machine Learning for Information Extraction in Informal Domains""
+Authors: Indika Wickramasinghe
+Year: 2000
+Venue: Machine Learning
+DOI: 10.1023/a:1007601113994",1,corrupted_authors,10.1023/a:1007601113994,10.1016/j.mlwa.2022.100435,Dayne Freitag,Indika Wickramasinghe,first_author_substitution (offset=1)
+337,"Title: ""Automatic language ability assessment method based on natural language processing""
+Authors: Nonso Nnamoko; Themis Karaminis; Jack Procter; Joseph Barrowclough; Ioannis Korkontzelos
+Year: 2024
+Venue: Applied Natural Language Processing with Python
+DOI: 10.1016/j.nlp.2024.100094",1,wrong_venue,10.1016/j.nlp.2024.100094,10.1007/978-1-4842-3733-5_1,Natural Language Processing Journal,Applied Natural Language Processing with Python,venue_substitution (offset=1)
+338,"Title: ""Image Analysis and Computer Vision: 1997""
+Authors: Azriel Rosenfeld
+Year: 1998
+Venue: Series in Computer Vision
+DOI: 10.1006/cviu.1998.0697",1,wrong_venue,10.1006/cviu.1998.0697,10.1142/9789814460941_0015,Computer Vision and Image Understanding,Series in Computer Vision,venue_substitution (offset=1)
+339,"Title: ""Genomics with Deep Learning""
+Authors: Lena Maria Hackl
+Year: 2021
+Venue: Deep Learning for Biomedical Applications
+DOI: 10.1201/9780367855611-9",1,corrupted_authors,10.1201/9780367855611-9,10.14293/gof.23.032,X. Chen,Lena Maria Hackl,first_author_substitution (offset=1)
+340,"Title: ""A Robust Method for Scholarly Reference Validation (71)""
+Authors: David Wilson; Olivia Martin
+Year: 2018
+Venue: International Journal of Computer Vision
+DOI: 10.9999/citeguard.synthetic.0071",1,plausible_fabricated,,,,,synthetic_template_generation
+341,"Title: ""Editorial: Advice to Machine Learning Authors""
+Authors: Pat Langley
+Year: 1991
+Venue: Machine Learning
+DOI: 10.1023/a:1022647305786",1,wrong_year,10.1023/a:1022647305786,,1990,1991,alternating_year_plus_minus_one
+342,"Title: ""Semantic mediation in audio and music intelligence through natural language processing a systematic literature review""
+Authors: John Nerbonne; Aji Prasetya Wibawa
+Year: 2026
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2026.100225",1,corrupted_authors,10.1016/j.nlp.2026.100225,10.1093/oxfordhb/9780199276349.013.0037,Novia Ratnasari; Aji Prasetya Wibawa,John Nerbonne; Aji Prasetya Wibawa,first_author_substitution (offset=1)
+343,"Title: ""A novel Data Extraction Framework Using Natural Language Processing (DEFNLP) techniques""
+Authors: M. Nagao; Muhammad Usman Akram; Anum Abdul Salam
+Year: 2025
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2025.100149",1,corrupted_authors,10.1016/j.nlp.2025.100149,10.1109/nlpke.2005.1598694,Tayyaba Hussain; Muhammad Usman Akram; Anum Abdul Salam,M. Nagao; Muhammad Usman Akram; Anum Abdul Salam,first_author_substitution (offset=1)
+344,"Title: ""Einleitung: Vom Batch Machine Learning zum Online Machine Learning""
+Authors: Arpit Mallick
+Year: 2024
+Venue: Online Machine Learning
+DOI: 10.1007/978-3-658-42505-0_1",1,corrupted_authors,10.1007/978-3-658-42505-0_1,10.1016/j.mlwa.2021.100186,Thomas Bartz-Beielstein,Arpit Mallick,first_author_substitution (offset=1)
+345,"Title: ""Context Aware Verification of Automatically Generated Citations (33)""
+Authors: Sophia Williams; James Carter
+Year: 2024
+Venue: ACM Transactions on Intelligent Systems and Technology
+DOI: 10.9999/citeguard.synthetic.0033",1,plausible_fabricated,,,,,synthetic_template_generation
+346,"Title: ""Context Aware Verification of Automatically Generated Citations (94)""
+Authors: Robert Miller; Emma Thompson
+Year: 2018
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0094",1,plausible_fabricated,,,,,synthetic_template_generation
+347,"Title: ""Natural Language Processing in Computer-Assisted Language Learning""
+Authors: John Nerbonne
+Year: 2012
+Venue: Oxford Handbooks Online
+DOI: 10.5715/jnlp.28.297",1,doi_mismatch,10.1093/oxfordhb/9780199276349.013.0037,10.5715/jnlp.28.297,10.1093/oxfordhb/9780199276349.013.0037,10.5715/jnlp.28.297,doi_substitution (offset=1)
+348,"Title: ""Machine Learning and Concept Formation""
+Authors: Pat Langley
+Year: 1987
+Venue: Machine Learning
+DOI: 10.1023/a:1022896407371",0,valid,10.1023/a:1022896407371,,,,unmodified_valid_seed
+349,"Title: ""Automatic Differentiation in Deep Learning""
+Authors: Taeho Jo; Jojo Moolayil
+Year: 2021
+Venue: Deep Learning with Python
+DOI: 10.1007/978-1-4842-5364-9_4",1,corrupted_authors,10.1007/978-1-4842-5364-9_4,10.1007/978-3-031-32879-4_6,Nikhil Ketkar; Jojo Moolayil,Taeho Jo; Jojo Moolayil,first_author_substitution (offset=1)
+350,"Title: ""A Robust Method for Scholarly Reference Validation (2)""
+Authors: Sophia Williams; James Carter
+Year: 2019
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0002",1,plausible_fabricated,,,,,synthetic_template_generation
+351,"Title: ""Deep Learning - Based Diabetic Retinopathy Detection: A Survey on Deep Learning Architectures""
+Authors: Srinidhi G A
+Year: 2024
+Venue: Center for Open Science
+DOI: 10.21275/sr24805160228",1,wrong_venue,10.21275/sr24805160228,10.35542/osf.io/arn3h_v1,International Journal of Science and Research (IJSR),Center for Open Science,venue_substitution (offset=1)
+352,"Title: ""New Theoretical Directions In Machine Learning""
+Authors: David Haussler
+Year: 1988
+Venue: Machine Learning
+DOI: 10.1023/a:1022817027844",0,valid,10.1023/a:1022817027844,,,,unmodified_valid_seed
+353,"Title: ""Artificial intelligence and robotics""
+Authors: Thomas P. Trappenberg
+Year: 1985
+Venue: Artificial Intelligence
+DOI: 10.1016/0004-3702(85)90013-x",1,corrupted_authors,10.1016/0004-3702(85)90013-x,10.1093/oso/9780198828044.003.0003,Michael Brady,Thomas P. Trappenberg,first_author_substitution (offset=1)
+354,"Title: ""Artificial intelligence and robotics""
+Authors: Michael Brady
+Year: 1985
+Venue: Artificial Intelligence
+DOI: 10.1093/oso/9780198828044.003.0003",1,doi_mismatch,10.1016/0004-3702(85)90013-x,10.1093/oso/9780198828044.003.0003,10.1016/0004-3702(85)90013-x,10.1093/oso/9780198828044.003.0003,doi_substitution (offset=1)
+355,"Title: ""A Robust Method for Scholarly Reference Validation (5)""
+Authors: Andrew Johnson; Emily Davis
+Year: 2022
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0005",1,plausible_fabricated,,,,,synthetic_template_generation
+356,"Title: ""Context Aware Verification of Automatically Generated Citations (79)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2022
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0079",1,plausible_fabricated,,,,,synthetic_template_generation
+357,"Title: ""Deep Learning Fundamentals""
+Authors: Hisham El-Amir; Mahmoud Hamdy
+Year: 2020
+Venue: Deep Learning Pipeline
+DOI: 10.1007/978-1-4842-5349-6_9",0,valid,10.1007/978-1-4842-5349-6_9,,,,unmodified_valid_seed
+358,"Title: ""Context Aware Verification of Automatically Generated Citations (78)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2022
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0078",1,plausible_fabricated,,,,,synthetic_template_generation
+359,"Title: ""Natural Language Processing in Computer-Assisted Language Learning""
+Authors: John Nerbonne
+Year: 2012
+Venue: Journal of Natural Language Processing
+DOI: 10.1093/oxfordhb/9780199276349.013.0037",1,wrong_venue,10.1093/oxfordhb/9780199276349.013.0037,10.5715/jnlp.28.297,Oxford Handbooks Online,Journal of Natural Language Processing,venue_substitution (offset=1)
+360,"Title: ""NLP: Natural Language Processing Infrastructure""
+Authors: Guosheng Zhang
+Year: 2013
+Venue: CRAN: Contributed Packages
+DOI: 10.32614/cran.package.nlp",1,corrupted_authors,10.32614/cran.package.nlp,10.1016/j.nlp.2025.100137,Kurt Hornik,Guosheng Zhang,first_author_substitution (offset=1)
+361,"Title: ""NLPutils: Natural Language Processing Utilities""
+Authors: Kurt Hornik
+Year: 2014
+Venue: CRAN: Contributed Packages
+DOI: 10.1016/j.nlp.2024.100094",1,doi_mismatch,10.32614/cran.package.nlputils,10.1016/j.nlp.2024.100094,10.32614/cran.package.nlputils,10.1016/j.nlp.2024.100094,doi_substitution (offset=1)
+362,"Title: ""Editorial: Advice to Machine Learning Authors""
+Authors: David Haussler
+Year: 1990
+Venue: Machine Learning
+DOI: 10.1023/a:1022647305786",1,corrupted_authors,10.1023/a:1022647305786,10.1023/a:1022817027844,Pat Langley,David Haussler,first_author_substitution (offset=2)
+363,"Title: ""Semantic Verification of Research Citations Generated by Language Models (20)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2022
+Venue: International Journal of Computer Vision
+DOI: 10.9999/citeguard.synthetic.0020",1,plausible_fabricated,,,,,synthetic_template_generation
+364,"Title: ""Deep Networks and Deep Learning Algorithms""
+Authors: Tannu Kumari; Anjana Mishra
+Year: 2020
+Venue: Artificial Intelligence Trends for Data Analytics Using Machine Learning and Deep Learning Approaches
+DOI: 10.1201/9780367854737-12",0,valid,10.1201/9780367854737-12,,,,unmodified_valid_seed
+365,"Title: ""Natural Language Processing and Knowledge""
+Authors: M. Nagao
+Year: 2006
+Venue: CRAN: Contributed Packages
+DOI: 10.1109/nlpke.2005.1598694",1,wrong_venue,10.1109/nlpke.2005.1598694,10.32614/cran.package.nlp,2005 International Conference on Natural Language Processing and Knowledge Engineering,CRAN: Contributed Packages,venue_substitution (offset=1)
+366,"Title: ""Crystal Vision-Applications of Point Groups in Computer Vision""
+Authors: Reiner Lenz
+Year: 2006
+Venue: Lecture Notes in Computer Science
+DOI: 10.1007/978-3-540-76390-1_73",1,wrong_year,10.1007/978-3-540-76390-1_73,,2007,2006,alternating_year_plus_minus_one
+367,"Title: ""AI Linguistics""
+Authors: Guosheng Zhang
+Year: 2025
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2025.100137",0,valid,10.1016/j.nlp.2025.100137,,,,unmodified_valid_seed
+368,"Title: ""Deep Learning with TensorFlow for Classification""
+Authors: Abdelaziz Testas
+Year: 2025
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1007/979-8-8688-1017-6_7",1,wrong_year,10.1007/979-8-8688-1017-6_7,,2024,2025,alternating_year_plus_minus_one
+369,"Title: ""Deep Probabilistic Learning""
+Authors: Taeho Jo
+Year: 2023
+Venue: SSRN Electronic Journal
+DOI: 10.1007/978-3-031-32879-4_6",1,wrong_venue,10.1007/978-3-031-32879-4_6,10.2139/ssrn.3193693,Deep Learning Foundations,SSRN Electronic Journal,venue_substitution (offset=1)
+370,"Title: ""A Deep Learning Framework for Academic Citation Validation (29)""
+Authors: Robert Miller; Emma Thompson
+Year: 2023
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0029",1,plausible_fabricated,,,,,synthetic_template_generation
+371,"Title: ""A Deep Learning Framework for Academic Citation Validation (95)""
+Authors: Sophia Williams; James Carter
+Year: 2020
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0095",1,plausible_fabricated,,,,,synthetic_template_generation
+372,"Title: ""Automatic language ability assessment method based on natural language processing""
+Authors: Nonso Nnamoko; Themis Karaminis; Jack Procter; Joseph Barrowclough; Ioannis Korkontzelos
+Year: 2024
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2024.100094",0,valid,10.1016/j.nlp.2024.100094,,,,unmodified_valid_seed
+373,"Title: ""Deep Chinese Teaching and Learning Model Based on Deep Learning""
+Authors: Yipu Wang; Stuart Perrin
+Year: 2024
+Venue: International Journal of Languages, Literature and Linguistics
+DOI: 10.18178/ijlll.2024.10.1.479",0,valid,10.18178/ijlll.2024.10.1.479,,,,unmodified_valid_seed
+374,"Title: ""Natural Language Processing and Knowledge""
+Authors: Kurt Hornik
+Year: 2006
+Venue: 2005 International Conference on Natural Language Processing and Knowledge Engineering
+DOI: 10.1109/nlpke.2005.1598694",1,corrupted_authors,10.1109/nlpke.2005.1598694,10.32614/cran.package.nlp,M. Nagao,Kurt Hornik,first_author_substitution (offset=1)
+375,"Title: ""Automated Detection of Fabricated Academic References (64)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2019
+Venue: International Journal of Computer Vision
+DOI: 10.9999/citeguard.synthetic.0064",1,plausible_fabricated,,,,,synthetic_template_generation
+376,"Title: ""Natural Language Processing Application to the Chemical Domain""
+Authors: Tomoya Iwakura; Hiyori Yoshikawa
+Year: 2020
+Venue: Natural Language Processing Journal
+DOI: 10.5715/jnlp.27.969",1,wrong_venue,10.5715/jnlp.27.969,10.1016/j.nlp.2024.100123,Journal of Natural Language Processing,Natural Language Processing Journal,venue_substitution (offset=1)
+377,"Title: ""Deep Learning - Based Diabetic Retinopathy Detection: A Survey on Deep Learning Architectures""
+Authors: Srinidhi G A
+Year: 2024
+Venue: International Journal of Science and Research (IJSR)
+DOI: 10.35542/osf.io/arn3h_v1",1,doi_mismatch,10.21275/sr24805160228,10.35542/osf.io/arn3h_v1,10.21275/sr24805160228,10.35542/osf.io/arn3h_v1,doi_substitution (offset=1)
+378,"Title: ""Deep Learning with PyTorch for Classification""
+Authors: Abdelaziz Testas
+Year: 2024
+Venue: Mathematical Foundations for Deep Learning
+DOI: 10.1007/979-8-8688-1017-6_6",1,wrong_venue,10.1007/979-8-8688-1017-6_6,10.1201/9781032690742-9,Building Scalable Deep Learning Pipelines on AWS,Mathematical Foundations for Deep Learning,venue_substitution (offset=2)
+379,"Title: ""Robotics, Grounding and Natural Language Processing""
+Authors: Daichi Mochihashi
+Year: 2020
+Venue: Natural Language Processing
+DOI: 10.5715/jnlp.27.963",1,wrong_venue,10.5715/jnlp.27.963,10.1075/nlp.11,Journal of Natural Language Processing,Natural Language Processing,venue_substitution (offset=1)
+380,"Title: ""COMPUTER VISION IN INTERVENTIONAL CARDIOLOGY""
+Authors: Kendall R. Waters
+Year: 2015
+Venue: Series in Computer Vision
+DOI: 10.1142/9789814460941_0015",1,wrong_year,10.1142/9789814460941_0015,,2014,2015,alternating_year_plus_minus_one
+381,"Title: ""A Deep Learning Framework for Academic Citation Validation (36)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2023
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0036",1,plausible_fabricated,,,,,synthetic_template_generation
+382,"Title: ""Learning Curves in Machine Learning""
+Authors: Emmanuel Djaba
+Year: 2011
+Venue: Encyclopedia of Machine Learning
+DOI: 10.1007/978-0-387-30164-8_452",1,corrupted_authors,10.1007/978-0-387-30164-8_452,10.4018/978-1-7998-9220-5.ch097,Claudia Perlich,Emmanuel Djaba,first_author_substitution (offset=1)
+383,"Title: ""Is Online Learning Killing Deep Learning? LMS-centred Online Learning Practices, Deep Approaches to Learning and PLE Development""
+Authors: Paul Albinson
+Year: 2026
+Venue: Center for Open Science
+DOI: 10.18178/ijlll.2024.10.1.479",1,doi_mismatch,10.35542/osf.io/arn3h_v1,10.18178/ijlll.2024.10.1.479,10.35542/osf.io/arn3h_v1,10.18178/ijlll.2024.10.1.479,doi_substitution (offset=1)
+384,"Title: ""Reinforcement learning""
+Authors: Thomas P. Trappenberg
+Year: 2019
+Venue: Fundamentals of Machine Learning
+DOI: 10.1023/a:1007601113994",1,doi_mismatch,10.1093/oso/9780198828044.003.0010,10.1023/a:1007601113994,10.1093/oso/9780198828044.003.0010,10.1023/a:1007601113994,doi_substitution (offset=1)
+385,"Title: ""Machine Learning Overview""
+Authors: Taiwo Oladipupo
+Year: 2011
+Venue: New Advances in Machine Learning
+DOI: 10.5772/9374",1,wrong_year,10.5772/9374,,2010,2011,alternating_year_plus_minus_one
+386,"Title: ""Deploying and Monitoring Deep Learning Models""
+Authors: X. Chen
+Year: 2024
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1007/979-8-8688-1017-6_10",1,corrupted_authors,10.1007/979-8-8688-1017-6_10,10.1201/9780367855611-9,Abdelaziz Testas,X. Chen,first_author_substitution (offset=1)
+387,"Title: ""Image Analysis and Computer Vision: 1999""
+Authors: Xieling Chen
+Year: 2000
+Venue: Computer Vision and Image Understanding
+DOI: 10.1006/cviu.2000.0835",1,corrupted_authors,10.1006/cviu.2000.0835,10.1016/j.nlp.2022.100001,Azriel Rosenfeld,Xieling Chen,first_author_substitution (offset=2)
+388,"Title: ""Deep Chinese Teaching and Learning Model Based on Deep Learning""
+Authors: Yipu Wang; Stuart Perrin
+Year: 2024
+Venue: International Journal of Languages, Literature and Linguistics
+DOI: 10.1007/978-3-031-59345-1_7",1,doi_mismatch,10.18178/ijlll.2024.10.1.479,10.1007/978-3-031-59345-1_7,10.18178/ijlll.2024.10.1.479,10.1007/978-3-031-59345-1_7,doi_substitution (offset=1)
+389,"Title: ""Developing Machine Learning Skills With No-Code Machine Learning Tools""
+Authors: Emmanuel Djaba; Joseph Budu
+Year: 2022
+Venue: Encyclopedia of Data Science and Machine Learning
+DOI: 10.4018/978-1-7998-9220-5.ch097",1,wrong_year,10.4018/978-1-7998-9220-5.ch097,,2023,2022,alternating_year_plus_minus_one
+390,"Title: ""Developing Machine Learning Skills With No-Code Machine Learning Tools""
+Authors: Emmanuel Djaba; Joseph Budu
+Year: 2023
+Venue: Encyclopedia of Data Science and Machine Learning
+DOI: 10.32614/cran.package.paws.machine.learning",1,doi_mismatch,10.4018/978-1-7998-9220-5.ch097,10.32614/cran.package.paws.machine.learning,10.4018/978-1-7998-9220-5.ch097,10.32614/cran.package.paws.machine.learning,doi_substitution (offset=1)
+391,"Title: ""paws.machine.learning: 'Amazon Web Services' Machine Learning Services""
+Authors: David Kretch; Adam Banker
+Year: 2019
+Venue: Prediction and Analysis for Knowledge Representation and Machine Learning
+DOI: 10.32614/cran.package.paws.machine.learning",1,wrong_venue,10.32614/cran.package.paws.machine.learning,10.1201/9781003126898-1,CRAN: Contributed Packages,Prediction and Analysis for Knowledge Representation and Machine Learning,venue_substitution (offset=1)
+392,"Title: ""Deep Networks and Deep Learning Algorithms""
+Authors: Tannu Kumari; Anjana Mishra
+Year: 2020
+Venue: Artificial Intelligence Trends for Data Analytics Using Machine Learning and Deep Learning Approaches
+DOI: 10.1007/978-1-4842-2845-6_5",1,doi_mismatch,10.1201/9780367854737-12,10.1007/978-1-4842-2845-6_5,10.1201/9780367854737-12,10.1007/978-1-4842-2845-6_5,doi_substitution (offset=1)
+393,"Title: ""Introduction to Deep Learning""
+Authors: Hisham El-Amir
+Year: 2024
+Venue: Hands-on Deep Learning
+DOI: 10.1007/979-8-8688-1035-0_2",1,corrupted_authors,10.1007/979-8-8688-1035-0_2,10.1007/978-1-4842-5349-6_9,Harsh Bhasin,Hisham El-Amir,first_author_substitution (offset=1)
+394,"Title: ""Designing adversarial signals against three deep learning and non-deep learning methods""
+Authors: Yi Huang
+Year: 2021
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.32657/10356/151718",1,wrong_venue,10.32657/10356/151718,10.1007/979-8-8688-1017-6_10,Nanyang Technological University,Building Scalable Deep Learning Pipelines on AWS,venue_substitution (offset=1)
+395,"Title: ""Natural Language Processing in Computer-Assisted Language Learning""
+Authors: John Nerbonne
+Year: 2013
+Venue: Oxford Handbooks Online
+DOI: 10.1093/oxfordhb/9780199276349.013.0037",1,wrong_year,10.1093/oxfordhb/9780199276349.013.0037,,2012,2013,alternating_year_plus_minus_one
+396,"Title: ""Applying Natural Language Processing in a Cloud-based Business Card Management Service""
+Authors: Kanji Takahashi; Tomonori Manabe
+Year: 2021
+Venue: Journal of Natural Language Processing
+DOI: 10.5715/jnlp.28.297",0,valid,10.5715/jnlp.28.297,,,,unmodified_valid_seed
+397,"Title: ""A Robust Method for Scholarly Reference Validation (53)""
+Authors: Sophia Williams; James Carter
+Year: 2018
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0053",1,plausible_fabricated,,,,,synthetic_template_generation
+398,"Title: ""Artificial intelligence""
+Authors: Gillian Pocock; Hugh M
+Year: 1993
+Venue: Artificial Intelligence
+DOI: 10.1093/hesc/9780198557364.003.0001",1,wrong_venue,10.1093/hesc/9780198557364.003.0001,10.1016/0004-3702(86)90034-2,Applications of Artificial Intelligence in Chemistry,Artificial Intelligence,venue_substitution (offset=1)
+399,"Title: ""Toward a Unified Science of Machine Learning""
+Authors: Taiwo Oladipupo
+Year: 1989
+Venue: Machine Learning
+DOI: 10.1023/a:1022689616458",1,corrupted_authors,10.1023/a:1022689616458,10.5772/9374,Pat Langley,Taiwo Oladipupo,first_author_substitution (offset=2)
+400,"Title: ""Deep Learning with TensorFlow for Regression""
+Authors: Mehdi Ghayoumi
+Year: 2024
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1007/979-8-8688-1017-6_5",1,corrupted_authors,10.1007/979-8-8688-1017-6_5,10.1201/9781032690742-9,Abdelaziz Testas,Mehdi Ghayoumi,first_author_substitution (offset=1)
+401,"Title: ""Vision, status, and research topics of Natural Language Processing""
+Authors: Xieling Chen; Haoran Xie; Xiaohui Tao
+Year: 2023
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2022.100001",1,wrong_year,10.1016/j.nlp.2022.100001,,2022,2023,alternating_year_plus_minus_one
+402,"Title: ""Machine Learning""
+Authors: Peter Wittek
+Year: 2015
+Venue: Quantum Machine Learning
+DOI: 10.1016/b978-0-12-800953-6.00002-5",1,wrong_year,10.1016/b978-0-12-800953-6.00002-5,,2014,2015,alternating_year_plus_minus_one
+403,"Title: ""AI Linguistics""
+Authors: Guosheng Zhang
+Year: 2025
+Venue: Oxford Handbooks Online
+DOI: 10.1016/j.nlp.2025.100137",1,wrong_venue,10.1016/j.nlp.2025.100137,10.1093/oxfordhb/9780199276349.013.0037,Natural Language Processing Journal,Oxford Handbooks Online,venue_substitution (offset=2)
+404,"Title: ""Natural Language Processing Application Cases""
+Authors: Huaping Zhang; Jianyun Shang
+Year: 2024
+Venue: Natural Language Processing and Applications
+DOI: 10.1007/978-981-97-9739-4_20",1,wrong_year,10.1007/978-981-97-9739-4_20,,2025,2024,alternating_year_plus_minus_one
+405,"Title: ""12th Asian conference on computer vision""
+Authors: Ian Reid
+Year: 2016
+Venue: Computer Vision and Image Understanding
+DOI: 10.1016/b978-0-12-813445-0.00007-1",1,doi_mismatch,10.1016/j.cviu.2016.03.016,10.1016/b978-0-12-813445-0.00007-1,10.1016/j.cviu.2016.03.016,10.1016/b978-0-12-813445-0.00007-1,doi_substitution (offset=1)
+406,"Title: ""Machine Learning: A Maturing Field""
+Authors: Jaime Carbonell
+Year: 1993
+Venue: Machine Learning
+DOI: 10.1023/a:1022665512030",1,wrong_year,10.1023/a:1022665512030,,1992,1993,alternating_year_plus_minus_one
+407,"Title: ""Natural Language Processing Application Cases""
+Authors: Daichi Mochihashi; Jianyun Shang
+Year: 2025
+Venue: Natural Language Processing and Applications
+DOI: 10.1007/978-981-97-9739-4_20",1,corrupted_authors,10.1007/978-981-97-9739-4_20,10.5715/jnlp.27.963,Huaping Zhang; Jianyun Shang,Daichi Mochihashi; Jianyun Shang,first_author_substitution (offset=2)
+408,"Title: ""A Deep Learning Framework for Academic Citation Validation (37)""
+Authors: Robert Miller; Emma Thompson
+Year: 2024
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0037",1,plausible_fabricated,,,,,synthetic_template_generation
+409,"Title: ""Deep Chinese Teaching and Learning Model Based on Deep Learning""
+Authors: Yipu Wang; Stuart Perrin
+Year: 2025
+Venue: International Journal of Languages, Literature and Linguistics
+DOI: 10.18178/ijlll.2024.10.1.479",1,wrong_year,10.18178/ijlll.2024.10.1.479,,2024,2025,alternating_year_plus_minus_one
+410,"Title: ""Introduction to Machine Learning and Supervised Learning""
+Authors: Hang Li
+Year: 2024
+Venue: Machine Learning
+DOI: 10.1007/978-981-99-3917-6_1",1,wrong_venue,10.1007/978-981-99-3917-6_1,10.1023/a:1022689616458,Machine Learning Methods,Machine Learning,venue_substitution (offset=1)
+411,"Title: ""New Theoretical Directions In Machine Learning""
+Authors: David Haussler
+Year: 1988
+Venue: Soft Computing and Machine Learning
+DOI: 10.1023/a:1022817027844",1,wrong_venue,10.1023/a:1022817027844,10.1201/9781003606055-5,Machine Learning,Soft Computing and Machine Learning,venue_substitution (offset=2)
+412,"Title: ""Vision, status, and research topics of Natural Language Processing""
+Authors: Xieling Chen; Haoran Xie; Xiaohui Tao
+Year: 2022
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2022.100001",0,valid,10.1016/j.nlp.2022.100001,,,,unmodified_valid_seed
+413,"Title: ""Generative Deep Learning""
+Authors: Deep Ray; Orazio Pinti; Assad A. Oberai
+Year: 2024
+Venue: Deep Learning in Bioinformatics
+DOI: 10.1007/978-3-031-59345-1_7",1,wrong_venue,10.1007/978-3-031-59345-1_7,10.1016/b978-0-12-823822-6.00014-7,Deep Learning and Computational Physics,Deep Learning in Bioinformatics,venue_substitution (offset=1)
+414,"Title: ""12th Asian conference on computer vision""
+Authors: Ian Reid
+Year: 2016
+Venue: Computer Vision and Image Understanding
+DOI: 10.1016/j.cviu.2016.03.016",0,valid,10.1016/j.cviu.2016.03.016,,,,unmodified_valid_seed
+415,"Title: ""A Unified Framework for Reliable Citation Verification (16)""
+Authors: Sophia Williams; James Carter
+Year: 2024
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0016",1,plausible_fabricated,,,,,synthetic_template_generation
+416,"Title: ""A Robust Method for Scholarly Reference Validation (46)""
+Authors: Andrew Johnson; Emily Davis
+Year: 2018
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0046",1,plausible_fabricated,,,,,synthetic_template_generation
+417,"Title: ""Context Aware Verification of Automatically Generated Citations (70)""
+Authors: David Wilson; Olivia Martin
+Year: 2021
+Venue: ACM Transactions on Intelligent Systems and Technology
+DOI: 10.9999/citeguard.synthetic.0070",1,plausible_fabricated,,,,,synthetic_template_generation
+418,"Title: ""Reframing Difficult Deep Learning Problems""
+Authors: Abdelaziz Testas
+Year: 2022
+Venue: Modern Deep Learning Design and Application Development
+DOI: 10.1007/978-1-4842-7413-2_7",1,corrupted_authors,10.1007/978-1-4842-7413-2_7,10.1007/979-8-8688-1017-6_4,Andre Ye,Abdelaziz Testas,first_author_substitution (offset=1)
+419,"Title: ""COMPUTER VISION IN INTERVENTIONAL CARDIOLOGY""
+Authors: Azriel Rosenfeld
+Year: 2014
+Venue: Series in Computer Vision
+DOI: 10.1142/9789814460941_0015",1,corrupted_authors,10.1142/9789814460941_0015,10.1006/cviu.2000.0835,Kendall R. Waters,Azriel Rosenfeld,first_author_substitution (offset=1)
+420,"Title: ""Machine Learning and Deep Learning in Deep Brain Stimulation Targeting for Parkinson's Disease""
+Authors: Vikash Agarwal; M Swarna; Dolly Mushahary
+Year: 2024
+Venue: Modern Deep Learning Design and Application Development
+DOI: 10.1201/9781003264767-7",1,wrong_venue,10.1201/9781003264767-7,10.1007/978-1-4842-7413-2_7,Machine Learning and Deep Learning in Neuroimaging Data Analysis,Modern Deep Learning Design and Application Development,venue_substitution (offset=1)
+421,"Title: ""Machine Learning as an Experimental Science""
+Authors: Pat Langley
+Year: 1988
+Venue: Soft Computing and Machine Learning
+DOI: 10.1023/a:1022623814640",1,wrong_venue,10.1023/a:1022623814640,10.1201/9781003606055-5,Machine Learning,Soft Computing and Machine Learning,venue_substitution (offset=1)
+422,"Title: ""Language Processing for Finance and Economics""
+Authors: Hiroki Sakaji; Kiyoshi Izumi; Hiroyuki Sakai
+Year: 2020
+Venue: Journal of Natural Language Processing
+DOI: 10.5715/jnlp.27.951",0,valid,10.5715/jnlp.27.951,,,,unmodified_valid_seed
+423,"Title: ""Machine learning vs. neutrosophic machine learning""
+Authors: Shabbir Hassan
+Year: 2025
+Venue: Soft Computing and Machine Learning
+DOI: 10.1016/b978-0-12-800953-6.00002-5",1,doi_mismatch,10.1201/9781003606055-5,10.1016/b978-0-12-800953-6.00002-5,10.1201/9781003606055-5,10.1016/b978-0-12-800953-6.00002-5,doi_substitution (offset=1)
+424,"Title: ""Introduction to Machine Learning and Supervised Learning""
+Authors: Pat Langley
+Year: 2024
+Venue: Machine Learning Methods
+DOI: 10.1007/978-981-99-3917-6_1",1,corrupted_authors,10.1007/978-981-99-3917-6_1,10.1023/a:1022689616458,Hang Li,Pat Langley,first_author_substitution (offset=1)
+425,"Title: ""Embodied artificial intelligence""
+Authors: Ron Chrisley
+Year: 2002
+Venue: Artificial Intelligence
+DOI: 10.1016/s0004-3702(03)00055-9",1,wrong_year,10.1016/s0004-3702(03)00055-9,,2003,2002,alternating_year_plus_minus_one
+426,"Title: ""Observatorio virtual sonoro basado en Deep Learning = Deep Learning Auditory Virtual Observatory""
+Authors: Adrián García Riber
+Year: 2025
+Venue: Universidad Politecnica de Madrid - University Library
+DOI: 10.20868/upm.thesis.90828",0,valid,10.20868/upm.thesis.90828,,,,unmodified_valid_seed
+427,"Title: ""Context Aware Verification of Automatically Generated Citations (28)""
+Authors: Sophia Williams; James Carter
+Year: 2023
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0028",1,plausible_fabricated,,,,,synthetic_template_generation
+428,"Title: ""Deep Learning with TensorFlow for Regression""
+Authors: Abdelaziz Testas
+Year: 2024
+Venue: Mathematical Foundations for Deep Learning
+DOI: 10.1007/979-8-8688-1017-6_5",1,wrong_venue,10.1007/979-8-8688-1017-6_5,10.1201/9781032690742-9,Building Scalable Deep Learning Pipelines on AWS,Mathematical Foundations for Deep Learning,venue_substitution (offset=1)
+429,"Title: ""Why Use Automated Machine Learning?""
+Authors: Kai R. Larsen; Daniel S. Becker
+Year: 2021
+Venue: Automated Machine Learning for Business
+DOI: 10.1093/oso/9780190941659.003.0001",0,valid,10.1093/oso/9780190941659.003.0001,,,,unmodified_valid_seed
+430,"Title: ""Building Your First Deep Learning Model""
+Authors: Thimira Amaratunga
+Year: 2020
+Venue: Deep Learning on Windows
+DOI: 10.1007/978-1-4842-6431-7_4",1,wrong_year,10.1007/978-1-4842-6431-7_4,,2021,2020,alternating_year_plus_minus_one
+431,"Title: ""Shallow Language Processing, Deep Language Processing and Domain Ontologies""
+Authors: H. Uszkoreit
+Year: 2006
+Venue: Natural Language Processing Journal
+DOI: 10.1109/nlpke.2005.1598697",1,wrong_venue,10.1109/nlpke.2005.1598697,10.1016/j.nlp.2026.100209,2005 International Conference on Natural Language Processing and Knowledge Engineering,Natural Language Processing Journal,venue_substitution (offset=1)
+432,"Title: ""Where to Start Your Deep Learning""
+Authors: Thimira Amaratunga
+Year: 2021
+Venue: Deep Learning with Python
+DOI: 10.1007/978-1-4842-6431-7_2",1,wrong_venue,10.1007/978-1-4842-6431-7_2,10.1007/978-1-4842-5364-9_8,Deep Learning on Windows,Deep Learning with Python,venue_substitution (offset=2)
+433,"Title: ""Applications of Machine Learning in cricket: A systematic review""
+Authors: Indika Wickramasinghe
+Year: 2022
+Venue: Machine Learning with Applications
+DOI: 10.1007/978-0-387-30164-8_452",1,doi_mismatch,10.1016/j.mlwa.2022.100435,10.1007/978-0-387-30164-8_452,10.1016/j.mlwa.2022.100435,10.1007/978-0-387-30164-8_452,doi_substitution (offset=1)
+434,"Title: ""Semantic Verification of Research Citations Generated by Language Models (58)""
+Authors: David Wilson; Olivia Martin
+Year: 2019
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0058",1,plausible_fabricated,,,,,synthetic_template_generation
+435,"Title: ""Recent Advances in Deep Learning""
+Authors: Adrián García Riber; Jojo Moolayil
+Year: 2021
+Venue: Deep Learning with Python
+DOI: 10.1007/978-1-4842-5364-9_8",1,corrupted_authors,10.1007/978-1-4842-5364-9_8,10.20868/upm.thesis.90828,Nikhil Ketkar; Jojo Moolayil,Adrián García Riber; Jojo Moolayil,first_author_substitution (offset=1)
+436,"Title: ""Artificial intelligence and folklore: Artificial intelligence technologies derived from folklore""
+Authors: Valeh Hikmet Guliyev
+Year: 2024
+Venue: Artificial Intelligence and Digital Development
+DOI: 10.1016/0004-3702(76)90004-7",1,doi_mismatch,10.59849/aidd.2024.54,10.1016/0004-3702(76)90004-7,10.59849/aidd.2024.54,10.1016/0004-3702(76)90004-7,doi_substitution (offset=1)
+437,"Title: ""A Robust Method for Scholarly Reference Validation (10)""
+Authors: Robert Miller; Emma Thompson
+Year: 2018
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0010",1,plausible_fabricated,,,,,synthetic_template_generation
+438,"Title: ""Image Analysis and Computer Vision: 1998""
+Authors: Azriel Rosenfeld
+Year: 1998
+Venue: Computer Vision and Image Understanding
+DOI: 10.1006/cviu.1999.0746",1,wrong_year,10.1006/cviu.1999.0746,,1999,1998,alternating_year_plus_minus_one
+439,"Title: ""Artificial intelligence and robotics""
+Authors: Michael Brady
+Year: 1985
+Venue: Artificial Intelligence
+DOI: 10.1016/0004-3702(85)90013-x",0,valid,10.1016/0004-3702(85)90013-x,,,,unmodified_valid_seed
+440,"Title: ""Artificial intelligence""
+Authors: Oshma Chakoory
+Year: 1985
+Venue: Artificial Intelligence
+DOI: 10.1016/0004-3702(85)90088-8",1,corrupted_authors,10.1016/0004-3702(85)90088-8,10.1186/s40364-024-00557-1,Donna Reese,Oshma Chakoory,first_author_substitution (offset=1)
+441,"Title: ""Reinforcement learning""
+Authors: Thomas P. Trappenberg
+Year: 2018
+Venue: Fundamentals of Machine Learning
+DOI: 10.1093/oso/9780198828044.003.0010",1,wrong_year,10.1093/oso/9780198828044.003.0010,,2019,2018,alternating_year_plus_minus_one
+442,"Title: ""Machine learning vs. neutrosophic machine learning""
+Authors: Peter Wittek
+Year: 2025
+Venue: Soft Computing and Machine Learning
+DOI: 10.1201/9781003606055-5",1,corrupted_authors,10.1201/9781003606055-5,10.1016/b978-0-12-800953-6.00002-5,Shabbir Hassan,Peter Wittek,first_author_substitution (offset=1)
+443,"Title: ""A Unified Framework for Reliable Citation Verification (54)""
+Authors: Andrew Johnson; Emily Davis
+Year: 2022
+Venue: International Journal of Computer Vision
+DOI: 10.9999/citeguard.synthetic.0054",1,plausible_fabricated,,,,,synthetic_template_generation
+444,"Title: ""Reframing Difficult Deep Learning Problems""
+Authors: Andre Ye
+Year: 2022
+Venue: Modern Deep Learning Design and Application Development
+DOI: 10.1007/978-1-4842-7413-2_7",0,valid,10.1007/978-1-4842-7413-2_7,,,,unmodified_valid_seed
+445,"Title: ""Artificial intelligence""
+Authors: Roy Rada
+Year: 1987
+Venue: Artificial Intelligence
+DOI: 10.1016/0004-3702(86)90034-2",1,wrong_year,10.1016/0004-3702(86)90034-2,,1986,1987,alternating_year_plus_minus_one
+446,"Title: ""Introduction to Machine Learning and Deep Learning""
+Authors: Nikhil Ketkar; Jojo Moolayil
+Year: 2021
+Venue: Machine Learning and Deep Learning in Neuroimaging Data Analysis
+DOI: 10.1007/978-1-4842-5364-9_1",1,wrong_venue,10.1007/978-1-4842-5364-9_1,10.1201/9781003264767-7,Deep Learning with Python,Machine Learning and Deep Learning in Neuroimaging Data Analysis,venue_substitution (offset=1)
+447,"Title: ""Neural Verification of Automatically Generated Scholarly References (55)""
+Authors: Sophia Williams; James Carter
+Year: 2018
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0055",1,plausible_fabricated,,,,,synthetic_template_generation
+448,"Title: ""Introduction to deep learning""
+Authors: Nikhil Ketkar
+Year: 2022
+Venue: Deep Learning in Bioinformatics
+DOI: 10.1016/b978-0-12-823822-6.00014-7",1,corrupted_authors,10.1016/b978-0-12-823822-6.00014-7,10.1007/978-1-4842-5364-9_4,Habib Izadkhah,Nikhil Ketkar,first_author_substitution (offset=1)
+449,"Title: ""Learning Curves in Machine Learning""
+Authors: Claudia Perlich
+Year: 2011
+Venue: Encyclopedia of Machine Learning
+DOI: 10.4018/978-1-7998-9220-5.ch097",1,doi_mismatch,10.1007/978-0-387-30164-8_452,10.4018/978-1-7998-9220-5.ch097,10.1007/978-0-387-30164-8_452,10.4018/978-1-7998-9220-5.ch097,doi_substitution (offset=1)
+450,"Title: ""Machine Learning for Information Extraction in Informal Domains""
+Authors: Dayne Freitag
+Year: 2000
+Venue: Machine Learning
+DOI: 10.1023/a:1007601113994",0,valid,10.1023/a:1007601113994,,,,unmodified_valid_seed
+451,"Title: ""Machine learning vs. neutrosophic machine learning""
+Authors: Shabbir Hassan
+Year: 2025
+Venue: Soft Computing and Machine Learning
+DOI: 10.1201/9781003606055-5",0,valid,10.1201/9781003606055-5,,,,unmodified_valid_seed
+452,"Title: ""A novel Data Extraction Framework Using Natural Language Processing (DEFNLP) techniques""
+Authors: Tayyaba Hussain; Muhammad Usman Akram; Anum Abdul Salam
+Year: 2025
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2025.100149",0,valid,10.1016/j.nlp.2025.100149,,,,unmodified_valid_seed
+453,"Title: ""Machine Learning and Grammar Induction""
+Authors: Pat Langely
+Year: 1987
+Venue: Machine Learning
+DOI: 10.1093/oso/9780190941659.003.0001",1,doi_mismatch,10.1023/a:1022808826027,10.1093/oso/9780190941659.003.0001,10.1023/a:1022808826027,10.1093/oso/9780190941659.003.0001,doi_substitution (offset=1)
+454,"Title: ""Machine learning vs. neutrosophic machine learning""
+Authors: Shabbir Hassan
+Year: 2025
+Venue: Quantum Machine Learning
+DOI: 10.1201/9781003606055-5",1,wrong_venue,10.1201/9781003606055-5,10.1016/b978-0-12-800953-6.00002-5,Soft Computing and Machine Learning,Quantum Machine Learning,venue_substitution (offset=1)
+455,"Title: ""Application of machine learning algorithms for prediction of sinter machine productivity""
+Authors: Arpit Mallick; Subhra Dhara; Sushant Rath
+Year: 2021
+Venue: Machine Learning with Applications
+DOI: 10.1007/978-3-658-46162-1_1",1,doi_mismatch,10.1016/j.mlwa.2021.100186,10.1007/978-3-658-46162-1_1,10.1016/j.mlwa.2021.100186,10.1007/978-3-658-46162-1_1,doi_substitution (offset=1)
+456,"Title: ""Semantic Verification of Research Citations Generated by Language Models (98)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2018
+Venue: ACM Transactions on Intelligent Systems and Technology
+DOI: 10.9999/citeguard.synthetic.0098",1,plausible_fabricated,,,,,synthetic_template_generation
+457,"Title: ""Automatic Differentiation in Deep Learning""
+Authors: Nikhil Ketkar; Jojo Moolayil
+Year: 2020
+Venue: Deep Learning with Python
+DOI: 10.1007/978-1-4842-5364-9_4",1,wrong_year,10.1007/978-1-4842-5364-9_4,,2021,2020,alternating_year_plus_minus_one
+458,"Title: ""Machine Learning Overview""
+Authors: Taiwo Oladipupo
+Year: 2010
+Venue: New Advances in Machine Learning
+DOI: 10.1201/b23383-3",1,doi_mismatch,10.5772/9374,10.1201/b23383-3,10.5772/9374,10.1201/b23383-3,doi_substitution (offset=1)
+459,"Title: ""Resource-based Natural Language Processing""
+Authors: Hitoshi Isahara
+Year: 2006
+Venue: 2007 International Conference on Natural Language Processing and Knowledge Engineering
+DOI: 10.1109/nlpke.2007.4368002",1,wrong_year,10.1109/nlpke.2007.4368002,,2007,2006,alternating_year_plus_minus_one
+460,"Title: ""Editorial: Machine Learning and Discovery""
+Authors: Pat Langley; Ryszard S. Michalski
+Year: 1986
+Venue: New Advances in Machine Learning
+DOI: 10.1023/a:1022814715297",1,wrong_venue,10.1023/a:1022814715297,10.5772/9374,Machine Learning,New Advances in Machine Learning,venue_substitution (offset=1)
+461,"Title: ""Designing adversarial signals against three deep learning and non-deep learning methods""
+Authors: Yi Huang
+Year: 2021
+Venue: Nanyang Technological University
+DOI: 10.32657/10356/151718",0,valid,10.32657/10356/151718,,,,unmodified_valid_seed
+462,"Title: ""What Is Natural Language Processing?""
+Authors: Taweh Beysolow II
+Year: 2018
+Venue: Applied Natural Language Processing with Python
+DOI: 10.5715/jnlp.27.969",1,doi_mismatch,10.1007/978-1-4842-3733-5_1,10.5715/jnlp.27.969,10.1007/978-1-4842-3733-5_1,10.5715/jnlp.27.969,doi_substitution (offset=1)
+463,"Title: ""Introduction to Machine Learning and Supervised Learning""
+Authors: Hang Li
+Year: 2025
+Venue: Machine Learning Methods
+DOI: 10.1007/978-981-99-3917-6_1",1,wrong_year,10.1007/978-981-99-3917-6_1,,2024,2025,alternating_year_plus_minus_one
+464,"Title: ""Applications of Machine Learning in cricket: A systematic review""
+Authors: Indika Wickramasinghe
+Year: 2023
+Venue: Machine Learning with Applications
+DOI: 10.1016/j.mlwa.2022.100435",1,wrong_year,10.1016/j.mlwa.2022.100435,,2022,2023,alternating_year_plus_minus_one
+465,"Title: ""Context Aware Verification of Automatically Generated Citations (42)""
+Authors: Robert Miller; Emma Thompson
+Year: 2024
+Venue: International Journal of Computer Vision
+DOI: 10.9999/citeguard.synthetic.0042",1,plausible_fabricated,,,,,synthetic_template_generation
+466,"Title: ""Computer Vision for Egocentric (First-Person) Vision""
+Authors: Azriel Rosenfeld
+Year: 2018
+Venue: Computer Vision for Assistive Healthcare
+DOI: 10.1016/b978-0-12-813445-0.00007-1",1,corrupted_authors,10.1016/b978-0-12-813445-0.00007-1,10.1006/cviu.1998.0697,Mariella Dimiccoli,Azriel Rosenfeld,first_author_substitution (offset=1)
+467,"Title: ""Deep Probabilistic Learning""
+Authors: Taeho Jo
+Year: 2023
+Venue: Deep Learning Foundations
+DOI: 10.2139/ssrn.3193693",1,doi_mismatch,10.1007/978-3-031-32879-4_6,10.2139/ssrn.3193693,10.1007/978-3-031-32879-4_6,10.2139/ssrn.3193693,doi_substitution (offset=1)
+468,"Title: ""Introduction to deep learning""
+Authors: Habib Izadkhah
+Year: 2022
+Venue: Deep Learning in Bioinformatics
+DOI: 10.1016/b978-0-12-823822-6.00014-7",0,valid,10.1016/b978-0-12-823822-6.00014-7,,,,unmodified_valid_seed
+469,"Title: ""Reframing Difficult Deep Learning Problems""
+Authors: Andre Ye
+Year: 2023
+Venue: Modern Deep Learning Design and Application Development
+DOI: 10.1007/978-1-4842-7413-2_7",1,wrong_year,10.1007/978-1-4842-7413-2_7,,2022,2023,alternating_year_plus_minus_one
+470,"Title: ""Natural Language Processing Application Cases""
+Authors: Huaping Zhang; Jianyun Shang
+Year: 2025
+Venue: Natural Language Processing and Applications
+DOI: 10.1007/978-981-97-9739-4_20",0,valid,10.1007/978-981-97-9739-4_20,,,,unmodified_valid_seed
+471,"Title: ""Natural Language Processing and Knowledge""
+Authors: M. Nagao
+Year: 2007
+Venue: 2005 International Conference on Natural Language Processing and Knowledge Engineering
+DOI: 10.1109/nlpke.2005.1598694",1,wrong_year,10.1109/nlpke.2005.1598694,,2006,2007,alternating_year_plus_minus_one
+472,"Title: ""Research Papers in Machine Learning""
+Authors: Pat Langley
+Year: 1987
+Venue: Soft Computing and Machine Learning
+DOI: 10.1023/a:1022603230145",1,wrong_venue,10.1023/a:1022603230145,10.1201/9781003606055-5,Machine Learning,Soft Computing and Machine Learning,venue_substitution (offset=5)
+473,"Title: ""Crystal Vision-Applications of Point Groups in Computer Vision""
+Authors: Reiner Lenz
+Year: 2007
+Venue: Computer Vision and Image Understanding
+DOI: 10.1007/978-3-540-76390-1_73",1,wrong_venue,10.1007/978-3-540-76390-1_73,10.1016/j.cviu.2016.03.016,Lecture Notes in Computer Science,Computer Vision and Image Understanding,venue_substitution (offset=1)
+474,"Title: ""Machine Learning and Qualitative Reasoning""
+Authors: Ivan Bratko
+Year: 1994
+Venue: Soft Computing and Machine Learning
+DOI: 10.1023/a:1022661713654",1,wrong_venue,10.1023/a:1022661713654,10.1201/9781003606055-5,Machine Learning,Soft Computing and Machine Learning,venue_substitution (offset=6)
+475,"Title: ""Neural Verification of Automatically Generated Scholarly References (77)""
+Authors: David Wilson; Olivia Martin
+Year: 2022
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0077",1,plausible_fabricated,,,,,synthetic_template_generation
+476,"Title: ""Crystal Vision-Applications of Point Groups in Computer Vision""
+Authors: Ian Reid
+Year: 2007
+Venue: Lecture Notes in Computer Science
+DOI: 10.1007/978-3-540-76390-1_73",1,corrupted_authors,10.1007/978-3-540-76390-1_73,10.1016/j.cviu.2016.03.016,Reiner Lenz,Ian Reid,first_author_substitution (offset=1)
+477,"Title: ""Editorial: The Terminology of Machine Learning""
+Authors: Pat Langley
+Year: 1986
+Venue: Machine Learning
+DOI: 10.1023/a:1022817027844",1,doi_mismatch,10.1023/a:1022840627593,10.1023/a:1022817027844,10.1023/a:1022840627593,10.1023/a:1022817027844,doi_substitution (offset=1)
+478,"Title: ""Deep Probabilistic Learning""
+Authors: Taeho Jo
+Year: 2022
+Venue: Deep Learning Foundations
+DOI: 10.1007/978-3-031-32879-4_6",1,wrong_year,10.1007/978-3-031-32879-4_6,,2023,2022,alternating_year_plus_minus_one
+479,"Title: ""Semantic mediation in audio and music intelligence through natural language processing a systematic literature review""
+Authors: Novia Ratnasari; Aji Prasetya Wibawa
+Year: 2026
+Venue: Oxford Handbooks Online
+DOI: 10.1016/j.nlp.2026.100225",1,wrong_venue,10.1016/j.nlp.2026.100225,10.1093/oxfordhb/9780199276349.013.0037,Natural Language Processing Journal,Oxford Handbooks Online,venue_substitution (offset=1)
+480,"Title: ""Developing Machine Learning Skills With No-Code Machine Learning Tools""
+Authors: David Kretch; Joseph Budu
+Year: 2023
+Venue: Encyclopedia of Data Science and Machine Learning
+DOI: 10.4018/978-1-7998-9220-5.ch097",1,corrupted_authors,10.4018/978-1-7998-9220-5.ch097,10.32614/cran.package.paws.machine.learning,Emmanuel Djaba; Joseph Budu,David Kretch; Joseph Budu,first_author_substitution (offset=1)
+481,"Title: ""Deep Learning with PyTorch for Regression""
+Authors: Srinidhi G A
+Year: 2024
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1007/979-8-8688-1017-6_4",1,corrupted_authors,10.1007/979-8-8688-1017-6_4,10.21275/sr24805160228,Abdelaziz Testas,Srinidhi G A,first_author_substitution (offset=1)
+482,"Title: ""Image Analysis and Computer Vision: 1997""
+Authors: Azriel Rosenfeld
+Year: 1998
+Venue: Computer Vision and Image Understanding
+DOI: 10.1142/9789814460941_0015",1,doi_mismatch,10.1006/cviu.1998.0697,10.1142/9789814460941_0015,10.1006/cviu.1998.0697,10.1142/9789814460941_0015,doi_substitution (offset=1)
+483,"Title: ""Introduction to Machine Learning and Deep Learning""
+Authors: Nikhil Ketkar; Jojo Moolayil
+Year: 2020
+Venue: Deep Learning with Python
+DOI: 10.1007/978-1-4842-5364-9_1",1,wrong_year,10.1007/978-1-4842-5364-9_1,,2021,2020,alternating_year_plus_minus_one
+484,"Title: ""New Theoretical Directions In Machine Learning""
+Authors: David Haussler
+Year: 1989
+Venue: Machine Learning
+DOI: 10.1023/a:1022817027844",1,wrong_year,10.1023/a:1022817027844,,1988,1989,alternating_year_plus_minus_one
+485,"Title: ""Artificial intelligence and folklore: Artificial intelligence technologies derived from folklore""
+Authors: Stuart C. Shapiro
+Year: 2024
+Venue: Artificial Intelligence and Digital Development
+DOI: 10.59849/aidd.2024.54",1,corrupted_authors,10.59849/aidd.2024.54,10.1016/0004-3702(76)90004-7,Valeh Hikmet Guliyev,Stuart C. Shapiro,first_author_substitution (offset=1)
+486,"Title: ""Why Use Automated Machine Learning?""
+Authors: Kai R. Larsen; Daniel S. Becker
+Year: 2021
+Venue: Machine Learning
+DOI: 10.1093/oso/9780190941659.003.0001",1,wrong_venue,10.1093/oso/9780190941659.003.0001,10.1023/a:1022896407371,Automated Machine Learning for Business,Machine Learning,venue_substitution (offset=1)
+487,"Title: ""Machine Learning Overview""
+Authors: Mark Liu
+Year: 2010
+Venue: New Advances in Machine Learning
+DOI: 10.5772/9374",1,corrupted_authors,10.5772/9374,10.1201/b23383-3,Taiwo Oladipupo,Mark Liu,first_author_substitution (offset=1)
+488,"Title: ""Research Papers in Machine Learning""
+Authors: Pat Langley
+Year: 1987
+Venue: Machine Learning
+DOI: 10.1023/a:1022647305786",1,doi_mismatch,10.1023/a:1022603230145,10.1023/a:1022647305786,10.1023/a:1022603230145,10.1023/a:1022647305786,doi_substitution (offset=1)
+489,"Title: ""AI, Machine Learning &amp; Deep Learning Risk Management &amp; Controls: Beyond Deep Learning and Generative Adversarial Networks: Model Risk Management in AI, Machine Learning &amp; Deep Learning""
+Authors: Yogesh Malhotra
+Year: 2018
+Venue: SSRN Electronic Journal
+DOI: 10.32657/10356/151718",1,doi_mismatch,10.2139/ssrn.3193693,10.32657/10356/151718,10.2139/ssrn.3193693,10.32657/10356/151718,doi_substitution (offset=1)
+490,"Title: ""Deep Learning with TensorFlow for Classification""
+Authors: Abdelaziz Testas
+Year: 2024
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1016/b978-0-443-43954-4.00006-8",1,doi_mismatch,10.1007/979-8-8688-1017-6_7,10.1016/b978-0-443-43954-4.00006-8,10.1007/979-8-8688-1017-6_7,10.1016/b978-0-443-43954-4.00006-8,doi_substitution (offset=1)
+491,"Title: ""Machine learning with sklearn""
+Authors: Thomas P. Trappenberg
+Year: 2019
+Venue: Fundamentals of Machine Learning
+DOI: 10.1093/oso/9780198828044.003.0003",0,valid,10.1093/oso/9780198828044.003.0003,,,,unmodified_valid_seed
+492,"Title: ""Developing Machine Learning Skills With No-Code Machine Learning Tools""
+Authors: Emmanuel Djaba; Joseph Budu
+Year: 2023
+Venue: CRAN: Contributed Packages
+DOI: 10.4018/978-1-7998-9220-5.ch097",1,wrong_venue,10.4018/978-1-7998-9220-5.ch097,10.32614/cran.package.paws.machine.learning,Encyclopedia of Data Science and Machine Learning,CRAN: Contributed Packages,venue_substitution (offset=1)
+493,"Title: ""Natural Language Processing in Computer-Assisted Language Learning""
+Authors: Kanji Takahashi
+Year: 2012
+Venue: Oxford Handbooks Online
+DOI: 10.1093/oxfordhb/9780199276349.013.0037",1,corrupted_authors,10.1093/oxfordhb/9780199276349.013.0037,10.5715/jnlp.28.297,John Nerbonne,Kanji Takahashi,first_author_substitution (offset=1)
+494,"Title: ""Research Papers in Machine Learning""
+Authors: David Haussler
+Year: 1987
+Venue: Machine Learning
+DOI: 10.1023/a:1022603230145",1,corrupted_authors,10.1023/a:1022603230145,10.1023/a:1022817027844,Pat Langley,David Haussler,first_author_substitution (offset=3)
+495,"Title: ""Observatorio virtual sonoro basado en Deep Learning = Deep Learning Auditory Virtual Observatory""
+Authors: Adrián García Riber
+Year: 2025
+Venue: Universidad Politecnica de Madrid - University Library
+DOI: 10.1007/979-8-8688-1017-6_7",1,doi_mismatch,10.20868/upm.thesis.90828,10.1007/979-8-8688-1017-6_7,10.20868/upm.thesis.90828,10.1007/979-8-8688-1017-6_7,doi_substitution (offset=1)
+496,"Title: ""Thesauruses for natural language processing""
+Authors: Gillian Pocock
+Year: 2004
+Venue: International Conference on Natural Language Processing and Knowledge Engineering, 2003. Proceedings. 2003
+DOI: 10.1109/nlpke.2003.1275859",1,corrupted_authors,10.1109/nlpke.2003.1275859,10.1093/hesc/9780198557364.003.0001,A. Kilgarriff,Gillian Pocock,first_author_substitution (offset=1)
+497,"Title: ""Multi Source Verification of AI Generated Bibliographic Information (85)""
+Authors: Sophia Williams; James Carter
+Year: 2023
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0085",1,plausible_fabricated,,,,,synthetic_template_generation
+498,"Title: ""Biomedical Natural Language Processing""
+Authors: Kevin Bretonnel Cohen; Dina Demner-Fushman
+Year: 2014
+Venue: Natural Language Processing
+DOI: 10.1075/nlp.11",0,valid,10.1075/nlp.11,,,,unmodified_valid_seed
+499,"Title: ""12th Asian conference on computer vision""
+Authors: Ian Reid
+Year: 2016
+Venue: Computer Vision for Assistive Healthcare
+DOI: 10.1016/j.cviu.2016.03.016",1,wrong_venue,10.1016/j.cviu.2016.03.016,10.1016/b978-0-12-813445-0.00007-1,Computer Vision and Image Understanding,Computer Vision for Assistive Healthcare,venue_substitution (offset=1)
+500,"Title: ""Employing large language models in Swahili, a low-resource language""
+Authors: Dietram Efrem Mgeni
+Year: 2027
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2026.100209",1,wrong_year,10.1016/j.nlp.2026.100209,,2026,2027,alternating_year_plus_minus_one
+501,"Title: ""AI, Machine Learning &amp; Deep Learning Risk Management &amp; Controls: Beyond Deep Learning and Generative Adversarial Networks: Model Risk Management in AI, Machine Learning &amp; Deep Learning""
+Authors: Yogesh Malhotra
+Year: 2019
+Venue: SSRN Electronic Journal
+DOI: 10.2139/ssrn.3193693",1,wrong_year,10.2139/ssrn.3193693,,2018,2019,alternating_year_plus_minus_one
+502,"Title: ""Multi Source Verification of AI Generated Bibliographic Information (27)""
+Authors: David Wilson; Olivia Martin
+Year: 2019
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0027",1,plausible_fabricated,,,,,synthetic_template_generation
+503,"Title: ""A Robust Method for Scholarly Reference Validation (60)""
+Authors: David Wilson; Olivia Martin
+Year: 2024
+Venue: ACM Transactions on Intelligent Systems and Technology
+DOI: 10.9999/citeguard.synthetic.0060",1,plausible_fabricated,,,,,synthetic_template_generation
+504,"Title: ""Detecting Hallucinated References in Neural Language Models (68)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2023
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0068",1,plausible_fabricated,,,,,synthetic_template_generation
+505,"Title: ""A Robust Method for Scholarly Reference Validation (81)""
+Authors: Andrew Johnson; Emily Davis
+Year: 2022
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0081",1,plausible_fabricated,,,,,synthetic_template_generation
+506,"Title: ""Embodied artificial intelligence""
+Authors: Ron Chrisley
+Year: 2003
+Venue: Artificial Intelligence
+DOI: 10.1016/s0004-3702(03)00055-9",0,valid,10.1016/s0004-3702(03)00055-9,,,,unmodified_valid_seed
+507,"Title: ""COMPUTER VISION IN INTERVENTIONAL CARDIOLOGY""
+Authors: Kendall R. Waters
+Year: 2014
+Venue: Series in Computer Vision
+DOI: 10.1142/9789814460941_0015",0,valid,10.1142/9789814460941_0015,,,,unmodified_valid_seed
+508,"Title: ""Employing large language models in Swahili, a low-resource language""
+Authors: Hitoshi Isahara
+Year: 2026
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2026.100209",1,corrupted_authors,10.1016/j.nlp.2026.100209,10.1109/nlpke.2007.4368002,Dietram Efrem Mgeni,Hitoshi Isahara,first_author_substitution (offset=1)
+509,"Title: ""A Deep Learning Framework for Academic Citation Validation (89)""
+Authors: Robert Miller; Emma Thompson
+Year: 2019
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0089",1,plausible_fabricated,,,,,synthetic_template_generation
+510,"Title: ""Frontiers of deep learning""
+Authors: Shuhao Wang; Gang Xu
+Year: 2024
+Venue: Deep Learning
+DOI: 10.1016/b978-0-443-43954-4.00006-8",1,wrong_year,10.1016/b978-0-443-43954-4.00006-8,,2025,2024,alternating_year_plus_minus_one
+511,"Title: ""Machine Learning and Qualitative Reasoning""
+Authors: Pat Langley
+Year: 1994
+Venue: Machine Learning
+DOI: 10.1023/a:1022661713654",1,corrupted_authors,10.1023/a:1022661713654,10.1023/a:1022603230145,Ivan Bratko,Pat Langley,first_author_substitution (offset=1)
+512,"Title: ""What Is Deep Learning?""
+Authors: Thimira Amaratunga
+Year: 2020
+Venue: Deep Learning on Windows
+DOI: 10.1007/978-1-4842-6431-7_1",1,wrong_year,10.1007/978-1-4842-6431-7_1,,2021,2020,alternating_year_plus_minus_one
+513,"Title: ""Toward a Unified Science of Machine Learning""
+Authors: Pat Langley
+Year: 1989
+Venue: New Advances in Machine Learning
+DOI: 10.1023/a:1022689616458",1,wrong_venue,10.1023/a:1022689616458,10.5772/9374,Machine Learning,New Advances in Machine Learning,venue_substitution (offset=2)
+514,"Title: ""Einleitung: Vom Batch Machine Learning zum Online Machine Learning""
+Authors: Thomas Bartz-Beielstein
+Year: 2025
+Venue: Online Machine Learning
+DOI: 10.1007/978-3-658-46162-1_1",1,wrong_year,10.1007/978-3-658-46162-1_1,,2024,2025,alternating_year_plus_minus_one
+515,"Title: ""Research Papers in Machine Learning""
+Authors: Pat Langley
+Year: 1986
+Venue: Machine Learning
+DOI: 10.1023/a:1022603230145",1,wrong_year,10.1023/a:1022603230145,,1987,1986,alternating_year_plus_minus_one
+516,"Title: ""paws.machine.learning: 'Amazon Web Services' Machine Learning Services""
+Authors: David Kretch; Adam Banker
+Year: 2019
+Venue: CRAN: Contributed Packages
+DOI: 10.1201/9781003126898-1",1,doi_mismatch,10.32614/cran.package.paws.machine.learning,10.1201/9781003126898-1,10.32614/cran.package.paws.machine.learning,10.1201/9781003126898-1,doi_substitution (offset=1)
+517,"Title: ""Detecting Hallucinated References in Neural Language Models (32)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2024
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0032",1,plausible_fabricated,,,,,synthetic_template_generation
+518,"Title: ""Deep Learning with PyTorch for Regression""
+Authors: Abdelaziz Testas
+Year: 2025
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1007/979-8-8688-1017-6_4",1,wrong_year,10.1007/979-8-8688-1017-6_4,,2024,2025,alternating_year_plus_minus_one
+519,"Title: ""Reliable Citation Grounding for Large Language Models (47)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2024
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0047",1,plausible_fabricated,,,,,synthetic_template_generation
+520,"Title: ""Deep Chinese Teaching and Learning Model Based on Deep Learning""
+Authors: Yipu Wang; Stuart Perrin
+Year: 2024
+Venue: Deep Learning and Computational Physics
+DOI: 10.18178/ijlll.2024.10.1.479",1,wrong_venue,10.18178/ijlll.2024.10.1.479,10.1007/978-3-031-59345-1_7,"International Journal of Languages, Literature and Linguistics",Deep Learning and Computational Physics,venue_substitution (offset=1)
+521,"Title: ""Natural Language Processing Application to the Chemical Domain""
+Authors: Tomoya Iwakura; Hiyori Yoshikawa
+Year: 2021
+Venue: Journal of Natural Language Processing
+DOI: 10.5715/jnlp.27.969",1,wrong_year,10.5715/jnlp.27.969,,2020,2021,alternating_year_plus_minus_one
+522,"Title: ""Machine Learning and Grammar Induction""
+Authors: Kai R. Larsen
+Year: 1987
+Venue: Machine Learning
+DOI: 10.1023/a:1022808826027",1,corrupted_authors,10.1023/a:1022808826027,10.1093/oso/9780190941659.003.0001,Pat Langely,Kai R. Larsen,first_author_substitution (offset=1)
+523,"Title: ""Machine Learning and Grammar Induction""
+Authors: Pat Langely
+Year: 1987
+Venue: Machine Learning
+DOI: 10.1023/a:1022808826027",0,valid,10.1023/a:1022808826027,,,,unmodified_valid_seed
+524,"Title: ""A Robust Method for Scholarly Reference Validation (31)""
+Authors: Sophia Williams; James Carter
+Year: 2022
+Venue: ACM Transactions on Intelligent Systems and Technology
+DOI: 10.9999/citeguard.synthetic.0031",1,plausible_fabricated,,,,,synthetic_template_generation
+525,"Title: ""Deep Probabilistic Learning""
+Authors: Taeho Jo
+Year: 2023
+Venue: Deep Learning Foundations
+DOI: 10.1007/978-3-031-32879-4_6",0,valid,10.1007/978-3-031-32879-4_6,,,,unmodified_valid_seed
+526,"Title: ""Distributed deep learning systems""
+Authors: Reiner Lenz; Gang Xu
+Year: 2025
+Venue: Deep Learning
+DOI: 10.1016/b978-0-443-43954-4.00005-6",1,corrupted_authors,10.1016/b978-0-443-43954-4.00005-6,10.1007/978-3-540-76390-1_73,Shuhao Wang; Gang Xu,Reiner Lenz; Gang Xu,first_author_substitution (offset=1)
+527,"Title: ""Artificial intelligence""
+Authors: Donna Reese
+Year: 1985
+Venue: Artificial Intelligence
+DOI: 10.1186/s40364-024-00557-1",1,doi_mismatch,10.1016/0004-3702(85)90088-8,10.1186/s40364-024-00557-1,10.1016/0004-3702(85)90088-8,10.1186/s40364-024-00557-1,doi_substitution (offset=1)
+528,"Title: ""Artificial intelligence""
+Authors: Donna Reese
+Year: 1984
+Venue: Artificial Intelligence
+DOI: 10.1016/0004-3702(85)90088-8",1,wrong_year,10.1016/0004-3702(85)90088-8,,1985,1984,alternating_year_plus_minus_one
+529,"Title: ""A Deep Learning Framework for Academic Citation Validation (40)""
+Authors: Sophia Williams; James Carter
+Year: 2022
+Venue: Journal of Artificial Intelligence Research
+DOI: 10.9999/citeguard.synthetic.0040",1,plausible_fabricated,,,,,synthetic_template_generation
+530,"Title: ""A Robust Method for Scholarly Reference Validation (24)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2024
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0024",1,plausible_fabricated,,,,,synthetic_template_generation
+531,"Title: ""AI, Machine Learning &amp; Deep Learning Risk Management &amp; Controls: Beyond Deep Learning and Generative Adversarial Networks: Model Risk Management in AI, Machine Learning &amp; Deep Learning""
+Authors: Yogesh Malhotra
+Year: 2018
+Venue: Nanyang Technological University
+DOI: 10.2139/ssrn.3193693",1,wrong_venue,10.2139/ssrn.3193693,10.32657/10356/151718,SSRN Electronic Journal,Nanyang Technological University,venue_substitution (offset=1)
+532,"Title: ""Machine Learning: An Overview""
+Authors: Mark Liu
+Year: 2022
+Venue: Machine Learning, Animated
+DOI: 10.1201/b23383-3",1,wrong_year,10.1201/b23383-3,,2023,2022,alternating_year_plus_minus_one
+533,"Title: ""Recent Advances in Deep Learning""
+Authors: Nikhil Ketkar; Jojo Moolayil
+Year: 2020
+Venue: Deep Learning with Python
+DOI: 10.1007/978-1-4842-5364-9_8",1,wrong_year,10.1007/978-1-4842-5364-9_8,,2021,2020,alternating_year_plus_minus_one
+534,"Title: ""Automatic Differentiation in Deep Learning""
+Authors: Nikhil Ketkar; Jojo Moolayil
+Year: 2021
+Venue: Deep Learning Foundations
+DOI: 10.1007/978-1-4842-5364-9_4",1,wrong_venue,10.1007/978-1-4842-5364-9_4,10.1007/978-3-031-32879-4_6,Deep Learning with Python,Deep Learning Foundations,venue_substitution (offset=1)
+535,"Title: ""Machine Learning as an Experimental Science""
+Authors: Pat Langley
+Year: 1988
+Venue: Machine Learning
+DOI: 10.1201/9781003606055-5",1,doi_mismatch,10.1023/a:1022623814640,10.1201/9781003606055-5,10.1023/a:1022623814640,10.1201/9781003606055-5,doi_substitution (offset=1)
+536,"Title: ""A Robust Method for Scholarly Reference Validation (61)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2018
+Venue: ACM Transactions on Intelligent Systems and Technology
+DOI: 10.9999/citeguard.synthetic.0061",1,plausible_fabricated,,,,,synthetic_template_generation
+537,"Title: ""What Is Natural Language Processing?""
+Authors: Tomoya Iwakura
+Year: 2018
+Venue: Applied Natural Language Processing with Python
+DOI: 10.1007/978-1-4842-3733-5_1",1,corrupted_authors,10.1007/978-1-4842-3733-5_1,10.5715/jnlp.27.969,Taweh Beysolow II,Tomoya Iwakura,first_author_substitution (offset=1)
+538,"Title: ""Shallow Language Processing, Deep Language Processing and Domain Ontologies""
+Authors: H. Uszkoreit
+Year: 2006
+Venue: 2005 International Conference on Natural Language Processing and Knowledge Engineering
+DOI: 10.1016/j.nlp.2026.100209",1,doi_mismatch,10.1109/nlpke.2005.1598697,10.1016/j.nlp.2026.100209,10.1109/nlpke.2005.1598697,10.1016/j.nlp.2026.100209,doi_substitution (offset=1)
+539,"Title: ""Image Analysis and Computer Vision: 1998""
+Authors: Xieling Chen
+Year: 1999
+Venue: Computer Vision and Image Understanding
+DOI: 10.1006/cviu.1999.0746",1,corrupted_authors,10.1006/cviu.1999.0746,10.1016/j.nlp.2022.100001,Azriel Rosenfeld,Xieling Chen,first_author_substitution (offset=1)
+540,"Title: ""Toward a Unified Science of Machine Learning""
+Authors: Pat Langley
+Year: 1989
+Venue: Machine Learning
+DOI: 10.1023/a:1022814715297",1,doi_mismatch,10.1023/a:1022689616458,10.1023/a:1022814715297,10.1023/a:1022689616458,10.1023/a:1022814715297,doi_substitution (offset=1)
+541,"Title: ""Machine Learning""
+Authors: S. Sowmyayani
+Year: 2022
+Venue: Prediction and Analysis for Knowledge Representation and Machine Learning
+DOI: 10.1201/9781003126898-1",0,valid,10.1201/9781003126898-1,,,,unmodified_valid_seed
+542,"Title: ""Deep Learning - Based Diabetic Retinopathy Detection: A Survey on Deep Learning Architectures""
+Authors: Srinidhi G A
+Year: 2025
+Venue: International Journal of Science and Research (IJSR)
+DOI: 10.21275/sr24805160228",1,wrong_year,10.21275/sr24805160228,,2024,2025,alternating_year_plus_minus_one
+543,"Title: ""Editorial: The Terminology of Machine Learning""
+Authors: Pat Langley
+Year: 1986
+Venue: Soft Computing and Machine Learning
+DOI: 10.1023/a:1022840627593",1,wrong_venue,10.1023/a:1022840627593,10.1201/9781003606055-5,Machine Learning,Soft Computing and Machine Learning,venue_substitution (offset=3)
+544,"Title: ""Multi Source Verification of AI Generated Bibliographic Information (22)""
+Authors: Robert Miller; Emma Thompson
+Year: 2023
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0022",1,plausible_fabricated,,,,,synthetic_template_generation
+545,"Title: ""Topology in Deep Learning""
+Authors: Mehdi Ghayoumi
+Year: 2024
+Venue: Mathematical Foundations for Deep Learning
+DOI: 10.1201/9781032690742-9",1,wrong_year,10.1201/9781032690742-9,,2025,2024,alternating_year_plus_minus_one
+546,"Title: ""Context Aware Verification of Automatically Generated Citations (48)""
+Authors: Sophia Williams; James Carter
+Year: 2023
+Venue: ACM Transactions on Intelligent Systems and Technology
+DOI: 10.9999/citeguard.synthetic.0048",1,plausible_fabricated,,,,,synthetic_template_generation
+547,"Title: ""What Is Natural Language Processing?""
+Authors: Taweh Beysolow II
+Year: 2018
+Venue: Applied Natural Language Processing with Python
+DOI: 10.1007/978-1-4842-3733-5_1",0,valid,10.1007/978-1-4842-3733-5_1,,,,unmodified_valid_seed
+548,"Title: ""Design of Efficient Unification for Natural Language""
+Authors: Huaping Zhang
+Year: 1995
+Venue: Journal of Natural Language Processing
+DOI: 10.5715/jnlp.2.2_23",1,corrupted_authors,10.5715/jnlp.2.2_23,10.1007/978-981-97-9739-4_20,Hideto Tomabechi,Huaping Zhang,first_author_substitution (offset=1)
+549,"Title: ""Machine Learning and Deep Learning in Deep Brain Stimulation Targeting for Parkinson's Disease""
+Authors: Vikash Agarwal; M Swarna; Dolly Mushahary
+Year: 2025
+Venue: Machine Learning and Deep Learning in Neuroimaging Data Analysis
+DOI: 10.1201/9781003264767-7",1,wrong_year,10.1201/9781003264767-7,,2024,2025,alternating_year_plus_minus_one
+550,"Title: ""Editorial: Advice to Machine Learning Authors""
+Authors: Pat Langley
+Year: 1990
+Venue: Soft Computing and Machine Learning
+DOI: 10.1023/a:1022647305786",1,wrong_venue,10.1023/a:1022647305786,10.1201/9781003606055-5,Machine Learning,Soft Computing and Machine Learning,venue_substitution (offset=4)
+551,"Title: ""Artificial intelligence""
+Authors: Stuart C. Shapiro
+Year: 1976
+Venue: Artificial Intelligence
+DOI: 10.1016/s0004-3702(03)00055-9",1,doi_mismatch,10.1016/0004-3702(76)90004-7,10.1016/s0004-3702(03)00055-9,10.1016/0004-3702(76)90004-7,10.1016/s0004-3702(03)00055-9,doi_substitution (offset=1)
+552,"Title: ""Applications of Machine Learning in cricket: A systematic review""
+Authors: Indika Wickramasinghe
+Year: 2022
+Venue: Machine Learning with Applications
+DOI: 10.1016/j.mlwa.2022.100435",0,valid,10.1016/j.mlwa.2022.100435,,,,unmodified_valid_seed
+553,"Title: ""Machine Learning""
+Authors: Farshid PirahanSiah
+Year: 2022
+Venue: Prediction and Analysis for Knowledge Representation and Machine Learning
+DOI: 10.1201/9781003126898-1",1,corrupted_authors,10.1201/9781003126898-1,10.14293/s2199-1006.1.sor-uncat.clzwyuz.v1,S. Sowmyayani,Farshid PirahanSiah,first_author_substitution (offset=1)
+554,"Title: ""Deep Learning""
+Authors: Thimira Amaratunga
+Year: 2017
+Venue: MATLAB Deep Learning
+DOI: 10.1007/978-1-4842-2845-6_5",1,corrupted_authors,10.1007/978-1-4842-2845-6_5,10.1007/978-1-4842-6431-7_1,Phil Kim,Thimira Amaratunga,first_author_substitution (offset=1)
+555,"Title: ""Machine learning vs. neutrosophic machine learning""
+Authors: Shabbir Hassan
+Year: 2024
+Venue: Soft Computing and Machine Learning
+DOI: 10.1201/9781003606055-5",1,wrong_year,10.1201/9781003606055-5,,2025,2024,alternating_year_plus_minus_one
+556,"Title: ""Deep Learning with TensorFlow for Regression""
+Authors: Abdelaziz Testas
+Year: 2025
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1007/979-8-8688-1017-6_5",1,wrong_year,10.1007/979-8-8688-1017-6_5,,2024,2025,alternating_year_plus_minus_one
+557,"Title: ""What Is Natural Language Processing?""
+Authors: Taweh Beysolow II
+Year: 2018
+Venue: Journal of Natural Language Processing
+DOI: 10.1007/978-1-4842-3733-5_1",1,wrong_venue,10.1007/978-1-4842-3733-5_1,10.5715/jnlp.27.969,Applied Natural Language Processing with Python,Journal of Natural Language Processing,venue_substitution (offset=1)
+558,"Title: ""Machine Learning: A Maturing Field""
+Authors: Pat Langley
+Year: 1992
+Venue: Machine Learning
+DOI: 10.1023/a:1022665512030",1,corrupted_authors,10.1023/a:1022665512030,10.1023/a:1022854429410,Jaime Carbonell,Pat Langley,first_author_substitution (offset=1)
+559,"Title: ""paws.machine.learning: 'Amazon Web Services' Machine Learning Services""
+Authors: S. Sowmyayani; Adam Banker
+Year: 2019
+Venue: CRAN: Contributed Packages
+DOI: 10.32614/cran.package.paws.machine.learning",1,corrupted_authors,10.32614/cran.package.paws.machine.learning,10.1201/9781003126898-1,David Kretch; Adam Banker,S. Sowmyayani; Adam Banker,first_author_substitution (offset=1)
+560,"Title: ""Applying Natural Language Processing in a Cloud-based Business Card Management Service""
+Authors: Kanji Takahashi; Tomonori Manabe
+Year: 2021
+Venue: 2005 International Conference on Natural Language Processing and Knowledge Engineering
+DOI: 10.5715/jnlp.28.297",1,wrong_venue,10.5715/jnlp.28.297,10.1109/nlpke.2005.1598697,Journal of Natural Language Processing,2005 International Conference on Natural Language Processing and Knowledge Engineering,venue_substitution (offset=1)
+561,"Title: ""Deep Learning - Based Diabetic Retinopathy Detection: A Survey on Deep Learning Architectures""
+Authors: Srinidhi G A
+Year: 2024
+Venue: International Journal of Science and Research (IJSR)
+DOI: 10.21275/sr24805160228",0,valid,10.21275/sr24805160228,,,,unmodified_valid_seed
+562,"Title: ""Thesauruses for natural language processing""
+Authors: A. Kilgarriff
+Year: 2005
+Venue: International Conference on Natural Language Processing and Knowledge Engineering, 2003. Proceedings. 2003
+DOI: 10.1109/nlpke.2003.1275859",1,wrong_year,10.1109/nlpke.2003.1275859,,2004,2005,alternating_year_plus_minus_one
+563,"Title: ""New Theoretical Directions In Machine Learning""
+Authors: David Haussler
+Year: 1988
+Venue: Machine Learning
+DOI: 10.1023/a:1022623814640",1,doi_mismatch,10.1023/a:1022817027844,10.1023/a:1022623814640,10.1023/a:1022817027844,10.1023/a:1022623814640,doi_substitution (offset=1)
+564,"Title: ""Computer Vision for Egocentric (First-Person) Vision""
+Authors: Mariella Dimiccoli
+Year: 2018
+Venue: Computer Vision for Assistive Healthcare
+DOI: 10.1006/cviu.1998.0697",1,doi_mismatch,10.1016/b978-0-12-813445-0.00007-1,10.1006/cviu.1998.0697,10.1016/b978-0-12-813445-0.00007-1,10.1006/cviu.1998.0697,doi_substitution (offset=1)
+565,"Title: ""Bibliometric analysis of natural language processing using CiteSpace and VOSviewer""
+Authors: Raymond Lee; Wenjie Tian; Haoyun Fang
+Year: 2025
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2024.100123",1,corrupted_authors,10.1016/j.nlp.2024.100123,10.1007/978-981-96-3208-4_1,Xiuming Chen; Wenjie Tian; Haoyun Fang,Raymond Lee; Wenjie Tian; Haoyun Fang,first_author_substitution (offset=1)
+566,"Title: ""Observatorio virtual sonoro basado en Deep Learning = Deep Learning Auditory Virtual Observatory""
+Authors: Abdelaziz Testas
+Year: 2025
+Venue: Universidad Politecnica de Madrid - University Library
+DOI: 10.20868/upm.thesis.90828",1,corrupted_authors,10.20868/upm.thesis.90828,10.1007/979-8-8688-1017-6_7,Adrián García Riber,Abdelaziz Testas,first_author_substitution (offset=1)
+567,"Title: ""Machine Learning: An Overview""
+Authors: Mark Liu
+Year: 2023
+Venue: Fundamentals of Machine Learning
+DOI: 10.1201/b23383-3",1,wrong_venue,10.1201/b23383-3,10.1093/oso/9780198828044.003.0010,"Machine Learning, Animated",Fundamentals of Machine Learning,venue_substitution (offset=1)
+568,"Title: ""Is Online Learning Killing Deep Learning? LMS-centred Online Learning Practices, Deep Approaches to Learning and PLE Development""
+Authors: Paul Albinson
+Year: 2027
+Venue: Center for Open Science
+DOI: 10.35542/osf.io/arn3h_v1",1,wrong_year,10.35542/osf.io/arn3h_v1,,2026,2027,alternating_year_plus_minus_one
+569,"Title: ""Employing large language models in Swahili, a low-resource language""
+Authors: Dietram Efrem Mgeni
+Year: 2026
+Venue: Natural Language Processing Journal
+DOI: 10.1109/nlpke.2007.4368002",1,doi_mismatch,10.1016/j.nlp.2026.100209,10.1109/nlpke.2007.4368002,10.1016/j.nlp.2026.100209,10.1109/nlpke.2007.4368002,doi_substitution (offset=1)
+570,"Title: ""Learning Curves in Machine Learning""
+Authors: Claudia Perlich
+Year: 2011
+Venue: Encyclopedia of Machine Learning
+DOI: 10.1007/978-0-387-30164-8_452",0,valid,10.1007/978-0-387-30164-8_452,,,,unmodified_valid_seed
+571,"Title: ""Reinforcement learning""
+Authors: Thomas P. Trappenberg
+Year: 2019
+Venue: Machine Learning
+DOI: 10.1093/oso/9780198828044.003.0010",1,wrong_venue,10.1093/oso/9780198828044.003.0010,10.1023/a:1007601113994,Fundamentals of Machine Learning,Machine Learning,venue_substitution (offset=1)
+572,"Title: ""Applying Natural Language Processing in a Cloud-based Business Card Management Service""
+Authors: Kanji Takahashi; Tomonori Manabe
+Year: 2021
+Venue: Journal of Natural Language Processing
+DOI: 10.1109/nlpke.2005.1598697",1,doi_mismatch,10.5715/jnlp.28.297,10.1109/nlpke.2005.1598697,10.5715/jnlp.28.297,10.1109/nlpke.2005.1598697,doi_substitution (offset=1)
+573,"Title: ""Image Analysis and Computer Vision: 1999""
+Authors: Azriel Rosenfeld
+Year: 2000
+Venue: Computer Vision and Image Understanding
+DOI: 10.1006/cviu.1999.0746",1,doi_mismatch,10.1006/cviu.2000.0835,10.1006/cviu.1999.0746,10.1006/cviu.2000.0835,10.1006/cviu.1999.0746,doi_substitution (offset=1)
+574,"Title: ""Generative Deep Learning""
+Authors: Habib Izadkhah; Orazio Pinti; Assad A. Oberai
+Year: 2024
+Venue: Deep Learning and Computational Physics
+DOI: 10.1007/978-3-031-59345-1_7",1,corrupted_authors,10.1007/978-3-031-59345-1_7,10.1016/b978-0-12-823822-6.00014-7,Deep Ray; Orazio Pinti; Assad A. Oberai,Habib Izadkhah; Orazio Pinti; Assad A. Oberai,first_author_substitution (offset=1)
+575,"Title: ""Deep Learning with TensorFlow for Regression""
+Authors: Abdelaziz Testas
+Year: 2024
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1201/9781032690742-9",1,doi_mismatch,10.1007/979-8-8688-1017-6_5,10.1201/9781032690742-9,10.1007/979-8-8688-1017-6_5,10.1201/9781032690742-9,doi_substitution (offset=1)
+576,"Title: ""Einleitung: Vom Batch Machine Learning zum Online Machine Learning""
+Authors: Thomas Bartz-Beielstein
+Year: 2024
+Venue: Machine Learning Methods
+DOI: 10.1007/978-3-658-46162-1_1",1,wrong_venue,10.1007/978-3-658-46162-1_1,10.1007/978-981-99-3917-6_1,Online Machine Learning,Machine Learning Methods,venue_substitution (offset=1)
+577,"Title: ""Reliable Citation Grounding for Large Language Models (74)""
+Authors: Sophia Williams; James Carter
+Year: 2019
+Venue: IEEE Transactions on Artificial Intelligence
+DOI: 10.9999/citeguard.synthetic.0074",1,plausible_fabricated,,,,,synthetic_template_generation
+578,"Title: ""12th Asian conference on computer vision""
+Authors: Ian Reid
+Year: 2017
+Venue: Computer Vision and Image Understanding
+DOI: 10.1016/j.cviu.2016.03.016",1,wrong_year,10.1016/j.cviu.2016.03.016,,2016,2017,alternating_year_plus_minus_one
+579,"Title: ""Editorial: Human and Machine Learning""
+Authors: Pat Langley
+Year: 1986
+Venue: Machine Learning
+DOI: 10.1023/a:1022661713654",1,doi_mismatch,10.1023/a:1022854429410,10.1023/a:1022661713654,10.1023/a:1022854429410,10.1023/a:1022661713654,doi_substitution (offset=1)
+580,"Title: ""Deep Learning with TensorFlow for Classification""
+Authors: Shuhao Wang
+Year: 2024
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1007/979-8-8688-1017-6_7",1,corrupted_authors,10.1007/979-8-8688-1017-6_7,10.1016/b978-0-443-43954-4.00006-8,Abdelaziz Testas,Shuhao Wang,first_author_substitution (offset=1)
+581,"Title: ""Application of machine learning algorithms for prediction of sinter machine productivity""
+Authors: Thomas Bartz-Beielstein; Subhra Dhara; Sushant Rath
+Year: 2021
+Venue: Machine Learning with Applications
+DOI: 10.1016/j.mlwa.2021.100186",1,corrupted_authors,10.1016/j.mlwa.2021.100186,10.1007/978-3-658-46162-1_1,Arpit Mallick; Subhra Dhara; Sushant Rath,Thomas Bartz-Beielstein; Subhra Dhara; Sushant Rath,first_author_substitution (offset=1)
+582,"Title: ""Image Analysis and Computer Vision: 1999""
+Authors: Azriel Rosenfeld
+Year: 2001
+Venue: Computer Vision and Image Understanding
+DOI: 10.1006/cviu.2000.0835",1,wrong_year,10.1006/cviu.2000.0835,,2000,2001,alternating_year_plus_minus_one
+583,"Title: ""Is Online Learning Killing Deep Learning? LMS-centred Online Learning Practices, Deep Approaches to Learning and PLE Development""
+Authors: Paul Albinson
+Year: 2026
+Venue: Center for Open Science
+DOI: 10.35542/osf.io/arn3h_v1",0,valid,10.35542/osf.io/arn3h_v1,,,,unmodified_valid_seed
+584,"Title: ""Bibliometric analysis of natural language processing using CiteSpace and VOSviewer""
+Authors: Xiuming Chen; Wenjie Tian; Haoyun Fang
+Year: 2024
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2024.100123",1,wrong_year,10.1016/j.nlp.2024.100123,,2025,2024,alternating_year_plus_minus_one
+585,"Title: ""Application of machine learning algorithms for prediction of sinter machine productivity""
+Authors: Arpit Mallick; Subhra Dhara; Sushant Rath
+Year: 2020
+Venue: Machine Learning with Applications
+DOI: 10.1016/j.mlwa.2021.100186",1,wrong_year,10.1016/j.mlwa.2021.100186,,2021,2020,alternating_year_plus_minus_one
+586,"Title: ""Generative Deep Learning""
+Authors: Deep Ray; Orazio Pinti; Assad A. Oberai
+Year: 2024
+Venue: Deep Learning and Computational Physics
+DOI: 10.1007/978-3-031-59345-1_7",0,valid,10.1007/978-3-031-59345-1_7,,,,unmodified_valid_seed
+587,"Title: ""Introduction to Deep Learning""
+Authors: Harsh Bhasin
+Year: 2024
+Venue: Hands-on Deep Learning
+DOI: 10.1007/978-1-4842-5349-6_9",1,doi_mismatch,10.1007/979-8-8688-1035-0_2,10.1007/978-1-4842-5349-6_9,10.1007/979-8-8688-1035-0_2,10.1007/978-1-4842-5349-6_9,doi_substitution (offset=1)
+588,"Title: ""Is Online Learning Killing Deep Learning? LMS-centred Online Learning Practices, Deep Approaches to Learning and PLE Development""
+Authors: Paul Albinson
+Year: 2026
+Venue: International Journal of Languages, Literature and Linguistics
+DOI: 10.35542/osf.io/arn3h_v1",1,wrong_venue,10.35542/osf.io/arn3h_v1,10.18178/ijlll.2024.10.1.479,Center for Open Science,"International Journal of Languages, Literature and Linguistics",venue_substitution (offset=1)
+589,"Title: ""Where to Start Your Deep Learning""
+Authors: Thimira Amaratunga
+Year: 2021
+Venue: Deep Learning on Windows
+DOI: 10.1007/978-1-4842-6431-7_4",1,doi_mismatch,10.1007/978-1-4842-6431-7_2,10.1007/978-1-4842-6431-7_4,10.1007/978-1-4842-6431-7_2,10.1007/978-1-4842-6431-7_4,doi_substitution (offset=1)
+590,"Title: ""Multi Source Verification of AI Generated Bibliographic Information (66)""
+Authors: Sophia Williams; James Carter
+Year: 2020
+Venue: ACM Transactions on Intelligent Systems and Technology
+DOI: 10.9999/citeguard.synthetic.0066",1,plausible_fabricated,,,,,synthetic_template_generation
+591,"Title: ""AI Linguistics""
+Authors: Guosheng Zhang
+Year: 2024
+Venue: Natural Language Processing Journal
+DOI: 10.1016/j.nlp.2025.100137",1,wrong_year,10.1016/j.nlp.2025.100137,,2025,2024,alternating_year_plus_minus_one
+592,"Title: ""Machine Learning and Deep Learning in Deep Brain Stimulation Targeting for Parkinson's Disease""
+Authors: Vikash Agarwal; M Swarna; Dolly Mushahary
+Year: 2024
+Venue: Machine Learning and Deep Learning in Neuroimaging Data Analysis
+DOI: 10.1201/9781003264767-7",0,valid,10.1201/9781003264767-7,,,,unmodified_valid_seed
+593,"Title: ""Context Aware Verification of Automatically Generated Citations (59)""
+Authors: Andrew Johnson; Emily Davis
+Year: 2022
+Venue: ACM Transactions on Intelligent Systems and Technology
+DOI: 10.9999/citeguard.synthetic.0059",1,plausible_fabricated,,,,,synthetic_template_generation
+594,"Title: ""Building Your First Deep Learning Model""
+Authors: Thimira Amaratunga
+Year: 2021
+Venue: Deep Learning on Windows
+DOI: 10.1007/978-1-4842-5364-9_8",1,doi_mismatch,10.1007/978-1-4842-6431-7_4,10.1007/978-1-4842-5364-9_8,10.1007/978-1-4842-6431-7_4,10.1007/978-1-4842-5364-9_8,doi_substitution (offset=1)
+595,"Title: ""NLP: Natural Language Processing Infrastructure""
+Authors: Kurt Hornik
+Year: 2013
+Venue: CRAN: Contributed Packages
+DOI: 10.32614/cran.package.nlp",0,valid,10.32614/cran.package.nlp,,,,unmodified_valid_seed
+596,"Title: ""Einleitung: Vom Batch Machine Learning zum Online Machine Learning""
+Authors: Thomas Bartz-Beielstein
+Year: 2024
+Venue: Online Machine Learning
+DOI: 10.1016/j.mlwa.2021.100186",1,doi_mismatch,10.1007/978-3-658-42505-0_1,10.1016/j.mlwa.2021.100186,10.1007/978-3-658-42505-0_1,10.1016/j.mlwa.2021.100186,doi_substitution (offset=1)
+597,"Title: ""Editorial: The Terminology of Machine Learning""
+Authors: Pat Langley
+Year: 1986
+Venue: Machine Learning
+DOI: 10.1023/a:1022840627593",0,valid,10.1023/a:1022840627593,,,,unmodified_valid_seed
+598,"Title: ""A Robust Method for Scholarly Reference Validation (75)""
+Authors: Daniel Anderson; Michael Roberts
+Year: 2022
+Venue: Information Processing and Management
+DOI: 10.9999/citeguard.synthetic.0075",1,plausible_fabricated,,,,,synthetic_template_generation
+599,"Title: ""Reframing Difficult Deep Learning Problems""
+Authors: Andre Ye
+Year: 2022
+Venue: Building Scalable Deep Learning Pipelines on AWS
+DOI: 10.1007/978-1-4842-7413-2_7",1,wrong_venue,10.1007/978-1-4842-7413-2_7,10.1007/979-8-8688-1017-6_4,Modern Deep Learning Design and Application Development,Building Scalable Deep Learning Pipelines on AWS,venue_substitution (offset=1)
+600,"Title: ""A Robust Method for Scholarly Reference Validation (65)""
+Authors: Andrew Johnson; Emily Davis
+Year: 2021
+Venue: International Journal of Computer Vision
+DOI: 10.9999/citeguard.synthetic.0065",1,plausible_fabricated,,,,,synthetic_template_generation

@@ -1,0 +1,58 @@
+{
+  "configurations": [
+    {
+      "configuration": "Current CiteGuard",
+      "total": 600,
+      "tp": 350,
+      "tn": 93,
+      "fp": 7,
+      "fn": 150,
+      "accuracy": 0.7383333333333333,
+      "precision": 0.9803921568627451,
+      "recall": 0.7,
+      "f1": 0.8168028004667445
+    },
+    {
+      "configuration": "CiteGuard + Author Fix",
+      "total": 600,
+      "tp": 441,
+      "tn": 93,
+      "fp": 7,
+      "fn": 59,
+      "accuracy": 0.89,
+      "precision": 0.984375,
+      "recall": 0.882,
+      "f1": 0.930379746835443
+    },
+    {
+      "configuration": "CiteGuard + Venue Fix",
+      "total": 600,
+      "tp": 383,
+      "tn": 93,
+      "fp": 7,
+      "fn": 117,
+      "accuracy": 0.7933333333333333,
+      "precision": 0.982051282051282,
+      "recall": 0.766,
+      "f1": 0.8606741573033707
+    },
+    {
+      "configuration": "CiteGuard + Author + Venue Fix",
+      "total": 600,
+      "tp": 474,
+      "tn": 93,
+      "fp": 7,
+      "fn": 26,
+      "accuracy": 0.945,
+      "precision": 0.9854469854469855,
+      "recall": 0.948,
+      "f1": 0.9663608562691133
+    }
+  ],
+  "telemetry": {
+    "cache_hits_doi": 2400,
+    "cache_hits_candidates": 752,
+    "unresolved_citations": 0,
+    "pipeline_errors": 0
+  }
+}

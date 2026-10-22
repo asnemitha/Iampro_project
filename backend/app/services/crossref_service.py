@@ -10,10 +10,19 @@ TIMEOUT = 15
 
 
 # ==========================================================
-# Internal Request
+# Internal Request & Provider Telemetry
 # ==========================================================
 
+last_status = {
+    "attempted": False,
+    "success": True,
+    "error": None,
+    "status_code": 200,
+}
+
+
 def _request(url, params=None):
+    last_status["attempted"] = True
     try:
 
         response = session.get(
@@ -23,12 +32,21 @@ def _request(url, params=None):
             timeout=TIMEOUT,
         )
 
+        last_status["status_code"] = response.status_code
+
         if response.status_code != 200:
+            last_status["success"] = (response.status_code == 404)
+            last_status["error"] = f"HTTP {response.status_code}"
             return None
 
+        last_status["success"] = True
+        last_status["error"] = None
         return response.json()
 
-    except Exception:
+    except Exception as e:
+        last_status["success"] = False
+        last_status["error"] = str(e)
+        last_status["status_code"] = None
         return None
 
 
@@ -42,31 +60,27 @@ def extract_crossref_metadata(item):
         return None
 
     title = ""
-
     if item.get("title"):
-
-        if len(item["title"]) > 0:
-            title = item["title"][0]
+        if isinstance(item["title"], list):
+            title = item["title"][0] if len(item["title"]) > 0 else ""
+        else:
+            title = str(item["title"]).strip()
 
     authors = []
 
     for author in item.get("author", []):
-
         given = author.get("given", "").strip()
-
         family = author.get("family", "").strip()
-
         full = f"{given} {family}".strip()
-
         if full:
             authors.append(full)
 
     venue = ""
-
     if item.get("container-title"):
-
-        if len(item["container-title"]) > 0:
-            venue = item["container-title"][0]
+        if isinstance(item["container-title"], list):
+            venue = item["container-title"][0] if len(item["container-title"]) > 0 else ""
+        else:
+            venue = str(item["container-title"]).strip()
 
     year = None
 
@@ -99,19 +113,13 @@ def extract_crossref_metadata(item):
     publisher = item.get("publisher", "")
 
     return {
-
         "title": title,
-
         "authors": authors,
-
         "venue": venue,
-
         "year": year,
-
         "doi": doi,
-
         "publisher": publisher,
-
+        "source": "Crossref",
     }
 
 
@@ -124,36 +132,56 @@ def verify_doi(doi):
     if not doi:
         return None
 
-    doi = doi.strip().lower()
-
-    url = f"{BASE_URL}/{doi}"
-
-    data = _request(url)
-
-    if data is None:
+    from app.services.metadata_normalizer import normalize_doi
+    doi = normalize_doi(doi)
+    if not doi:
         return None
 
-    return extract_crossref_metadata(
-        data.get("message")
-    )
+    # Step 1: Direct Crossref works lookup
+    url = f"{BASE_URL}/{doi}"
+    data = _request(url)
+
+    if data is not None and data.get("message"):
+        meta = extract_crossref_metadata(data.get("message"))
+        if meta and meta.get("title") and len(meta["title"].strip()) > 3:
+            meta["source"] = "Crossref"
+            return meta
+
+    # Step 2: Fallback to doi.org content negotiation (resolves DataCite, arXiv, mEDRA, etc.)
+    try:
+        csl_headers = {
+            "Accept": "application/vnd.citationstyles.csl+json, application/json",
+            "User-Agent": HEADERS["User-Agent"]
+        }
+        res = session.get(f"https://doi.org/{doi}", headers=csl_headers, timeout=TIMEOUT)
+        if res.status_code == 200:
+            csl_data = res.json()
+            meta = extract_crossref_metadata(csl_data)
+            if meta and meta.get("title"):
+                meta["source"] = "Crossref"
+                return meta
+    except Exception:
+        pass
+
+    return None
 
 
 # ==========================================================
 # Title Search
 # ==========================================================
 
-def verify_title(title, rows=10):
+def verify_title(title, author=None, rows=10):
 
     if not title:
         return []
 
     params = {
-
         "query.title": title,
-
         "rows": rows,
-
     }
+
+    if author:
+        params["query.author"] = author
 
     data = _request(
         BASE_URL,
@@ -177,8 +205,8 @@ def verify_title(title, rows=10):
 
         paper = extract_crossref_metadata(item)
 
-        if paper:
-
+        if paper and paper.get("title"):
+            paper["source"] = "Crossref"
             papers.append(paper)
 
     return papers

@@ -1,0 +1,84 @@
+{
+    "dataset": "C:\\Users\\A S Nemitha\\Desktop\\CiteGuard\\datasets\\citation_verification\\hard_citation_test_dataset.csv",
+    "total_samples": 600,
+    "overall_metrics": {
+        "true_positive": 469,
+        "true_negative": 100,
+        "false_positive": 0,
+        "false_negative": 31,
+        "accuracy": 0.9483333333333334,
+        "precision": 1.0,
+        "recall": 0.938,
+        "f1": 0.9680082559339525
+    },
+    "category_metrics": {
+        "corrupted_authors": {
+            "true_positive": 91,
+            "true_negative": 0,
+            "false_positive": 0,
+            "false_negative": 9,
+            "accuracy": 0.91,
+            "precision": 1.0,
+            "recall": 0.91,
+            "f1": 0.9528795811518325
+        },
+        "doi_mismatch": {
+            "true_positive": 100,
+            "true_negative": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "plausible_fabricated": {
+            "true_positive": 100,
+            "true_negative": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "valid": {
+            "true_positive": 0,
+            "true_negative": 100,
+            "false_positive": 0,
+            "false_negative": 0,
+            "accuracy": 1.0,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+        },
+        "wrong_venue": {
+            "true_positive": 78,
+            "true_negative": 0,
+            "false_positive": 0,
+            "false_negative": 22,
+            "accuracy": 0.78,
+            "precision": 1.0,
+            "recall": 0.78,
+            "f1": 0.8764044943820225
+        },
+        "wrong_year": {
+            "true_positive": 100,
+            "true_negative": 0,
+            "false_positive": 0,
+            "false_negative": 0,
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        }
+    },
+    "prediction_distribution": {
+        "1": 469,
+        "0": 131
+    },
+    "ground_truth_distribution": {
+        "1": 500,
+        "0": 100
+    }
+}

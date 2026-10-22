@@ -1,0 +1,5 @@
+configuration,tp,fn,fp,tn,accuracy,precision,recall,f1
+Current CiteGuard,403,97,25,75,79.67,94.16,80.6,86.85
+CiteGuard + Author Fix,461,39,25,75,89.33,94.86,92.2,93.51
+CiteGuard + Venue Fix,409,91,25,75,80.67,94.24,81.8,87.58
+CiteGuard + Author + Venue Fix,467,33,25,75,90.33,94.92,93.4,94.15

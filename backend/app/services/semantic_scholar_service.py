@@ -11,6 +11,15 @@ FIELDS = (
 )
 
 
+# Provider telemetry status
+last_status = {
+    "attempted": False,
+    "success": True,
+    "error": None,
+    "status_code": 200,
+}
+
+
 def search_semantic_scholar(title, limit=10):
     """
     Search Semantic Scholar by paper title.
@@ -20,6 +29,8 @@ def search_semantic_scholar(title, limit=10):
 
     if not title:
         return []
+
+    last_status["attempted"] = True
 
     try:
 
@@ -41,10 +52,15 @@ def search_semantic_scholar(title, limit=10):
 
         )
 
-        if response.status_code != 200:
+        last_status["status_code"] = response.status_code
 
+        if response.status_code != 200:
+            last_status["success"] = (response.status_code == 404)
+            last_status["error"] = f"HTTP {response.status_code}"
             return []
 
+        last_status["success"] = True
+        last_status["error"] = None
         data = response.json()
 
         papers = []
@@ -56,6 +72,8 @@ def search_semantic_scholar(title, limit=10):
             if paper.get("externalIds"):
 
                 doi = paper["externalIds"].get("DOI")
+                if not doi and paper["externalIds"].get("ArXiv"):
+                    doi = f"10.48550/arXiv.{paper['externalIds']['ArXiv']}"
 
             authors = []
 
@@ -85,6 +103,8 @@ def search_semantic_scholar(title, limit=10):
 
         return papers
 
-    except Exception:
-
+    except Exception as e:
+        last_status["success"] = False
+        last_status["error"] = str(e)
+        last_status["status_code"] = None
         return []
