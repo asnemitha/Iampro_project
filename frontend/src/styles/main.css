@@ -98,6 +98,38 @@ body {
   font-family: 'Plus Jakarta Sans', 'Space Grotesk', system-ui, sans-serif;
 }
 
+/* 3D Flowchart Step Cards & Connectors */
+.flowchart-3d-card {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease;
+}
+
+.flowchart-3d-card:hover {
+  transform: translate(-3px, -3px);
+}
+
+@keyframes flow-pulse {
+  0% {
+    top: -40%;
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    top: 120%;
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .connector-beam {
+    animation: flow-pulse 2.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+}
+
 /* Backwards compatibility classes for legacy selectors */
 .green {
   color: var(--accent-green);
@@ -140,9 +172,9 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
+  border: 2px solid var(--border-color);
   background: #cbd5e1;
   border-radius: 4px;
-  border: 2px solid var(--border-color);
 }
 
 .dark ::-webkit-scrollbar-thumb {

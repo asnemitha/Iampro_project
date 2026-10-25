@@ -5,49 +5,84 @@ export default function HowItWorksView() {
       title: "Prompt Classification & Security Filtering",
       badge: "Security Layer",
       desc: "Analyzes the user's input prompt using fine-tuned classifiers to detect adversarial manipulation, system prompt extraction, or prompt injection. Legitimate academic requests proceed downstream.",
-      color: "bg-emerald-100 text-emerald-900 border-emerald-600"
+      badgeColor: "bg-emerald-100 dark:bg-emerald-950/60 text-emerald-900 dark:text-emerald-200 border-emerald-600",
+      accentBar: "bg-emerald-500",
+      badgeGradient: "from-emerald-400 to-emerald-600 text-white",
+      cardBg: "from-white via-white to-emerald-50/40 dark:from-[#1e1e26] dark:via-[#1e1e26] dark:to-emerald-950/20",
+      hoverGlow: "hover:ring-2 hover:ring-emerald-500/80 hover:shadow-[7px_7px_0px_#000,10px_10px_16px_rgba(16,185,129,0.35)]",
+      shadowStyle: "shadow-[4px_4px_0px_#000,7px_7px_0px_rgba(16,185,129,0.35)]",
     },
     {
       num: "02",
       title: "Citation Extraction & Entity Parsing",
       badge: "NLP Parsing",
       desc: "Discovers references in freeform or numbered text, parsing titles, author lists, publication years, conference/journal venues, and DOI identifiers.",
-      color: "bg-blue-100 text-blue-900 border-blue-600"
+      badgeColor: "bg-blue-100 dark:bg-blue-950/60 text-blue-900 dark:text-blue-200 border-blue-600",
+      accentBar: "bg-blue-500",
+      badgeGradient: "from-blue-400 to-blue-600 text-white",
+      cardBg: "from-white via-white to-blue-50/40 dark:from-[#1e1e26] dark:via-[#1e1e26] dark:to-blue-950/20",
+      hoverGlow: "hover:ring-2 hover:ring-blue-500/80 hover:shadow-[7px_7px_0px_#000,10px_10px_16px_rgba(59,130,246,0.35)]",
+      shadowStyle: "shadow-[4px_4px_0px_#000,7px_7px_0px_rgba(59,130,246,0.35)]",
     },
     {
       num: "03",
       title: "Authoritative DOI Verification",
       badge: "DOI-First Resolution",
       desc: "Resolves embedded DOIs directly against Crossref and DataCite registries to establish whether the identifier exists and retrieves its ground-truth metadata record.",
-      color: "bg-amber-100 text-amber-900 border-amber-600"
+      badgeColor: "bg-amber-100 dark:bg-amber-950/60 text-amber-900 dark:text-amber-200 border-amber-600",
+      accentBar: "bg-amber-500",
+      badgeGradient: "from-amber-300 to-amber-500 text-black",
+      cardBg: "from-white via-white to-amber-50/40 dark:from-[#1e1e26] dark:via-[#1e1e26] dark:to-amber-950/20",
+      hoverGlow: "hover:ring-2 hover:ring-amber-500/80 hover:shadow-[7px_7px_0px_#000,10px_10px_16px_rgba(245,158,11,0.35)]",
+      shadowStyle: "shadow-[4px_4px_0px_#000,7px_7px_0px_rgba(245,158,11,0.35)]",
     },
     {
       num: "04",
       title: "Multi-Source Scholarly Retrieval",
       badge: "Scholarly DBs",
       desc: "Federated queries across Crossref, Semantic Scholar, and OpenAlex aggregate publication candidates even when the DOI is missing or hallucinated.",
-      color: "bg-purple-100 text-purple-900 border-purple-600"
+      badgeColor: "bg-purple-100 dark:bg-purple-950/60 text-purple-900 dark:text-purple-200 border-purple-600",
+      accentBar: "bg-purple-500",
+      badgeGradient: "from-purple-400 to-purple-600 text-white",
+      cardBg: "from-white via-white to-purple-50/40 dark:from-[#1e1e26] dark:via-[#1e1e26] dark:to-purple-950/20",
+      hoverGlow: "hover:ring-2 hover:ring-purple-500/80 hover:shadow-[7px_7px_0px_#000,10px_10px_16px_rgba(168,85,247,0.35)]",
+      shadowStyle: "shadow-[4px_4px_0px_#000,7px_7px_0px_rgba(168,85,247,0.35)]",
     },
     {
       num: "05",
       title: "Candidate Ranking & String Matching",
       badge: "RapidFuzz & Jaro-Winkler",
       desc: "Ranks candidate records using weighted title similarity, author-order invariant matching, year tolerance, and publication venue alias normalization.",
-      color: "bg-rose-100 text-rose-900 border-rose-600"
+      badgeColor: "bg-rose-100 dark:bg-rose-950/60 text-rose-900 dark:text-rose-200 border-rose-600",
+      accentBar: "bg-rose-500",
+      badgeGradient: "from-rose-400 to-rose-600 text-white",
+      cardBg: "from-white via-white to-rose-50/40 dark:from-[#1e1e26] dark:via-[#1e1e26] dark:to-rose-950/20",
+      hoverGlow: "hover:ring-2 hover:ring-rose-500/80 hover:shadow-[7px_7px_0px_#000,10px_10px_16px_rgba(244,63,94,0.35)]",
+      shadowStyle: "shadow-[4px_4px_0px_#000,7px_7px_0px_rgba(244,63,94,0.35)]",
     },
     {
       num: "06",
       title: "Hallucination Scoring (0–100)",
       badge: "Scoring Engine",
       desc: "Assigns a calibrated hallucination score from 0 (verified authentic) to 100 (fabricated). Discrepancies are categorized into 5 specific alteration classes.",
-      color: "bg-[#f5b731] text-neutral-900 border-black"
+      badgeColor: "bg-[#f5b731] text-neutral-900 border-black",
+      accentBar: "bg-[#f5b731]",
+      badgeGradient: "from-[#fcd34d] to-[#f5b731] text-black",
+      cardBg: "from-white via-white to-amber-100/50 dark:from-[#1e1e26] dark:via-[#1e1e26] dark:to-amber-950/30",
+      hoverGlow: "hover:ring-2 hover:ring-[#f5b731] hover:shadow-[7px_7px_0px_#000,10px_10px_16px_rgba(245,183,49,0.45)]",
+      shadowStyle: "shadow-[4px_4px_0px_#000,7px_7px_0px_rgba(245,183,49,0.45)]",
     },
     {
       num: "07",
       title: "Canonical IEEE Citation Correction",
       badge: "Auto-Correction",
       desc: "When a real paper is identified but citations contain inaccuracies (e.g. altered authors or mistaken year), formats a clean, standardized IEEE citation.",
-      color: "bg-cyan-100 text-cyan-900 border-cyan-600"
+      badgeColor: "bg-cyan-100 dark:bg-cyan-950/60 text-cyan-900 dark:text-cyan-200 border-cyan-600",
+      accentBar: "bg-cyan-500",
+      badgeGradient: "from-cyan-300 to-cyan-500 text-black",
+      cardBg: "from-white via-white to-cyan-50/40 dark:from-[#1e1e26] dark:via-[#1e1e26] dark:to-cyan-950/20",
+      hoverGlow: "hover:ring-2 hover:ring-cyan-500/80 hover:shadow-[7px_7px_0px_#000,10px_10px_16px_rgba(6,182,212,0.35)]",
+      shadowStyle: "shadow-[4px_4px_0px_#000,7px_7px_0px_rgba(6,182,212,0.35)]",
     }
   ];
 
@@ -95,37 +130,108 @@ export default function HowItWorksView() {
         ))}
       </div>
 
-      {/* 7-Step Pipeline Walkthrough */}
-      <div className="bg-white dark:bg-[#1f1f26] border-[2.5px] border-black rounded-2xl shadow-card p-6">
-        <h3 className="font-black text-xl text-neutral-900 dark:text-neutral-100 font-display uppercase pb-4 mb-6 border-b-2 border-black">
-          Verification Flowchart Steps
-        </h3>
+      {/* 7-Step Pipeline 3D Flowchart Section */}
+      <div className="bg-white dark:bg-[#1f1f26] border-[2.5px] border-black rounded-2xl shadow-card p-6 sm:p-8">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 mb-8 border-b-2 border-black">
+          <div>
+            <h3 className="font-black text-xl sm:text-2xl text-neutral-900 dark:text-neutral-100 font-display uppercase tracking-tight">
+              Verification Flowchart Steps
+            </h3>
+            <p className="font-mono text-xs text-neutral-500 dark:text-neutral-400 mt-0.5">
+              Sequential multi-stage verification architecture
+            </p>
+          </div>
 
-        <div className="space-y-4">
-          {steps.map((step, idx) => (
-            <div 
-              key={idx}
-              className="p-4 sm:p-5 rounded-xl border-2 border-black bg-[#faf4eb] dark:bg-[#27272a] shadow-[3px_3px_0px_#000] flex flex-col sm:flex-row sm:items-start gap-4 transition-all"
-            >
-              <div className="w-10 h-10 rounded-xl bg-[#f5b731] text-black border-2 border-black font-mono text-base font-black flex items-center justify-center shrink-0 shadow-[1.5px_1.5px_0px_#000]">
-                {step.num}
-              </div>
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#f5b731] border-2 border-black rounded-lg font-mono text-xs font-black shadow-[1.5px_1.5px_0px_#000] text-black">
+            <span>⚡</span>
+            <span>7 Automated Stages</span>
+          </div>
+        </div>
 
-              <div className="flex-1">
-                <div className="flex flex-wrap items-center gap-2 mb-1.5">
-                  <h4 className="font-black text-base text-neutral-900 dark:text-neutral-100 font-display">
-                    {step.title}
-                  </h4>
-                  <span className={`px-2 py-0.5 rounded-md border border-black font-mono text-[10px] font-bold ${step.color}`}>
-                    {step.badge}
-                  </span>
+        {/* Vertical Flowchart Container */}
+        <div className="relative max-w-4xl mx-auto py-2">
+          {steps.map((step, idx) => {
+            const isLast = idx === steps.length - 1;
+
+            return (
+              <div key={idx} className="relative">
+                {/* 3D Flowchart Step Card */}
+                <div
+                  className={`flowchart-3d-card group relative bg-gradient-to-br ${step.cardBg} border-[2.5px] border-black rounded-2xl ${step.shadowStyle} ${step.hoverGlow} p-5 sm:p-6 flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 overflow-hidden cursor-default transition-all`}
+                >
+                  {/* Left 3D Accent Indicator Bar */}
+                  <div
+                    className={`absolute left-0 top-0 bottom-0 w-2.5 ${step.accentBar} border-r-2 border-black`}
+                  />
+
+                  {/* 3D Extruded Numbered Badge */}
+                  <div className="pl-1 sm:pl-2 shrink-0">
+                    <div
+                      className={`w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-gradient-to-br ${step.badgeGradient} border-2 border-black shadow-[3px_3px_0px_#000] flex flex-col items-center justify-center font-mono font-black shrink-0 relative overflow-hidden group-hover:scale-105 transition-transform duration-200`}
+                    >
+                      {/* Top bevel highlight */}
+                      <div className="absolute top-0 left-0 right-0 h-1 bg-white/40" />
+                      <span className="text-lg sm:text-xl leading-none">
+                        {step.num}
+                      </span>
+                      <span className="text-[9px] uppercase tracking-wider opacity-80 mt-0.5 font-bold">
+                        Stage
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Content Body */}
+                  <div className="flex-1 min-w-0 pr-1">
+                    <div className="flex flex-wrap items-center gap-2.5 mb-2">
+                      <h4 className="font-black text-base sm:text-lg text-neutral-900 dark:text-neutral-100 font-display tracking-tight">
+                        {step.title}
+                      </h4>
+                      <span
+                        className={`px-2.5 py-0.5 rounded-lg border-2 border-black font-mono text-[10px] sm:text-[11px] font-extrabold uppercase shadow-[1px_1px_0px_#000] ${step.badgeColor}`}
+                      >
+                        {step.badge}
+                      </span>
+                    </div>
+
+                    <p className="font-mono text-xs sm:text-[13px] text-neutral-700 dark:text-neutral-300 leading-relaxed font-normal">
+                      {step.desc}
+                    </p>
+                  </div>
                 </div>
-                <p className="font-mono text-xs text-neutral-600 dark:text-neutral-300 leading-relaxed">
-                  {step.desc}
-                </p>
+
+                {/* Visible 3D Vertical Connector Between Steps */}
+                {!isLast && (
+                  <div className="flex flex-col items-center justify-center my-1 select-none py-1">
+                    {/* Upper conduit with animated traveling beam */}
+                    <div className="relative w-1.5 h-4 sm:h-5 bg-black dark:bg-neutral-500 rounded-full overflow-hidden">
+                      <div className="connector-beam absolute left-0 w-full h-4 bg-gradient-to-b from-transparent via-[#f5b731] to-transparent rounded-full opacity-90" />
+                    </div>
+
+                    {/* 3D Directional Node with down arrow */}
+                    <div className="relative z-10 w-7 h-7 rounded-full bg-[#f5b731] border-2 border-black shadow-[2px_2px_0px_#000] flex items-center justify-center text-neutral-900 my-0.5 transform hover:scale-110 transition-transform">
+                      <svg
+                        className="w-3.5 h-3.5 stroke-[3]"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M19 14l-7 7m0 0l-7-7m7 7V3"
+                        />
+                      </svg>
+                    </div>
+
+                    {/* Lower conduit with animated traveling beam */}
+                    <div className="relative w-1.5 h-4 sm:h-5 bg-black dark:bg-neutral-500 rounded-full overflow-hidden">
+                      <div className="connector-beam absolute left-0 w-full h-4 bg-gradient-to-b from-transparent via-[#f5b731] to-transparent rounded-full opacity-90" />
+                    </div>
+                  </div>
+                )}
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </div>

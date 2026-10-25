@@ -215,9 +215,7 @@ export default function Home() {
             <span>— Prompt-Aware Academic Citation Verification Pipeline</span>
           </div>
 
-          <div className="flex items-center gap-4">
-            <span>ICDDS 2026 (Paper #158)</span>
-            <span>•</span>
+          <div className="flex items-center gap-2">
             <span>R V College of Engineering</span>
           </div>
         </div>
