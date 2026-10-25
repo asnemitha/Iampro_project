@@ -61,7 +61,7 @@ export default function CitationTable({ citations }) {
             <path strokeLinecap="round" strokeLinejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
           </svg>
           <h3 className="font-mono text-sm font-black uppercase tracking-wider text-neutral-900 dark:text-neutral-100">
-            CITATION VERIFICATION RESULTS ({citations.length})
+            DETAILED CITATION VERIFICATION RESULTS ({citations.length})
           </h3>
         </div>
       </div>
@@ -189,6 +189,58 @@ export default function CitationTable({ citations }) {
                     <p><b className="text-neutral-500">DOI:</b> <a href={`https://doi.org/${citation.matched_doi}`} target="_blank" rel="noreferrer" className="text-blue-600 hover:underline">{citation.matched_doi}</a></p>
                   )}
                 </div>
+              </div>
+            )}
+
+            {/* Claim-to-Source Semantic Support Check */}
+            {citation.claim_verification && (
+              <div className={`my-3 p-3 rounded-lg border-2 border-black font-mono text-xs shadow-[1.5px_1.5px_0px_#000] ${
+                citation.claim_verification.status === "supported"
+                  ? "bg-emerald-50 dark:bg-emerald-950/20 text-emerald-900 dark:text-emerald-200"
+                  : citation.claim_verification.status === "unsupported_claim"
+                  ? "bg-rose-50 dark:bg-rose-950/20 text-rose-900 dark:text-rose-200"
+                  : citation.claim_verification.status === "not_found"
+                  ? "bg-rose-50 dark:bg-rose-950/20 text-rose-900 dark:text-rose-200"
+                  : "bg-amber-50 dark:bg-amber-950/20 text-amber-900 dark:text-amber-200"
+              }`}>
+                <div className="flex flex-wrap items-center justify-between gap-1 font-bold mb-1">
+                  <div className="flex items-center gap-1.5">
+                    <span>
+                      {citation.claim_verification.status === "supported" ? "✓" : citation.claim_verification.status === "unsupported_claim" ? "✕" : "ℹ"}
+                    </span>
+                    <span className="uppercase tracking-wide">
+                      {citation.claim_verification.status === "supported"
+                        ? "Claim-to-Source Support: Corroborated"
+                        : citation.claim_verification.status === "unsupported_claim"
+                        ? "Claim-to-Source Support: Mismatch / Conflict"
+                        : citation.claim_verification.status === "not_found"
+                        ? "Claim-to-Source Support: Paper Not Found"
+                        : "Claim-to-Source Support: Insufficient Evidence"}
+                    </span>
+                  </div>
+                  <span className="text-[10px] uppercase font-bold opacity-80">
+                    Evidence: {citation.claim_verification.evidence_type || "Registry Metadata"}
+                  </span>
+                </div>
+
+                {citation.claim_verification.claim && (
+                  <p className="mt-1 mb-1.5 text-[11px] opacity-90">
+                    <b className="uppercase">Associated Claim:</b> &ldquo;{citation.claim_verification.claim}&rdquo;
+                  </p>
+                )}
+
+                {citation.claim_verification.reason && (
+                  <p className="leading-relaxed opacity-95">
+                    {citation.claim_verification.reason}
+                  </p>
+                )}
+
+                {citation.claim_verification.evidence && (
+                  <div className="mt-2 p-2 bg-white/70 dark:bg-black/30 rounded border border-black/20 text-[11px]">
+                    <span className="block font-bold uppercase text-[10px] opacity-75 mb-0.5">Scholarly Evidence Excerpt:</span>
+                    <p className="italic leading-relaxed">{citation.claim_verification.evidence}</p>
+                  </div>
+                )}
               </div>
             )}
 

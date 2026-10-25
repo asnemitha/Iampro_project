@@ -12,11 +12,27 @@ last_status = {
 }
 
 
+def reconstruct_openalex_abstract(inverted_index):
+    """
+    Reconstruct full text abstract from OpenAlex abstract_inverted_index.
+    """
+    if not inverted_index or not isinstance(inverted_index, dict):
+        return None
+    try:
+        positions = {}
+        for word, idx_list in inverted_index.items():
+            for idx in idx_list:
+                positions[idx] = word
+        return " ".join(positions[i] for i in sorted(positions.keys()))
+    except Exception:
+        return None
+
+
 def search_openalex(title, author=None, limit=10):
     """
     Search OpenAlex using paper title and optional author.
 
-    Returns normalized paper metadata.
+    Returns normalized paper metadata including abstract where indexed.
     """
 
     if not title:
@@ -96,6 +112,8 @@ def search_openalex(title, author=None, limit=10):
 
             year = min(alternate_years) if (work.get("type") == "preprint" and alternate_years) else pub_year
 
+            abstract = reconstruct_openalex_abstract(work.get("abstract_inverted_index"))
+
             papers.append({
                 "title": work.get("display_name"),
                 "authors": authors,
@@ -103,6 +121,7 @@ def search_openalex(title, author=None, limit=10):
                 "alternate_years": alternate_years,
                 "venue": venue,
                 "doi": doi,
+                "abstract": abstract,
                 "publisher": "OpenAlex",
                 "source": "OpenAlex",
             })

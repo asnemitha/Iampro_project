@@ -286,6 +286,10 @@ def verify_response(llm_response: str, use_author_fix: bool = False, use_venue_f
                     "matched_year": None,
                     "matched_venue": None,
                     "matched_doi": None,
+                "matched_abstract": None,
+                "parsed": parsed,
+                    "matched_abstract": None,
+                    "parsed": parsed,
                     "candidate_score": 0,
                     "title_similarity": 0,
                     "author_similarity": 0,
@@ -326,6 +330,8 @@ def verify_response(llm_response: str, use_author_fix: bool = False, use_venue_f
                 "matched_venue": None,
 
                 "matched_doi": None,
+                "matched_abstract": None,
+                "parsed": parsed,
 
                 "candidate_score": 0,
 
@@ -673,6 +679,10 @@ def verify_response(llm_response: str, use_author_fix: bool = False, use_venue_f
             "matched_venue": canonical_meta.get("venue") or paper.get("venue"),
 
             "matched_doi": canonical_meta.get("doi") or paper.get("doi"),
+
+            "matched_abstract": paper.get("abstract") if paper else None,
+
+            "parsed": parsed,
 
             "candidate_score": round(
                 overall_score,

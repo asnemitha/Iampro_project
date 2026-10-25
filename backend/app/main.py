@@ -1,3 +1,4 @@
+from typing import Optional
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -5,6 +6,7 @@ from pydantic import BaseModel
 from app.services.classifier_service import classify_prompt
 from app.services.gemini_service import generate_llm_response
 from app.services.verification_pipeline import verify_response
+from app.services.correction_service import correct_and_reverify_response
 
 app = FastAPI(title="CiteGuard API")
 
@@ -26,6 +28,7 @@ app.add_middleware(
 
 class PromptRequest(BaseModel):
     prompt: str
+    llm_response: Optional[str] = None
 
 
 @app.get("/")
@@ -56,31 +59,60 @@ def analyze(request: PromptRequest):
             "user_prompt": current_prompt,
             "prompt_analysis": prompt_result,
             "llm_response": "Request blocked: The prompt was detected as an adversarial manipulation attempt or security violation.",
-            "citation_analysis": []
+            "original_response": None,
+            "final_response": "Request blocked: The prompt was detected as an adversarial manipulation attempt or security violation.",
+            "citation_analysis": [],
+            "initial_citation_analysis": [],
+            "applied_corrections": [],
+            "verification_summary": {
+                "final_status": "unverified",
+                "total_citations": 0,
+                "verified_count": 0,
+                "corrected_and_verified_count": 0,
+                "unresolved_count": 0,
+                "iterations_run": 0,
+                "limitations": "Prompt was blocked by security safety filters before generation.",
+            },
+            "audit_trail": [],
         }
         print("RETURNING /analyze BLOCKED RESPONSE:", blocked_resp)
         print("=" * 80 + "\n")
         return blocked_resp
 
     # ----------------------------
-    # Step 2 - Generate LLM Response
+    # Step 2 - Generate or Accept LLM Response
     # ----------------------------
-    llm_response = generate_llm_response(current_prompt)
+    raw_llm_input = request.llm_response.strip() if request.llm_response and request.llm_response.strip() else None
+    if raw_llm_input:
+        initial_response = raw_llm_input
+    else:
+        initial_response = generate_llm_response(current_prompt)
 
     # ----------------------------
-    # Step 3 - Citation Verification
+    # Step 3 - Closed-Loop Verification, Correction, and Re-verification
     # ----------------------------
-    citation_results = verify_response(llm_response, user_prompt=current_prompt)
+    workflow_result = correct_and_reverify_response(
+        initial_response,
+        user_prompt=current_prompt,
+        max_iterations=2,
+        verifier=verify_response
+    )
 
     # ----------------------------
-    # Final Response
+    # Final Response Payload
     # ----------------------------
     final_resp = {
         "user_prompt": current_prompt,
         "prompt_analysis": prompt_result,
-        "llm_response": llm_response,
-        "citation_analysis": citation_results
+        "llm_response": workflow_result["final_response"],
+        "original_response": workflow_result["original_response"],
+        "final_response": workflow_result["final_response"],
+        "citation_analysis": workflow_result["final_citation_analysis"],
+        "initial_citation_analysis": workflow_result["initial_citation_analysis"],
+        "applied_corrections": workflow_result["applied_corrections"],
+        "verification_summary": workflow_result["verification_summary"],
+        "audit_trail": workflow_result["audit_trail"],
     }
-    print("RETURNING /analyze FULL RESPONSE:", final_resp)
+    print("RETURNING /analyze FULL RESPONSE SUMMARY:", workflow_result["verification_summary"])
     print("=" * 80 + "\n")
     return final_resp

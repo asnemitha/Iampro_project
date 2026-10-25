@@ -7,7 +7,8 @@ FIELDS = (
     "authors,"
     "year,"
     "venue,"
-    "externalIds"
+    "externalIds,"
+    "abstract"
 )
 
 
@@ -24,7 +25,7 @@ def search_semantic_scholar(title, limit=10):
     """
     Search Semantic Scholar by paper title.
 
-    Returns a list of normalized papers.
+    Returns a list of normalized papers including abstract where available.
     """
 
     if not title:
@@ -94,6 +95,8 @@ def search_semantic_scholar(title, limit=10):
                 "venue": paper.get("venue"),
 
                 "doi": doi,
+
+                "abstract": paper.get("abstract"),
 
                 "publisher": "Semantic Scholar",
 

@@ -145,6 +145,10 @@ def retrieve_candidates(title, authors=None, year=None, doi=None):
             if not existing.get("doi") and paper.get("doi"):
                 existing["doi"] = paper["doi"]
 
+            # If existing has no abstract but new has abstract, copy it
+            if not existing.get("abstract") and paper.get("abstract"):
+                existing["abstract"] = paper["abstract"]
+
             continue
 
         merged.append(paper)

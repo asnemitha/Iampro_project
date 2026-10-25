@@ -1,7 +1,9 @@
 import PromptInput from "./PromptInput";
 import VerificationProgress from "./VerificationProgress";
+import VerificationSummary from "./VerificationSummary";
+import ResponseTabs from "./ResponseTabs";
+import CorrectionsAudit from "./CorrectionsAudit";
 import PromptAnalysis from "./PromptAnalysis";
-import LLMResponse from "./LLMResponse";
 import CitationTable from "./CitationTable";
 
 export default function VerifyView({
@@ -106,20 +108,35 @@ export default function VerifyView({
 
         {!loading && result && (
           <div className="space-y-4">
-            {/* Six-Step Verification Pipeline Tracker (Completed Audit State) */}
+            {/* 1. Six-Step Verification Pipeline Tracker (Completed Audit State) */}
             <VerificationProgress
               status="completed"
               result={result}
               onReset={() => setResult(null)}
             />
 
-            {/* Prompt Analysis */}
+            {/* 2. End-to-End Verification Status Banner & 4-Metric Stats */}
+            {result.verification_summary && (
+              <VerificationSummary summary={result.verification_summary} />
+            )}
+
+            {/* 3. Final Re-verified Trustworthy Response (with Original / Comparison tabs) */}
+            <ResponseTabs
+              finalResponse={result.final_response || result.llm_response}
+              originalResponse={result.original_response || result.llm_response}
+              hasCorrections={Boolean(result.applied_corrections && result.applied_corrections.length > 0)}
+              unresolvedCount={result.verification_summary?.unresolved_count || 0}
+            />
+
+            {/* 4. Applied Corrections Audit Trail (if discrepancies were corrected) */}
+            {result.applied_corrections && result.applied_corrections.length > 0 && (
+              <CorrectionsAudit corrections={result.applied_corrections} />
+            )}
+
+            {/* 5. Prompt Safety Analysis */}
             <PromptAnalysis analysis={result.prompt_analysis} />
 
-            {/* LLM Response */}
-            <LLMResponse response={result.llm_response} />
-
-            {/* Citations Analysis Table */}
+            {/* 6. Citations Analysis Table with Claim-to-Source Verification */}
             <CitationTable citations={result.citation_analysis} />
           </div>
         )}

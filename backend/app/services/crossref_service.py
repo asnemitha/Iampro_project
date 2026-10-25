@@ -1,3 +1,4 @@
+import re
 from app.services.cache_service import session
 
 BASE_URL = "https://api.crossref.org/works"
@@ -85,23 +86,14 @@ def extract_crossref_metadata(item):
     year = None
 
     for key in [
-
         "published-print",
-
         "published-online",
-
         "issued",
-
         "created",
-
     ]:
-
         try:
-
             year = item[key]["date-parts"][0][0]
-
             break
-
         except Exception:
             pass
 
@@ -112,12 +104,21 @@ def extract_crossref_metadata(item):
 
     publisher = item.get("publisher", "")
 
+    abstract = None
+    if item.get("abstract"):
+        try:
+            abstract = re.sub(r"<[^>]+>", " ", str(item["abstract"])).strip()
+            abstract = re.sub(r"\s+", " ", abstract)
+        except Exception:
+            abstract = None
+
     return {
         "title": title,
         "authors": authors,
         "venue": venue,
         "year": year,
         "doi": doi,
+        "abstract": abstract,
         "publisher": publisher,
         "source": "Crossref",
     }
