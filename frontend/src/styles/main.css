@@ -1,116 +1,150 @@
-body{
-    margin:0;
-    font-family:Segoe UI,Arial,sans-serif;
-    background:#edf2f7;
+/* CitationGuard Neo-Brutalist Academic Design System */
+
+:root {
+  --bg-cream: #faf4eb;
+  --bg-card: #ffffff;
+  --bg-amber: #ebb23f;
+  --bg-gold: #f5b731;
+  --text-primary: #111111;
+  --text-muted: #555555;
+  --headline-brown: #3d1a04;
+  --border-color: #000000;
+  --shadow-color: #000000;
+  --accent-blue: #2563eb;
+  --accent-red: #e04f43;
+  --accent-green: #16a34a;
+  --accent-amber: #ea580c;
 }
 
-.navbar{
-    background:#0f172a;
-    color:white;
-    padding:20px 40px;
-    box-shadow:0 3px 8px rgba(0,0,0,.2);
+.dark {
+  --bg-cream: #141416;
+  --bg-card: #1f1f26;
+  --bg-amber: #e5a932;
+  --bg-gold: #f5b731;
+  --text-primary: #f5f5f5;
+  --text-muted: #a1a1aa;
+  --headline-brown: #3d1a04; /* kept on hero banner */
+  --border-color: #000000;
+  --shadow-color: #000000;
+  --accent-blue: #3b82f6;
+  --accent-red: #ef4444;
+  --accent-green: #22c55e;
+  --accent-amber: #f59e0b;
 }
 
-.navbar h1{
-    margin:0;
-    font-size:34px;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-cream);
+  color: var(--text-primary);
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
 }
 
-.navbar p{
-    margin-top:5px;
-    color:#cbd5e1;
+/* Custom Neo-Brutalist Borders & Shadows */
+.border-thick {
+  border: 2.5px solid var(--border-color);
 }
 
-.container{
-    display:grid;
-    grid-template-columns:38% 62%;
-    gap:25px;
-    padding:30px;
+.border-standard {
+  border: 2px solid var(--border-color);
 }
 
-.card{
-    background:white;
-    border-radius:12px;
-    padding:20px;
-    box-shadow:0 4px 15px rgba(0,0,0,.08);
-    margin-bottom:20px;
+.shadow-card {
+  box-shadow: 6px 6px 0px var(--shadow-color);
 }
 
-textarea{
-    width:100%;
-    border:1px solid #d1d5db;
-    border-radius:8px;
-    padding:12px;
-    font-size:15px;
-    resize:vertical;
+.shadow-card-sm {
+  box-shadow: 4px 4px 0px var(--shadow-color);
 }
 
-button{
-    margin-top:15px;
-    background:#2563eb;
-    color:white;
-    border:none;
-    padding:12px 24px;
-    border-radius:8px;
-    cursor:pointer;
-    font-size:16px;
+.shadow-btn {
+  box-shadow: 3px 3px 0px var(--shadow-color);
 }
 
-button:hover{
-    background:#1d4ed8;
+.shadow-btn:hover {
+  transform: translate(1px, 1px);
+  box-shadow: 2px 2px 0px var(--shadow-color);
 }
 
-button:disabled{
-    opacity:.6;
+.shadow-btn:active {
+  transform: translate(3px, 3px);
+  box-shadow: 0px 0px 0px var(--shadow-color);
 }
 
-.green{
-    color:#16a34a;
+.shadow-input {
+  box-shadow: 4px 4px 0px var(--shadow-color);
 }
 
-.orange{
-    color:#ea580c;
+.shadow-pill {
+  box-shadow: 2.5px 2.5px 0px var(--shadow-color);
 }
 
-.red{
-    color:#dc2626;
+/* Active Nav Button with screenshot-matching golden outer ring */
+.nav-btn-active {
+  background-color: var(--bg-gold);
+  color: #000000;
+  border: 2px solid #000000;
+  box-shadow: 0 0 0 2px var(--bg-cream), 0 0 0 4.5px #f5b731, 3px 3px 0px #000000;
 }
 
-pre{
-    white-space:pre-wrap;
-    word-wrap:break-word;
-    background:#f8fafc;
-    padding:15px;
-    border-radius:8px;
+/* Typography Helpers */
+.font-mono-code {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
-.citation-card{
-    border:1px solid #ddd;
-    border-radius:10px;
-    padding:15px;
-    margin-top:20px;
-    background:#fafafa;
+.font-display {
+  font-family: 'Plus Jakarta Sans', 'Space Grotesk', system-ui, sans-serif;
 }
 
-.good{
-    color:#16a34a;
-    font-weight:bold;
+/* Backwards compatibility classes for legacy selectors */
+.green {
+  color: var(--accent-green);
+  font-weight: 700;
 }
 
-.medium{
-    color:#ea580c;
-    font-weight:bold;
+.orange {
+  color: var(--accent-amber);
+  font-weight: 700;
 }
 
-.bad{
-    color:#dc2626;
-    font-weight:bold;
+.red {
+  color: var(--accent-red);
+  font-weight: 700;
 }
 
-ul{
-    margin-left:20px;
+.good {
+  color: #16a34a;
+  font-weight: 700;
 }
 
-hr{
-    margin:15px 0;
+.medium {
+  color: #d97706;
+  font-weight: 700;
+}
+
+.bad {
+  color: #dc2626;
+  font-weight: 700;
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+  border: 2px solid var(--border-color);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #3f3f46;
 }
