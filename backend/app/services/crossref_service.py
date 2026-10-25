@@ -104,6 +104,10 @@ def extract_crossref_metadata(item):
 
     publisher = item.get("publisher", "")
 
+    if not venue and publisher:
+        if "arxiv" in publisher.lower() or (doi and doi.startswith("10.48550")):
+            venue = "arXiv"
+
     abstract = None
     if item.get("abstract"):
         try:
@@ -161,6 +165,15 @@ def verify_doi(doi):
             if meta and meta.get("title"):
                 meta["source"] = "Crossref"
                 return meta
+    except Exception:
+        pass
+
+    # Step 3: Direct DataCite registry fallback for DataCite/arXiv/Zenodo DOIs
+    try:
+        from app.services.datacite_service import verify_datacite_doi
+        datacite_meta = verify_datacite_doi(doi)
+        if datacite_meta and datacite_meta.get("title"):
+            return datacite_meta
     except Exception:
         pass
 

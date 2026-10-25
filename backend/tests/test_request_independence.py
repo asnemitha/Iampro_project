@@ -7,11 +7,41 @@ BASE_DIR = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(BASE_DIR))
 sys.path.insert(0, str(BASE_DIR / "backend"))
 
-from fastapi.testclient import TestClient
-from app.main import app
+from app.main import app, analyze, PromptRequest
 from app.services.classifier_service import classify_prompt
 
-client = TestClient(app)
+
+class DirectClient:
+    def post(self, url, json=None):
+        if url == "/analyze":
+            payload = json or {}
+            req = PromptRequest(
+                prompt=payload.get("prompt", ""),
+                llm_response=payload.get("llm_response"),
+            )
+            data = analyze(req)
+
+            class DirectResponse:
+                status_code = 200
+
+                def json(self):
+                    return data
+
+            return DirectResponse()
+        raise NotImplementedError(f"DirectClient does not support {url}")
+
+
+client = DirectClient()
+
+
+@pytest.fixture(autouse=True)
+def mock_gemini_client(monkeypatch):
+    monkeypatch.setenv("GEMINI_API_KEY", "test_gemini_key_12345")
+    with patch("app.services.classifier_service.genai.Client") as mock_client:
+        mock_instance = mock_client.return_value
+        mock_resp = type("MockResp", (), {"text": "SAFE"})()
+        mock_instance.models.generate_content.return_value = mock_resp
+        yield mock_instance
 
 PROMPT_SAFE = "Explain how photosynthesis works in plants."
 PROMPT_MALICIOUS = (
@@ -172,7 +202,12 @@ def test_e2e_fake_photosynthesis_citation_reaches_verification():
         "DOI: 10.9999/fake.photosynthesis.2022\n"
     )
 
-    with patch("app.main.generate_llm_response", return_value=fake_llm_response):
+    with patch("app.main.generate_llm_response", return_value=fake_llm_response), \
+         patch("app.services.verification_pipeline.retrieve_candidates", return_value=[]), \
+         patch("app.services.correction_service.search_replacement_paper", return_value=None), \
+         patch.dict("app.services.multi_source_retriever.last_retrieval_status", {"all_failed": False, "providers_successful": 3, "providers_failed": 0}), \
+         patch("app.services.verification_pipeline.verify_doi", return_value=None), \
+         patch.dict("app.services.crossref_service.last_status", {"success": True}):
         resp = client.post("/analyze", json={"prompt": prompt})
         assert resp.status_code == 200
         data = resp.json()

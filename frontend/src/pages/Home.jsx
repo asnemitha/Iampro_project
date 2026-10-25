@@ -174,7 +174,7 @@ export default function Home() {
         )}
 
         {/* Main Content Area */}
-        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
+        <main className="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
           
           {/* Hero Banner */}
           <HeroBanner />
@@ -207,10 +207,10 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <footer className="w-full border-t-[2.5px] border-black bg-[#fbf7ee] dark:bg-[#18181b] mt-12 py-6 transition-colors">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 font-mono text-xs text-neutral-600 dark:text-neutral-400">
+      <footer className="w-full border-t-[2.5px] border-black bg-[#FAF5EC] dark:bg-[#18181b] mt-12 py-6 transition-colors">
+        <div className="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 font-mono text-xs text-neutral-600 dark:text-neutral-400">
           <div className="flex items-center gap-2">
-            <span className="w-3 h-3 rounded-full bg-[#f5b731] border border-black inline-block" />
+            <span className="w-3 h-3 rounded-full bg-[#EBB13E] border border-black inline-block" />
             <span className="font-bold text-neutral-900 dark:text-neutral-100">CitationGuard</span>
             <span>— Prompt-Aware Academic Citation Verification Pipeline</span>
           </div>

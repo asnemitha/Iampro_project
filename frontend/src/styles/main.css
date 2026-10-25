@@ -1,35 +1,47 @@
 /* CitationGuard Neo-Brutalist Academic Design System */
 
 :root {
-  --bg-cream: #faf5ed;
-  --bg-card: #ffffff;
-  --bg-amber: #ebb23f;
-  --bg-gold: #f5b731;
+  --bg-cream: #FAF5EC;
+  --bg-card: #FFFFFF;
+  --bg-subtle: #F3ECDF;
+  --bg-subtle-light: #F5EEE3;
+  --bg-amber: #EBB13E;
+  --bg-amber-hover: #F4B731;
   --text-primary: #111111;
   --text-muted: #555555;
-  --headline-brown: #3d1a04;
-  --border-color: #000000;
-  --shadow-color: #000000;
-  --accent-blue: #2563eb;
-  --accent-red: #e04f43;
-  --accent-green: #16a34a;
-  --accent-amber: #ea580c;
+  --headline-brown: #3D1A04;
+  --border-color: #111111;
+  --shadow-color: #111111;
+  --accent-blue: #2563EB;
+  --accent-blue-hover: #1D4ED8;
+  --accent-red: #E0453A;
+  --accent-green: #16A34A;
+  --accent-mint: #D1FAE5;
+  --accent-pink: #FFE4E6;
+  --accent-yellow-light: #FEF3C7;
+  --accent-blue-light: #DBEAFE;
 }
 
 .dark {
   --bg-cream: #141416;
-  --bg-card: #1f1f26;
-  --bg-amber: #e5a932;
-  --bg-gold: #f5b731;
-  --text-primary: #f5f5f5;
-  --text-muted: #a1a1aa;
-  --headline-brown: #3d1a04; /* kept on hero banner */
+  --bg-card: #1F1F24;
+  --bg-subtle: #27272E;
+  --bg-subtle-light: #2A2A32;
+  --bg-amber: #EBB13E;
+  --bg-amber-hover: #F4B731;
+  --text-primary: #F5F5F5;
+  --text-muted: #A1A1AA;
+  --headline-brown: #3D1A04; /* preserved on banner */
   --border-color: #000000;
   --shadow-color: #000000;
-  --accent-blue: #3b82f6;
-  --accent-red: #ef4444;
-  --accent-green: #22c55e;
-  --accent-amber: #f59e0b;
+  --accent-blue: #3B82F6;
+  --accent-blue-hover: #2563EB;
+  --accent-red: #EF4444;
+  --accent-green: #22C55E;
+  --accent-mint: #064E3B;
+  --accent-pink: #881337;
+  --accent-yellow-light: #78350F;
+  --accent-blue-light: #1E3A8A;
 }
 
 body {
@@ -42,7 +54,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Custom Neo-Brutalist Borders & Shadows */
+/* Custom Neo-Brutalist Borders & Hard Offset Shadows */
 .border-thick {
   border: 2.5px solid var(--border-color);
 }
@@ -61,11 +73,12 @@ body {
 
 .shadow-btn {
   box-shadow: 3px 3px 0px var(--shadow-color);
+  transition: transform 0.15s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.15s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .shadow-btn:hover {
-  transform: translate(1px, 1px);
-  box-shadow: 2px 2px 0px var(--shadow-color);
+  transform: translate(-2px, -2px);
+  box-shadow: 5px 5px 0px var(--shadow-color);
 }
 
 .shadow-btn:active {
@@ -74,19 +87,19 @@ body {
 }
 
 .shadow-input {
-  box-shadow: 4px 4px 0px var(--shadow-color);
+  box-shadow: 3px 3px 0px var(--shadow-color);
 }
 
 .shadow-pill {
-  box-shadow: 2.5px 2.5px 0px var(--shadow-color);
+  box-shadow: 2px 2px 0px var(--shadow-color);
 }
 
 /* Active Nav Button with screenshot-matching golden outer ring */
 .nav-btn-active {
-  background-color: var(--bg-gold);
+  background-color: var(--bg-amber);
   color: #000000;
   border: 2px solid #000000;
-  box-shadow: 0 0 0 2px var(--bg-cream), 0 0 0 4.5px #f5b731, 3px 3px 0px #000000;
+  box-shadow: 0 0 0 2px var(--bg-cream), 0 0 0 4.5px #EBB13E, 3px 3px 0px #000000;
 }
 
 /* Typography Helpers */
@@ -137,7 +150,7 @@ body {
 }
 
 .orange {
-  color: var(--accent-amber);
+  color: #EA580C;
   font-weight: 700;
 }
 

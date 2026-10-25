@@ -16,8 +16,8 @@ export default function Navbar({ activeTab, setActiveTab, theme, toggleTheme }) 
   };
 
   return (
-    <nav className="w-full bg-[#fbf7ee] dark:bg-[#18181b] border-b-[2.5px] border-black transition-colors duration-200">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="w-full bg-[var(--bg-cream)] dark:bg-[#18181b] border-b-[2.5px] border-black transition-colors duration-200 sticky top-0 z-40">
+      <div className="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           
           {/* Logo & Brand Wordmark */}
@@ -27,7 +27,7 @@ export default function Navbar({ activeTab, setActiveTab, theme, toggleTheme }) 
             title="CitationGuard Home"
           >
             {/* Shield Logo Icon */}
-            <div className="w-10 h-10 rounded-xl bg-[#f5b731] border-2 border-black shadow-[2.5px_2.5px_0px_#000] flex items-center justify-center shrink-0">
+            <div className="w-10 h-10 rounded-xl bg-[#EBB13E] border-2 border-black shadow-[3px_3px_0px_#111] flex items-center justify-center shrink-0">
               <svg 
                 className="w-6 h-6" 
                 viewBox="0 0 24 24" 
@@ -94,20 +94,20 @@ export default function Navbar({ activeTab, setActiveTab, theme, toggleTheme }) 
             >
               {theme === "dark" ? (
                 /* Dark Mode: clearly visible yellow moon icon */
-                <svg 
-                  className="w-5 h-5 text-[#f5b731] fill-[#f5b731] stroke-black stroke-[1.2]" 
+                <svg
+                  className="w-5 h-5 text-[#EBB13E] fill-[#EBB13E] stroke-black stroke-[1.2]"
                   viewBox="0 0 24 24"
                 >
                   <path d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
                 </svg>
               ) : (
                 /* Light Mode: clearly visible yellow sun icon */
-                <svg 
-                  className="w-5 h-5 text-[#f5b731] fill-[#f5b731] stroke-black stroke-[1.2]" 
+                <svg
+                  className="w-5 h-5 text-[#EBB13E] fill-[#EBB13E] stroke-black stroke-[1.2]"
                   viewBox="0 0 24 24"
                 >
                   <circle cx="12" cy="12" r="4" />
-                  <path strokeLinecap="round" strokeWidth="2" stroke="#f5b731" d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41m14.14-14.14l-1.41 1.41" />
+                  <path strokeLinecap="round" strokeWidth="2" stroke="#EBB13E" d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41m14.14-14.14l-1.41 1.41" />
                 </svg>
               )}
             </button>
@@ -118,7 +118,7 @@ export default function Navbar({ activeTab, setActiveTab, theme, toggleTheme }) 
             <button
               type="button"
               onClick={toggleTheme}
-              className={`w-9 h-9 rounded-lg border-2 border-black shadow-[2px_2px_0px_#000] flex items-center justify-center cursor-pointer ${
+              className={`w-9 h-9 rounded-lg border-2 border-black shadow-[2px_2px_0px_#111] flex items-center justify-center cursor-pointer ${
                 theme === "dark" ? "bg-[#27272a]" : "bg-white"
               }`}
               aria-label={theme === "dark" ? "Current theme: Dark. Click to switch to Light mode" : "Current theme: Light. Click to switch to Dark mode"}
@@ -126,12 +126,12 @@ export default function Navbar({ activeTab, setActiveTab, theme, toggleTheme }) 
               {theme === "dark" ? (
                 <span className="text-base select-none" role="img" aria-label="Dark mode">🌙</span>
               ) : (
-                <span className="text-base select-none text-[#f5b731]" role="img" aria-label="Light mode">☀️</span>
+                <span className="text-base select-none text-[#EBB13E]" role="img" aria-label="Light mode">☀️</span>
               )}
             </button>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 rounded-lg bg-white dark:bg-[#27272a] border-2 border-black shadow-[2px_2px_0px_#000] text-black dark:text-white"
+              className="p-2 rounded-lg bg-white dark:bg-[#27272a] border-2 border-black shadow-[2px_2px_0px_#111] text-black dark:text-white"
               aria-label="Toggle Navigation Menu"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -155,9 +155,9 @@ export default function Navbar({ activeTab, setActiveTab, theme, toggleTheme }) 
                 <button
                   key={item.id}
                   onClick={() => handleTabClick(item.id)}
-                  className={`w-full text-left px-4 py-2.5 rounded-xl font-mono text-sm font-bold tracking-wider border-2 border-black shadow-[2px_2px_0px_#000] ${
+                  className={`w-full text-left px-4 py-2.5 rounded-xl font-mono text-sm font-bold tracking-wider border-2 border-black shadow-[2px_2px_0px_#111] ${
                     isActive
-                      ? "bg-[#f5b731] text-black font-extrabold"
+                      ? "bg-[#EBB13E] text-black font-extrabold"
                       : "bg-white dark:bg-[#27272a] text-black dark:text-white"
                   }`}
                 >

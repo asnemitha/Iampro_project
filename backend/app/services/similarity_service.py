@@ -208,8 +208,22 @@ def authors_match_single(a1, a2):
         return False
 
     sur_sim = fuzz.ratio(p1["surname"], p2["surname"])
-    if sur_sim < 80 and p1["surname"] not in p2["surname"] and p2["surname"] not in p1["surname"]:
-        return False
+    if sur_sim < 80:
+        # Check compound or hyphenated surnames (e.g. "Smith-Jones" matching "Jones")
+        s1, s2 = p1["surname"], p2["surname"]
+        tokens1 = [t for t in re.split(r"[\s\-]+", s1) if len(t) >= 3]
+        tokens2 = [t for t in re.split(r"[\s\-]+", s2) if len(t) >= 3]
+        compound_match = False
+        if len(tokens1) > 1 or len(tokens2) > 1:
+            for t1 in tokens1:
+                for t2 in tokens2:
+                    if t1 == t2 or fuzz.ratio(t1, t2) >= 90:
+                        compound_match = True
+                        break
+                if compound_match:
+                    break
+        if not compound_match:
+            return False
 
     # If both have initials, the first initial must match
     if p1["initials"] and p2["initials"]:
@@ -218,8 +232,16 @@ def authors_match_single(a1, a2):
 
     # If both have full first names, compare them
     if len(p1["first"]) > 1 and len(p2["first"]) > 1:
-        if fuzz.ratio(p1["first"], p2["first"]) < 70 and p1["first"] not in p2["first"] and p2["first"] not in p1["first"]:
-            return False
+        f_sim = fuzz.ratio(p1["first"], p2["first"])
+        if f_sim < 70:
+            f1, f2 = p1["first"], p2["first"]
+            tok_f1 = [t for t in re.split(r"[\s\-]+", f1) if len(t) >= 3]
+            tok_f2 = [t for t in re.split(r"[\s\-]+", f2) if len(t) >= 3]
+            f_match = False
+            if len(tok_f1) > 1 or len(tok_f2) > 1:
+                f_match = any(t1 == t2 or fuzz.ratio(t1, t2) >= 85 for t1 in tok_f1 for t2 in tok_f2)
+            if not f_match:
+                return False
 
     return True
 
@@ -230,6 +252,7 @@ def compare_authors(claimed_authors, verified_authors):
     - Full names vs initials (e.g. 'K. He' vs 'Kaiming He')
     - Surname-first ordering ('He, Kaiming' vs 'Kaiming He')
     - 'et al.' citations
+    - Truncated registry lists (e.g. registry records first N authors)
     - Minor punctuation and accent differences
     """
     if not claimed_authors or not verified_authors:
@@ -251,6 +274,27 @@ def compare_authors(claimed_authors, verified_authors):
         return 100.0 if any("et al" in str(a).lower() for a in claimed_authors) else 0.0
 
     has_et_al = any("et al" in str(a).lower() for a in claimed_authors)
+
+    # Check if the registry candidate's author list was truncated (prefix match)
+    # e.g., Crossref only indexed first 2 authors ["Vaswani", "Shazeer"], while citation has all 8 authors
+    if len(verified) < len(claimed) and len(verified) >= 2:
+        prefix_matched = True
+        for i in range(len(verified)):
+            if not authors_match_single(claimed[i], verified[i]):
+                prefix_matched = False
+                break
+        if prefix_matched:
+            return 100.0
+
+    # Also handle the reverse: citation specified first 2+ authors of a long author list
+    if len(claimed) < len(verified) and len(claimed) >= 2:
+        prefix_matched = True
+        for i in range(len(claimed)):
+            if not authors_match_single(claimed[i], verified[i]):
+                prefix_matched = False
+                break
+        if prefix_matched:
+            return 100.0
 
     matched_count = 0
     for c_author in claimed:
@@ -359,13 +403,23 @@ def compare_venues(v1, v2, use_venue_fix=False, threshold=70):
             return True, 100.0
 
     # Check arXiv preprint compatibility with AI/CS conferences
+    def _is_arxiv_compatible(n_v, raw_v):
+        v_low = str(raw_v).lower()
+        for conf in ARXIV_COMPATIBLE_CONFERENCES:
+            if conf in n_v or conf in v_low:
+                return True
+            for al in VENUE_ALIASES.get(conf, []):
+                if al in v_low or al in n_v:
+                    return True
+        return False
+
     is_v1_arxiv = "arxiv" in n1 or "cornell university" in n1
     is_v2_arxiv = "arxiv" in n2 or "cornell university" in n2
     if is_v1_arxiv and not is_v2_arxiv:
-        if any(conf in n2 or conf in str(v2).lower() for conf in ARXIV_COMPATIBLE_CONFERENCES):
+        if _is_arxiv_compatible(n2, v2):
             return True, 90.0
     elif is_v2_arxiv and not is_v1_arxiv:
-        if any(conf in n1 or conf in str(v1).lower() for conf in ARXIV_COMPATIBLE_CONFERENCES):
+        if _is_arxiv_compatible(n1, v1):
             return True, 90.0
 
     # Substring containment (allowed in baseline, removed when use_venue_fix=True)

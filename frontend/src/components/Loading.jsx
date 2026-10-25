@@ -1,9 +1,9 @@
 export default function Loading() {
   return (
-    <div className="bg-white dark:bg-[#1f1f26] border-[2.5px] border-black rounded-2xl shadow-card p-8 flex flex-col items-center justify-center min-h-[460px] text-center transition-colors">
+    <div className="bg-white dark:bg-[#1F1F24] border-[2.5px] border-black rounded-2xl shadow-[6px_6px_0px_#111] p-8 flex flex-col items-center justify-center min-h-[460px] text-center transition-colors">
       {/* Animated Shield/Radar Icon */}
       <div className="relative mb-6">
-        <div className="w-20 h-20 rounded-2xl bg-[#ebb23f] border-2 border-black shadow-[4px_4px_0px_#000] flex items-center justify-center animate-bounce">
+        <div className="w-20 h-20 rounded-2xl bg-[#EBB13E] border-2 border-black shadow-[4px_4px_0px_#111] flex items-center justify-center animate-bounce">
           <svg 
             className="w-10 h-10 text-neutral-900" 
             viewBox="0 0 24 24" 
@@ -24,22 +24,22 @@ export default function Loading() {
         Verifying Citations...
       </h2>
       
-      <p className="font-mono text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 max-w-sm mb-6 leading-relaxed">
+      <p className="font-mono text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 max-w-sm mb-6 leading-relaxed font-medium">
         Cross-referencing scholarly records across Crossref, DataCite, Semantic Scholar, and OpenAlex.
       </p>
 
       {/* Progress Pills */}
-      <div className="space-y-2 w-full max-w-xs text-left font-mono text-xs">
+      <div className="space-y-2 w-full max-w-xs text-left font-mono text-xs font-bold">
         <div className="flex items-center gap-2 text-neutral-700 dark:text-neutral-300">
-          <span className="w-2 h-2 rounded-full bg-[#16a34a] animate-ping" />
+          <span className="w-2 h-2 rounded-full bg-[#16A34A] animate-ping" />
           <span>Security screening & prompt classification</span>
         </div>
         <div className="flex items-center gap-2 text-neutral-700 dark:text-neutral-300">
-          <span className="w-2 h-2 rounded-full bg-[#f5b731] animate-pulse" />
+          <span className="w-2 h-2 rounded-full bg-[#EBB13E] animate-pulse" />
           <span>Multi-source metadata retrieval</span>
         </div>
         <div className="flex items-center gap-2 text-neutral-700 dark:text-neutral-300">
-          <span className="w-2 h-2 rounded-full bg-[#2563eb] animate-pulse" />
+          <span className="w-2 h-2 rounded-full bg-[#2563EB] animate-pulse" />
           <span>RapidFuzz candidate ranking & scoring</span>
         </div>
       </div>

@@ -313,13 +313,11 @@ DOI: 10.1016/j.proche.2009.12.018'''
     assert len(results) == 1
     res = results[0]
 
-    assert res["paper_exists"] is True
+    # DOI belongs to an unrelated publication (Zoltan Pataj et al., beta-lactams); not adopted as candidate for photosynthesis citation
+    assert res["paper_exists"] is False
     assert res["citation_accurate"] is False
-    assert res["hallucination_type"] == "Metadata Hallucination"
-    assert res["corrected_citation"] is not None
-    assert "Pataj" in res["corrected_citation"]
-    assert "10.1016/j.proche.2009.12.018" in res["corrected_citation"]
-    assert "Procedia Chemistry" in res["corrected_citation"]
+    assert res["hallucination_type"] == "Fabricated Citation"
+    assert res["doi_match"] is False
 
 
 def test_g_photosynthesis_citation_2_fake_doi():

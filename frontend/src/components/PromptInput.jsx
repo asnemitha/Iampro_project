@@ -9,19 +9,19 @@ export default function PromptInput({
   onClear,
 }) {
   return (
-    <div className="bg-white dark:bg-[#1f1f26] border-[2.5px] border-black rounded-2xl shadow-card p-6 flex flex-col justify-between transition-colors">
+    <div className="bg-white dark:bg-[#1F1F24] border-[2.5px] border-black rounded-2xl shadow-[6px_6px_0px_#111] p-6 sm:p-7 flex flex-col justify-between transition-colors">
       <div>
         {/* Header Row */}
         <div className="flex items-center justify-between gap-3">
           <div className="flex items-center gap-2.5">
             {/* Blue Book Icon */}
-            <svg 
-              className="w-6 h-6 text-[#2563eb]" 
-              viewBox="0 0 24 24" 
-              fill="none" 
-              stroke="currentColor" 
-              strokeWidth="2.3" 
-              strokeLinecap="round" 
+            <svg
+              className="w-6 h-6 text-[#2563EB]"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.3"
+              strokeLinecap="round"
               strokeLinejoin="round"
             >
               <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
@@ -37,18 +37,11 @@ export default function PromptInput({
             type="button"
             onClick={onLoadExample}
             disabled={loading}
-            className="bg-[#f5b731] hover:bg-[#eab308] text-neutral-900 border-2 border-black rounded-xl px-3.5 py-1.5 shadow-btn font-mono text-xs sm:text-sm font-bold flex items-center gap-1.5 cursor-pointer disabled:opacity-60 transition-all"
+            className="bg-[#EBB13E] hover:bg-[#F4B731] text-neutral-900 border-2 border-black rounded-xl px-3.5 py-1.5 shadow-btn font-mono text-xs sm:text-sm font-black flex items-center gap-1.5 cursor-pointer disabled:opacity-60 transition-all select-none"
             title="Load an academic benchmark citation example"
           >
-            {/* Sparkle Icon */}
-            <svg 
-              className="w-4 h-4" 
-              viewBox="0 0 24 24" 
-              fill="currentColor" 
-              stroke="none"
-            >
-              <path d="M12 2L14.39 8.26L21 9.27L16 14.14L17.45 20.73L12 17.27L6.55 20.73L8 14.14L3 9.27L9.61 8.26L12 2Z" />
-            </svg>
+            {/* Star Icon */}
+            <span className="text-black text-sm">★</span>
             <span>Load Example</span>
           </button>
         </div>
@@ -58,7 +51,7 @@ export default function PromptInput({
 
         {/* Section 1: User Prompt */}
         <div className="mb-5">
-          <label className="block font-mono text-xs font-extrabold tracking-wider text-neutral-800 dark:text-neutral-200 uppercase mb-2">
+          <label className="block font-mono text-xs font-black tracking-wider text-neutral-800 dark:text-neutral-200 uppercase mb-2">
             1. USER PROMPT (CONTEXT & INSTRUCTIONS)
           </label>
           <div className="relative">
@@ -68,14 +61,14 @@ export default function PromptInput({
               onChange={(e) => setPrompt(e.target.value)}
               placeholder="e.g. Provide the citation for ResNet and YOLO in IEEE format..."
               disabled={loading}
-              className="w-full bg-white dark:bg-[#27272a] text-neutral-900 dark:text-neutral-100 border-2 border-black rounded-xl p-3.5 shadow-input font-mono text-xs sm:text-[13px] leading-relaxed placeholder:text-neutral-400 dark:placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-[#f5b731] resize-y transition-all"
+              className="w-full bg-white dark:bg-[#27272e] text-neutral-900 dark:text-neutral-100 border-2 border-black rounded-xl p-3.5 shadow-input font-mono text-xs sm:text-[13px] leading-relaxed placeholder:text-neutral-400 dark:placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-[#EBB13E] resize-y transition-all"
             />
           </div>
         </div>
 
         {/* Section 2: LLM-Generated Output (Optional) */}
         <div className="mb-2">
-          <label className="block font-mono text-xs font-extrabold tracking-wider text-neutral-800 dark:text-neutral-200 uppercase mb-0.5">
+          <label className="block font-mono text-xs font-black tracking-wider text-neutral-800 dark:text-neutral-200 uppercase mb-0.5">
             2. LLM-GENERATED OUTPUT (OPTIONAL - LEAVE EMPTY TO GENERATE ONE)
           </label>
           <span className="block font-mono text-[11px] text-neutral-500 dark:text-neutral-400 mb-2">
@@ -88,7 +81,7 @@ export default function PromptInput({
               onChange={(e) => setLlmOutput(e.target.value)}
               placeholder="Optional: Leave empty to prompt the backend model to generate an answer, or paste pre-generated citations here."
               disabled={loading}
-              className="w-full bg-white dark:bg-[#27272a] text-neutral-900 dark:text-neutral-100 border-2 border-black rounded-xl p-3.5 shadow-input font-mono text-xs sm:text-[13px] leading-relaxed placeholder:text-neutral-400 dark:placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-[#f5b731] resize-y transition-all"
+              className="w-full bg-white dark:bg-[#27272e] text-neutral-900 dark:text-neutral-100 border-2 border-black rounded-xl p-3.5 shadow-input font-mono text-xs sm:text-[13px] leading-relaxed placeholder:text-neutral-400 dark:placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-[#EBB13E] resize-y transition-all"
             />
           </div>
         </div>
@@ -100,11 +93,11 @@ export default function PromptInput({
           type="button"
           onClick={analyze}
           disabled={loading || (!prompt.trim() && !llmOutput.trim())}
-          className="w-full sm:flex-1 bg-[#f5b731] hover:bg-[#eab308] text-neutral-900 border-2 border-black rounded-xl py-3 px-5 shadow-btn font-mono text-xs sm:text-sm font-extrabold uppercase tracking-wider flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed transition-all"
+          className="w-full sm:flex-1 bg-[#2563EB] hover:bg-[#1D4ED8] text-white border-2 border-black rounded-xl py-3.5 px-6 shadow-btn font-mono text-xs sm:text-sm font-black uppercase tracking-wider flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed transition-all select-none"
         >
           {loading ? (
             <>
-              <svg className="animate-spin w-4 h-4 text-black" fill="none" viewBox="0 0 24 24">
+              <svg className="animate-spin w-4 h-4 text-white" fill="none" viewBox="0 0 24 24">
                 <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                 <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
               </svg>
@@ -112,11 +105,11 @@ export default function PromptInput({
             </>
           ) : (
             <>
-              {/* Shield/Check Icon */}
-              <svg className="w-4 h-4 text-black" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+              {/* Paper Airplane / Send Icon */}
+              <svg className="w-4 h-4 text-white fill-none stroke-current stroke-[2.2]" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
               </svg>
-              <span>Verify Citations</span>
+              <span>VERIFY CITATIONS</span>
             </>
           )}
         </button>
@@ -126,10 +119,14 @@ export default function PromptInput({
             type="button"
             onClick={onClear}
             disabled={loading}
-            className="w-full sm:w-auto bg-white dark:bg-[#27272a] text-neutral-700 dark:text-neutral-300 hover:text-black dark:hover:text-white border-2 border-black rounded-xl py-3 px-4 shadow-btn font-mono text-xs font-bold uppercase tracking-wider transition-all cursor-pointer"
+            className="w-full sm:w-auto bg-white dark:bg-[#27272e] text-neutral-800 dark:text-neutral-200 hover:text-black dark:hover:text-white border-2 border-black rounded-xl py-3.5 px-4 shadow-btn font-mono text-xs font-black uppercase tracking-wider transition-all cursor-pointer flex items-center justify-center gap-1.5 select-none"
             title="Clear all inputs"
           >
-            Clear
+            {/* Trash Can Icon */}
+            <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+            </svg>
+            <span>Clear</span>
           </button>
         )}
       </div>

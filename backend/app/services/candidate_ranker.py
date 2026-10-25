@@ -59,19 +59,16 @@ def rank_candidates(parsed_metadata, candidates, use_venue_fix=False, prefers_or
     if not candidates:
         return []
 
-    # If prefers_original, find the earliest publication year among matching candidates
-    min_year = None
-    if prefers_original:
-        valid_years = []
-        for c in candidates:
-            if not c or not c.get("year"):
-                continue
-            t_sim = compare_titles(parsed_metadata.get("title"), c.get("title"))["score"]
-            a_sim = compare_authors(parsed_metadata.get("authors"), c.get("authors"))
-            if t_sim >= 80 and a_sim >= 60:
-                valid_years.append(c["year"])
-        if valid_years:
-            min_year = min(valid_years)
+    # Find the earliest publication year among matching candidates (primary original publication)
+    matching_years = []
+    for c in candidates:
+        if not c or not c.get("year"):
+            continue
+        t_sim = compare_titles(parsed_metadata.get("title"), c.get("title"))["score"]
+        a_sim = compare_authors(parsed_metadata.get("authors"), c.get("authors")) if parsed_metadata.get("authors") else 100
+        if t_sim >= 80 and a_sim >= 60:
+            matching_years.append(c["year"])
+    min_year = min(matching_years) if matching_years else None
 
     ranked = []
 
@@ -145,24 +142,42 @@ def rank_candidates(parsed_metadata, candidates, use_venue_fix=False, prefers_or
         if is_book_record and not doi_match:
             final_score -= 20.0
 
+        # Severe penalty for known unverified predatory / dead mirror DOI prefixes (e.g. 10.65215)
+        if "10.65215" in cand_doi_str:
+            final_score -= 35.0
+
+        # Preference bonus for verified canonical arXiv DOI on preprints
+        if cand_doi_str.startswith("10.48550/arxiv") and title_score >= 85 and author_score >= 70:
+            final_score += 10.0
+
         # High-confidence identity bonus: title >= 90 and author >= 80
         if title_score >= 90 and author_score >= 80:
             final_score += 10.0
 
-        # Original publication preference bonus / penalty
-        if prefers_original and min_year is not None:
+        # Severe penalty for completely different authors when citation explicitly provided authors (wrong paper distractor)
+        parsed_has_authors = bool(parsed_metadata.get("authors") and len(parsed_metadata["authors"]) > 0)
+        cand_has_authors = bool(candidate.get("authors") and len(candidate.get("authors", [])) > 0)
+        if parsed_has_authors and cand_has_authors and author_score < 40 and not doi_match:
+            final_score -= 40.0
+
+        # Intent corroboration bonuses when citation explicitly specifies fields
+        if parsed_metadata.get("year") and year_match:
+            final_score += 10.0
+        if parsed_metadata.get("venue") and venue_match:
+            final_score += 10.0
+
+        # Primary publication preference (earliest year among genuine matching candidates)
+        if min_year is not None:
             cand_year = candidate.get("year")
             if cand_year:
-                if cand_year <= min_year + 1:
+                if cand_year == min_year:
                     final_score += 15.0
                 elif cand_year > min_year + 1:
-                    final_score -= 15.0
-
-            c_venue = (candidate.get("venue") or "").lower()
-            c_title = (candidate.get("title") or "").lower()
-            if cand_year and cand_year > min_year:
-                if any(w in c_venue or w in c_title for w in ["communications of the acm", "survey", "review", "overview", "reprint", "retrospective"]):
-                    final_score -= 15.0
+                    final_score -= 10.0
+                    c_venue = (candidate.get("venue") or "").lower()
+                    c_title = (candidate.get("title") or "").lower()
+                    if any(w in c_venue or w in c_title for w in ["communications of the acm", "survey", "review", "overview", "reprint", "retrospective", "chapter"]):
+                        final_score -= 20.0
 
         ranked.append({
             "paper": candidate,

@@ -5,84 +5,84 @@ export default function HowItWorksView() {
       title: "Prompt Classification & Security Filtering",
       badge: "Security Layer",
       desc: "Analyzes the user's input prompt using fine-tuned classifiers to detect adversarial manipulation, system prompt extraction, or prompt injection. Legitimate academic requests proceed downstream.",
-      badgeColor: "bg-emerald-100 dark:bg-emerald-950/60 text-emerald-900 dark:text-emerald-200 border-emerald-600",
+      badgeColor: "bg-[#D1FAE5] text-[#065F46] border-black",
       accentBar: "bg-emerald-500",
       badgeGradient: "from-emerald-400 to-emerald-600 text-white",
       cardBg: "from-white via-white to-emerald-50/40 dark:from-[#1e1e26] dark:via-[#1e1e26] dark:to-emerald-950/20",
-      hoverGlow: "hover:ring-2 hover:ring-emerald-500/80 hover:shadow-[7px_7px_0px_#000,10px_10px_16px_rgba(16,185,129,0.35)]",
-      shadowStyle: "shadow-[4px_4px_0px_#000,7px_7px_0px_rgba(16,185,129,0.35)]",
+      hoverGlow: "hover:ring-2 hover:ring-emerald-500/80 hover:shadow-[7px_7px_0px_#111]",
+      shadowStyle: "shadow-[5px_5px_0px_#111]",
     },
     {
       num: "02",
       title: "Citation Extraction & Entity Parsing",
       badge: "NLP Parsing",
       desc: "Discovers references in freeform or numbered text, parsing titles, author lists, publication years, conference/journal venues, and DOI identifiers.",
-      badgeColor: "bg-blue-100 dark:bg-blue-950/60 text-blue-900 dark:text-blue-200 border-blue-600",
+      badgeColor: "bg-[#DBEAFE] text-[#1E40AF] border-black",
       accentBar: "bg-blue-500",
       badgeGradient: "from-blue-400 to-blue-600 text-white",
       cardBg: "from-white via-white to-blue-50/40 dark:from-[#1e1e26] dark:via-[#1e1e26] dark:to-blue-950/20",
-      hoverGlow: "hover:ring-2 hover:ring-blue-500/80 hover:shadow-[7px_7px_0px_#000,10px_10px_16px_rgba(59,130,246,0.35)]",
-      shadowStyle: "shadow-[4px_4px_0px_#000,7px_7px_0px_rgba(59,130,246,0.35)]",
+      hoverGlow: "hover:ring-2 hover:ring-blue-500/80 hover:shadow-[7px_7px_0px_#111]",
+      shadowStyle: "shadow-[5px_5px_0px_#111]",
     },
     {
       num: "03",
       title: "Authoritative DOI Verification",
       badge: "DOI-First Resolution",
       desc: "Resolves embedded DOIs directly against Crossref and DataCite registries to establish whether the identifier exists and retrieves its ground-truth metadata record.",
-      badgeColor: "bg-amber-100 dark:bg-amber-950/60 text-amber-900 dark:text-amber-200 border-amber-600",
+      badgeColor: "bg-[#FEF3C7] text-[#92400E] border-black",
       accentBar: "bg-amber-500",
       badgeGradient: "from-amber-300 to-amber-500 text-black",
       cardBg: "from-white via-white to-amber-50/40 dark:from-[#1e1e26] dark:via-[#1e1e26] dark:to-amber-950/20",
-      hoverGlow: "hover:ring-2 hover:ring-amber-500/80 hover:shadow-[7px_7px_0px_#000,10px_10px_16px_rgba(245,158,11,0.35)]",
-      shadowStyle: "shadow-[4px_4px_0px_#000,7px_7px_0px_rgba(245,158,11,0.35)]",
+      hoverGlow: "hover:ring-2 hover:ring-amber-500/80 hover:shadow-[7px_7px_0px_#111]",
+      shadowStyle: "shadow-[5px_5px_0px_#111]",
     },
     {
       num: "04",
       title: "Multi-Source Scholarly Retrieval",
       badge: "Scholarly DBs",
       desc: "Federated queries across Crossref, Semantic Scholar, and OpenAlex aggregate publication candidates even when the DOI is missing or hallucinated.",
-      badgeColor: "bg-purple-100 dark:bg-purple-950/60 text-purple-900 dark:text-purple-200 border-purple-600",
+      badgeColor: "bg-purple-100 text-purple-900 border-black",
       accentBar: "bg-purple-500",
       badgeGradient: "from-purple-400 to-purple-600 text-white",
       cardBg: "from-white via-white to-purple-50/40 dark:from-[#1e1e26] dark:via-[#1e1e26] dark:to-purple-950/20",
-      hoverGlow: "hover:ring-2 hover:ring-purple-500/80 hover:shadow-[7px_7px_0px_#000,10px_10px_16px_rgba(168,85,247,0.35)]",
-      shadowStyle: "shadow-[4px_4px_0px_#000,7px_7px_0px_rgba(168,85,247,0.35)]",
+      hoverGlow: "hover:ring-2 hover:ring-purple-500/80 hover:shadow-[7px_7px_0px_#111]",
+      shadowStyle: "shadow-[5px_5px_0px_#111]",
     },
     {
       num: "05",
       title: "Candidate Ranking & String Matching",
       badge: "RapidFuzz & Jaro-Winkler",
       desc: "Ranks candidate records using weighted title similarity, author-order invariant matching, year tolerance, and publication venue alias normalization.",
-      badgeColor: "bg-rose-100 dark:bg-rose-950/60 text-rose-900 dark:text-rose-200 border-rose-600",
+      badgeColor: "bg-[#FFE4E6] text-[#9F1239] border-black",
       accentBar: "bg-rose-500",
       badgeGradient: "from-rose-400 to-rose-600 text-white",
       cardBg: "from-white via-white to-rose-50/40 dark:from-[#1e1e26] dark:via-[#1e1e26] dark:to-rose-950/20",
-      hoverGlow: "hover:ring-2 hover:ring-rose-500/80 hover:shadow-[7px_7px_0px_#000,10px_10px_16px_rgba(244,63,94,0.35)]",
-      shadowStyle: "shadow-[4px_4px_0px_#000,7px_7px_0px_rgba(244,63,94,0.35)]",
+      hoverGlow: "hover:ring-2 hover:ring-rose-500/80 hover:shadow-[7px_7px_0px_#111]",
+      shadowStyle: "shadow-[5px_5px_0px_#111]",
     },
     {
       num: "06",
       title: "Hallucination Scoring (0–100)",
       badge: "Scoring Engine",
       desc: "Assigns a calibrated hallucination score from 0 (verified authentic) to 100 (fabricated). Discrepancies are categorized into 5 specific alteration classes.",
-      badgeColor: "bg-[#f5b731] text-neutral-900 border-black",
-      accentBar: "bg-[#f5b731]",
-      badgeGradient: "from-[#fcd34d] to-[#f5b731] text-black",
+      badgeColor: "bg-[#EBB13E] text-black border-black",
+      accentBar: "bg-[#EBB13E]",
+      badgeGradient: "from-[#fcd34d] to-[#EBB13E] text-black",
       cardBg: "from-white via-white to-amber-100/50 dark:from-[#1e1e26] dark:via-[#1e1e26] dark:to-amber-950/30",
-      hoverGlow: "hover:ring-2 hover:ring-[#f5b731] hover:shadow-[7px_7px_0px_#000,10px_10px_16px_rgba(245,183,49,0.45)]",
-      shadowStyle: "shadow-[4px_4px_0px_#000,7px_7px_0px_rgba(245,183,49,0.45)]",
+      hoverGlow: "hover:ring-2 hover:ring-[#EBB13E] hover:shadow-[7px_7px_0px_#111]",
+      shadowStyle: "shadow-[5px_5px_0px_#111]",
     },
     {
       num: "07",
       title: "Canonical IEEE Citation Correction",
       badge: "Auto-Correction",
       desc: "When a real paper is identified but citations contain inaccuracies (e.g. altered authors or mistaken year), formats a clean, standardized IEEE citation.",
-      badgeColor: "bg-cyan-100 dark:bg-cyan-950/60 text-cyan-900 dark:text-cyan-200 border-cyan-600",
+      badgeColor: "bg-cyan-100 text-cyan-900 border-black",
       accentBar: "bg-cyan-500",
       badgeGradient: "from-cyan-300 to-cyan-500 text-black",
       cardBg: "from-white via-white to-cyan-50/40 dark:from-[#1e1e26] dark:via-[#1e1e26] dark:to-cyan-950/20",
-      hoverGlow: "hover:ring-2 hover:ring-cyan-500/80 hover:shadow-[7px_7px_0px_#000,10px_10px_16px_rgba(6,182,212,0.35)]",
-      shadowStyle: "shadow-[4px_4px_0px_#000,7px_7px_0px_rgba(6,182,212,0.35)]",
+      hoverGlow: "hover:ring-2 hover:ring-cyan-500/80 hover:shadow-[7px_7px_0px_#111]",
+      shadowStyle: "shadow-[5px_5px_0px_#111]",
     }
   ];
 
@@ -96,14 +96,14 @@ export default function HowItWorksView() {
   return (
     <div className="space-y-6">
       {/* Intro Header */}
-      <div className="bg-white dark:bg-[#1f1f26] border-[2.5px] border-black rounded-2xl shadow-card p-6 sm:p-7">
-        <div className="inline-block bg-[#f5b731] text-black border-2 border-black rounded-md px-2.5 py-0.5 font-mono text-xs font-bold mb-3 shadow-[1.5px_1.5px_0px_#000]">
+      <div className="bg-white dark:bg-[#1F1F24] border-[2.5px] border-black rounded-2xl shadow-[6px_6px_0px_#111] p-6 sm:p-7">
+        <div className="inline-block bg-[#EBB13E] text-black border-2 border-black rounded-lg px-2.5 py-0.5 font-mono text-xs font-black mb-3 shadow-[2px_2px_0px_#111]">
           ARCHITECTURE & PIPELINE
         </div>
         <h2 className="font-black text-2xl sm:text-3xl text-neutral-900 dark:text-neutral-100 font-display">
           How CitationGuard Verifies References
         </h2>
-        <p className="font-mono text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 mt-2 max-w-3xl leading-relaxed">
+        <p className="font-mono text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 mt-2 max-w-3xl leading-relaxed font-medium">
           CitationGuard operates an end-to-end verification pipeline designed to detect fabricated citations, mismatched DOIs, corrupted author lists, and incorrect venues generated by LLMs.
         </p>
       </div>
@@ -111,19 +111,19 @@ export default function HowItWorksView() {
       {/* Multi-Source Index Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {sources.map((s, i) => (
-          <div key={i} className="p-4 bg-white dark:bg-[#1f1f26] border-2 border-black rounded-xl shadow-card-sm flex flex-col justify-between">
+          <div key={i} className="p-4 bg-white dark:bg-[#1F1F24] border-2 border-black rounded-2xl shadow-[4px_4px_0px_#111] flex flex-col justify-between">
             <div>
               <div className="flex items-center justify-between mb-2">
                 <span className="font-black text-base font-display text-neutral-900 dark:text-neutral-100">{s.name}</span>
-                <span className="font-mono text-[10px] font-bold px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 border border-black">
+                <span className="font-mono text-[10px] font-black px-2.5 py-0.5 rounded-lg bg-[#D1FAE5] text-[#065F46] border-2 border-black shadow-[1px_1px_0px_#111]">
                   {s.status}
                 </span>
               </div>
-              <p className="font-mono text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed">
+              <p className="font-mono text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed font-medium">
                 {s.role}
               </p>
             </div>
-            <div className="mt-3 pt-2 border-t border-neutral-200 dark:border-neutral-700 font-mono text-[11px] text-neutral-500">
+            <div className="mt-3 pt-2 border-t-2 border-black/10 dark:border-white/10 font-mono text-[11px] text-neutral-500 font-bold">
               API Federated Lookup
             </div>
           </div>
@@ -131,18 +131,18 @@ export default function HowItWorksView() {
       </div>
 
       {/* 7-Step Pipeline 3D Flowchart Section */}
-      <div className="bg-white dark:bg-[#1f1f26] border-[2.5px] border-black rounded-2xl shadow-card p-6 sm:p-8">
+      <div className="bg-white dark:bg-[#1F1F24] border-[2.5px] border-black rounded-2xl shadow-[6px_6px_0px_#111] p-6 sm:p-8">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 mb-8 border-b-2 border-black">
           <div>
             <h3 className="font-black text-xl sm:text-2xl text-neutral-900 dark:text-neutral-100 font-display uppercase tracking-tight">
               Verification Flowchart Steps
             </h3>
-            <p className="font-mono text-xs text-neutral-500 dark:text-neutral-400 mt-0.5">
+            <p className="font-mono text-xs text-neutral-500 dark:text-neutral-400 mt-0.5 font-medium">
               Sequential multi-stage verification architecture
             </p>
           </div>
 
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#f5b731] border-2 border-black rounded-lg font-mono text-xs font-black shadow-[1.5px_1.5px_0px_#000] text-black">
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-[#EBB13E] border-2 border-black rounded-xl font-mono text-xs font-black shadow-[2px_2px_0px_#111] text-black">
             <span>⚡</span>
             <span>7 Automated Stages</span>
           </div>
@@ -167,14 +167,14 @@ export default function HowItWorksView() {
                   {/* 3D Extruded Numbered Badge */}
                   <div className="pl-1 sm:pl-2 shrink-0">
                     <div
-                      className={`w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-gradient-to-br ${step.badgeGradient} border-2 border-black shadow-[3px_3px_0px_#000] flex flex-col items-center justify-center font-mono font-black shrink-0 relative overflow-hidden group-hover:scale-105 transition-transform duration-200`}
+                      className={`w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-gradient-to-br ${step.badgeGradient} border-2 border-black shadow-[3px_3px_0px_#111] flex flex-col items-center justify-center font-mono font-black shrink-0 relative overflow-hidden group-hover:scale-105 transition-transform duration-200`}
                     >
                       {/* Top bevel highlight */}
                       <div className="absolute top-0 left-0 right-0 h-1 bg-white/40" />
                       <span className="text-lg sm:text-xl leading-none">
                         {step.num}
                       </span>
-                      <span className="text-[9px] uppercase tracking-wider opacity-80 mt-0.5 font-bold">
+                      <span className="text-[9px] uppercase tracking-wider opacity-80 mt-0.5 font-black">
                         Stage
                       </span>
                     </div>
@@ -187,13 +187,13 @@ export default function HowItWorksView() {
                         {step.title}
                       </h4>
                       <span
-                        className={`px-2.5 py-0.5 rounded-lg border-2 border-black font-mono text-[10px] sm:text-[11px] font-extrabold uppercase shadow-[1px_1px_0px_#000] ${step.badgeColor}`}
+                        className={`px-2.5 py-0.5 rounded-xl border-2 font-mono text-[10px] sm:text-[11px] font-black uppercase shadow-[1.5px_1.5px_0px_#111] ${step.badgeColor}`}
                       >
                         {step.badge}
                       </span>
                     </div>
 
-                    <p className="font-mono text-xs sm:text-[13px] text-neutral-700 dark:text-neutral-300 leading-relaxed font-normal">
+                    <p className="font-mono text-xs sm:text-[13px] text-neutral-700 dark:text-neutral-300 leading-relaxed font-medium">
                       {step.desc}
                     </p>
                   </div>
@@ -202,13 +202,13 @@ export default function HowItWorksView() {
                 {/* Visible 3D Vertical Connector Between Steps */}
                 {!isLast && (
                   <div className="flex flex-col items-center justify-center my-1 select-none py-1">
-                    {/* Upper conduit with animated traveling beam */}
+                    {/* Upper conduit */}
                     <div className="relative w-1.5 h-4 sm:h-5 bg-black dark:bg-neutral-500 rounded-full overflow-hidden">
-                      <div className="connector-beam absolute left-0 w-full h-4 bg-gradient-to-b from-transparent via-[#f5b731] to-transparent rounded-full opacity-90" />
+                      <div className="connector-beam absolute left-0 w-full h-4 bg-gradient-to-b from-transparent via-[#EBB13E] to-transparent rounded-full opacity-90" />
                     </div>
 
                     {/* 3D Directional Node with down arrow */}
-                    <div className="relative z-10 w-7 h-7 rounded-full bg-[#f5b731] border-2 border-black shadow-[2px_2px_0px_#000] flex items-center justify-center text-neutral-900 my-0.5 transform hover:scale-110 transition-transform">
+                    <div className="relative z-10 w-7 h-7 rounded-full bg-[#EBB13E] border-2 border-black shadow-[2px_2px_0px_#111] flex items-center justify-center text-neutral-900 my-0.5 transform hover:scale-110 transition-transform">
                       <svg
                         className="w-3.5 h-3.5 stroke-[3]"
                         fill="none"
@@ -223,9 +223,9 @@ export default function HowItWorksView() {
                       </svg>
                     </div>
 
-                    {/* Lower conduit with animated traveling beam */}
+                    {/* Lower conduit */}
                     <div className="relative w-1.5 h-4 sm:h-5 bg-black dark:bg-neutral-500 rounded-full overflow-hidden">
-                      <div className="connector-beam absolute left-0 w-full h-4 bg-gradient-to-b from-transparent via-[#f5b731] to-transparent rounded-full opacity-90" />
+                      <div className="connector-beam absolute left-0 w-full h-4 bg-gradient-to-b from-transparent via-[#EBB13E] to-transparent rounded-full opacity-90" />
                     </div>
                   </div>
                 )}

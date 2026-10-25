@@ -29,6 +29,23 @@ def _tokenize(text: str) -> set:
     return {w for w in words if w not in STOPWORDS}
 
 
+def is_conversational_preamble(text: str) -> bool:
+    """
+    Check if a text passage is merely introductory conversational phrasing
+    rather than an empirical or scientific claim about a paper.
+    """
+    t = text.strip().lower()
+    if not t:
+        return True
+    if re.match(
+        r"^(?:here\s+(?:is|are)|below\s+(?:is|are)|the\s+following\s+(?:is|are|reference|paper|citation)|please\s+find|as\s+requested|reference(?:s)?\s+(?:for|to|of)|citation(?:s)?\s+(?:for|to|of)|key\s+papers?|academic\s+reference|foundational\s+paper)\b",
+        t,
+    ):
+        if len(t.split()) <= 15 or t.endswith(":"):
+            return True
+    return False
+
+
 def extract_claim_for_citation(full_text: str, citation_text: str) -> str:
     """
     Extract the specific claim, summary, or contextual passage associated with a citation.
@@ -58,8 +75,9 @@ def extract_claim_for_citation(full_text: str, citation_text: str) -> str:
                     l.strip() for l in last_p.split("\n")
                     if not re.match(r"^(?:###\s*)?(?:References?|Bibliography|Sources?)\b", l.strip(), re.IGNORECASE)
                 ]
-                if clean_lines:
-                    return " ".join(clean_lines)
+                clean_text = " ".join(clean_lines).strip()
+                if clean_text and not is_conversational_preamble(clean_text):
+                    return clean_text
 
     # 3. Fallback to citation title
     title_match = re.search(r"Title\s*:\s*(.+)", citation_text, re.IGNORECASE)
@@ -91,6 +109,17 @@ def verify_claim_support(claim_text: str, paper_record: dict) -> dict:
             "evidence_type": "none",
             "evidence": None,
             "reason": "Referenced paper could not be found in scholarly registries; claim cannot be substantiated."
+        }
+
+    if paper_record.get("paper_exists") is None or paper_record.get("api_status") == "OUTAGE":
+        return {
+            "status": "insufficient_evidence",
+            "claim": claim_text,
+            "supported": None,
+            "confidence": 0.0,
+            "evidence_type": "none",
+            "evidence": None,
+            "reason": "Scholarly metadata registries were unreachable; claim support cannot be evaluated."
         }
 
     claim = (claim_text or "").strip()

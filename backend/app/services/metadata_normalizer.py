@@ -139,6 +139,11 @@ def canonicalize_verified_metadata(paper: dict, parsed_citation: dict = None) ->
     # 1. Title
     title = str(paper.get("title") or "").strip().strip("\"'“”")
     title = re.sub(r"\s+", " ", title)
+    if parsed_citation and parsed_citation.get("title"):
+        p_title = str(parsed_citation["title"]).strip().strip("\"'\xe2\x80\x9c\xe2\x80\x9d")
+        from app.services.similarity_service import compare_titles
+        if compare_titles(p_title, title)["score"] >= 92.0:
+            title = p_title
 
     # 2. Authors
     raw_authors = paper.get("authors") or []
@@ -181,19 +186,23 @@ def canonicalize_verified_metadata(paper: dict, parsed_citation: dict = None) ->
 
     source = paper.get("source") or "Crossref"
 
-    # Canonical year selection with source-priority logic:
+    # Canonical year selection with primary-publication priority:
     # 1) If venue string contains an explicit conference year matching an alternate year or parsed year,
     #    use the venue conference year (e.g. "2016 IEEE CVPR" published year 2016)
     if venue_year and (venue_year in alt_years or venue_year == parsed_year or venue_year == paper_year or raw_venue.startswith(str(venue_year))):
         canonical_year = venue_year
-    elif source == "Crossref" and paper_year:
-        canonical_year = paper_year
+    elif alt_years and min(alt_years) < (paper_year or 9999):
+        # Prioritize earliest original publication year over later reprint / mirror years (e.g. 2017 vs 2025)
+        canonical_year = min(alt_years)
     elif parsed_year and (parsed_year in alt_years or parsed_year == paper_year):
         canonical_year = parsed_year
+    elif source == "Crossref" and paper_year:
+        canonical_year = paper_year
     elif paper_year:
         canonical_year = paper_year
     elif alt_years:
-        canonical_year = max(alt_years)
+        # Default to earliest publication year (original primary publication)
+        canonical_year = min(alt_years)
     else:
         canonical_year = venue_year
 
@@ -203,6 +212,17 @@ def canonicalize_verified_metadata(paper: dict, parsed_citation: dict = None) ->
     venue = re.sub(r"[\s,\(]+(?:19|20)\d{2}[\)]*$", "", venue).strip()
     venue = venue.rstrip(".,;")
 
+    # If candidate venue is generic arXiv or empty, and parsed citation provided an arXiv-compatible conference venue,
+    # preserve the legitimate conference proceedings venue
+    if parsed_citation and parsed_citation.get("venue"):
+        p_ven = str(parsed_citation["venue"]).strip()
+        from app.services.similarity_service import compare_venues
+        v_match, _ = compare_venues(p_ven, venue or "arXiv", use_venue_fix=True)
+        if v_match:
+            venue = p_ven
+    elif not venue and str(paper.get("doi") or "").strip().lower().startswith("10.48550"):
+        venue = "arXiv"
+
     # 5. Canonical DOI - clean prefixes and standardize publisher acronyms
     doi = str(paper.get("doi") or "").strip()
     doi = re.sub(r"^https?://(?:dx\.)?doi\.org/", "", doi, flags=re.IGNORECASE)
@@ -210,6 +230,18 @@ def canonicalize_verified_metadata(paper: dict, parsed_citation: dict = None) ->
     m = re.match(r"^(10\.1109/)([a-zA-Z]+)(\..+)$", doi)
     if m:
         doi = m.group(1) + m.group(2).upper() + m.group(3)
+    doi = re.sub(r"^10\.48550/arxiv\.", "10.48550/arXiv.", doi, flags=re.IGNORECASE)
+
+    # 6. Retain source provenance
+    provenance = paper.get("provenance") or {
+        "primary_source": source,
+        "retrieved_title": paper.get("title"),
+        "retrieved_authors": cleaned_authors,
+        "retrieved_year": canonical_year,
+        "retrieved_venue": venue,
+        "retrieved_doi": doi,
+        "sources_corroborating": [source],
+    }
 
     return {
         "title": title,
@@ -218,4 +250,5 @@ def canonicalize_verified_metadata(paper: dict, parsed_citation: dict = None) ->
         "year": canonical_year,
         "doi": doi,
         "source": source,
-    }
+        "provenance": provenance,
+    }

@@ -10,6 +10,54 @@ from app.services.claim_verification_service import (
 )
 
 
+def replace_citation_in_text(full_text: str, old_citation: str, new_citation: str) -> str:
+    """
+    Robustly replace old_citation in full_text even when whitespace, line breaks,
+    or trailing spaces differ slightly between extracted citation text and full_text.
+    """
+    if not full_text or not old_citation:
+        return full_text
+
+    # 1. Exact string replacement
+    if old_citation in full_text:
+        return full_text.replace(old_citation, new_citation, 1)
+
+    # Normalize line endings
+    norm_full = full_text.replace("\r\n", "\n")
+    norm_old = old_citation.replace("\r\n", "\n")
+
+    if norm_old in norm_full:
+        return norm_full.replace(norm_old, new_citation, 1)
+
+    # 2. Line-by-line stripped matching (allowing flexible intra-line whitespace)
+    lines = [l.strip() for l in norm_old.split("\n") if l.strip()]
+    if not lines:
+        return full_text
+
+    pattern_parts = [re.escape(l) for l in lines]
+    # Join with flexible whitespace and optional line breaks
+    pattern = r"[ \t]*\n[ \t]*".join(pattern_parts)
+    match = re.search(pattern, norm_full, flags=re.IGNORECASE)
+    if match:
+        return norm_full[:match.start()] + new_citation + norm_full[match.end():]
+
+    # 3. Fallback: match by citation header line and find end of block
+    first_line = lines[0]
+    first_match = re.search(r"^[ \t]*" + re.escape(first_line), norm_full, flags=re.MULTILINE | re.IGNORECASE)
+    if first_match:
+        start_pos = first_match.start()
+        rest = norm_full[start_pos:]
+        # Find next numbered citation or double newline or end of string
+        block_match = re.search(r"\n\s*(?=\d+[\.\)]|\[\d+\]|Paper\s*\d+:?|\Z)", rest[len(first_line):])
+        if block_match:
+            end_pos = start_pos + len(first_line) + block_match.start()
+        else:
+            end_pos = len(norm_full)
+        return norm_full[:start_pos] + new_citation + norm_full[end_pos:]
+
+    return full_text
+
+
 def build_replacement_citation(original_citation: str, canonical_meta: dict) -> str:
     """
     Format a replacement citation matching the structural style of the original citation.
@@ -89,6 +137,9 @@ def build_qualified_unverified_citation(original_citation: str, citation_result:
     Never invents replacement metadata or silently drops content.
     """
     orig = original_citation.strip()
+    if "[UNVERIFIED REFERENCE" in orig:
+        return orig
+
     reason = "Referenced paper could not be verified in Crossref, Semantic Scholar, or OpenAlex"
     if citation_result.get("hallucination_type") == "Unverified / Provider Outage":
         reason = "External scholarly APIs were unreachable during verification"
@@ -104,15 +155,21 @@ def build_qualified_unverified_citation(original_citation: str, citation_result:
 def search_replacement_paper(claim: str, user_prompt: str = None) -> Optional[dict]:
     """
     Attempt to find genuine scholarly literature relevant to an unsupported claim or topic.
-    Returns candidate paper dict only if a credible source is found; otherwise None.
+    Returns candidate paper dict ONLY if a credible, highly relevant source is found; otherwise None.
+    Never invents or substitutes unrelated papers.
     """
     if not claim:
         return None
 
     from app.services.claim_verification_service import _tokenize
-    tokens = list(_tokenize(claim))[:6]
-    query = " ".join(tokens)
-    if not query or len(query) < 4:
+    from rapidfuzz import fuzz
+
+    claim_tokens = _tokenize(claim)
+    if not claim_tokens or len(claim_tokens) < 2:
+        return None
+
+    query = " ".join(list(claim_tokens)[:6])
+    if not query or len(query) < 5:
         return None
 
     try:
@@ -121,9 +178,20 @@ def search_replacement_paper(claim: str, user_prompt: str = None) -> Optional[di
         if not candidates:
             return None
 
-        # Look for a candidate with high credibility (title + authors + venue/doi)
+        # Must have high semantic relevance to the claim or prompt (at least 50% token overlap and fuzz >= 70)
         for cand in candidates[:5]:
-            if cand.get("title") and cand.get("authors") and (cand.get("doi") or cand.get("venue")):
+            cand_title = cand.get("title") or ""
+            if not cand_title or not cand.get("authors") or not (cand.get("doi") or cand.get("venue")):
+                continue
+
+            cand_tokens = _tokenize(cand_title)
+            overlap = claim_tokens.intersection(cand_tokens)
+            overlap_ratio = len(overlap) / len(claim_tokens) if claim_tokens else 0
+            fuzz_score = fuzz.token_set_ratio(claim, cand_title)
+
+            # High semantic relevance requirement:
+            # Overlap must be at least 50% and fuzz score >= 70
+            if overlap_ratio >= 0.50 and fuzz_score >= 70:
                 return cand
     except Exception:
         return None
@@ -141,9 +209,9 @@ def correct_and_reverify_response(
     Closed-loop verification, correction, and re-verification workflow.
 
     Workflow:
-    1. Extract and verify every citation in response_text.
+    1. Extract and verify every citation in response_text using full Author+Venue validation.
     2. Check claim-to-source support using retrieved evidence.
-    3. Detect metadata discrepancies and claim mismatches.
+    3. Detect metadata discrepancies, fabricated references, and unsupported claims.
     4. Automatically apply evidence-based corrections or transparent qualifications.
     5. Re-verify the revised response in subsequent iterations up to max_iterations.
     6. Return comprehensive audit trail, metrics, and final trustworthy response.
@@ -151,13 +219,14 @@ def correct_and_reverify_response(
     if verifier is None:
         verifier = verify_response
 
-    current_text = (response_text or "").strip()
-    original_text = current_text
+    current_text = (response_text or "").replace("\r\n", "\n").strip()
+    original_text = (response_text or "").replace("\r\n", "\n").strip()
 
     if not current_text:
         return {
             "original_response": "",
             "final_response": "",
+            "llm_response": "",
             "initial_citation_analysis": [],
             "final_citation_analysis": [],
             "applied_corrections": [],
@@ -183,8 +252,17 @@ def correct_and_reverify_response(
     for iteration in range(1, max_iterations + 1):
         iterations_run = iteration
 
-        # 1. Run citation verification on the current text
-        results = verifier(current_text, user_prompt=user_prompt)
+        # 1. Run citation verification on the current text (ensuring full author and venue validation)
+        try:
+            results = verifier(
+                current_text,
+                use_author_fix=True,
+                use_venue_fix=True,
+                user_prompt=user_prompt
+            )
+        except TypeError:
+            # Fallback if verifier mock does not take use_author_fix keyword argument
+            results = verifier(current_text, user_prompt=user_prompt)
 
         # 2. Attach claim-to-source verification for each citation
         for r in results:
@@ -230,7 +308,7 @@ def correct_and_reverify_response(
             "discrepancy_count": len(discrepancies),
         })
 
-        # If no discrepancies remain, response is clean
+        # If no discrepancies remain, response is fully verified
         if len(discrepancies) == 0:
             break
 
@@ -244,7 +322,7 @@ def correct_and_reverify_response(
 
         for r in results:
             cit_str = r.get("citation", "")
-            if not cit_str or cit_str not in revised_text:
+            if not cit_str:
                 continue
 
             errors = list(r.get("metadata_errors", []))
@@ -256,8 +334,37 @@ def correct_and_reverify_response(
             correction_type = None
             explanation = ""
 
-            # Case A: Paper exists, but metadata has discrepancies (wrong authors, year, venue, DOI)
-            if paper_exists and (not citation_accurate or errors):
+            # Establish whether the matched candidate is genuinely the intended publication
+            from app.services.similarity_service import compare_titles, compare_authors
+            parsed_meta = r.get("parsed") or {}
+            c_title = parsed_meta.get("title")
+            m_title = r.get("matched_title")
+            c_authors = parsed_meta.get("authors") or []
+            m_authors = r.get("matched_authors") or []
+
+            title_sim = compare_titles(c_title, m_title)["score"] if (c_title and m_title) else 100.0
+            author_sim = compare_authors(c_authors, m_authors) if (c_authors and m_authors) else 100.0
+
+            # Reliable identification check:
+            # Matched paper must be genuinely the same publication as claimed:
+            # Distinguish clearly between:
+            # - metadata correction of the SAME paper (e.g. fixing a typo in title or an incorrect DOI for a real paper), and
+            # - an entirely different paper (which must NEVER be substituted to make a fabricated citation appear verified).
+            authors_conflict = bool(
+                c_authors and m_authors and author_sim < 40.0 and not r.get("doi_match")
+            )
+            is_reliable_intended_publication = (
+                paper_exists is True
+                and (
+                    (title_sim >= 90.0)
+                    or (not authors_conflict and r.get("doi_match") is True and (title_sim >= 50.0 or author_sim >= 50.0))
+                    or (not authors_conflict and title_sim >= 75.0 and (not c_authors or author_sim >= 50.0))
+                    or (not authors_conflict and title_sim >= 70.0 and author_sim >= 60.0 and (r.get("year_match") or r.get("venue_match")))
+                )
+            )
+
+            # Case A: Paper exists and is reliably the intended publication, but metadata has discrepancies
+            if is_reliable_intended_publication and (not citation_accurate or errors):
                 canonical_meta = canonicalize_verified_metadata({
                     "title": r.get("matched_title"),
                     "authors": r.get("matched_authors"),
@@ -265,7 +372,9 @@ def correct_and_reverify_response(
                     "year": r.get("matched_year"),
                     "doi": r.get("matched_doi"),
                     "abstract": r.get("matched_abstract"),
-                })
+                    "source": r.get("provenance", {}).get("primary_source") if r.get("provenance") else "Crossref",
+                    "provenance": r.get("provenance"),
+                }, parsed_citation=parsed_meta)
                 replacement_str = build_replacement_citation(cit_str, canonical_meta)
                 correction_type = "metadata_correction"
                 explanation = (
@@ -273,39 +382,34 @@ def correct_and_reverify_response(
                     f"using authoritative Crossref/DataCite records."
                 )
 
-            # Case B: Paper does not exist (Fabricated / Not Found)
-            elif paper_exists is False:
-                claim = r.get("claim_verification", {}).get("claim")
-                rep_paper = search_replacement_paper(claim, user_prompt)
-                if rep_paper and rep_paper.get("title"):
-                    canonical_rep = canonicalize_verified_metadata(rep_paper)
-                    replacement_str = build_replacement_citation(cit_str, canonical_rep)
-                    correction_type = "source_substitution"
-                    explanation = f"Substituted unverified reference with genuine verified paper: '{canonical_rep.get('title')}'."
-                else:
-                    replacement_str = build_qualified_unverified_citation(cit_str, r)
-                    correction_type = "transparent_qualification"
-                    explanation = "Paper could not be verified in scholarly databases. Explicitly marked as an unverified reference."
+            # Case B: Paper does not exist OR candidate is not reliably the intended publication
+            # Fabricated or unverified citations must NEVER be substituted with unrelated papers.
+            elif (paper_exists is False) or (paper_exists is None) or (not is_reliable_intended_publication):
+                replacement_str = build_qualified_unverified_citation(cit_str, r)
+                correction_type = "transparent_qualification"
+                explanation = "Paper could not be verified in scholarly databases. Explicitly marked as an unverified reference."
 
-            # Case C: Claim-to-source mismatch
+            # Case C: Claim-to-source mismatch (paper exists and is intended publication, but does not support claim)
             elif claim_status == "unsupported_claim":
                 replacement_str = f"{cit_str}\n[Warning: Claim-to-source mismatch. The cited paper does not substantiate this claim.]"
                 correction_type = "claim_mismatch_annotation"
                 explanation = "Flagged claim-to-source mismatch where the cited reference does not support the stated passage."
 
-            # Apply replacement to revised_text
+            # Apply replacement to revised_text using robust matching
             if replacement_str and replacement_str != cit_str:
-                revised_text = revised_text.replace(cit_str, replacement_str, 1)
-                corr_entry = {
-                    "original_citation": cit_str,
-                    "corrected_citation": replacement_str,
-                    "correction_type": correction_type,
-                    "explanation": explanation,
-                    "iteration": iteration,
-                    "verified_in_next_step": False,
-                }
-                applied_corrections.append(corr_entry)
-                step_corrections.append(corr_entry)
+                new_text = replace_citation_in_text(revised_text, cit_str, replacement_str)
+                if new_text != revised_text:
+                    revised_text = new_text
+                    corr_entry = {
+                        "original_citation": cit_str,
+                        "corrected_citation": replacement_str,
+                        "correction_type": correction_type,
+                        "explanation": explanation,
+                        "iteration": iteration,
+                        "verified_in_next_step": False,
+                    }
+                    applied_corrections.append(corr_entry)
+                    step_corrections.append(corr_entry)
 
         # If no replacements were applied, further iterations cannot change anything
         if revised_text == current_text or not step_corrections:
@@ -316,11 +420,19 @@ def correct_and_reverify_response(
     # Final pass: Determine whether applied corrections were verified in final_citation_analysis
     for corr in applied_corrections:
         corr_cit = corr["corrected_citation"]
+        corr_type = corr.get("correction_type")
+        if corr_type in ("transparent_qualification", "claim_mismatch_annotation"):
+            # Transparent qualifications and claim mismatch annotations are deliberate unverified annotations, not verified citations
+            corr["verified_in_next_step"] = False
+            continue
+
         for fr in final_citation_analysis:
             fr_cit = fr.get("citation", "")
+            claim_stat = fr.get("claim_verification", {}).get("status")
             if (
                 fr.get("paper_exists") is True
                 and fr.get("citation_accurate") is True
+                and claim_stat != "unsupported_claim"
                 and (
                     fr_cit == corr_cit
                     or (fr.get("matched_title") and fr.get("matched_title").lower() in corr_cit.lower())
@@ -329,7 +441,7 @@ def correct_and_reverify_response(
                 corr["verified_in_next_step"] = True
                 break
 
-    # Calculate summary metrics
+    # Calculate summary metrics based strictly on final_citation_analysis
     total_citations = len(final_citation_analysis)
     verified_count = sum(
         1 for r in final_citation_analysis
@@ -349,14 +461,17 @@ def correct_and_reverify_response(
         or r.get("hallucination_type") in ["Fabricated Citation", "Unverified / Provider Outage"]
     )
 
-    # Determine final verification status
+    # Determine final truthful verification status
     if total_citations == 0:
         final_status = "verified"
         limitations = "No citations detected in this response."
-    elif all(r.get("hallucination_type") == "Unverified / Provider Outage" for r in final_citation_analysis):
+    elif (
+        all(r.get("hallucination_type") == "Unverified / Provider Outage" for r in final_citation_analysis)
+        or (any(r.get("hallucination_type") == "Unverified / Provider Outage" or r.get("api_status") == "OUTAGE" for r in final_citation_analysis) and verified_count == 0)
+    ):
         final_status = "unverified"
         limitations = (
-            "Scholarly metadata registries (Crossref, Semantic Scholar, OpenAlex) were unreachable or returned rate limits; "
+            "Scholarly metadata registries (Crossref, Semantic Scholar, OpenAlex, DataCite) were unreachable or returned rate limits; "
             "citations could not be verified."
         )
     elif unresolved_count == 0:

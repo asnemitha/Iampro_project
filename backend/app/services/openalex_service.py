@@ -90,6 +90,30 @@ def search_openalex(title, author=None, limit=10):
             if work.get("doi"):
                 doi = work["doi"].replace("https://doi.org/", "").strip().lower()
 
+            # Inspect locations for canonical publisher or arXiv DOIs, bypassing dead predatory mirrors (e.g. 10.65215)
+            loc_dois = []
+            for loc in work.get("locations", []):
+                for u in [loc.get("landing_page_url"), loc.get("pdf_url")]:
+                    if u and "doi.org/10." in str(u).lower():
+                        m_doi = re.search(r"doi\.org/(10\.\d{4,9}/[-._;()/:A-Za-z0-9]+)", str(u), re.IGNORECASE)
+                        if m_doi:
+                            clean_d = m_doi.group(1).lower().rstrip(".,")
+                            if clean_d not in loc_dois:
+                                loc_dois.append(clean_d)
+
+            # If work.get("doi") is missing or is a known dead mirror (e.g. 10.65215), prefer canonical DOI
+            if not doi or "10.65215" in doi:
+                better_dois = [d for d in loc_dois if not d.startswith("10.65215")]
+                if better_dois:
+                    # Prefer arXiv DOI (10.48550) or recognized publisher DOIs
+                    arxiv_dois = [d for d in better_dois if d.startswith("10.48550/arxiv")]
+                    doi = arxiv_dois[0] if arxiv_dois else better_dois[0]
+            elif loc_dois:
+                # If current DOI is not arXiv but an official 10.48550 arXiv DOI is registered in locations
+                arxiv_dois = [d for d in loc_dois if d.startswith("10.48550/arxiv")]
+                if arxiv_dois and (doi.startswith("10.65215") or not doi.startswith("10.")):
+                    doi = arxiv_dois[0]
+
             pub_year = work.get("publication_year")
             alternate_years = [pub_year] if pub_year else []
 
@@ -111,6 +135,12 @@ def search_openalex(title, author=None, limit=10):
                                 alternate_years.append(ar_year)
 
             year = min(alternate_years) if (work.get("type") == "preprint" and alternate_years) else pub_year
+            # If pub_year is an obvious later reprint / re-registration year compared to earliest alternate year
+            if alternate_years and min(alternate_years) < (pub_year or 9999):
+                year = min(alternate_years)
+
+            if not venue and doi and doi.startswith("10.48550"):
+                venue = "arXiv"
 
             abstract = reconstruct_openalex_abstract(work.get("abstract_inverted_index"))
 

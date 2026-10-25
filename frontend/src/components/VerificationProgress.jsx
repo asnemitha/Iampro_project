@@ -14,10 +14,10 @@ export default function VerificationProgress({
     if (status !== "in_progress") return;
 
     const timers = [
-      setTimeout(() => setInProgressStep(2), 1000),
-      setTimeout(() => setInProgressStep(3), 2200),
-      setTimeout(() => setInProgressStep(4), 3600),
-      setTimeout(() => setInProgressStep(5), 5200),
+      setTimeout(() => setInProgressStep(2), 900),
+      setTimeout(() => setInProgressStep(3), 2000),
+      setTimeout(() => setInProgressStep(4), 3400),
+      setTimeout(() => setInProgressStep(5), 4800),
     ];
     return () => {
       timers.forEach(clearTimeout);
@@ -37,6 +37,15 @@ export default function VerificationProgress({
         citations.reduce((acc, c) => acc + (typeof c.hallucination_score === "number" ? c.hallucination_score : 0), 0) / citationsCount
       )
     : 0;
+
+  const stageChips = [
+    { num: "01", name: "PARSE" },
+    { num: "02", name: "DOI CHECK" },
+    { num: "03", name: "RETRIEVE" },
+    { num: "04", name: "RANK" },
+    { num: "05", name: "VALIDATE" },
+    { num: "06", name: "SCORE" },
+  ];
 
   const steps = [
     {
@@ -89,25 +98,30 @@ export default function VerificationProgress({
   const progressPercent = status === "completed" ? 100 : Math.min(Math.round((effectiveStep / 6) * 100), 90);
 
   return (
-    <div className="bg-white dark:bg-[#1f1f26] border-2 border-black rounded-xl shadow-card-sm p-5 mb-5 transition-colors">
-      {/* Tracker Header */}
+    <div className="bg-white dark:bg-[#1F1F24] border-2 border-black rounded-xl shadow-[4px_4px_0px_#111] p-4 sm:p-5 transition-colors">
+      {/* Top Header Row */}
       <div className="flex flex-wrap items-center justify-between gap-3 mb-3">
         <div className="flex items-center gap-2">
-          {/* Radar / Shield Tracker Icon */}
-          <div className="w-7 h-7 rounded-lg bg-[#f5b731] border border-black flex items-center justify-center font-black text-xs shadow-[1px_1px_0px_#000]">
-            ⚡
-          </div>
+          {status === "completed" ? (
+            <span className="w-6 h-6 rounded-lg bg-[#2563EB] text-white font-mono text-xs font-black flex items-center justify-center border border-black shadow-[1px_1px_0px_#111]">
+              ✓
+            </span>
+          ) : status === "error" ? (
+            <span className="w-6 h-6 rounded-lg bg-[#E0453A] text-white font-mono text-xs font-black flex items-center justify-center border border-black shadow-[1px_1px_0px_#111]">
+              ✕
+            </span>
+          ) : (
+            <span className="w-6 h-6 rounded-lg bg-[#EBB13E] text-black font-mono text-xs font-black flex items-center justify-center border border-black shadow-[1px_1px_0px_#111]">
+              ⚡
+            </span>
+          )}
+
           <div>
             <h3 className="font-mono text-xs sm:text-sm font-black uppercase tracking-wider text-neutral-900 dark:text-neutral-100 font-display">
-              {status === "in_progress" && "Verification Pipeline In Progress"}
-              {status === "completed" && "Verification Pipeline Complete (6/6 Passed)"}
-              {status === "error" && "Verification Pipeline Halted"}
+              {status === "in_progress" && `PIPELINE IN PROGRESS (Stage ${effectiveStep} of 6)`}
+              {status === "completed" && "PIPELINE EXECUTION COMPLETE"}
+              {status === "error" && `PIPELINE HALTED AT STAGE ${effectiveStep}`}
             </h3>
-            <span className="font-mono text-[11px] text-neutral-500 dark:text-neutral-400">
-              {status === "in_progress" && `Executing Step ${effectiveStep} of 6`}
-              {status === "completed" && "All 6 pipeline stages verified and audited"}
-              {status === "error" && `Error encountered at Step ${effectiveStep} of 6`}
-            </span>
           </div>
         </div>
 
@@ -117,9 +131,9 @@ export default function VerificationProgress({
             <button
               type="button"
               onClick={() => setExpanded(!expanded)}
-              className="px-2.5 py-1 bg-[#faf4eb] dark:bg-[#27272a] hover:bg-neutral-100 dark:hover:bg-neutral-700 text-neutral-800 dark:text-neutral-200 border border-black rounded-lg font-mono text-[11px] font-bold shadow-[1px_1px_0px_#000] cursor-pointer transition-all"
+              className="px-2.5 py-1 bg-white dark:bg-[#27272a] hover:bg-neutral-100 text-neutral-800 dark:text-neutral-200 border-2 border-black rounded-lg font-mono text-[11px] font-black shadow-btn cursor-pointer transition-all select-none"
             >
-              {expanded ? "Hide 6 Stages ▲" : "View 6 Stages ▼"}
+              {expanded ? "Hide Details ▲" : "View Details ▼"}
             </button>
           )}
 
@@ -127,7 +141,7 @@ export default function VerificationProgress({
             <button
               type="button"
               onClick={onReset}
-              className="px-2.5 py-1 bg-white dark:bg-[#27272a] hover:bg-neutral-100 dark:hover:bg-neutral-700 text-neutral-800 dark:text-neutral-200 border border-black rounded-lg font-mono text-[11px] font-bold shadow-[1px_1px_0px_#000] cursor-pointer"
+              className="px-2.5 py-1 bg-white dark:bg-[#27272a] hover:bg-neutral-100 text-neutral-800 dark:text-neutral-200 border-2 border-black rounded-lg font-mono text-[11px] font-black shadow-btn cursor-pointer transition-all select-none"
             >
               Reset
             </button>
@@ -135,62 +149,75 @@ export default function VerificationProgress({
         </div>
       </div>
 
-      {/* Progress Bar Container */}
-      <div className="mb-4">
-        <div className="flex justify-between items-center font-mono text-[11px] font-bold text-neutral-600 dark:text-neutral-400 mb-1.5">
-          <span>PIPELINE PROGRESS</span>
-          <span>{status === "completed" ? "100%" : `${progressPercent}%`}</span>
+      {/* Progress Bar (Visible during in_progress or error) */}
+      {status !== "completed" && (
+        <div className="mb-4">
+          <div className="flex justify-between items-center font-mono text-[11px] font-bold text-neutral-600 dark:text-neutral-400 mb-1.5">
+            <span>PIPELINE PROGRESS</span>
+            <span>{progressPercent}%</span>
+          </div>
+          <div className="w-full h-3 bg-[#FAF5EC] dark:bg-[#141416] border-2 border-black rounded-lg overflow-hidden p-0.5 shadow-[1px_1px_0px_#111]">
+            <div
+              className={`h-full rounded-sm transition-all duration-500 ease-out ${
+                status === "error" ? "bg-[#E0453A]" : "bg-[#2563EB]"
+              }`}
+              style={{ width: `${progressPercent}%` }}
+            />
+          </div>
         </div>
-        <div className="w-full h-3 bg-[#faf4eb] dark:bg-[#141416] border-2 border-black rounded-lg overflow-hidden p-0.5 shadow-[1px_1px_0px_#000]">
-          <div
-            className={`h-full rounded-sm transition-all duration-500 ease-out ${
-              status === "error"
-                ? "bg-rose-500"
-                : status === "completed"
-                ? "bg-[#16a34a]"
-                : "bg-[#f5b731]"
-            }`}
-            style={{ width: `${progressPercent}%` }}
-          />
-        </div>
-      </div>
+      )}
 
-      {/* Steps List (Always visible during loading, collapsible upon completion) */}
+      {/* 6 Blue Completed Stage Cards (Screenshot 1 & 2 design) */}
+      {status === "completed" && (
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 my-2">
+          {stageChips.map((chip, idx) => (
+            <div
+              key={idx}
+              className="bg-[#2563EB] text-white border-2 border-black rounded-xl p-2.5 shadow-[2px_2px_0px_#111] flex items-center justify-between font-mono text-xs font-black select-none"
+            >
+              <span>{chip.num} {chip.name}</span>
+              <span className="w-4 h-4 rounded-full bg-white text-[#2563EB] flex items-center justify-center text-[10px] font-black">
+                ✓
+              </span>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* Steps Detailed List (During in_progress or when expanded) */}
       {(status === "in_progress" || status === "error" || expanded) && (
-        <div className="space-y-2.5 pt-2 border-t border-neutral-200 dark:border-neutral-700 font-mono">
+        <div className="space-y-2 pt-3 border-t-2 border-black font-mono text-xs mt-3">
           {steps.map((s) => {
             const isCompleted = status === "completed" || (status === "in_progress" && s.step < effectiveStep);
             const isCurrent = status === "in_progress" && s.step === effectiveStep;
             const isFailed = status === "error" && s.step === effectiveStep;
             const isPending = !isCompleted && !isCurrent && !isFailed;
 
-            let badgeClass = "bg-neutral-100 dark:bg-neutral-800 text-neutral-500 border-neutral-300 dark:border-neutral-700";
-            let rowBorder = "border-neutral-200 dark:border-neutral-800 bg-[#faf4eb]/50 dark:bg-[#1a1a20]";
+            let badgeClass = "bg-neutral-100 text-neutral-500 border-neutral-300";
+            let rowBorder = "border-black bg-white dark:bg-[#27272a]";
 
             if (isCompleted) {
-              badgeClass = "bg-[#16a34a] text-white border-black font-black";
-              rowBorder = "border-black bg-emerald-50/60 dark:bg-emerald-950/20";
+              badgeClass = "bg-[#2563EB] text-white border-black font-black";
+              rowBorder = "border-black bg-blue-50/60 dark:bg-blue-950/20";
             } else if (isCurrent) {
-              badgeClass = "bg-[#f5b731] text-black border-black font-black animate-pulse";
-              rowBorder = "border-black bg-amber-50/70 dark:bg-amber-950/20 ring-1 ring-[#f5b731]";
+              badgeClass = "bg-[#EBB13E] text-black border-black font-black animate-pulse";
+              rowBorder = "border-black bg-amber-50 dark:bg-amber-950/20";
             } else if (isFailed) {
-              badgeClass = "bg-rose-500 text-white border-black font-black";
+              badgeClass = "bg-[#E0453A] text-white border-black font-black";
               rowBorder = "border-black bg-rose-50 dark:bg-rose-950/30";
             }
 
             return (
               <div
                 key={s.step}
-                className={`p-3 rounded-lg border transition-all flex items-start gap-3 ${rowBorder}`}
+                className={`p-2.5 rounded-xl border-2 transition-all flex items-start gap-2.5 ${rowBorder}`}
               >
                 {/* Step Indicator Badge */}
                 <div
-                  className={`w-6 h-6 rounded-md border flex items-center justify-center shrink-0 text-xs shadow-[1px_1px_0px_#000] ${badgeClass}`}
+                  className={`w-6 h-6 rounded-lg border-2 flex items-center justify-center shrink-0 text-xs shadow-[1px_1px_0px_#111] ${badgeClass}`}
                 >
                   {isCompleted && "✓"}
-                  {isCurrent && (
-                    <span className="w-2 h-2 rounded-full bg-black animate-ping" />
-                  )}
+                  {isCurrent && <span className="w-2 h-2 rounded-full bg-black animate-ping" />}
                   {isFailed && "✕"}
                   {isPending && s.step}
                 </div>
@@ -198,13 +225,13 @@ export default function VerificationProgress({
                 {/* Step Details */}
                 <div className="flex-1 min-w-0">
                   <div className="flex flex-wrap items-center justify-between gap-1">
-                    <span className="font-extrabold text-xs text-neutral-900 dark:text-neutral-100">
+                    <span className="font-black text-xs text-neutral-900 dark:text-neutral-100">
                       Step {s.step} — {s.title}
                     </span>
                     <span className="text-[10px] font-bold uppercase tracking-wider">
-                      {isCompleted && <span className="text-[#16a34a]">Completed</span>}
-                      {isCurrent && <span className="text-amber-600 dark:text-amber-400">Processing...</span>}
-                      {isFailed && <span className="text-rose-600">Failed</span>}
+                      {isCompleted && <span className="text-[#2563EB] font-black">Passed</span>}
+                      {isCurrent && <span className="text-amber-600 font-black">Processing...</span>}
+                      {isFailed && <span className="text-rose-600 font-black">Failed</span>}
                       {isPending && <span className="text-neutral-400">Pending</span>}
                     </span>
                   </div>
@@ -221,7 +248,7 @@ export default function VerificationProgress({
 
       {/* Failure Box */}
       {status === "error" && error && (
-        <div className="mt-4 p-4 rounded-lg border-2 border-black bg-rose-100 dark:bg-rose-950/40 text-rose-900 dark:text-rose-200 font-mono text-xs shadow-[2px_2px_0px_#000]">
+        <div className="mt-3 p-3.5 rounded-xl border-2 border-black bg-rose-100 dark:bg-rose-950/40 text-rose-900 dark:text-rose-200 font-mono text-xs shadow-[2px_2px_0px_#111]">
           <div className="flex items-center gap-2 font-bold mb-1">
             <span>⚠️</span>
             <span>API Pipeline Error:</span>
