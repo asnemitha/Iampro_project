@@ -1,9 +1,9 @@
-
 import os
 import re
 
 from dotenv import load_dotenv
 from google import genai
+from app.services.gemini_service import get_gemini_models, _sanitize_error
 
 load_dotenv()
 
@@ -63,22 +63,11 @@ def classify_prompt(prompt: str) -> dict:
 
     if not api_key:
         print("[Classifier] GEMINI_API_KEY is not configured.")
-        return _unavailable_result()
+        return _unavailable_result("Classification unavailable: GEMINI_API_KEY is not configured.")
 
     client = genai.Client(api_key=api_key)
 
-    configured_model = os.getenv(
-        "GEMINI_MODEL",
-        "gemini-2.5-flash",
-    )
-
-    candidate_models = list(dict.fromkeys([
-        configured_model,
-        "gemini-2.5-flash",
-        "gemini-2.5-flash-lite",
-        "gemini-flash-latest",
-        "gemini-flash-lite-latest",
-    ]))
+    candidate_models = get_gemini_models()
 
     system_instructions = """
 You are a safety classifier for an academic citation-verification assistant.
@@ -105,7 +94,9 @@ Respond with exactly one word: SAFE or UNSAFE.
         "</USER_PROMPT>"
     )
 
-    for model_name in candidate_models:
+    last_error = None
+    for idx, model_name in enumerate(candidate_models):
+        role = "Primary" if idx == 0 else "Fallback"
         try:
             response = client.models.generate_content(
                 model=model_name,
@@ -114,14 +105,14 @@ Respond with exactly one word: SAFE or UNSAFE.
 
             result_text = (response.text or "").strip().upper()
 
-            if result_text == "UNSAFE":
+            if result_text.startswith("UNSAFE") or result_text == "UNSAFE":
                 return {
                     "label": 2,
                     "label_name": "Malicious",
                     "confidence": 0.95,
                 }
 
-            if result_text == "SAFE":
+            if result_text.startswith("SAFE") or result_text == "SAFE":
                 return {
                     "label": 0,
                     "label_name": "Safe",
@@ -129,16 +120,15 @@ Respond with exactly one word: SAFE or UNSAFE.
                 }
 
             print(
-                f"[Classifier] Unexpected response from "
+                f"[Classifier] Unexpected response from {role} model "
                 f"{model_name}: {result_text[:100]}"
             )
 
         except Exception as exc:
-            err_str = str(exc)
-            clean_err = re.sub(r"(?i)key=[A-Za-z0-9_\-]+", "key=[REDACTED]", err_str)
-            clean_err = re.sub(r"(?i)AIza[0-9A-Za-z-_]{35}", "[REDACTED_API_KEY]", clean_err)
+            last_error = exc
+            clean_err = _sanitize_error(exc)
             print(
-                f"[Classifier] Gemini model {model_name} failed: "
+                f"[Classifier] {role} model '{model_name}' failed: "
                 f"{clean_err[:200]}"
             )
             # Quota/rate-limit errors apply project-wide. Fail fast to avoid compounding rate limits.
@@ -147,7 +137,21 @@ Respond with exactly one word: SAFE or UNSAFE.
                     "Classification unavailable due to Gemini API rate limits (HTTP 429 RESOURCE_EXHAUSTED)."
                 )
 
-    return _unavailable_result()
+            # Continue to fallback model for 404, 503, or other transient errors
+            continue
+
+    clean_last_err = _sanitize_error(last_error) if last_error else "All candidate models failed"
+    if "404" in clean_last_err or "NOT_FOUND" in clean_last_err:
+        warning_msg = f"Classification unavailable: Model not found (HTTP 404 NOT_FOUND). Candidate models ({', '.join(candidate_models)}) unavailable."
+    elif "503" in clean_last_err or "UNAVAILABLE" in clean_last_err:
+        warning_msg = f"Classification unavailable: Gemini service temporarily unavailable (HTTP 503 UNAVAILABLE)."
+    else:
+        warning_msg = (
+            f"Classification unavailable: Gemini models ({', '.join(candidate_models)}) failed: {clean_last_err[:120]}. "
+            "No trained local DistilBERT model is configured."
+        )
+
+    return _unavailable_result(warning_msg)
 
 
 def _unavailable_result(warning: str = None) -> dict:

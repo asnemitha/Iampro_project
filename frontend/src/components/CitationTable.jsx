@@ -42,7 +42,12 @@ export default function CitationTable({
   const getCitationType = (c) => {
     const score = typeof c.hallucination_score === "number" ? c.hallucination_score : 0;
     if (c.paper_exists === false || score > 50) return "hallucinated";
-    if (score > 20 || !c.citation_accurate || (c.metadata_errors && c.metadata_errors.length > 0)) return "review";
+    if (
+      score > 20 ||
+      !c.citation_accurate ||
+      (c.metadata_errors && c.metadata_errors.length > 0) ||
+      c.claim_verification?.status === "unsupported_claim"
+    ) return "review";
     return "verified";
   };
 
@@ -205,12 +210,18 @@ export default function CitationTable({
             ? "Submitted Citation • Verified Accurate"
             : cType === "hallucinated"
             ? "Submitted Citation • Paper Not Found in Registries"
+            : citation.claim_verification?.status === "unsupported_claim" && citation.citation_accurate
+            ? "Submitted Citation • Claim-to-Source Mismatch"
             : "Submitted Citation • Bibliographic Errors Detected";
         } else {
           if (cType === "verified") {
             subtitle = "Genuine Citation • Authoritative Bibliographic Record Matched";
           } else if (cType === "hallucinated") {
             subtitle = "Plausible Fabricated Citation • Paper Not Found in Scholarly Registries";
+          } else if (citation.claim_verification?.status === "unsupported_claim") {
+            subtitle = citation.citation_accurate
+              ? "Verified Bibliographic Record • Substantive Claim Mismatch"
+              : "Bibliographic Discrepancy & Claim Mismatch";
           }
         }
 
@@ -223,6 +234,9 @@ export default function CitationTable({
         } else if (cType === "verified") {
           mainBadgeLabel = "VERIFIED ACCURATE";
           mainBadgeClass = "bg-[#2563EB] text-white border-black";
+        } else if (citation.claim_verification?.status === "unsupported_claim") {
+          mainBadgeLabel = "CLAIM MISMATCH";
+          mainBadgeClass = "bg-[#EBB13E] text-black border-black";
         }
 
         // Field checks calculations
@@ -511,15 +525,24 @@ export default function CitationTable({
 
             {/* Claim-to-Source Semantic Support Check */}
             {citation.claim_verification && (
-              <div className={`p-3.5 rounded-xl border-2 border-black font-mono text-xs shadow-[2px_2px_0px_#111] ${
-                citation.claim_verification.status === "supported"
-                  ? "bg-emerald-50 dark:bg-emerald-950/20 text-emerald-900 dark:text-emerald-200"
-                  : citation.claim_verification.status === "unsupported_claim"
-                  ? "bg-rose-50 dark:bg-rose-950/20 text-rose-900 dark:text-rose-200"
-                  : citation.claim_verification.status === "not_found"
-                  ? "bg-rose-50 dark:bg-rose-950/20 text-rose-900 dark:text-rose-200"
-                  : "bg-amber-50 dark:bg-amber-950/20 text-amber-900 dark:text-amber-200"
-              }`}>
+              citation.claim_verification.status === "not_applicable" ? (
+                <div className="p-3 rounded-xl border-2 border-black/30 bg-neutral-50 dark:bg-neutral-800/40 text-neutral-600 dark:text-neutral-400 font-mono text-xs flex items-center justify-between shadow-[2px_2px_0px_#111]">
+                  <div className="flex items-center gap-2">
+                    <span className="font-black text-blue-600 dark:text-blue-400">ℹ</span>
+                    <span>Standalone Citation — Evaluated against authoritative registry metadata (no substantive claim asserted)</span>
+                  </div>
+                  <span className="text-[10px] font-bold uppercase opacity-75 hidden sm:inline">Bibliographic Audit</span>
+                </div>
+              ) : (
+                <div className={`p-3.5 rounded-xl border-2 border-black font-mono text-xs shadow-[2px_2px_0px_#111] ${
+                  citation.claim_verification.status === "supported"
+                    ? "bg-emerald-50 dark:bg-emerald-950/20 text-emerald-900 dark:text-emerald-200"
+                    : citation.claim_verification.status === "unsupported_claim"
+                    ? "bg-rose-50 dark:bg-rose-950/20 text-rose-900 dark:text-rose-200"
+                    : citation.claim_verification.status === "not_found"
+                    ? "bg-rose-50 dark:bg-rose-950/20 text-rose-900 dark:text-rose-200"
+                    : "bg-amber-50 dark:bg-amber-950/20 text-amber-900 dark:text-amber-200"
+                }`}>
                 <div className="flex flex-wrap items-center justify-between gap-1 font-black mb-1">
                   <div className="flex items-center gap-1.5">
                     <span>
@@ -559,6 +582,7 @@ export default function CitationTable({
                   </div>
                 )}
               </div>
+              )
             )}
 
             {/* Prompt Consistency Check */}

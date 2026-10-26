@@ -1,14 +1,21 @@
 export default function PromptAnalysis({ analysis }) {
   if (!analysis) return null;
 
+  const isUnavailable = analysis.label === -1 || analysis.label_name === "Unavailable";
   const isSuspicious = analysis.label_name === "Suspicious";
   const isMalicious = analysis.label_name === "Malicious" || analysis.label === 2;
 
   let badgeBg = "bg-[#D1FAE5] text-[#065F46] border-black";
   let statusText = "Safe / Academic Expected";
   let statusColor = "#16A34A";
+  let badgeLabel = analysis.label_name || "Safe";
 
-  if (isSuspicious) {
+  if (isUnavailable) {
+    badgeBg = "bg-[#FEF3C7] text-[#92400E] border-black";
+    statusText = "Unavailable (Degraded Mode — Upstream Model Quota Exhausted)";
+    statusColor = "#D97706";
+    badgeLabel = "UNAVAILABLE";
+  } else if (isSuspicious) {
     badgeBg = "bg-[#FEF3C7] text-[#92400E] border-black";
     statusText = "Suspicious / Potential Risk";
     statusColor = "#EA580C";
@@ -18,9 +25,11 @@ export default function PromptAnalysis({ analysis }) {
     statusColor = "#DC2626";
   }
 
-  const confidencePct = typeof analysis.confidence === "number"
-    ? (analysis.confidence * 100).toFixed(1)
-    : "99.0";
+  const confidencePct = isUnavailable
+    ? "N/A"
+    : typeof analysis.confidence === "number"
+    ? `${(analysis.confidence * 100).toFixed(1)}%`
+    : "99.0%";
 
   return (
     <div className="bg-white dark:bg-[#1F1F24] border-2 border-black rounded-xl shadow-[4px_4px_0px_#111] p-4 sm:p-5 transition-colors">
@@ -38,7 +47,7 @@ export default function PromptAnalysis({ analysis }) {
         {/* Status Chip */}
         <span className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-xl border-2 font-mono text-xs font-black uppercase shadow-[2px_2px_0px_#111] ${badgeBg}`}>
           <span className="w-2 h-2 rounded-full" style={{ backgroundColor: statusColor }} />
-          {analysis.label_name || "Safe"}
+          {badgeLabel}
         </span>
       </div>
 
@@ -51,10 +60,19 @@ export default function PromptAnalysis({ analysis }) {
         <div className="font-mono text-xs text-neutral-600 dark:text-neutral-400 flex items-center gap-2">
           <span>Model Confidence:</span>
           <span className="font-black font-mono px-2.5 py-0.5 rounded-lg bg-[#FAF5EC] dark:bg-[#27272a] text-neutral-900 dark:text-neutral-100 border-2 border-black shadow-[1.5px_1.5px_0px_#111]">
-            {confidencePct}%
+            {confidencePct}
           </span>
         </div>
       </div>
+
+      {isUnavailable && (
+        <div className="mt-3 p-3 rounded-lg border border-[#F59E0B] bg-[#FFFBEB] dark:bg-[#78350F]/20 text-[#92400E] dark:text-[#FDE68A] font-mono text-xs flex items-start gap-2">
+          <span className="font-bold">⚠ Degraded Mode Notice:</span>
+          <span>
+            {analysis.classifier_warning || "Prompt safety classification is temporarily unavailable due to upstream Gemini API rate limits (HTTP 429 RESOURCE_EXHAUSTED). Deterministic scholarly verification is active and fully functional. Adversarial prompt protection is active via static injection pattern filtering."}
+          </span>
+        </div>
+      )}
     </div>
   );
 }

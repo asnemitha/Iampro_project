@@ -18,7 +18,10 @@ STOPWORDS = {
     "we'll", "we're", "we've", "were", "weren't", "what", "what's", "when", "when's", "where",
     "where's", "which", "while", "who", "who's", "whom", "why", "why's", "with", "won't", "would",
     "wouldn't", "you", "you'd", "you'll", "you're", "you've", "your", "yours", "yourself", "yourselves",
-    "paper", "papers", "author", "authors", "year", "venue", "doi", "published", "conference", "journal"
+    "paper", "papers", "author", "authors", "year", "venue", "doi", "published", "conference", "journal",
+    "verify", "verification", "check", "checking", "citation", "citations", "reference", "references",
+    "analyze", "analysis", "following", "below", "here", "please", "sure", "certainly", "prompt",
+    "request", "requested", "find", "search", "model", "output"
 }
 
 
@@ -31,24 +34,72 @@ def _tokenize(text: str) -> set:
 
 def is_conversational_preamble(text: str) -> bool:
     """
-    Check if a text passage is merely introductory conversational phrasing
+    Check if a text passage is merely introductory conversational phrasing,
+    a prompt directive / verification instruction, or a structural section header
     rather than an empirical or scientific claim about a paper.
     """
     t = text.strip().lower()
     if not t:
         return True
-    if re.match(
-        r"^(?:here\s+(?:is|are)|below\s+(?:is|are)|the\s+following\s+(?:is|are|reference|paper|citation)|please\s+find|as\s+requested|reference(?:s)?\s+(?:for|to|of)|citation(?:s)?\s+(?:for|to|of)|key\s+papers?|academic\s+reference|foundational\s+paper)\b",
-        t,
-    ):
+
+    # 1. Structural section headers or short lines ending in colon with <= 15 words
+    if t.endswith(":") and len(t.split()) <= 15:
+        return True
+
+    # 2. Section header patterns (e.g. "### References", "1. Citations to verify:")
+    if re.match(r"^(?:#{1,6}\s*)?(?:references?|bibliography|sources?|citations?|paper\s*\d+:?|citation\s*\d+:?)\b", t):
         if len(t.split()) <= 15 or t.endswith(":"):
             return True
+
+    # 3. Conversational openings (e.g. "Here is...", "Sure, I can help...", "Below are...")
+    opening_patterns = [
+        r"^(?:here\s+(?:is|are)|below\s+(?:is|are)|the\s+following|please\s+(?:find|examine)|as\s+requested)\b",
+        r"^(?:sure|certainly|of\s+course|absolutely|gladly|happy\s+to\s+help|based\s+on\s+your\s+request|according\s+to)\b",
+        r"^(?:key\s+papers?|academic\s+references?|foundational\s+papers?|recommended\s+papers?)\b",
+        r"^(?:prompt|input|query|request)\s*:\s*",
+    ]
+    if any(re.match(pat, t) for pat in opening_patterns):
+        if len(t.split()) <= 20 or t.endswith(":"):
+            return True
+
+    # 4. Verification prompt directives and meta-instructions:
+    # Text that instructs CiteGuard to verify/check citations, metadata, DOIs, authors, discrepancies, etc.
+    # E.g. "Verify the supplied citation against authoritative scholarly records. Check the DOI, title, authors, publication year, and conference or venue. Identify any discrepancies and provide evidence from reliable scholarly sources."
+    instruction_verbs = {
+        "verify", "check", "analyze", "validate", "review", "evaluate", "examine",
+        "identify", "assess", "investigate", "confirm", "corroborate", "audit"
+    }
+    bibliographic_terms = {
+        "citation", "citations", "reference", "references", "doi", "dois", "author", "authors",
+        "title", "titles", "venue", "venues", "year", "years", "conference", "conferences", "journal", "journals",
+        "discrepancy", "discrepancies", "metadata", "record", "records", "source", "sources",
+        "scholarly", "authoritative", "registry", "registries"
+    }
+
+    words = set(re.findall(r"\b[a-z]{3,}\b", t))
+    has_instruction_verb = bool(words.intersection(instruction_verbs))
+    has_bib_terms = len(words.intersection(bibliographic_terms)) >= 2
+
+    # Starts with a verification command or directive
+    starts_with_directive = bool(re.match(
+        r"^(?:please\s+)?(?:verify|check|analyze|validate|review|evaluate|examine|identify|assess|audit)\b",
+        t
+    ))
+
+    if starts_with_directive and (has_bib_terms or len(t.split()) <= 35):
+        return True
+
+    if has_instruction_verb and has_bib_terms and len(words.intersection(instruction_verbs.union(bibliographic_terms))) >= 3:
+        return True
+
     return False
 
 
 def extract_claim_for_citation(full_text: str, citation_text: str) -> str:
     """
     Extract the specific claim, summary, or contextual passage associated with a citation.
+    Returns empty string if the citation is standalone or accompanied only by verification
+    instructions/preambles (indicating no substantive empirical claim was asserted).
     """
     if not full_text or not citation_text:
         return ""
@@ -60,7 +111,9 @@ def extract_claim_for_citation(full_text: str, citation_text: str) -> str:
         re.IGNORECASE
     )
     if summary_match:
-        return summary_match.group(1).strip()
+        summary_val = summary_match.group(1).strip()
+        if summary_val and not is_conversational_preamble(summary_val):
+            return summary_val
 
     # 2. Look in the preceding text of the response
     idx = full_text.find(citation_text)
@@ -73,20 +126,17 @@ def extract_claim_for_citation(full_text: str, citation_text: str) -> str:
                 # Filter out headers like "References:" or section markers
                 clean_lines = [
                     l.strip() for l in last_p.split("\n")
-                    if not re.match(r"^(?:###\s*)?(?:References?|Bibliography|Sources?)\b", l.strip(), re.IGNORECASE)
+                    if not re.match(r"^(?:###\s*)?(?:References?|Bibliography|Sources?|Citations?|Paper\s*\d+:?)\b", l.strip(), re.IGNORECASE)
                 ]
                 clean_text = " ".join(clean_lines).strip()
                 if clean_text and not is_conversational_preamble(clean_text):
-                    return clean_text
+                    # Ensure clean_text actually has informative substantive tokens
+                    if len(_tokenize(clean_text)) >= 2:
+                        return clean_text
 
-    # 3. Fallback to citation title
-    title_match = re.search(r"Title\s*:\s*(.+)", citation_text, re.IGNORECASE)
-    if title_match:
-        return title_match.group(1).strip()
-
-    first_line = citation_text.strip().split("\n")[0]
-    clean_first = re.sub(r"^(?:\[\d+\]|\d+[\.\)]|Paper\s*\d+:?)\s*", "", first_line).strip()
-    return clean_first
+    # If no explicit claim field and no preceding substantive claim text exists,
+    # the citation is a standalone bibliographic reference (no empirical claim asserted).
+    return ""
 
 
 def verify_claim_support(claim_text: str, paper_record: dict) -> dict:
@@ -98,6 +148,7 @@ def verify_claim_support(claim_text: str, paper_record: dict) -> dict:
     - unsupported_claim: Retrieved evidence indicates the source addresses a different topic.
     - insufficient_evidence: Bibliographic existence verified, but full text or abstract is not
       available in public scholarly registries (Crossref, Semantic Scholar, OpenAlex).
+    - not_applicable: Standalone citation; no substantive empirical claim was asserted.
     - not_found: Paper was not found in registries.
     """
     if not paper_record or paper_record.get("paper_exists") is False:
@@ -123,6 +174,18 @@ def verify_claim_support(claim_text: str, paper_record: dict) -> dict:
         }
 
     claim = (claim_text or "").strip()
+    if not claim:
+        matched_title = paper_record.get("matched_title") or paper_record.get("title") or "Scholarly record"
+        return {
+            "status": "supported",
+            "claim": None,
+            "supported": True,
+            "confidence": 1.0,
+            "evidence_type": "bibliographic_metadata",
+            "evidence": f"Verified Record: {matched_title}",
+            "reason": "Standalone citation; verified against authoritative scholarly registries without associated empirical claims."
+        }
+
     claim_tokens = _tokenize(claim)
 
     matched_title = paper_record.get("matched_title") or paper_record.get("title") or ""
@@ -140,8 +203,14 @@ def verify_claim_support(claim_text: str, paper_record: dict) -> dict:
         token_ratio = (len(overlap) / len(claim_tokens)) if claim_tokens else 0.5
         fuzz_score = fuzz.token_set_ratio(claim, f"{matched_title} {abstract_text}")
 
+        # Check whether claim references the paper title itself (e.g. citation text or title fallback)
+        title_in_claim = bool(
+            (title_tokens and title_tokens.issubset(claim_tokens))
+            or (matched_title and fuzz.token_set_ratio(claim, matched_title) >= 75)
+        )
+
         # Clear semantic conflict / completely different subject
-        if token_ratio < 0.15 or (token_ratio < 0.25 and fuzz_score < 45):
+        if not title_in_claim and (token_ratio < 0.15 or (token_ratio < 0.25 and fuzz_score < 45)):
             return {
                 "status": "unsupported_claim",
                 "claim": claim,

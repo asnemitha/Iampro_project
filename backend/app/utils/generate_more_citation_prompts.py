@@ -6,7 +6,7 @@ from google import genai
 
 load_dotenv()
 
-client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY"))
+client = genai.Client(api_key=os.getenv("GOOGLE_API_KEY") or os.getenv("GEMINI_API_KEY"))
 
 SAVE_PATH = "../../datasets/prompt_injection/raw/generated_citation_prompts.csv"
 
@@ -47,7 +47,7 @@ No explanation.
 
     try:
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model=os.getenv("GEMINI_MODEL", "gemini-3.8-flash"),
             contents=prompt,
         )
 

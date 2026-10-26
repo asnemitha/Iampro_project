@@ -53,7 +53,9 @@ export default function VerificationProgress({
       title: "Prompt-Aware Classification",
       desc: "Determine whether the user's prompt expects academic citations and screen for adversarial manipulation.",
       completedDetail: promptAnalysis
-        ? `Classification: ${promptAnalysis.label_name || "Safe"} (${((promptAnalysis.confidence || 0.95) * 100).toFixed(1)}% confidence)`
+        ? promptAnalysis.label === -1
+          ? "Prompt safety classification unavailable (degraded mode: upstream model quota exhausted)."
+          : `Classification: ${promptAnalysis.label_name || "Safe"} (${((promptAnalysis.confidence || 0.95) * 100).toFixed(1)}% confidence)`
         : "Prompt classified as safe academic inquiry.",
     },
     {
