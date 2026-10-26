@@ -1,26 +1,53 @@
 import os
+import re
 import traceback
 from dotenv import load_dotenv
 from google import genai
 
 load_dotenv()
 
+
+class GeminiServiceError(Exception):
+    """Base exception for Gemini service failures."""
+    def __init__(self, message: str, is_quota_error: bool = False):
+        super().__init__(message)
+        self.message = message
+        self.is_quota_error = is_quota_error
+
+
+class GeminiQuotaExhaustedError(GeminiServiceError):
+    """Raised when Gemini returns HTTP 429 RESOURCE_EXHAUSTED."""
+    def __init__(self, message: str = "Gemini API rate limit reached (HTTP 429 RESOURCE_EXHAUSTED)."):
+        super().__init__(message, is_quota_error=True)
+
+
 DEFAULT_MODELS = [
-    os.getenv("GEMINI_MODEL", "gemini-3.5-flash"),
-    "gemini-3.6-flash",
-    "gemini-3.5-flash-lite",
+    os.getenv("GEMINI_MODEL", "gemini-2.5-flash"),
+    "gemini-2.5-flash-lite",
     "gemini-flash-latest",
     "gemini-flash-lite-latest",
 ]
 
-def generate_llm_response(prompt: str):
+
+def _sanitize_error(error_val) -> str:
+    """Remove any embedded API keys or sensitive query tokens from error strings."""
+    if not error_val:
+        return ""
+    text = str(error_val)
+    text = re.sub(r"(?i)key=[A-Za-z0-9_\-]+", "key=[REDACTED]", text)
+    text = re.sub(r"(?i)AIza[0-9A-Za-z-_]{35}", "[REDACTED_API_KEY]", text)
+    return text
+
+
+def generate_llm_response(prompt: str) -> str:
     """
     Generate response using Google Gemini API with fallback model failover.
+    Raises GeminiQuotaExhaustedError or GeminiServiceError upon failure.
     """
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
         print("\n[GeminiService] Error: GEMINI_API_KEY environment variable not set.")
-        return "I'm sorry, I cannot process this request because the GEMINI_API_KEY environment variable is not set."
+        raise GeminiServiceError("GEMINI_API_KEY environment variable is not configured.")
 
     client = genai.Client(api_key=api_key)
     system_prompt = (
@@ -61,11 +88,19 @@ def generate_llm_response(prompt: str):
 
         except Exception as e:
             last_error = e
-            err_str = str(e)
-            print(f"\n[GeminiService] Model '{model_name}' failed: {err_str[:300]}")
-            if "429" in err_str or "RESOURCE_EXHAUSTED" in err_str or "404" in err_str or "NOT_FOUND" in err_str:
+            clean_err = _sanitize_error(e)
+            print(f"\n[GeminiService] Model '{model_name}' failed: {clean_err[:300]}")
+
+            # Quota/rate-limit errors apply project-wide. Fail fast to avoid worsening rate limits.
+            if "429" in clean_err or "RESOURCE_EXHAUSTED" in clean_err:
+                raise GeminiQuotaExhaustedError(
+                    "Gemini API rate limit reached (HTTP 429 RESOURCE_EXHAUSTED)."
+                )
+
+            if "404" in clean_err or "NOT_FOUND" in clean_err:
                 continue
             continue
 
-    print(f"\n[GeminiService] All Gemini candidate models failed. Last exception: {repr(last_error)}")
-    return "I'm sorry, I cannot process this request at the moment due to safety filters or rate limits."
+    clean_last_err = _sanitize_error(last_error)
+    print(f"\n[GeminiService] All Gemini candidate models failed. Last exception: {clean_last_err[:200]}")
+    raise GeminiServiceError(f"LLM generation failed across available models: {clean_last_err[:200]}")

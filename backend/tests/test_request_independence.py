@@ -7,6 +7,7 @@ BASE_DIR = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(BASE_DIR))
 sys.path.insert(0, str(BASE_DIR / "backend"))
 
+from fastapi import HTTPException
 from app.main import app, analyze, PromptRequest
 from app.services.classifier_service import classify_prompt
 
@@ -19,15 +20,22 @@ class DirectClient:
                 prompt=payload.get("prompt", ""),
                 llm_response=payload.get("llm_response"),
             )
-            data = analyze(req)
+            try:
+                data = analyze(req)
+                status_code = 200
+            except HTTPException as exc:
+                status_code = exc.status_code
+                data = {"detail": exc.detail}
 
             class DirectResponse:
-                status_code = 200
+                def __init__(self, sc, d):
+                    self.status_code = sc
+                    self._d = d
 
                 def json(self):
-                    return data
+                    return self._d
 
-            return DirectResponse()
+            return DirectResponse(status_code, data)
         raise NotImplementedError(f"DirectClient does not support {url}")
 
 
@@ -62,7 +70,7 @@ def test_consecutive_requests_safe_then_malicious():
     # Request 1: Safe
     with patch("app.main.generate_llm_response", return_value="Photosynthesis converts light energy into chemical energy in chloroplasts.\n\n1. Plant Photosynthesis\nAuthors: Jane Doe\nYear: 2020\nVenue: Nature\nDOI: 10.1038/s41586-020-0001\n"), \
          patch("app.main.verify_response", return_value=[{"paper_exists": True, "citation_accurate": True, "hallucination_type": "Valid Citation"}]):
-        
+
         resp1 = client.post("/analyze", json={"prompt": PROMPT_SAFE})
         assert resp1.status_code == 200
         data1 = resp1.json()

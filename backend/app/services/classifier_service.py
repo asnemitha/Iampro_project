@@ -134,15 +134,23 @@ Respond with exactly one word: SAFE or UNSAFE.
             )
 
         except Exception as exc:
+            err_str = str(exc)
+            clean_err = re.sub(r"(?i)key=[A-Za-z0-9_\-]+", "key=[REDACTED]", err_str)
+            clean_err = re.sub(r"(?i)AIza[0-9A-Za-z-_]{35}", "[REDACTED_API_KEY]", clean_err)
             print(
                 f"[Classifier] Gemini model {model_name} failed: "
-                f"{str(exc)[:200]}"
+                f"{clean_err[:200]}"
             )
+            # Quota/rate-limit errors apply project-wide. Fail fast to avoid compounding rate limits.
+            if "429" in clean_err or "RESOURCE_EXHAUSTED" in clean_err:
+                return _unavailable_result(
+                    "Classification unavailable due to Gemini API rate limits (HTTP 429 RESOURCE_EXHAUSTED)."
+                )
 
     return _unavailable_result()
 
 
-def _unavailable_result() -> dict:
+def _unavailable_result(warning: str = None) -> dict:
     """Report that no reliable classification was available."""
 
     return {
@@ -150,7 +158,7 @@ def _unavailable_result() -> dict:
         "label_name": "Unavailable",
         "confidence": 0.0,
         "classifier_warning": (
-            "Classification unavailable. Gemini failed and no trained "
-            "local DistilBERT model is configured."
+            warning
+            or "Classification unavailable. Gemini failed and no trained local DistilBERT model is configured."
         ),
     }

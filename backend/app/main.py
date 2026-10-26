@@ -1,10 +1,14 @@
 from typing import Optional
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from app.services.classifier_service import classify_prompt
-from app.services.gemini_service import generate_llm_response
+from app.services.gemini_service import (
+    generate_llm_response,
+    GeminiQuotaExhaustedError,
+    GeminiServiceError,
+)
 from app.services.verification_pipeline import verify_response
 from app.services.correction_service import correct_and_reverify_response
 
@@ -86,7 +90,26 @@ def analyze(request: PromptRequest):
     if raw_llm_input:
         initial_response = raw_llm_input
     else:
-        initial_response = generate_llm_response(current_prompt)
+        try:
+            initial_response = generate_llm_response(current_prompt)
+        except GeminiQuotaExhaustedError:
+            raise HTTPException(
+                status_code=503,
+                detail={
+                    "error": "generation_quota_exhausted",
+                    "message": "LLM generation is temporarily unavailable due to upstream API rate limits (Gemini quota exhausted).",
+                    "suggestion": "Citation verification is fully operational. Please paste citation text directly into the 'Model Output / Citations to Verify' field to verify it without LLM generation.",
+                },
+            )
+        except GeminiServiceError as exc:
+            raise HTTPException(
+                status_code=503,
+                detail={
+                    "error": "generation_unavailable",
+                    "message": f"LLM generation is temporarily unavailable: {exc.message}",
+                    "suggestion": "Citation verification is fully operational. Please paste citation text directly into the 'Model Output / Citations to Verify' field to verify it without LLM generation.",
+                },
+            )
 
     # ----------------------------
     # Step 3 - Closed-Loop Verification, Correction, and Re-verification

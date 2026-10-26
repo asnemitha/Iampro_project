@@ -143,8 +143,15 @@ export default function Home() {
       } else if (err.code === "ECONNABORTED" || err.message?.includes("timeout")) {
         errMsg = "Verification request timed out. External scholarly data providers (Crossref, Semantic Scholar, OpenAlex) or LLM generation may be experiencing latency.";
       } else if (err.response) {
-        const detail = err.response.data?.detail || err.response.data?.message || (typeof err.response.data === "string" ? err.response.data : JSON.stringify(err.response.data));
-        errMsg = `Backend Error (HTTP ${err.response.status}): ${detail}`;
+        const detail = err.response.data?.detail;
+        if (detail && typeof detail === "object" && detail.message) {
+          errMsg = `${detail.message}\n\n💡 ${detail.suggestion || "You can paste citation text directly into the 'Model Output / Citations to Verify' field."}`;
+        } else if (typeof detail === "string") {
+          errMsg = detail;
+        } else {
+          const detailStr = err.response.data?.message || (typeof err.response.data === "string" ? err.response.data : JSON.stringify(err.response.data));
+          errMsg = `Backend Error (HTTP ${err.response.status}): ${detailStr}`;
+        }
       } else if (err.message) {
         errMsg = err.message;
       }
@@ -158,11 +165,11 @@ export default function Home() {
     <div className="min-h-screen bg-[var(--bg-cream)] text-neutral-900 dark:text-neutral-100 transition-colors duration-200 flex flex-col justify-between">
       <div>
         {/* Navigation Bar */}
-        <Navbar 
-          activeTab={activeTab} 
-          setActiveTab={handleTabChange} 
-          theme={theme} 
-          toggleTheme={toggleTheme} 
+        <Navbar
+          activeTab={activeTab}
+          setActiveTab={handleTabChange}
+          theme={theme}
+          toggleTheme={toggleTheme}
         />
 
         {/* Feedback Toast Notification */}
@@ -175,7 +182,7 @@ export default function Home() {
 
         {/* Main Content Area */}
         <main className="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
-          
+
           {/* Hero Banner */}
           <HeroBanner />
 

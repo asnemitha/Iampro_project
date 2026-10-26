@@ -123,7 +123,7 @@ export default function BenchmarkView() {
               <h3 className="font-black text-base mb-3 font-display">
                 {cfg.name}
               </h3>
-              
+
               <div className="space-y-1.5 font-mono text-xs border-t-2 border-black/20 pt-2.5">
                 <div className="flex justify-between">
                   <span>Accuracy:</span>
@@ -145,7 +145,7 @@ export default function BenchmarkView() {
 
       {/* Main Breakdown & Confusion Matrix */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        
+
         {/* Category Breakdown Table (2 columns on large) */}
         <div className="lg:col-span-2 bg-white dark:bg-[#1F1F24] border-[2.5px] border-black rounded-2xl shadow-[6px_6px_0px_#111] p-6">
           <div className="flex items-center justify-between mb-4 pb-3 border-b-2 border-black">
@@ -193,7 +193,7 @@ export default function BenchmarkView() {
           </div>
 
           <div className="mt-4 p-3.5 rounded-xl bg-[#FAF5EC] dark:bg-[#27272a] border-2 border-black font-mono text-xs text-neutral-800 dark:text-neutral-200 shadow-[2px_2px_0px_#111]">
-            <b>Key finding:</b> Corrupted authors accuracy rose from 42% in baseline to <b>100%</b> with Author Validation, eliminating 58 author-hallucination false negatives.
+            <b>Key finding:</b> Corrupted-author detection increased from 25% (25/100) in the baseline to 83% (83/100) with Author Validation, detecting 58 additional hallucinated citations.
           </div>
         </div>
 
